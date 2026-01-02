@@ -336,16 +336,17 @@ def save_job_listing(data: dict) -> bool:
     try:
         cursor.execute("""
             INSERT OR REPLACE INTO job_listings 
-            (job_id, url, title, company_name, company_url, salary, salary_unit,
+            (job_id, url, title, company_name, company_url, merchant_id, salary, salary_unit,
              location, job_type, work_period, shift, category, description,
              requirements, benefits, contact_info, post_date, updated_at)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, (
             data.get('job_id'),
             data.get('url'),
             data.get('title'),
             data.get('company_name'),
             data.get('company_url'),
+            data.get('merchant_id'),
             data.get('salary'),
             data.get('salary_unit'),
             data.get('location'),
@@ -364,6 +365,45 @@ def save_job_listing(data: dict) -> bool:
         return True
     except Exception as e:
         print(f"保存工作失敗: {e}")
+        return False
+    finally:
+        conn.close()
+
+
+def save_merchant(data: dict) -> bool:
+    """保存商家資訊"""
+    conn = get_connection()
+    cursor = conn.cursor()
+    try:
+        cursor.execute("""
+            INSERT OR REPLACE INTO service_merchants 
+            (merchant_id, url, name, english_name, category, subcategory, description,
+             services, address, phone, website, business_hours, logo_url, image_urls,
+             rating, review_count, updated_at)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """, (
+            data.get('merchant_id'),
+            data.get('url'),
+            data.get('name'),
+            data.get('english_name'),
+            data.get('category'),
+            data.get('subcategory'),
+            data.get('description'),
+            data.get('services'),
+            data.get('address'),
+            data.get('phone'),
+            data.get('website'),
+            data.get('business_hours'),
+            data.get('logo_url'),
+            data.get('image_urls'),
+            data.get('rating'),
+            data.get('review_count', 0),
+            datetime.now()
+        ))
+        conn.commit()
+        return True
+    except Exception as e:
+        print(f"保存商家失敗: {e}")
         return False
     finally:
         conn.close()

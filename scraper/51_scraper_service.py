@@ -358,9 +358,10 @@ class ServiceScraper(BaseScraper):
     def _extract_images(self, soup: BeautifulSoup) -> List[str]:
         """提取圖片"""
         images = []
+        exclude_keywords = ['logo', 'icon', 'avatar', 'button', 'default-img', 'assets/images']
         for img in soup.find_all('img'):
             src = img.get('src') or img.get('data-src')
-            if src and not any(x in src.lower() for x in ['logo', 'icon', 'avatar', 'button']):
+            if src and not any(x in src.lower() for x in exclude_keywords):
                 if src.startswith('//'):
                     src = 'https:' + src
                 elif src.startswith('/'):

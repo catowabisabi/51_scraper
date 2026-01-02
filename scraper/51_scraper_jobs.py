@@ -106,6 +106,14 @@ class JobsScraper(BaseScraper):
         # 提取公司信息
         company_name, company_url = self._extract_company(soup)
         
+        # 從 company_url 提取 merchant_id
+        merchant_id = None
+        if company_url:
+            import re as regex
+            match = regex.search(r'/merchants/(\d+)', company_url)
+            if match:
+                merchant_id = match.group(1)
+        
         # 提取薪資
         salary, salary_unit = self._extract_salary(soup)
         
@@ -139,6 +147,7 @@ class JobsScraper(BaseScraper):
             'title': title,
             'company_name': company_name,
             'company_url': company_url,
+            'merchant_id': merchant_id,
             'salary': salary,
             'salary_unit': salary_unit,
             'location': location,

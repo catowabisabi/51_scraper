@@ -1732,3 +1732,995 @@
 2026-01-02 00:55:27 - market_scraper - INFO -   - 錯誤數量: 0
 2026-01-02 00:55:27 - market_scraper - INFO -   - 運行時間: 130.63 秒
 2026-01-02 00:55:27 - market_scraper - INFO - ============================================================
+2026-01-02 01:01:47 - merchant_scraper - INFO - ==================================================
+2026-01-02 01:01:47 - merchant_scraper - INFO - 開始爬取商家資訊...
+2026-01-02 01:01:47 - merchant_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 01:01:49 - merchant_scraper - INFO - 瀏覽器啟動成功
+2026-01-02 01:01:49 - merchant_scraper - INFO - 開始從首頁收集商家ID...
+2026-01-02 01:01:49 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/
+2026-01-02 01:01:52 - merchant_scraper - INFO - 從首頁發現 120 個商家ID
+2026-01-02 01:01:52 - merchant_scraper - INFO - 準備爬取 120 個商家
+2026-01-02 01:01:52 - merchant_scraper - INFO - [1/120] 爬取商家: https://merchant.51.ca/merchants/7936
+2026-01-02 01:01:52 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7936
+2026-01-02 01:01:55 - merchant_scraper - INFO - 解析商家: 恒泰会计师事务所
+2026-01-02 01:01:55 - merchant_scraper - INFO - 保存商家: 恒泰会计师事务所
+2026-01-02 01:01:56 - merchant_scraper - INFO - [2/120] 爬取商家: https://merchant.51.ca/merchants/4059
+2026-01-02 01:01:56 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4059
+2026-01-02 01:01:58 - merchant_scraper - INFO - 解析商家: 亿家冷暖-ICare Home ComfortICare Home Comfort
+2026-01-02 01:01:58 - merchant_scraper - INFO - 保存商家: 亿家冷暖-ICare Home ComfortICare Home Comfort
+2026-01-02 01:01:59 - merchant_scraper - INFO - [3/120] 爬取商家: https://merchant.51.ca/merchants/7671
+2026-01-02 01:01:59 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7671
+2026-01-02 01:02:02 - merchant_scraper - INFO - 解析商家: 7671
+2026-01-02 01:02:02 - merchant_scraper - INFO - 保存商家: 7671
+2026-01-02 01:02:02 - merchant_scraper - INFO - [4/120] 爬取商家: https://merchant.51.ca/merchants/4962
+2026-01-02 01:02:02 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4962
+2026-01-02 01:02:05 - merchant_scraper - INFO - 解析商家: 多伦多专业水槽、屋顶、墙身
+2026-01-02 01:02:05 - merchant_scraper - INFO - 保存商家: 多伦多专业水槽、屋顶、墙身
+2026-01-02 01:02:05 - merchant_scraper - INFO - [5/120] 爬取商家: https://merchant.51.ca/merchants/7792
+2026-01-02 01:02:05 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7792
+2026-01-02 01:02:08 - merchant_scraper - INFO - 解析商家: 一沐园艺
+2026-01-02 01:02:08 - merchant_scraper - INFO - 保存商家: 一沐园艺
+2026-01-02 01:02:08 - merchant_scraper - INFO - [6/120] 爬取商家: https://merchant.51.ca/merchants/2024
+2026-01-02 01:02:08 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2024
+2026-01-02 01:02:10 - merchant_scraper - INFO - 解析商家: 歌颂园林工程公司
+2026-01-02 01:02:10 - merchant_scraper - INFO - 保存商家: 歌颂园林工程公司
+2026-01-02 01:02:11 - merchant_scraper - INFO - [7/120] 爬取商家: https://merchant.51.ca/merchants/6416
+2026-01-02 01:02:11 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6416
+2026-01-02 01:02:13 - merchant_scraper - INFO - 解析商家: 巧匠园艺
+2026-01-02 01:02:13 - merchant_scraper - INFO - 保存商家: 巧匠园艺
+2026-01-02 01:02:14 - merchant_scraper - INFO - [8/120] 爬取商家: https://merchant.51.ca/merchants/7907
+2026-01-02 01:02:14 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7907
+2026-01-02 01:02:16 - merchant_scraper - INFO - 解析商家: 悦恒健康管理中心
+2026-01-02 01:02:16 - merchant_scraper - INFO - 保存商家: 悦恒健康管理中心
+2026-01-02 01:02:17 - merchant_scraper - INFO - [9/120] 爬取商家: https://merchant.51.ca/merchants/6546
+2026-01-02 01:02:17 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6546
+2026-01-02 01:02:19 - merchant_scraper - INFO - 解析商家: OPT 门窗
+2026-01-02 01:02:19 - merchant_scraper - INFO - 保存商家: OPT 门窗
+2026-01-02 01:02:19 - merchant_scraper - INFO - [10/120] 爬取商家: https://merchant.51.ca/merchants/7709
+2026-01-02 01:02:19 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7709
+2026-01-02 01:02:22 - merchant_scraper - INFO - 解析商家: Maple Ridge Roofer待填写
+2026-01-02 01:02:22 - merchant_scraper - INFO - 保存商家: Maple Ridge Roofer待填写
+2026-01-02 01:02:22 - merchant_scraper - INFO - [11/120] 爬取商家: https://merchant.51.ca/merchants/2058
+2026-01-02 01:02:22 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2058
+2026-01-02 01:02:25 - merchant_scraper - INFO - 解析商家: 枫泰搬运
+2026-01-02 01:02:25 - merchant_scraper - INFO - 保存商家: 枫泰搬运
+2026-01-02 01:02:25 - merchant_scraper - INFO - [12/120] 爬取商家: https://merchant.51.ca/merchants/3083
+2026-01-02 01:02:25 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3083
+2026-01-02 01:02:28 - merchant_scraper - INFO - 解析商家: 加国无忧51.CA INC.
+2026-01-02 01:02:28 - merchant_scraper - INFO - 保存商家: 加国无忧51.CA INC.
+2026-01-02 01:02:28 - merchant_scraper - INFO - [13/120] 爬取商家: https://merchant.51.ca/merchants/2623
+2026-01-02 01:02:28 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2623
+2026-01-02 01:02:30 - merchant_scraper - INFO - 解析商家: 春风移民法律事务所
+2026-01-02 01:02:30 - merchant_scraper - INFO - 保存商家: 春风移民法律事务所
+2026-01-02 01:02:31 - merchant_scraper - INFO - [14/120] 爬取商家: https://merchant.51.ca/merchants/7462
+2026-01-02 01:02:31 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7462
+2026-01-02 01:02:33 - merchant_scraper - INFO - 解析商家: 万隆装修
+2026-01-02 01:02:33 - merchant_scraper - INFO - 保存商家: 万隆装修
+2026-01-02 01:02:34 - merchant_scraper - INFO - [15/120] 爬取商家: https://merchant.51.ca/merchants/7520
+2026-01-02 01:02:34 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7520
+2026-01-02 01:02:36 - merchant_scraper - INFO - 解析商家: 鼎艺装修
+2026-01-02 01:02:36 - merchant_scraper - INFO - 保存商家: 鼎艺装修
+2026-01-02 01:02:37 - merchant_scraper - INFO - [16/120] 爬取商家: https://merchant.51.ca/merchants/7931
+2026-01-02 01:02:37 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7931
+2026-01-02 01:02:39 - merchant_scraper - INFO - 解析商家: 上海融力天闻律师事务所-多伦多办事处
+2026-01-02 01:02:39 - merchant_scraper - INFO - 保存商家: 上海融力天闻律师事务所-多伦多办事处
+2026-01-02 01:02:40 - merchant_scraper - INFO - [17/120] 爬取商家: https://merchant.51.ca/merchants/4733
+2026-01-02 01:02:40 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4733
+2026-01-02 01:02:42 - merchant_scraper - INFO - 解析商家: Heights Electric Inc.Heights Electric Inc.
+2026-01-02 01:02:42 - merchant_scraper - INFO - 保存商家: Heights Electric Inc.Heights Electric Inc.
+2026-01-02 01:02:42 - merchant_scraper - INFO - [18/120] 爬取商家: https://merchant.51.ca/merchants/7937
+2026-01-02 01:02:42 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7937
+2026-01-02 01:02:45 - merchant_scraper - INFO - 解析商家: ArcviewArcview Window and Doors
+2026-01-02 01:02:45 - merchant_scraper - INFO - 保存商家: ArcviewArcview Window and Doors
+2026-01-02 01:02:45 - merchant_scraper - INFO - [19/120] 爬取商家: https://merchant.51.ca/merchants/3124
+2026-01-02 01:02:45 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3124
+2026-01-02 01:02:48 - merchant_scraper - INFO - 解析商家: 中凯金融
+2026-01-02 01:02:48 - merchant_scraper - INFO - 保存商家: 中凯金融
+2026-01-02 01:02:48 - merchant_scraper - INFO - [20/120] 爬取商家: https://merchant.51.ca/merchants/7494
+2026-01-02 01:02:48 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7494
+2026-01-02 01:02:51 - merchant_scraper - INFO - 解析商家: 志诚装修
+2026-01-02 01:02:51 - merchant_scraper - INFO - 保存商家: 志诚装修
+2026-01-02 01:02:51 - merchant_scraper - INFO - [21/120] 爬取商家: https://merchant.51.ca/merchants/4390
+2026-01-02 01:02:51 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4390
+2026-01-02 01:02:53 - merchant_scraper - INFO - 解析商家: 万锦現代傢俬
+2026-01-02 01:02:53 - merchant_scraper - INFO - 保存商家: 万锦現代傢俬
+2026-01-02 01:02:54 - merchant_scraper - INFO - [22/120] 爬取商家: https://merchant.51.ca/merchants/1507
+2026-01-02 01:02:54 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1507
+2026-01-02 01:02:56 - merchant_scraper - INFO - 解析商家: 居室主张
+2026-01-02 01:02:56 - merchant_scraper - INFO - 保存商家: 居室主张
+2026-01-02 01:02:57 - merchant_scraper - INFO - [23/120] 爬取商家: https://merchant.51.ca/merchants/6457
+2026-01-02 01:02:57 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6457
+2026-01-02 01:02:59 - merchant_scraper - INFO - 解析商家: 邦邦
+2026-01-02 01:02:59 - merchant_scraper - INFO - 保存商家: 邦邦
+2026-01-02 01:03:00 - merchant_scraper - INFO - [24/120] 爬取商家: https://merchant.51.ca/merchants/7411
+2026-01-02 01:03:00 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7411
+2026-01-02 01:03:02 - merchant_scraper - INFO - 解析商家: 拾谷物流供应链
+2026-01-02 01:03:02 - merchant_scraper - INFO - 保存商家: 拾谷物流供应链
+2026-01-02 01:03:02 - merchant_scraper - INFO - [25/120] 爬取商家: https://merchant.51.ca/merchants/6838
+2026-01-02 01:03:02 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6838
+2026-01-02 01:03:05 - merchant_scraper - INFO - 解析商家: 永昇专业屋顶公司2646629 Ontario Inc
+2026-01-02 01:03:05 - merchant_scraper - INFO - 保存商家: 永昇专业屋顶公司2646629 Ontario Inc
+2026-01-02 01:03:05 - merchant_scraper - INFO - [26/120] 爬取商家: https://merchant.51.ca/merchants/4304
+2026-01-02 01:03:05 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4304
+2026-01-02 01:03:08 - merchant_scraper - INFO - 解析商家: 阿里旅游
+2026-01-02 01:03:08 - merchant_scraper - INFO - 保存商家: 阿里旅游
+2026-01-02 01:03:08 - merchant_scraper - INFO - [27/120] 爬取商家: https://merchant.51.ca/merchants/1266
+2026-01-02 01:03:08 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1266
+2026-01-02 01:03:10 - merchant_scraper - INFO - 解析商家: 顺成法律
+2026-01-02 01:03:10 - merchant_scraper - INFO - 保存商家: 顺成法律
+2026-01-02 01:03:11 - merchant_scraper - INFO - [28/120] 爬取商家: https://merchant.51.ca/merchants/3527
+2026-01-02 01:03:11 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3527
+2026-01-02 01:03:13 - merchant_scraper - INFO - 解析商家: 嘉禾搬运
+2026-01-02 01:03:13 - merchant_scraper - INFO - 保存商家: 嘉禾搬运
+2026-01-02 01:03:14 - merchant_scraper - INFO - [29/120] 爬取商家: https://merchant.51.ca/merchants/2168
+2026-01-02 01:03:14 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2168
+2026-01-02 01:03:16 - merchant_scraper - INFO - 解析商家: 华安电气
+2026-01-02 01:03:16 - merchant_scraper - INFO - 保存商家: 华安电气
+2026-01-02 01:03:16 - merchant_scraper - INFO - [30/120] 爬取商家: https://merchant.51.ca/merchants/6146
+2026-01-02 01:03:16 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6146
+2026-01-02 01:03:19 - merchant_scraper - INFO - 解析商家: 大世界超市
+2026-01-02 01:03:19 - merchant_scraper - INFO - 保存商家: 大世界超市
+2026-01-02 01:03:19 - merchant_scraper - INFO - [31/120] 爬取商家: https://merchant.51.ca/merchants/5874
+2026-01-02 01:03:19 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5874
+2026-01-02 01:03:22 - merchant_scraper - INFO - 解析商家: 多伦多橱柜 JOSH KitchenJOSH Kitchen Toronto Cabinets
+2026-01-02 01:03:22 - merchant_scraper - INFO - 保存商家: 多伦多橱柜 JOSH KitchenJOSH Kitchen Toronto Cabinets
+2026-01-02 01:03:22 - merchant_scraper - INFO - [32/120] 爬取商家: https://merchant.51.ca/merchants/7921
+2026-01-02 01:03:22 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7921
+2026-01-02 01:03:24 - merchant_scraper - INFO - 解析商家: 汇枫超市
+2026-01-02 01:03:25 - merchant_scraper - INFO - 保存商家: 汇枫超市
+2026-01-02 01:03:25 - merchant_scraper - INFO - [33/120] 爬取商家: https://merchant.51.ca/merchants/7511
+2026-01-02 01:03:25 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7511
+2026-01-02 01:03:27 - merchant_scraper - INFO - 解析商家: 至尊假期待填写
+2026-01-02 01:03:27 - merchant_scraper - INFO - 保存商家: 至尊假期待填写
+2026-01-02 01:03:28 - merchant_scraper - INFO - [34/120] 爬取商家: https://merchant.51.ca/merchants/4112
+2026-01-02 01:03:28 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4112
+2026-01-02 01:03:30 - merchant_scraper - INFO - 解析商家: 4112
+2026-01-02 01:03:30 - merchant_scraper - INFO - 保存商家: 4112
+2026-01-02 01:03:31 - merchant_scraper - INFO - [35/120] 爬取商家: https://merchant.51.ca/merchants/7800
+2026-01-02 01:03:31 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7800
+2026-01-02 01:03:33 - merchant_scraper - INFO - 解析商家: AEGIS 安胜律师事务所
+2026-01-02 01:03:33 - merchant_scraper - INFO - 保存商家: AEGIS 安胜律师事务所
+2026-01-02 01:03:34 - merchant_scraper - INFO - [36/120] 爬取商家: https://merchant.51.ca/merchants/6750
+2026-01-02 01:03:34 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6750
+2026-01-02 01:03:36 - merchant_scraper - INFO - 解析商家: Mc2 Reno 室内装修
+2026-01-02 01:03:36 - merchant_scraper - INFO - 保存商家: Mc2 Reno 室内装修
+2026-01-02 01:03:37 - merchant_scraper - INFO - [37/120] 爬取商家: https://merchant.51.ca/merchants/7585
+2026-01-02 01:03:37 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7585
+2026-01-02 01:03:39 - merchant_scraper - INFO - 解析商家: 天籁门窗
+2026-01-02 01:03:39 - merchant_scraper - INFO - 保存商家: 天籁门窗
+2026-01-02 01:03:39 - merchant_scraper - INFO - [38/120] 爬取商家: https://merchant.51.ca/merchants/5137
+2026-01-02 01:03:39 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5137
+2026-01-02 01:03:42 - merchant_scraper - INFO - 解析商家: SUPER VAPESUPERVAPE
+2026-01-02 01:03:42 - merchant_scraper - INFO - 保存商家: SUPER VAPESUPERVAPE
+2026-01-02 01:03:42 - merchant_scraper - INFO - [39/120] 爬取商家: https://merchant.51.ca/merchants/7840
+2026-01-02 01:03:42 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7840
+2026-01-02 01:03:44 - merchant_scraper - INFO - 解析商家: 999 园艺装修999 linterlocking&Decoration
+2026-01-02 01:03:44 - merchant_scraper - INFO - 保存商家: 999 园艺装修999 linterlocking&Decoration
+2026-01-02 01:03:45 - merchant_scraper - INFO - [40/120] 爬取商家: https://merchant.51.ca/merchants/2576
+2026-01-02 01:03:45 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2576
+2026-01-02 01:03:47 - merchant_scraper - INFO - 解析商家: Ami 玻璃门窗制作安装
+2026-01-02 01:03:47 - merchant_scraper - INFO - 保存商家: Ami 玻璃门窗制作安装
+2026-01-02 01:03:48 - merchant_scraper - INFO - [41/120] 爬取商家: https://merchant.51.ca/merchants/7636
+2026-01-02 01:03:48 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7636
+2026-01-02 01:03:50 - merchant_scraper - INFO - 解析商家: Huntingwood house rental待填写
+2026-01-02 01:03:50 - merchant_scraper - INFO - 保存商家: Huntingwood house rental待填写
+2026-01-02 01:03:51 - merchant_scraper - INFO - [42/120] 爬取商家: https://merchant.51.ca/merchants/5364
+2026-01-02 01:03:51 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5364
+2026-01-02 01:03:53 - merchant_scraper - INFO - 解析商家: 四季顺搬家
+2026-01-02 01:03:53 - merchant_scraper - INFO - 保存商家: 四季顺搬家
+2026-01-02 01:03:53 - merchant_scraper - INFO - [43/120] 爬取商家: https://merchant.51.ca/merchants/1659
+2026-01-02 01:03:53 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1659
+2026-01-02 01:03:56 - merchant_scraper - INFO - 解析商家: 加拿大科技学院 政府资助
+2026-01-02 01:03:56 - merchant_scraper - INFO - 保存商家: 加拿大科技学院 政府资助
+2026-01-02 01:03:56 - merchant_scraper - INFO - [44/120] 爬取商家: https://merchant.51.ca/merchants/6346
+2026-01-02 01:03:56 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6346
+2026-01-02 01:03:59 - merchant_scraper - INFO - 解析商家: 橙速汇
+2026-01-02 01:03:59 - merchant_scraper - INFO - 保存商家: 橙速汇
+2026-01-02 01:03:59 - merchant_scraper - INFO - [45/120] 爬取商家: https://merchant.51.ca/merchants/7356
+2026-01-02 01:03:59 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7356
+2026-01-02 01:04:02 - merchant_scraper - INFO - 解析商家: JZW装修
+2026-01-02 01:04:02 - merchant_scraper - INFO - 保存商家: JZW装修
+2026-01-02 01:04:02 - merchant_scraper - INFO - [46/120] 爬取商家: https://merchant.51.ca/merchants/8027
+2026-01-02 01:04:02 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/8027
+2026-01-02 01:04:04 - merchant_scraper - INFO - 解析商家: 富维车库门
+2026-01-02 01:04:04 - merchant_scraper - INFO - 保存商家: 富维车库门
+2026-01-02 01:04:05 - merchant_scraper - INFO - [47/120] 爬取商家: https://merchant.51.ca/merchants/6852
+2026-01-02 01:04:05 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6852
+2026-01-02 01:04:07 - merchant_scraper - INFO - 解析商家: 联合家居围栏｜露台翻新｜油漆｜防水｜防霉｜加固｜重建
+2026-01-02 01:04:07 - merchant_scraper - INFO - 保存商家: 联合家居围栏｜露台翻新｜油漆｜防水｜防霉｜加固｜重建
+2026-01-02 01:04:08 - merchant_scraper - INFO - [48/120] 爬取商家: https://merchant.51.ca/merchants/3937
+2026-01-02 01:04:08 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3937
+2026-01-02 01:04:10 - merchant_scraper - INFO - 解析商家: 51电脑运维
+2026-01-02 01:04:10 - merchant_scraper - INFO - 保存商家: 51电脑运维
+2026-01-02 01:04:11 - merchant_scraper - INFO - [49/120] 爬取商家: https://merchant.51.ca/merchants/7645
+2026-01-02 01:04:11 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7645
+2026-01-02 01:04:13 - merchant_scraper - INFO - 解析商家: 浣熊猎人
+2026-01-02 01:04:13 - merchant_scraper - INFO - 保存商家: 浣熊猎人
+2026-01-02 01:04:14 - merchant_scraper - INFO - [50/120] 爬取商家: https://merchant.51.ca/merchants/1519
+2026-01-02 01:04:14 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1519
+2026-01-02 01:04:16 - merchant_scraper - INFO - 解析商家: 泰山工程
+2026-01-02 01:04:16 - merchant_scraper - INFO - 保存商家: 泰山工程
+2026-01-02 01:04:16 - merchant_scraper - INFO - [51/120] 爬取商家: https://merchant.51.ca/merchants/7590
+2026-01-02 01:04:16 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7590
+2026-01-02 01:04:19 - merchant_scraper - INFO - 解析商家: 鼎丰橱卫有限公司
+2026-01-02 01:04:19 - merchant_scraper - INFO - 保存商家: 鼎丰橱卫有限公司
+2026-01-02 01:04:19 - merchant_scraper - INFO - [52/120] 爬取商家: https://merchant.51.ca/merchants/7725
+2026-01-02 01:04:19 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7725
+2026-01-02 01:04:22 - merchant_scraper - INFO - 解析商家: Dreams Remodeling & Construction Ltd.待填写
+2026-01-02 01:04:22 - merchant_scraper - INFO - 保存商家: Dreams Remodeling & Construction Ltd.待填写
+2026-01-02 01:04:22 - merchant_scraper - INFO - [53/120] 爬取商家: https://merchant.51.ca/merchants/7922
+2026-01-02 01:04:22 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7922
+2026-01-02 01:04:24 - merchant_scraper - INFO - 解析商家: 大唐金融
+2026-01-02 01:04:24 - merchant_scraper - INFO - 保存商家: 大唐金融
+2026-01-02 01:04:25 - merchant_scraper - INFO - [54/120] 爬取商家: https://merchant.51.ca/merchants/4298
+2026-01-02 01:04:25 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4298
+2026-01-02 01:04:27 - merchant_scraper - INFO - 解析商家: 晨阳建筑（外墙，园艺）Daybreak Construction
+2026-01-02 01:04:27 - merchant_scraper - INFO - 保存商家: 晨阳建筑（外墙，园艺）Daybreak Construction
+2026-01-02 01:04:28 - merchant_scraper - INFO - [55/120] 爬取商家: https://merchant.51.ca/merchants/3066
+2026-01-02 01:04:28 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3066
+2026-01-02 01:04:30 - merchant_scraper - INFO - 解析商家: 列治文山华陵
+2026-01-02 01:04:30 - merchant_scraper - INFO - 保存商家: 列治文山华陵
+2026-01-02 01:04:31 - merchant_scraper - INFO - [56/120] 爬取商家: https://merchant.51.ca/merchants/7971
+2026-01-02 01:04:31 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7971
+2026-01-02 01:04:33 - merchant_scraper - INFO - 解析商家: 蜀乐馨居建筑园艺装修公司
+2026-01-02 01:04:33 - merchant_scraper - INFO - 保存商家: 蜀乐馨居建筑园艺装修公司
+2026-01-02 01:04:33 - merchant_scraper - INFO - [57/120] 爬取商家: https://merchant.51.ca/merchants/7841
+2026-01-02 01:04:33 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7841
+2026-01-02 01:04:36 - merchant_scraper - INFO - 解析商家: 迅行法律服务
+2026-01-02 01:04:36 - merchant_scraper - INFO - 保存商家: 迅行法律服务
+2026-01-02 01:04:36 - merchant_scraper - INFO - [58/120] 爬取商家: https://merchant.51.ca/merchants/7569
+2026-01-02 01:04:36 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7569
+2026-01-02 01:04:39 - merchant_scraper - INFO - 解析商家: 冬季鏟雪, 专业砍树，草坪护理，围栏
+2026-01-02 01:04:39 - merchant_scraper - INFO - 保存商家: 冬季鏟雪, 专业砍树，草坪护理，围栏
+2026-01-02 01:04:39 - merchant_scraper - INFO - [59/120] 爬取商家: https://merchant.51.ca/merchants/7604
+2026-01-02 01:04:39 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7604
+2026-01-02 01:04:41 - merchant_scraper - INFO - 解析商家: VISION HOME DECORVISION HOME DECOR
+2026-01-02 01:04:41 - merchant_scraper - INFO - 保存商家: VISION HOME DECORVISION HOME DECOR
+2026-01-02 01:04:42 - merchant_scraper - INFO - [60/120] 爬取商家: https://merchant.51.ca/merchants/2729
+2026-01-02 01:04:42 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2729
+2026-01-02 01:04:44 - merchant_scraper - INFO - 解析商家: 加拿大铝合金门窗｜贝克洛｜兴发待填写
+2026-01-02 01:04:44 - merchant_scraper - INFO - 保存商家: 加拿大铝合金门窗｜贝克洛｜兴发待填写
+2026-01-02 01:04:45 - merchant_scraper - INFO - [61/120] 爬取商家: https://merchant.51.ca/merchants/1506
+2026-01-02 01:04:45 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1506
+2026-01-02 01:04:47 - merchant_scraper - INFO - 解析商家: 红叶假期
+2026-01-02 01:04:47 - merchant_scraper - INFO - 保存商家: 红叶假期
+2026-01-02 01:04:48 - merchant_scraper - INFO - [62/120] 爬取商家: https://merchant.51.ca/merchants/3018
+2026-01-02 01:04:48 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3018
+2026-01-02 01:04:50 - merchant_scraper - INFO - 解析商家: 美国 加拿大移民 留学 住宿
+2026-01-02 01:04:50 - merchant_scraper - INFO - 保存商家: 美国 加拿大移民 留学 住宿
+2026-01-02 01:04:51 - merchant_scraper - INFO - [63/120] 爬取商家: https://merchant.51.ca/merchants/6576
+2026-01-02 01:04:51 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6576
+2026-01-02 01:04:53 - merchant_scraper - INFO - 解析商家: 持牌顾问亲自出手｜10年经验，定制高通过率签证移民解决方案待填写
+2026-01-02 01:04:53 - merchant_scraper - INFO - 保存商家: 持牌顾问亲自出手｜10年经验，定制高通过率签证移民解决方案待填写
+2026-01-02 01:04:53 - merchant_scraper - INFO - [64/120] 爬取商家: https://merchant.51.ca/merchants/2250
+2026-01-02 01:04:53 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2250
+2026-01-02 01:04:56 - merchant_scraper - INFO - 解析商家: 多伦多在线高中
+2026-01-02 01:04:56 - merchant_scraper - INFO - 保存商家: 多伦多在线高中
+2026-01-02 01:04:56 - merchant_scraper - INFO - [65/120] 爬取商家: https://merchant.51.ca/merchants/7543
+2026-01-02 01:04:56 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7543
+2026-01-02 01:04:58 - merchant_scraper - INFO - 解析商家: 七叔接送
+2026-01-02 01:04:58 - merchant_scraper - INFO - 保存商家: 七叔接送
+2026-01-02 01:04:59 - merchant_scraper - INFO - [66/120] 爬取商家: https://merchant.51.ca/merchants/3472
+2026-01-02 01:04:59 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3472
+2026-01-02 01:05:01 - merchant_scraper - INFO - 解析商家: 佳创餐饮管理待填写
+2026-01-02 01:05:01 - merchant_scraper - INFO - 保存商家: 佳创餐饮管理待填写
+2026-01-02 01:05:02 - merchant_scraper - INFO - [67/120] 爬取商家: https://merchant.51.ca/merchants/7887
+2026-01-02 01:05:02 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7887
+2026-01-02 01:05:04 - merchant_scraper - INFO - 解析商家: 何师傅（专业屋顶
+2026-01-02 01:05:04 - merchant_scraper - INFO - 保存商家: 何师傅（专业屋顶
+2026-01-02 01:05:05 - merchant_scraper - INFO - [68/120] 爬取商家: https://merchant.51.ca/merchants/4804
+2026-01-02 01:05:05 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4804
+2026-01-02 01:05:07 - merchant_scraper - INFO - 解析商家: 启星学院
+2026-01-02 01:05:07 - merchant_scraper - INFO - 保存商家: 启星学院
+2026-01-02 01:05:08 - merchant_scraper - INFO - [69/120] 爬取商家: https://merchant.51.ca/merchants/7412
+2026-01-02 01:05:08 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7412
+2026-01-02 01:05:10 - merchant_scraper - INFO - 解析商家: Kstone Group Ltd待填写
+2026-01-02 01:05:10 - merchant_scraper - INFO - 保存商家: Kstone Group Ltd待填写
+2026-01-02 01:05:10 - merchant_scraper - INFO - [70/120] 爬取商家: https://merchant.51.ca/merchants/3047
+2026-01-02 01:05:10 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3047
+2026-01-02 01:05:13 - merchant_scraper - INFO - 解析商家: 志诚法律事务所
+2026-01-02 01:05:13 - merchant_scraper - INFO - 保存商家: 志诚法律事务所
+2026-01-02 01:05:13 - merchant_scraper - INFO - [71/120] 爬取商家: https://merchant.51.ca/merchants/4011
+2026-01-02 01:05:13 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4011
+2026-01-02 01:05:16 - merchant_scraper - INFO - 解析商家: 薄荷到家
+2026-01-02 01:05:16 - merchant_scraper - INFO - 保存商家: 薄荷到家
+2026-01-02 01:05:16 - merchant_scraper - INFO - [72/120] 爬取商家: https://merchant.51.ca/merchants/4843
+2026-01-02 01:05:16 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4843
+2026-01-02 01:05:19 - merchant_scraper - INFO - 解析商家: 晓禾清洁公司
+2026-01-02 01:05:19 - merchant_scraper - INFO - 保存商家: 晓禾清洁公司
+2026-01-02 01:05:19 - merchant_scraper - INFO - [73/120] 爬取商家: https://merchant.51.ca/merchants/7499
+2026-01-02 01:05:19 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7499
+2026-01-02 01:05:21 - merchant_scraper - INFO - 解析商家: 太阳园艺
+2026-01-02 01:05:21 - merchant_scraper - INFO - 保存商家: 太阳园艺
+2026-01-02 01:05:22 - merchant_scraper - INFO - [74/120] 爬取商家: https://merchant.51.ca/merchants/6700
+2026-01-02 01:05:22 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6700
+2026-01-02 01:05:24 - merchant_scraper - INFO - 解析商家: 择一集团
+2026-01-02 01:05:24 - merchant_scraper - INFO - 保存商家: 择一集团
+2026-01-02 01:05:25 - merchant_scraper - INFO - [75/120] 爬取商家: https://merchant.51.ca/merchants/4981
+2026-01-02 01:05:25 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4981
+2026-01-02 01:05:27 - merchant_scraper - INFO - 解析商家: 好帮手家电
+2026-01-02 01:05:27 - merchant_scraper - INFO - 保存商家: 好帮手家电
+2026-01-02 01:05:28 - merchant_scraper - INFO - [76/120] 爬取商家: https://merchant.51.ca/merchants/2298
+2026-01-02 01:05:28 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2298
+2026-01-02 01:05:30 - merchant_scraper - INFO - 解析商家: 腾达搬运
+2026-01-02 01:05:30 - merchant_scraper - INFO - 保存商家: 腾达搬运
+2026-01-02 01:05:30 - merchant_scraper - INFO - [77/120] 爬取商家: https://merchant.51.ca/merchants/4633
+2026-01-02 01:05:30 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4633
+2026-01-02 01:05:33 - merchant_scraper - INFO - 解析商家: Xiaomifeng小蜜蜂🐝
+2026-01-02 01:05:33 - merchant_scraper - INFO - 保存商家: Xiaomifeng小蜜蜂🐝
+2026-01-02 01:05:33 - merchant_scraper - INFO - [78/120] 爬取商家: https://merchant.51.ca/merchants/1257
+2026-01-02 01:05:33 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1257
+2026-01-02 01:05:36 - merchant_scraper - INFO - 解析商家: 杰能冷暖
+2026-01-02 01:05:36 - merchant_scraper - INFO - 保存商家: 杰能冷暖
+2026-01-02 01:05:36 - merchant_scraper - INFO - [79/120] 爬取商家: https://merchant.51.ca/merchants/1975
+2026-01-02 01:05:36 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1975
+2026-01-02 01:05:39 - merchant_scraper - INFO - 解析商家: 恒致居家冷暖
+2026-01-02 01:05:39 - merchant_scraper - INFO - 保存商家: 恒致居家冷暖
+2026-01-02 01:05:39 - merchant_scraper - INFO - [80/120] 爬取商家: https://merchant.51.ca/merchants/7940
+2026-01-02 01:05:39 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7940
+2026-01-02 01:05:41 - merchant_scraper - INFO - 解析商家: Lee Li Holdings待填写
+2026-01-02 01:05:41 - merchant_scraper - INFO - 保存商家: Lee Li Holdings待填写
+2026-01-02 01:05:42 - merchant_scraper - INFO - [81/120] 爬取商家: https://merchant.51.ca/merchants/7407
+2026-01-02 01:05:42 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7407
+2026-01-02 01:05:44 - merchant_scraper - INFO - 解析商家: NA待填写
+2026-01-02 01:05:44 - merchant_scraper - INFO - 保存商家: NA待填写
+2026-01-02 01:05:45 - merchant_scraper - INFO - [82/120] 爬取商家: https://merchant.51.ca/merchants/1227
+2026-01-02 01:05:45 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1227
+2026-01-02 01:05:47 - merchant_scraper - INFO - 解析商家: 李时珍中医针灸馆
+2026-01-02 01:05:47 - merchant_scraper - INFO - 保存商家: 李时珍中医针灸馆
+2026-01-02 01:05:48 - merchant_scraper - INFO - [83/120] 爬取商家: https://merchant.51.ca/merchants/6836
+2026-01-02 01:05:48 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6836
+2026-01-02 01:05:50 - merchant_scraper - INFO - 解析商家: 多伦多监控摄像头安装维修
+2026-01-02 01:05:50 - merchant_scraper - INFO - 保存商家: 多伦多监控摄像头安装维修
+2026-01-02 01:05:50 - merchant_scraper - INFO - [84/120] 爬取商家: https://merchant.51.ca/merchants/6767
+2026-01-02 01:05:50 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6767
+2026-01-02 01:05:53 - merchant_scraper - INFO - 解析商家: 巅峰屋顶
+2026-01-02 01:05:53 - merchant_scraper - INFO - 保存商家: 巅峰屋顶
+2026-01-02 01:05:53 - merchant_scraper - INFO - [85/120] 爬取商家: https://merchant.51.ca/merchants/7138
+2026-01-02 01:05:53 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7138
+2026-01-02 01:05:56 - merchant_scraper - INFO - 解析商家: BUILDING-PERMITBUILDING-PERMIT
+2026-01-02 01:05:56 - merchant_scraper - INFO - 保存商家: BUILDING-PERMITBUILDING-PERMIT
+2026-01-02 01:05:56 - merchant_scraper - INFO - [86/120] 爬取商家: https://merchant.51.ca/merchants/1485
+2026-01-02 01:05:56 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1485
+2026-01-02 01:05:58 - merchant_scraper - INFO - 解析商家: 首选搬运
+2026-01-02 01:05:58 - merchant_scraper - INFO - 保存商家: 首选搬运
+2026-01-02 01:05:59 - merchant_scraper - INFO - [87/120] 爬取商家: https://merchant.51.ca/merchants/2302
+2026-01-02 01:05:59 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2302
+2026-01-02 01:06:01 - merchant_scraper - INFO - 解析商家: HDXcctvJobana Technology Inc.
+2026-01-02 01:06:01 - merchant_scraper - INFO - 保存商家: HDXcctvJobana Technology Inc.
+2026-01-02 01:06:02 - merchant_scraper - INFO - [88/120] 爬取商家: https://merchant.51.ca/merchants/7162
+2026-01-02 01:06:02 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7162
+2026-01-02 01:06:04 - merchant_scraper - INFO - 解析商家: ALEX——环宇车库门
+2026-01-02 01:06:04 - merchant_scraper - INFO - 保存商家: ALEX——环宇车库门
+2026-01-02 01:06:05 - merchant_scraper - INFO - [89/120] 爬取商家: https://merchant.51.ca/merchants/2350
+2026-01-02 01:06:05 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2350
+2026-01-02 01:06:07 - merchant_scraper - INFO - 解析商家: 致远冷暖 ( Eco Star Home Services Co)Eco Star Home Services
+2026-01-02 01:06:07 - merchant_scraper - INFO - 保存商家: 致远冷暖 ( Eco Star Home Services Co)Eco Star Home Services
+2026-01-02 01:06:08 - merchant_scraper - INFO - [90/120] 爬取商家: https://merchant.51.ca/merchants/7818
+2026-01-02 01:06:08 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7818
+2026-01-02 01:06:10 - merchant_scraper - INFO - 解析商家: 超低价电器直销
+2026-01-02 01:06:10 - merchant_scraper - INFO - 保存商家: 超低价电器直销
+2026-01-02 01:06:10 - merchant_scraper - INFO - [91/120] 爬取商家: https://merchant.51.ca/merchants/1319
+2026-01-02 01:06:10 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1319
+2026-01-02 01:06:13 - merchant_scraper - INFO - 解析商家: 春风园艺
+2026-01-02 01:06:13 - merchant_scraper - INFO - 保存商家: 春风园艺
+2026-01-02 01:06:13 - merchant_scraper - INFO - [92/120] 爬取商家: https://merchant.51.ca/merchants/5117
+2026-01-02 01:06:13 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5117
+2026-01-02 01:06:16 - merchant_scraper - INFO - 解析商家: 方正贷款
+2026-01-02 01:06:16 - merchant_scraper - INFO - 保存商家: 方正贷款
+2026-01-02 01:06:16 - merchant_scraper - INFO - [93/120] 爬取商家: https://merchant.51.ca/merchants/7385
+2026-01-02 01:06:16 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7385
+2026-01-02 01:06:19 - merchant_scraper - INFO - 解析商家: 安林玻璃直销（设计+安装+急修）Anlin Glass Direct SalesAnlin Glass Direct Sales (Production + Installation + Emergency Repair)
+2026-01-02 01:06:19 - merchant_scraper - INFO - 保存商家: 安林玻璃直销（设计+安装+急修）Anlin Glass Direct SalesAnlin Glass Direct Sales (Production + Installation + Emergency Repair)
+2026-01-02 01:06:19 - merchant_scraper - INFO - [94/120] 爬取商家: https://merchant.51.ca/merchants/6746
+2026-01-02 01:06:19 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6746
+2026-01-02 01:06:21 - merchant_scraper - INFO - 解析商家: 熊猫日用品批发
+2026-01-02 01:06:21 - merchant_scraper - INFO - 保存商家: 熊猫日用品批发
+2026-01-02 01:06:22 - merchant_scraper - INFO - [95/120] 爬取商家: https://merchant.51.ca/merchants/1834
+2026-01-02 01:06:22 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1834
+2026-01-02 01:06:24 - merchant_scraper - INFO - 解析商家: 大众法律事务中心
+2026-01-02 01:06:24 - merchant_scraper - INFO - 保存商家: 大众法律事务中心
+2026-01-02 01:06:25 - merchant_scraper - INFO - [96/120] 爬取商家: https://merchant.51.ca/merchants/7483
+2026-01-02 01:06:25 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7483
+2026-01-02 01:06:27 - merchant_scraper - INFO - 解析商家: 红牛屋顶
+2026-01-02 01:06:27 - merchant_scraper - INFO - 保存商家: 红牛屋顶
+2026-01-02 01:06:28 - merchant_scraper - INFO - [97/120] 爬取商家: https://merchant.51.ca/merchants/3419
+2026-01-02 01:06:28 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3419
+2026-01-02 01:06:30 - merchant_scraper - INFO - 解析商家: 东方建材
+2026-01-02 01:06:30 - merchant_scraper - INFO - 保存商家: 东方建材
+2026-01-02 01:06:30 - merchant_scraper - INFO - [98/120] 爬取商家: https://merchant.51.ca/merchants/7420
+2026-01-02 01:06:30 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7420
+2026-01-02 01:06:33 - merchant_scraper - INFO - 解析商家: Milano浴室排气扇
+2026-01-02 01:06:33 - merchant_scraper - INFO - 保存商家: Milano浴室排气扇
+2026-01-02 01:06:33 - merchant_scraper - INFO - [99/120] 爬取商家: https://merchant.51.ca/merchants/2584
+2026-01-02 01:06:33 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2584
+2026-01-02 01:06:35 - merchant_scraper - INFO - 解析商家: Canada First Construction Inc待填写
+2026-01-02 01:06:35 - merchant_scraper - INFO - 保存商家: Canada First Construction Inc待填写
+2026-01-02 01:06:36 - merchant_scraper - INFO - [100/120] 爬取商家: https://merchant.51.ca/merchants/7945
+2026-01-02 01:06:36 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7945
+2026-01-02 01:06:38 - merchant_scraper - INFO - 解析商家: 龙祥手机 配件 维修店
+2026-01-02 01:06:38 - merchant_scraper - INFO - 保存商家: 龙祥手机 配件 维修店
+2026-01-02 01:06:39 - merchant_scraper - INFO - [101/120] 爬取商家: https://merchant.51.ca/merchants/6134
+2026-01-02 01:06:39 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6134
+2026-01-02 01:06:41 - merchant_scraper - INFO - 解析商家: 腾达户外
+2026-01-02 01:06:41 - merchant_scraper - INFO - 保存商家: 腾达户外
+2026-01-02 01:06:42 - merchant_scraper - INFO - [102/120] 爬取商家: https://merchant.51.ca/merchants/7416
+2026-01-02 01:06:42 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7416
+2026-01-02 01:06:44 - merchant_scraper - INFO - 解析商家: world peace moblie weldingzhiqiang he （zed）
+2026-01-02 01:06:44 - merchant_scraper - INFO - 保存商家: world peace moblie weldingzhiqiang he （zed）
+2026-01-02 01:06:44 - merchant_scraper - INFO - [103/120] 爬取商家: https://merchant.51.ca/merchants/6615
+2026-01-02 01:06:44 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6615
+2026-01-02 01:06:47 - merchant_scraper - INFO - 解析商家: 美蘭床垫 美兰床垫
+2026-01-02 01:06:47 - merchant_scraper - INFO - 保存商家: 美蘭床垫 美兰床垫
+2026-01-02 01:06:47 - merchant_scraper - INFO - [104/120] 爬取商家: https://merchant.51.ca/merchants/7319
+2026-01-02 01:06:47 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7319
+2026-01-02 01:06:49 - merchant_scraper - INFO - 解析商家: 汪律师（团队）William Wang
+2026-01-02 01:06:49 - merchant_scraper - INFO - 保存商家: 汪律师（团队）William Wang
+2026-01-02 01:06:50 - merchant_scraper - INFO - [105/120] 爬取商家: https://merchant.51.ca/merchants/5098
+2026-01-02 01:06:50 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5098
+2026-01-02 01:06:52 - merchant_scraper - INFO - 解析商家: Dexign Matter Studio Inc.待填写
+2026-01-02 01:06:52 - merchant_scraper - INFO - 保存商家: Dexign Matter Studio Inc.待填写
+2026-01-02 01:06:53 - merchant_scraper - INFO - [106/120] 爬取商家: https://merchant.51.ca/merchants/5598
+2026-01-02 01:06:53 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5598
+2026-01-02 01:06:55 - merchant_scraper - INFO - 解析商家: IronwoodoutdoorIronwoodoutdoor
+2026-01-02 01:06:55 - merchant_scraper - INFO - 保存商家: IronwoodoutdoorIronwoodoutdoor
+2026-01-02 01:06:56 - merchant_scraper - INFO - [107/120] 爬取商家: https://merchant.51.ca/merchants/3116
+2026-01-02 01:06:56 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3116
+2026-01-02 01:06:58 - merchant_scraper - INFO - 解析商家: 大统华超级市场
+2026-01-02 01:06:58 - merchant_scraper - INFO - 保存商家: 大统华超级市场
+2026-01-02 01:06:59 - merchant_scraper - INFO - [108/120] 爬取商家: https://merchant.51.ca/merchants/7460
+2026-01-02 01:06:59 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7460
+2026-01-02 01:07:01 - merchant_scraper - INFO - 解析商家: 楊教練待填写
+2026-01-02 01:07:01 - merchant_scraper - INFO - 保存商家: 楊教練待填写
+2026-01-02 01:07:02 - merchant_scraper - INFO - [109/120] 爬取商家: https://merchant.51.ca/merchants/7925
+2026-01-02 01:07:02 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7925
+2026-01-02 01:07:04 - merchant_scraper - INFO - 解析商家: CDK网络营销公司
+2026-01-02 01:07:04 - merchant_scraper - INFO - 保存商家: CDK网络营销公司
+2026-01-02 01:07:04 - merchant_scraper - INFO - [110/120] 爬取商家: https://merchant.51.ca/merchants/1129
+2026-01-02 01:07:04 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1129
+2026-01-02 01:07:07 - merchant_scraper - INFO - 解析商家: 西华门窗
+2026-01-02 01:07:07 - merchant_scraper - INFO - 保存商家: 西华门窗
+2026-01-02 01:07:07 - merchant_scraper - INFO - [111/120] 爬取商家: https://merchant.51.ca/merchants/6201
+2026-01-02 01:07:07 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6201
+2026-01-02 01:07:10 - merchant_scraper - INFO - 解析商家: EMMO 电动自行车
+2026-01-02 01:07:10 - merchant_scraper - INFO - 保存商家: EMMO 电动自行车
+2026-01-02 01:07:10 - merchant_scraper - INFO - [112/120] 爬取商家: https://merchant.51.ca/merchants/6237
+2026-01-02 01:07:10 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6237
+2026-01-02 01:07:12 - merchant_scraper - INFO - 解析商家: 质坚园艺
+2026-01-02 01:07:12 - merchant_scraper - INFO - 保存商家: 质坚园艺
+2026-01-02 01:07:13 - merchant_scraper - INFO - [113/120] 爬取商家: https://merchant.51.ca/merchants/4135
+2026-01-02 01:07:13 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4135
+2026-01-02 01:07:15 - merchant_scraper - INFO - 解析商家: 丰业园艺
+2026-01-02 01:07:15 - merchant_scraper - INFO - 保存商家: 丰业园艺
+2026-01-02 01:07:16 - merchant_scraper - INFO - [114/120] 爬取商家: https://merchant.51.ca/merchants/7776
+2026-01-02 01:07:16 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7776
+2026-01-02 01:07:18 - merchant_scraper - INFO - 解析商家: SUPER EATER待填写
+2026-01-02 01:07:18 - merchant_scraper - INFO - 保存商家: SUPER EATER待填写
+2026-01-02 01:07:19 - merchant_scraper - INFO - [115/120] 爬取商家: https://merchant.51.ca/merchants/2134
+2026-01-02 01:07:19 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2134
+2026-01-02 01:07:21 - merchant_scraper - INFO - 解析商家: 友联装修待填写
+2026-01-02 01:07:21 - merchant_scraper - INFO - 保存商家: 友联装修待填写
+2026-01-02 01:07:21 - merchant_scraper - INFO - [116/120] 爬取商家: https://merchant.51.ca/merchants/2947
+2026-01-02 01:07:21 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2947
+2026-01-02 01:07:24 - merchant_scraper - INFO - 解析商家: Viewmax 门窗公司
+2026-01-02 01:07:24 - merchant_scraper - INFO - 保存商家: Viewmax 门窗公司
+2026-01-02 01:07:24 - merchant_scraper - INFO - [117/120] 爬取商家: https://merchant.51.ca/merchants/6430
+2026-01-02 01:07:24 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6430
+2026-01-02 01:07:27 - merchant_scraper - INFO - 解析商家: ColWellColWell Refrigeration Ltd.
+2026-01-02 01:07:27 - merchant_scraper - INFO - 保存商家: ColWellColWell Refrigeration Ltd.
+2026-01-02 01:07:27 - merchant_scraper - INFO - [118/120] 爬取商家: https://merchant.51.ca/merchants/7976
+2026-01-02 01:07:27 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7976
+2026-01-02 01:07:29 - merchant_scraper - INFO - 解析商家: 北约克星音乐学校待填写
+2026-01-02 01:07:29 - merchant_scraper - INFO - 保存商家: 北约克星音乐学校待填写
+2026-01-02 01:07:30 - merchant_scraper - INFO - [119/120] 爬取商家: https://merchant.51.ca/merchants/5266
+2026-01-02 01:07:30 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5266
+2026-01-02 01:07:32 - merchant_scraper - INFO - 解析商家: 灯具电料 批发公司
+2026-01-02 01:07:32 - merchant_scraper - INFO - 保存商家: 灯具电料 批发公司
+2026-01-02 01:07:33 - merchant_scraper - INFO - [120/120] 爬取商家: https://merchant.51.ca/merchants/4747
+2026-01-02 01:07:33 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4747
+2026-01-02 01:07:35 - merchant_scraper - INFO - 解析商家: 华姐贷款
+2026-01-02 01:07:35 - merchant_scraper - INFO - 保存商家: 华姐贷款
+2026-01-02 01:07:36 - merchant_scraper - INFO - 瀏覽器已關閉
+2026-01-02 01:07:36 - merchant_scraper - INFO - ==================================================
+2026-01-02 01:07:36 - merchant_scraper - INFO - 爬取完成!
+2026-01-02 01:07:36 - merchant_scraper - INFO - 頁面數: 121
+2026-01-02 01:07:36 - merchant_scraper - INFO - 保存項目: 0
+2026-01-02 01:07:36 - merchant_scraper - INFO - 錯誤數: 0
+2026-01-02 01:07:36 - merchant_scraper - INFO - 耗時: 348.9 秒
+2026-01-02 01:07:36 - merchant_scraper - INFO - ==================================================
+2026-01-02 01:09:21 - merchant_scraper - INFO - ==================================================
+2026-01-02 01:09:21 - merchant_scraper - INFO - 開始爬取商家資訊...
+2026-01-02 01:09:21 - merchant_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 01:09:22 - merchant_scraper - INFO - 瀏覽器啟動成功
+2026-01-02 01:09:22 - merchant_scraper - INFO - 開始從首頁收集商家ID...
+2026-01-02 01:09:22 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/
+2026-01-02 01:09:26 - merchant_scraper - INFO - 從首頁發現 120 個商家ID
+2026-01-02 01:09:26 - merchant_scraper - INFO - 準備爬取 120 個商家
+2026-01-02 01:09:26 - merchant_scraper - INFO - [1/120] 爬取商家: https://merchant.51.ca/merchants/5364
+2026-01-02 01:09:26 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5364
+2026-01-02 01:09:29 - merchant_scraper - INFO - 解析商家: 四季顺搬家
+2026-01-02 01:09:29 - merchant_scraper - INFO - 保存商家: 四季顺搬家
+2026-01-02 01:09:29 - merchant_scraper - INFO - [2/120] 爬取商家: https://merchant.51.ca/merchants/1659
+2026-01-02 01:09:29 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1659
+2026-01-02 01:09:32 - merchant_scraper - INFO - 解析商家: 加拿大科技学院 政府资助
+2026-01-02 01:09:32 - merchant_scraper - INFO - 保存商家: 加拿大科技学院 政府资助
+2026-01-02 01:09:32 - merchant_scraper - INFO - [3/120] 爬取商家: https://merchant.51.ca/merchants/7887
+2026-01-02 01:09:32 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7887
+2026-01-02 01:09:35 - merchant_scraper - INFO - 解析商家: 何师傅（专业屋顶
+2026-01-02 01:09:35 - merchant_scraper - INFO - 保存商家: 何师傅（专业屋顶
+2026-01-02 01:09:35 - merchant_scraper - INFO - [4/120] 爬取商家: https://merchant.51.ca/merchants/6700
+2026-01-02 01:09:35 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6700
+2026-01-02 01:09:37 - merchant_scraper - INFO - 解析商家: 择一集团
+2026-01-02 01:09:37 - merchant_scraper - INFO - 保存商家: 择一集团
+2026-01-02 01:09:38 - merchant_scraper - INFO - [5/120] 爬取商家: https://merchant.51.ca/merchants/7945
+2026-01-02 01:09:38 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7945
+2026-01-02 01:09:40 - merchant_scraper - INFO - 解析商家: 龙祥手机 配件 维修店
+2026-01-02 01:09:40 - merchant_scraper - INFO - 保存商家: 龙祥手机 配件 维修店
+2026-01-02 01:09:41 - merchant_scraper - INFO - [6/120] 爬取商家: https://merchant.51.ca/merchants/2729
+2026-01-02 01:09:41 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2729
+2026-01-02 01:09:43 - merchant_scraper - INFO - 解析商家: 加拿大铝合金门窗｜贝克洛｜兴发待填写
+2026-01-02 01:09:43 - merchant_scraper - INFO - 保存商家: 加拿大铝合金门窗｜贝克洛｜兴发待填写
+2026-01-02 01:09:44 - merchant_scraper - INFO - [7/120] 爬取商家: https://merchant.51.ca/merchants/1319
+2026-01-02 01:09:44 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1319
+2026-01-02 01:09:46 - merchant_scraper - INFO - 解析商家: 春风园艺
+2026-01-02 01:09:46 - merchant_scraper - INFO - 保存商家: 春风园艺
+2026-01-02 01:09:47 - merchant_scraper - INFO - [8/120] 爬取商家: https://merchant.51.ca/merchants/1485
+2026-01-02 01:09:47 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1485
+2026-01-02 01:09:49 - merchant_scraper - INFO - 解析商家: 首选搬运
+2026-01-02 01:09:49 - merchant_scraper - INFO - 保存商家: 首选搬运
+2026-01-02 01:09:49 - merchant_scraper - INFO - [9/120] 爬取商家: https://merchant.51.ca/merchants/2576
+2026-01-02 01:09:49 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2576
+2026-01-02 01:09:52 - merchant_scraper - INFO - 解析商家: Ami 玻璃门窗制作安装
+2026-01-02 01:09:52 - merchant_scraper - INFO - 保存商家: Ami 玻璃门窗制作安装
+2026-01-02 01:09:52 - merchant_scraper - INFO - [10/120] 爬取商家: https://merchant.51.ca/merchants/4059
+2026-01-02 01:09:52 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4059
+2026-01-02 01:09:55 - merchant_scraper - INFO - 解析商家: 亿家冷暖-ICare Home ComfortICare Home Comfort
+2026-01-02 01:09:55 - merchant_scraper - INFO - 保存商家: 亿家冷暖-ICare Home ComfortICare Home Comfort
+2026-01-02 01:09:55 - merchant_scraper - INFO - [11/120] 爬取商家: https://merchant.51.ca/merchants/7412
+2026-01-02 01:09:55 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7412
+2026-01-02 01:09:57 - merchant_scraper - INFO - 解析商家: Kstone Group Ltd待填写
+2026-01-02 01:09:57 - merchant_scraper - INFO - 保存商家: Kstone Group Ltd待填写
+2026-01-02 01:09:58 - merchant_scraper - INFO - [12/120] 爬取商家: https://merchant.51.ca/merchants/7589
+2026-01-02 01:09:58 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7589
+2026-01-02 01:10:00 - merchant_scraper - INFO - 解析商家: 鸿华超市
+2026-01-02 01:10:00 - merchant_scraper - INFO - 保存商家: 鸿华超市
+2026-01-02 01:10:01 - merchant_scraper - INFO - [13/120] 爬取商家: https://merchant.51.ca/merchants/3047
+2026-01-02 01:10:01 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3047
+2026-01-02 01:10:03 - merchant_scraper - INFO - 解析商家: 志诚法律事务所
+2026-01-02 01:10:03 - merchant_scraper - INFO - 保存商家: 志诚法律事务所
+2026-01-02 01:10:04 - merchant_scraper - INFO - [14/120] 爬取商家: https://merchant.51.ca/merchants/7880
+2026-01-02 01:10:04 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7880
+2026-01-02 01:10:06 - merchant_scraper - INFO - 解析商家: 7880
+2026-01-02 01:10:06 - merchant_scraper - INFO - 保存商家: 7880
+2026-01-02 01:10:07 - merchant_scraper - INFO - [15/120] 爬取商家: https://merchant.51.ca/merchants/6852
+2026-01-02 01:10:07 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6852
+2026-01-02 01:10:09 - merchant_scraper - INFO - 解析商家: 联合家居围栏｜露台翻新｜油漆｜防水｜防霉｜加固｜重建
+2026-01-02 01:10:09 - merchant_scraper - INFO - 保存商家: 联合家居围栏｜露台翻新｜油漆｜防水｜防霉｜加固｜重建
+2026-01-02 01:10:10 - merchant_scraper - INFO - [16/120] 爬取商家: https://merchant.51.ca/merchants/2134
+2026-01-02 01:10:10 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2134
+2026-01-02 01:10:12 - merchant_scraper - INFO - 解析商家: 友联装修待填写
+2026-01-02 01:10:12 - merchant_scraper - INFO - 保存商家: 友联装修待填写
+2026-01-02 01:10:13 - merchant_scraper - INFO - [17/120] 爬取商家: https://merchant.51.ca/merchants/6134
+2026-01-02 01:10:13 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6134
+2026-01-02 01:10:15 - merchant_scraper - INFO - 解析商家: 腾达户外
+2026-01-02 01:10:15 - merchant_scraper - INFO - 保存商家: 腾达户外
+2026-01-02 01:10:16 - merchant_scraper - INFO - [18/120] 爬取商家: https://merchant.51.ca/merchants/2058
+2026-01-02 01:10:16 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2058
+2026-01-02 01:10:18 - merchant_scraper - INFO - 解析商家: 枫泰搬运
+2026-01-02 01:10:18 - merchant_scraper - INFO - 保存商家: 枫泰搬运
+2026-01-02 01:10:18 - merchant_scraper - INFO - [19/120] 爬取商家: https://merchant.51.ca/merchants/7818
+2026-01-02 01:10:18 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7818
+2026-01-02 01:10:21 - merchant_scraper - INFO - 解析商家: 超低价电器直销
+2026-01-02 01:10:21 - merchant_scraper - INFO - 保存商家: 超低价电器直销
+2026-01-02 01:10:21 - merchant_scraper - INFO - [20/120] 爬取商家: https://merchant.51.ca/merchants/6838
+2026-01-02 01:10:21 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6838
+2026-01-02 01:10:23 - merchant_scraper - INFO - 解析商家: 永昇专业屋顶公司2646629 Ontario Inc
+2026-01-02 01:10:23 - merchant_scraper - INFO - 保存商家: 永昇专业屋顶公司2646629 Ontario Inc
+2026-01-02 01:10:24 - merchant_scraper - INFO - [21/120] 爬取商家: https://merchant.51.ca/merchants/3937
+2026-01-02 01:10:24 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3937
+2026-01-02 01:10:26 - merchant_scraper - INFO - 解析商家: 51电脑运维
+2026-01-02 01:10:26 - merchant_scraper - INFO - 保存商家: 51电脑运维
+2026-01-02 01:10:27 - merchant_scraper - INFO - [22/120] 爬取商家: https://merchant.51.ca/merchants/1519
+2026-01-02 01:10:27 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1519
+2026-01-02 01:10:29 - merchant_scraper - INFO - 解析商家: 泰山工程
+2026-01-02 01:10:29 - merchant_scraper - INFO - 保存商家: 泰山工程
+2026-01-02 01:10:30 - merchant_scraper - INFO - [23/120] 爬取商家: https://merchant.51.ca/merchants/7416
+2026-01-02 01:10:30 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7416
+2026-01-02 01:10:32 - merchant_scraper - INFO - 解析商家: world peace moblie weldingzhiqiang he （zed）
+2026-01-02 01:10:32 - merchant_scraper - INFO - 保存商家: world peace moblie weldingzhiqiang he （zed）
+2026-01-02 01:10:33 - merchant_scraper - INFO - [24/120] 爬取商家: https://merchant.51.ca/merchants/7925
+2026-01-02 01:10:33 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7925
+2026-01-02 01:10:35 - merchant_scraper - INFO - 解析商家: CDK网络营销公司
+2026-01-02 01:10:35 - merchant_scraper - INFO - 保存商家: CDK网络营销公司
+2026-01-02 01:10:35 - merchant_scraper - INFO - [25/120] 爬取商家: https://merchant.51.ca/merchants/7922
+2026-01-02 01:10:35 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7922
+2026-01-02 01:10:38 - merchant_scraper - INFO - 解析商家: 大唐金融
+2026-01-02 01:10:38 - merchant_scraper - INFO - 保存商家: 大唐金融
+2026-01-02 01:10:38 - merchant_scraper - INFO - [26/120] 爬取商家: https://merchant.51.ca/merchants/3180
+2026-01-02 01:10:38 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3180
+2026-01-02 01:10:40 - merchant_scraper - INFO - 解析商家: 大多百百货集团
+2026-01-02 01:10:40 - merchant_scraper - INFO - 保存商家: 大多百百货集团
+2026-01-02 01:10:41 - merchant_scraper - INFO - [27/120] 爬取商家: https://merchant.51.ca/merchants/7543
+2026-01-02 01:10:41 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7543
+2026-01-02 01:10:43 - merchant_scraper - INFO - 解析商家: 七叔接送
+2026-01-02 01:10:43 - merchant_scraper - INFO - 保存商家: 七叔接送
+2026-01-02 01:10:44 - merchant_scraper - INFO - [28/120] 爬取商家: https://merchant.51.ca/merchants/1507
+2026-01-02 01:10:44 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1507
+2026-01-02 01:10:46 - merchant_scraper - INFO - 解析商家: 居室主张
+2026-01-02 01:10:46 - merchant_scraper - INFO - 保存商家: 居室主张
+2026-01-02 01:10:47 - merchant_scraper - INFO - [29/120] 爬取商家: https://merchant.51.ca/merchants/2139
+2026-01-02 01:10:47 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2139
+2026-01-02 01:10:49 - merchant_scraper - INFO - 解析商家: 陈氏法律移民事务所
+2026-01-02 01:10:49 - merchant_scraper - INFO - 保存商家: 陈氏法律移民事务所
+2026-01-02 01:10:49 - merchant_scraper - INFO - [30/120] 爬取商家: https://merchant.51.ca/merchants/7792
+2026-01-02 01:10:49 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7792
+2026-01-02 01:10:52 - merchant_scraper - INFO - 解析商家: 一沐园艺
+2026-01-02 01:10:52 - merchant_scraper - INFO - 保存商家: 一沐园艺
+2026-01-02 01:10:52 - merchant_scraper - INFO - [31/120] 爬取商家: https://merchant.51.ca/merchants/4534
+2026-01-02 01:10:52 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4534
+2026-01-02 01:10:54 - merchant_scraper - INFO - 解析商家: 枫叶车队待填写
+2026-01-02 01:10:54 - merchant_scraper - INFO - 保存商家: 枫叶车队待填写
+2026-01-02 01:10:55 - merchant_scraper - INFO - [32/120] 爬取商家: https://merchant.51.ca/merchants/5137
+2026-01-02 01:10:55 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5137
+2026-01-02 01:10:57 - merchant_scraper - INFO - 解析商家: SUPER VAPESUPERVAPE
+2026-01-02 01:10:57 - merchant_scraper - INFO - 保存商家: SUPER VAPESUPERVAPE
+2026-01-02 01:10:58 - merchant_scraper - INFO - [33/120] 爬取商家: https://merchant.51.ca/merchants/2893
+2026-01-02 01:10:58 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2893
+2026-01-02 01:11:00 - merchant_scraper - INFO - 解析商家: 杰艺室内装修
+2026-01-02 01:11:00 - merchant_scraper - INFO - 保存商家: 杰艺室内装修
+2026-01-02 01:11:01 - merchant_scraper - INFO - [34/120] 爬取商家: https://merchant.51.ca/merchants/7585
+2026-01-02 01:11:01 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7585
+2026-01-02 01:11:03 - merchant_scraper - INFO - 解析商家: 天籁门窗
+2026-01-02 01:11:03 - merchant_scraper - INFO - 保存商家: 天籁门窗
+2026-01-02 01:11:03 - merchant_scraper - INFO - [35/120] 爬取商家: https://merchant.51.ca/merchants/7782
+2026-01-02 01:11:03 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7782
+2026-01-02 01:11:06 - merchant_scraper - INFO - 解析商家: 新泰轮胎
+2026-01-02 01:11:06 - merchant_scraper - INFO - 保存商家: 新泰轮胎
+2026-01-02 01:11:06 - merchant_scraper - INFO - [36/120] 爬取商家: https://merchant.51.ca/merchants/5986
+2026-01-02 01:11:06 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5986
+2026-01-02 01:11:08 - merchant_scraper - INFO - 解析商家: BPLoan待填写
+2026-01-02 01:11:08 - merchant_scraper - INFO - 保存商家: BPLoan待填写
+2026-01-02 01:11:09 - merchant_scraper - INFO - [37/120] 爬取商家: https://merchant.51.ca/merchants/4803
+2026-01-02 01:11:09 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4803
+2026-01-02 01:11:11 - merchant_scraper - INFO - 解析商家: A1 Raccoon Wildlife ControlA1 raccoon
+2026-01-02 01:11:11 - merchant_scraper - INFO - 保存商家: A1 Raccoon Wildlife ControlA1 raccoon
+2026-01-02 01:11:12 - merchant_scraper - INFO - [38/120] 爬取商家: https://merchant.51.ca/merchants/7625
+2026-01-02 01:11:12 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7625
+2026-01-02 01:11:14 - merchant_scraper - INFO - 解析商家: 安信贷款
+2026-01-02 01:11:14 - merchant_scraper - INFO - 保存商家: 安信贷款
+2026-01-02 01:11:15 - merchant_scraper - INFO - [39/120] 爬取商家: https://merchant.51.ca/merchants/2250
+2026-01-02 01:11:15 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2250
+2026-01-02 01:11:17 - merchant_scraper - INFO - 解析商家: 多伦多在线高中
+2026-01-02 01:11:17 - merchant_scraper - INFO - 保存商家: 多伦多在线高中
+2026-01-02 01:11:17 - merchant_scraper - INFO - [40/120] 爬取商家: https://merchant.51.ca/merchants/7645
+2026-01-02 01:11:17 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7645
+2026-01-02 01:11:20 - merchant_scraper - INFO - 解析商家: 浣熊猎人
+2026-01-02 01:11:20 - merchant_scraper - INFO - 保存商家: 浣熊猎人
+2026-01-02 01:11:20 - merchant_scraper - INFO - [41/120] 爬取商家: https://merchant.51.ca/merchants/3116
+2026-01-02 01:11:20 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3116
+2026-01-02 01:11:23 - merchant_scraper - INFO - 解析商家: 大统华超级市场
+2026-01-02 01:11:23 - merchant_scraper - INFO - 保存商家: 大统华超级市场
+2026-01-02 01:11:23 - merchant_scraper - INFO - [42/120] 爬取商家: https://merchant.51.ca/merchants/6683
+2026-01-02 01:11:23 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6683
+2026-01-02 01:11:25 - merchant_scraper - INFO - 解析商家: 良品家私
+2026-01-02 01:11:25 - merchant_scraper - INFO - 保存商家: 良品家私
+2026-01-02 01:11:26 - merchant_scraper - INFO - [43/120] 爬取商家: https://merchant.51.ca/merchants/7890
+2026-01-02 01:11:26 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7890
+2026-01-02 01:11:28 - merchant_scraper - INFO - 解析商家: 光速冷链物流
+2026-01-02 01:11:28 - merchant_scraper - INFO - 保存商家: 光速冷链物流
+2026-01-02 01:11:29 - merchant_scraper - INFO - [44/120] 爬取商家: https://merchant.51.ca/merchants/6750
+2026-01-02 01:11:29 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6750
+2026-01-02 01:11:31 - merchant_scraper - INFO - 解析商家: Mc2 Reno 室内装修
+2026-01-02 01:11:31 - merchant_scraper - INFO - 保存商家: Mc2 Reno 室内装修
+2026-01-02 01:11:32 - merchant_scraper - INFO - [45/120] 爬取商家: https://merchant.51.ca/merchants/3419
+2026-01-02 01:11:32 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3419
+2026-01-02 01:11:34 - merchant_scraper - INFO - 解析商家: 东方建材
+2026-01-02 01:11:34 - merchant_scraper - INFO - 保存商家: 东方建材
+2026-01-02 01:11:34 - merchant_scraper - INFO - [46/120] 爬取商家: https://merchant.51.ca/merchants/7385
+2026-01-02 01:11:34 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7385
+2026-01-02 01:11:37 - merchant_scraper - INFO - 解析商家: 安林玻璃直销（设计+安装+急修）Anlin Glass Direct SalesAnlin Glass Direct Sales (Production + Installation + Emergency Repair)
+2026-01-02 01:11:37 - merchant_scraper - INFO - 保存商家: 安林玻璃直销（设计+安装+急修）Anlin Glass Direct SalesAnlin Glass Direct Sales (Production + Installation + Emergency Repair)
+2026-01-02 01:11:37 - merchant_scraper - INFO - [47/120] 爬取商家: https://merchant.51.ca/merchants/2298
+2026-01-02 01:11:37 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2298
+2026-01-02 01:11:40 - merchant_scraper - INFO - 解析商家: 腾达搬运
+2026-01-02 01:11:40 - merchant_scraper - INFO - 保存商家: 腾达搬运
+2026-01-02 01:11:40 - merchant_scraper - INFO - [48/120] 爬取商家: https://merchant.51.ca/merchants/6546
+2026-01-02 01:11:40 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6546
+2026-01-02 01:11:42 - merchant_scraper - INFO - 解析商家: OPT 门窗
+2026-01-02 01:11:42 - merchant_scraper - INFO - 保存商家: OPT 门窗
+2026-01-02 01:11:43 - merchant_scraper - INFO - [49/120] 爬取商家: https://merchant.51.ca/merchants/4177
+2026-01-02 01:11:43 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4177
+2026-01-02 01:11:45 - merchant_scraper - INFO - 解析商家: 东诚餐具
+2026-01-02 01:11:45 - merchant_scraper - INFO - 保存商家: 东诚餐具
+2026-01-02 01:11:46 - merchant_scraper - INFO - [50/120] 爬取商家: https://merchant.51.ca/merchants/7604
+2026-01-02 01:11:46 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7604
+2026-01-02 01:11:48 - merchant_scraper - INFO - 解析商家: VISION HOME DECORVISION HOME DECOR
+2026-01-02 01:11:48 - merchant_scraper - INFO - 保存商家: VISION HOME DECORVISION HOME DECOR
+2026-01-02 01:11:49 - merchant_scraper - INFO - [51/120] 爬取商家: https://merchant.51.ca/merchants/2267
+2026-01-02 01:11:49 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2267
+2026-01-02 01:11:51 - merchant_scraper - INFO - 解析商家: 城市专业屋顶工程公司
+2026-01-02 01:11:51 - merchant_scraper - INFO - 保存商家: 城市专业屋顶工程公司
+2026-01-02 01:11:52 - merchant_scraper - INFO - [52/120] 爬取商家: https://merchant.51.ca/merchants/5598
+2026-01-02 01:11:52 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5598
+2026-01-02 01:11:54 - merchant_scraper - INFO - 解析商家: IronwoodoutdoorIronwoodoutdoor
+2026-01-02 01:11:54 - merchant_scraper - INFO - 保存商家: IronwoodoutdoorIronwoodoutdoor
+2026-01-02 01:11:54 - merchant_scraper - INFO - [53/120] 爬取商家: https://merchant.51.ca/merchants/6430
+2026-01-02 01:11:54 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6430
+2026-01-02 01:11:57 - merchant_scraper - INFO - 解析商家: ColWellColWell Refrigeration Ltd.
+2026-01-02 01:11:57 - merchant_scraper - INFO - 保存商家: ColWellColWell Refrigeration Ltd.
+2026-01-02 01:11:57 - merchant_scraper - INFO - [54/120] 爬取商家: https://merchant.51.ca/merchants/3083
+2026-01-02 01:11:57 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3083
+2026-01-02 01:11:59 - merchant_scraper - INFO - 解析商家: 加国无忧51.CA INC.
+2026-01-02 01:11:59 - merchant_scraper - INFO - 保存商家: 加国无忧51.CA INC.
+2026-01-02 01:12:00 - merchant_scraper - INFO - [55/120] 爬取商家: https://merchant.51.ca/merchants/1129
+2026-01-02 01:12:00 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1129
+2026-01-02 01:12:02 - merchant_scraper - INFO - 解析商家: 西华门窗
+2026-01-02 01:12:02 - merchant_scraper - INFO - 保存商家: 西华门窗
+2026-01-02 01:12:03 - merchant_scraper - INFO - [56/120] 爬取商家: https://merchant.51.ca/merchants/5704
+2026-01-02 01:12:03 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5704
+2026-01-02 01:12:05 - merchant_scraper - INFO - 解析商家: 老朱餐廳
+2026-01-02 01:12:05 - merchant_scraper - INFO - 保存商家: 老朱餐廳
+2026-01-02 01:12:06 - merchant_scraper - INFO - [57/120] 爬取商家: https://merchant.51.ca/merchants/4304
+2026-01-02 01:12:06 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4304
+2026-01-02 01:12:08 - merchant_scraper - INFO - 解析商家: 阿里旅游
+2026-01-02 01:12:08 - merchant_scraper - INFO - 保存商家: 阿里旅游
+2026-01-02 01:12:08 - merchant_scraper - INFO - [58/120] 爬取商家: https://merchant.51.ca/merchants/1227
+2026-01-02 01:12:08 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1227
+2026-01-02 01:12:11 - merchant_scraper - INFO - 解析商家: 李时珍中医针灸馆
+2026-01-02 01:12:11 - merchant_scraper - INFO - 保存商家: 李时珍中医针灸馆
+2026-01-02 01:12:11 - merchant_scraper - INFO - [59/120] 爬取商家: https://merchant.51.ca/merchants/3473
+2026-01-02 01:12:11 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3473
+2026-01-02 01:12:14 - merchant_scraper - INFO - 解析商家: 丰泰超市
+2026-01-02 01:12:14 - merchant_scraper - INFO - 保存商家: 丰泰超市
+2026-01-02 01:12:14 - merchant_scraper - INFO - [60/120] 爬取商家: https://merchant.51.ca/merchants/3472
+2026-01-02 01:12:14 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3472
+2026-01-02 01:12:16 - merchant_scraper - INFO - 解析商家: 佳创餐饮管理待填写
+2026-01-02 01:12:16 - merchant_scraper - INFO - 保存商家: 佳创餐饮管理待填写
+2026-01-02 01:12:17 - merchant_scraper - INFO - [61/120] 爬取商家: https://merchant.51.ca/merchants/1266
+2026-01-02 01:12:17 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1266
+2026-01-02 01:12:19 - merchant_scraper - INFO - 解析商家: 顺成法律
+2026-01-02 01:12:19 - merchant_scraper - INFO - 保存商家: 顺成法律
+2026-01-02 01:12:20 - merchant_scraper - INFO - [62/120] 爬取商家: https://merchant.51.ca/merchants/6146
+2026-01-02 01:12:20 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6146
+2026-01-02 01:12:22 - merchant_scraper - INFO - 解析商家: 大世界超市
+2026-01-02 01:12:22 - merchant_scraper - INFO - 保存商家: 大世界超市
+2026-01-02 01:12:22 - merchant_scraper - INFO - [63/120] 爬取商家: https://merchant.51.ca/merchants/7940
+2026-01-02 01:12:22 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7940
+2026-01-02 01:12:25 - merchant_scraper - INFO - 解析商家: Lee Li Holdings待填写
+2026-01-02 01:12:25 - merchant_scraper - INFO - 保存商家: Lee Li Holdings待填写
+2026-01-02 01:12:25 - merchant_scraper - INFO - [64/120] 爬取商家: https://merchant.51.ca/merchants/4633
+2026-01-02 01:12:25 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4633
+2026-01-02 01:12:28 - merchant_scraper - INFO - 解析商家: Xiaomifeng小蜜蜂🐝
+2026-01-02 01:12:28 - merchant_scraper - INFO - 保存商家: Xiaomifeng小蜜蜂🐝
+2026-01-02 01:12:28 - merchant_scraper - INFO - [65/120] 爬取商家: https://merchant.51.ca/merchants/4843
+2026-01-02 01:12:28 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4843
+2026-01-02 01:12:30 - merchant_scraper - INFO - 解析商家: 晓禾清洁公司
+2026-01-02 01:12:30 - merchant_scraper - INFO - 保存商家: 晓禾清洁公司
+2026-01-02 01:12:31 - merchant_scraper - INFO - [66/120] 爬取商家: https://merchant.51.ca/merchants/7427
+2026-01-02 01:12:31 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7427
+2026-01-02 01:12:33 - merchant_scraper - INFO - 解析商家: 蓝泰智能
+2026-01-02 01:12:33 - merchant_scraper - INFO - 保存商家: 蓝泰智能
+2026-01-02 01:12:34 - merchant_scraper - INFO - [67/120] 爬取商家: https://merchant.51.ca/merchants/6102
+2026-01-02 01:12:34 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6102
+2026-01-02 01:12:36 - merchant_scraper - INFO - 解析商家: 安泰保险
+2026-01-02 01:12:36 - merchant_scraper - INFO - 保存商家: 安泰保险
+2026-01-02 01:12:36 - merchant_scraper - INFO - [68/120] 爬取商家: https://merchant.51.ca/merchants/7653
+2026-01-02 01:12:36 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7653
+2026-01-02 01:12:39 - merchant_scraper - INFO - 解析商家: 加明运输 - GarmingMoving  服务大多伦多地区25年
+2026-01-02 01:12:39 - merchant_scraper - INFO - 保存商家: 加明运输 - GarmingMoving  服务大多伦多地区25年
+2026-01-02 01:12:39 - merchant_scraper - INFO - [69/120] 爬取商家: https://merchant.51.ca/merchants/3018
+2026-01-02 01:12:39 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3018
+2026-01-02 01:12:42 - merchant_scraper - INFO - 解析商家: 美国 加拿大移民 留学 住宿
+2026-01-02 01:12:42 - merchant_scraper - INFO - 保存商家: 美国 加拿大移民 留学 住宿
+2026-01-02 01:12:42 - merchant_scraper - INFO - [70/120] 爬取商家: https://merchant.51.ca/merchants/6135
+2026-01-02 01:12:42 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6135
+2026-01-02 01:12:44 - merchant_scraper - INFO - 解析商家: Golden Season International Renovation Inc.Golden season
+2026-01-02 01:12:44 - merchant_scraper - INFO - 保存商家: Golden Season International Renovation Inc.Golden season
+2026-01-02 01:12:45 - merchant_scraper - INFO - [71/120] 爬取商家: https://merchant.51.ca/merchants/2584
+2026-01-02 01:12:45 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2584
+2026-01-02 01:12:47 - merchant_scraper - INFO - 解析商家: Canada First Construction Inc待填写
+2026-01-02 01:12:47 - merchant_scraper - INFO - 保存商家: Canada First Construction Inc待填写
+2026-01-02 01:12:48 - merchant_scraper - INFO - [72/120] 爬取商家: https://merchant.51.ca/merchants/7520
+2026-01-02 01:12:48 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7520
+2026-01-02 01:12:50 - merchant_scraper - INFO - 解析商家: 鼎艺装修
+2026-01-02 01:12:50 - merchant_scraper - INFO - 保存商家: 鼎艺装修
+2026-01-02 01:12:50 - merchant_scraper - INFO - [73/120] 爬取商家: https://merchant.51.ca/merchants/7356
+2026-01-02 01:12:50 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7356
+2026-01-02 01:12:53 - merchant_scraper - INFO - 解析商家: JZW装修
+2026-01-02 01:12:53 - merchant_scraper - INFO - 保存商家: JZW装修
+2026-01-02 01:12:53 - merchant_scraper - INFO - [74/120] 爬取商家: https://merchant.51.ca/merchants/4981
+2026-01-02 01:12:53 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4981
+2026-01-02 01:12:56 - merchant_scraper - INFO - 解析商家: 好帮手家电
+2026-01-02 01:12:56 - merchant_scraper - INFO - 保存商家: 好帮手家电
+2026-01-02 01:12:57 - merchant_scraper - INFO - [75/120] 爬取商家: https://merchant.51.ca/merchants/3491
+2026-01-02 01:12:57 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3491
+2026-01-02 01:12:59 - merchant_scraper - INFO - 解析商家: 信达超级市场
+2026-01-02 01:12:59 - merchant_scraper - INFO - 保存商家: 信达超级市场
+2026-01-02 01:12:59 - merchant_scraper - INFO - [76/120] 爬取商家: https://merchant.51.ca/merchants/7138
+2026-01-02 01:12:59 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7138
+2026-01-02 01:13:02 - merchant_scraper - INFO - 解析商家: BUILDING-PERMITBUILDING-PERMIT
+2026-01-02 01:13:02 - merchant_scraper - INFO - 保存商家: BUILDING-PERMITBUILDING-PERMIT
+2026-01-02 01:13:02 - merchant_scraper - INFO - [77/120] 爬取商家: https://merchant.51.ca/merchants/6615
+2026-01-02 01:13:02 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6615
+2026-01-02 01:13:05 - merchant_scraper - INFO - 解析商家: 美蘭床垫 美兰床垫
+2026-01-02 01:13:05 - merchant_scraper - INFO - 保存商家: 美蘭床垫 美兰床垫
+2026-01-02 01:13:05 - merchant_scraper - INFO - [78/120] 爬取商家: https://merchant.51.ca/merchants/6346
+2026-01-02 01:13:05 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6346
+2026-01-02 01:13:07 - merchant_scraper - INFO - 解析商家: 橙速汇
+2026-01-02 01:13:07 - merchant_scraper - INFO - 保存商家: 橙速汇
+2026-01-02 01:13:08 - merchant_scraper - INFO - [79/120] 爬取商家: https://merchant.51.ca/merchants/6864
+2026-01-02 01:13:08 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6864
+2026-01-02 01:13:10 - merchant_scraper - INFO - 解析商家: 爱家家具仓厍批发零售
+2026-01-02 01:13:10 - merchant_scraper - INFO - 保存商家: 爱家家具仓厍批发零售
+2026-01-02 01:13:11 - merchant_scraper - INFO - [80/120] 爬取商家: https://merchant.51.ca/merchants/6746
+2026-01-02 01:13:11 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6746
+2026-01-02 01:13:13 - merchant_scraper - INFO - 解析商家: 熊猫日用品批发
+2026-01-02 01:13:13 - merchant_scraper - INFO - 保存商家: 熊猫日用品批发
+2026-01-02 01:13:13 - merchant_scraper - INFO - [81/120] 爬取商家: https://merchant.51.ca/merchants/7776
+2026-01-02 01:13:13 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7776
+2026-01-02 01:13:16 - merchant_scraper - INFO - 解析商家: SUPER EATER待填写
+2026-01-02 01:13:16 - merchant_scraper - INFO - 保存商家: SUPER EATER待填写
+2026-01-02 01:13:16 - merchant_scraper - INFO - [82/120] 爬取商家: https://merchant.51.ca/merchants/6474
+2026-01-02 01:13:16 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6474
+2026-01-02 01:13:19 - merchant_scraper - INFO - 解析商家: EtherroofingEtherroofing
+2026-01-02 01:13:19 - merchant_scraper - INFO - 保存商家: EtherroofingEtherroofing
+2026-01-02 01:13:19 - merchant_scraper - INFO - [83/120] 爬取商家: https://merchant.51.ca/merchants/3883
+2026-01-02 01:13:19 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3883
+2026-01-02 01:13:22 - merchant_scraper - INFO - 解析商家: 商业/个人保险
+2026-01-02 01:13:22 - merchant_scraper - INFO - 保存商家: 商业/个人保险
+2026-01-02 01:13:22 - merchant_scraper - INFO - [84/120] 爬取商家: https://merchant.51.ca/merchants/4298
+2026-01-02 01:13:22 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4298
+2026-01-02 01:13:25 - merchant_scraper - INFO - 解析商家: 晨阳建筑（外墙，园艺）Daybreak Construction
+2026-01-02 01:13:25 - merchant_scraper - INFO - 保存商家: 晨阳建筑（外墙，园艺）Daybreak Construction
+2026-01-02 01:13:25 - merchant_scraper - INFO - [85/120] 爬取商家: https://merchant.51.ca/merchants/7494
+2026-01-02 01:13:25 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7494
+2026-01-02 01:13:28 - merchant_scraper - INFO - 解析商家: 志诚装修
+2026-01-02 01:13:28 - merchant_scraper - INFO - 保存商家: 志诚装修
+2026-01-02 01:13:28 - merchant_scraper - INFO - [86/120] 爬取商家: https://merchant.51.ca/merchants/4962
+2026-01-02 01:13:28 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4962
+2026-01-02 01:13:31 - merchant_scraper - INFO - 解析商家: 多伦多专业水槽、屋顶、墙身
+2026-01-02 01:13:31 - merchant_scraper - INFO - 保存商家: 多伦多专业水槽、屋顶、墙身
+2026-01-02 01:13:31 - merchant_scraper - INFO - [87/120] 爬取商家: https://merchant.51.ca/merchants/7460
+2026-01-02 01:13:31 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7460
+2026-01-02 01:13:34 - merchant_scraper - INFO - 解析商家: 楊教練待填写
+2026-01-02 01:13:34 - merchant_scraper - INFO - 保存商家: 楊教練待填写
+2026-01-02 01:13:34 - merchant_scraper - INFO - [88/120] 爬取商家: https://merchant.51.ca/merchants/5874
+2026-01-02 01:13:34 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5874
+2026-01-02 01:13:37 - merchant_scraper - INFO - 解析商家: 多伦多橱柜 JOSH KitchenJOSH Kitchen Toronto Cabinets
+2026-01-02 01:13:37 - merchant_scraper - INFO - 保存商家: 多伦多橱柜 JOSH KitchenJOSH Kitchen Toronto Cabinets
+2026-01-02 01:13:37 - merchant_scraper - INFO - [89/120] 爬取商家: https://merchant.51.ca/merchants/6576
+2026-01-02 01:13:37 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6576
+2026-01-02 01:13:40 - merchant_scraper - INFO - 解析商家: 持牌顾问亲自出手｜10年经验，定制高通过率签证移民解决方案待填写
+2026-01-02 01:13:40 - merchant_scraper - INFO - 保存商家: 持牌顾问亲自出手｜10年经验，定制高通过率签证移民解决方案待填写
+2026-01-02 01:13:41 - merchant_scraper - INFO - [90/120] 爬取商家: https://merchant.51.ca/merchants/3066
+2026-01-02 01:13:41 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3066
+2026-01-02 01:13:43 - merchant_scraper - INFO - 解析商家: 列治文山华陵
+2026-01-02 01:13:43 - merchant_scraper - INFO - 保存商家: 列治文山华陵
+2026-01-02 01:13:44 - merchant_scraper - INFO - [91/120] 爬取商家: https://merchant.51.ca/merchants/6836
+2026-01-02 01:13:44 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6836
+2026-01-02 01:13:46 - merchant_scraper - INFO - 解析商家: 多伦多监控摄像头安装维修
+2026-01-02 01:13:46 - merchant_scraper - INFO - 保存商家: 多伦多监控摄像头安装维修
+2026-01-02 01:13:47 - merchant_scraper - INFO - [92/120] 爬取商家: https://merchant.51.ca/merchants/4011
+2026-01-02 01:13:47 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4011
+2026-01-02 01:13:49 - merchant_scraper - INFO - 解析商家: 薄荷到家
+2026-01-02 01:13:49 - merchant_scraper - INFO - 保存商家: 薄荷到家
+2026-01-02 01:13:50 - merchant_scraper - INFO - [93/120] 爬取商家: https://merchant.51.ca/merchants/7526
+2026-01-02 01:13:50 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7526
+2026-01-02 01:13:52 - merchant_scraper - INFO - 解析商家: 艺森园艺
+2026-01-02 01:13:52 - merchant_scraper - INFO - 保存商家: 艺森园艺
+2026-01-02 01:13:53 - merchant_scraper - INFO - [94/120] 爬取商家: https://merchant.51.ca/merchants/7921
+2026-01-02 01:13:53 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7921
+2026-01-02 01:13:56 - merchant_scraper - INFO - 解析商家: 汇枫超市
+2026-01-02 01:13:56 - merchant_scraper - INFO - 保存商家: 汇枫超市
+2026-01-02 01:13:56 - merchant_scraper - INFO - [95/120] 爬取商家: https://merchant.51.ca/merchants/1772
+2026-01-02 01:13:56 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1772
+2026-01-02 01:13:59 - merchant_scraper - INFO - 解析商家: 山东园艺
+2026-01-02 01:13:59 - merchant_scraper - INFO - 保存商家: 山东园艺
+2026-01-02 01:13:59 - merchant_scraper - INFO - [96/120] 爬取商家: https://merchant.51.ca/merchants/6767
+2026-01-02 01:13:59 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6767
+2026-01-02 01:14:02 - merchant_scraper - INFO - 解析商家: 巅峰屋顶
+2026-01-02 01:14:02 - merchant_scraper - INFO - 保存商家: 巅峰屋顶
+2026-01-02 01:14:02 - merchant_scraper - INFO - [97/120] 爬取商家: https://merchant.51.ca/merchants/7483
+2026-01-02 01:14:02 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7483
+2026-01-02 01:14:04 - merchant_scraper - INFO - 解析商家: 红牛屋顶
+2026-01-02 01:14:04 - merchant_scraper - INFO - 保存商家: 红牛屋顶
+2026-01-02 01:14:05 - merchant_scraper - INFO - [98/120] 爬取商家: https://merchant.51.ca/merchants/5978
+2026-01-02 01:14:05 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5978
+2026-01-02 01:14:07 - merchant_scraper - INFO - 解析商家: 老叶兰州牛肉面
+2026-01-02 01:14:07 - merchant_scraper - INFO - 保存商家: 老叶兰州牛肉面
+2026-01-02 01:14:08 - merchant_scraper - INFO - [99/120] 爬取商家: https://merchant.51.ca/merchants/7500
+2026-01-02 01:14:08 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7500
+2026-01-02 01:14:10 - merchant_scraper - INFO - 解析商家: A&M Spa LimitedVitality Wellness center
+2026-01-02 01:14:10 - merchant_scraper - INFO - 保存商家: A&M Spa LimitedVitality Wellness center
+2026-01-02 01:14:11 - merchant_scraper - INFO - [100/120] 爬取商家: https://merchant.51.ca/merchants/2623
+2026-01-02 01:14:11 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2623
+2026-01-02 01:14:13 - merchant_scraper - INFO - 解析商家: 春风移民法律事务所
+2026-01-02 01:14:13 - merchant_scraper - INFO - 保存商家: 春风移民法律事务所
+2026-01-02 01:14:13 - merchant_scraper - INFO - [101/120] 爬取商家: https://merchant.51.ca/merchants/7499
+2026-01-02 01:14:13 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7499
+2026-01-02 01:14:16 - merchant_scraper - INFO - 解析商家: 太阳园艺
+2026-01-02 01:14:16 - merchant_scraper - INFO - 保存商家: 太阳园艺
+2026-01-02 01:14:16 - merchant_scraper - INFO - [102/120] 爬取商家: https://merchant.51.ca/merchants/4135
+2026-01-02 01:14:16 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4135
+2026-01-02 01:14:19 - merchant_scraper - INFO - 解析商家: 丰业园艺
+2026-01-02 01:14:19 - merchant_scraper - INFO - 保存商家: 丰业园艺
+2026-01-02 01:14:19 - merchant_scraper - INFO - [103/120] 爬取商家: https://merchant.51.ca/merchants/7407
+2026-01-02 01:14:19 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7407
+2026-01-02 01:14:22 - merchant_scraper - INFO - 解析商家: NA待填写
+2026-01-02 01:14:22 - merchant_scraper - INFO - 保存商家: NA待填写
+2026-01-02 01:14:22 - merchant_scraper - INFO - [104/120] 爬取商家: https://merchant.51.ca/merchants/5117
+2026-01-02 01:14:22 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5117
+2026-01-02 01:14:25 - merchant_scraper - INFO - 解析商家: 方正贷款
+2026-01-02 01:14:25 - merchant_scraper - INFO - 保存商家: 方正贷款
+2026-01-02 01:14:25 - merchant_scraper - INFO - [105/120] 爬取商家: https://merchant.51.ca/merchants/4397
+2026-01-02 01:14:25 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4397
+2026-01-02 01:14:28 - merchant_scraper - INFO - 解析商家: TESCO （特亿建材）Tesco
+2026-01-02 01:14:28 - merchant_scraper - INFO - 保存商家: TESCO （特亿建材）Tesco
+2026-01-02 01:14:28 - merchant_scraper - INFO - [106/120] 爬取商家: https://merchant.51.ca/merchants/7569
+2026-01-02 01:14:28 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7569
+2026-01-02 01:14:31 - merchant_scraper - INFO - 解析商家: 冬季鏟雪, 专业砍树，草坪护理，围栏
+2026-01-02 01:14:31 - merchant_scraper - INFO - 保存商家: 冬季鏟雪, 专业砍树，草坪护理，围栏
+2026-01-02 01:14:31 - merchant_scraper - INFO - [107/120] 爬取商家: https://merchant.51.ca/merchants/7644
+2026-01-02 01:14:31 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7644
+2026-01-02 01:14:34 - merchant_scraper - INFO - 解析商家: 金凤凰屋顶承包
+2026-01-02 01:14:34 - merchant_scraper - INFO - 保存商家: 金凤凰屋顶承包
+2026-01-02 01:14:34 - merchant_scraper - INFO - [108/120] 爬取商家: https://merchant.51.ca/merchants/1257
+2026-01-02 01:14:34 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1257
+2026-01-02 01:14:37 - merchant_scraper - INFO - 解析商家: 杰能冷暖
+2026-01-02 01:14:37 - merchant_scraper - INFO - 保存商家: 杰能冷暖
+2026-01-02 01:14:37 - merchant_scraper - INFO - [109/120] 爬取商家: https://merchant.51.ca/merchants/6476
+2026-01-02 01:14:37 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6476
+2026-01-02 01:14:40 - merchant_scraper - INFO - 解析商家: 秋秋多伦多家具批发零售待填写
+2026-01-02 01:14:40 - merchant_scraper - INFO - 保存商家: 秋秋多伦多家具批发零售待填写
+2026-01-02 01:14:40 - merchant_scraper - INFO - [110/120] 爬取商家: https://merchant.51.ca/merchants/4733
+2026-01-02 01:14:40 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4733
+2026-01-02 01:14:43 - merchant_scraper - INFO - 解析商家: Heights Electric Inc.Heights Electric Inc.
+2026-01-02 01:14:43 - merchant_scraper - INFO - 保存商家: Heights Electric Inc.Heights Electric Inc.
+2026-01-02 01:14:43 - merchant_scraper - INFO - [111/120] 爬取商家: https://merchant.51.ca/merchants/2947
+2026-01-02 01:14:43 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2947
+2026-01-02 01:14:45 - merchant_scraper - INFO - 解析商家: Viewmax 门窗公司
+2026-01-02 01:14:45 - merchant_scraper - INFO - 保存商家: Viewmax 门窗公司
+2026-01-02 01:14:46 - merchant_scraper - INFO - [112/120] 爬取商家: https://merchant.51.ca/merchants/7971
+2026-01-02 01:14:46 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7971
+2026-01-02 01:14:48 - merchant_scraper - INFO - 解析商家: 蜀乐馨居建筑园艺装修公司
+2026-01-02 01:14:49 - merchant_scraper - INFO - 保存商家: 蜀乐馨居建筑园艺装修公司
+2026-01-02 01:14:49 - merchant_scraper - INFO - [113/120] 爬取商家: https://merchant.51.ca/merchants/7420
+2026-01-02 01:14:49 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7420
+2026-01-02 01:14:52 - merchant_scraper - INFO - 解析商家: Milano浴室排气扇
+2026-01-02 01:14:52 - merchant_scraper - INFO - 保存商家: Milano浴室排气扇
+2026-01-02 01:14:52 - merchant_scraper - INFO - [114/120] 爬取商家: https://merchant.51.ca/merchants/7319
+2026-01-02 01:14:52 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7319
+2026-01-02 01:14:54 - merchant_scraper - INFO - 解析商家: 汪律师（团队）William Wang
+2026-01-02 01:14:55 - merchant_scraper - INFO - 保存商家: 汪律师（团队）William Wang
+2026-01-02 01:14:55 - merchant_scraper - INFO - [115/120] 爬取商家: https://merchant.51.ca/merchants/1834
+2026-01-02 01:14:55 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1834
+2026-01-02 01:14:57 - merchant_scraper - INFO - 解析商家: 大众法律事务中心
+2026-01-02 01:14:57 - merchant_scraper - INFO - 保存商家: 大众法律事务中心
+2026-01-02 01:14:58 - merchant_scraper - INFO - [116/120] 爬取商家: https://merchant.51.ca/merchants/7841
+2026-01-02 01:14:58 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7841
+2026-01-02 01:15:00 - merchant_scraper - INFO - 解析商家: 迅行法律服务
+2026-01-02 01:15:00 - merchant_scraper - INFO - 保存商家: 迅行法律服务
+2026-01-02 01:15:01 - merchant_scraper - INFO - [117/120] 爬取商家: https://merchant.51.ca/merchants/4390
+2026-01-02 01:15:01 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4390
+2026-01-02 01:15:03 - merchant_scraper - INFO - 解析商家: 万锦現代傢俬
+2026-01-02 01:15:03 - merchant_scraper - INFO - 保存商家: 万锦現代傢俬
+2026-01-02 01:15:04 - merchant_scraper - INFO - [118/120] 爬取商家: https://merchant.51.ca/merchants/7976
+2026-01-02 01:15:04 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7976
+2026-01-02 01:15:06 - merchant_scraper - INFO - 解析商家: 北约克星音乐学校待填写
+2026-01-02 01:15:06 - merchant_scraper - INFO - 保存商家: 北约克星音乐学校待填写
+2026-01-02 01:15:07 - merchant_scraper - INFO - [119/120] 爬取商家: https://merchant.51.ca/merchants/8027
+2026-01-02 01:15:07 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/8027
+2026-01-02 01:15:09 - merchant_scraper - INFO - 解析商家: 富维车库门
+2026-01-02 01:15:09 - merchant_scraper - INFO - 保存商家: 富维车库门
+2026-01-02 01:15:09 - merchant_scraper - INFO - [120/120] 爬取商家: https://merchant.51.ca/merchants/6416
+2026-01-02 01:15:09 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6416
+2026-01-02 01:15:12 - merchant_scraper - INFO - 解析商家: 巧匠园艺
+2026-01-02 01:15:12 - merchant_scraper - INFO - 保存商家: 巧匠园艺
+2026-01-02 01:15:12 - merchant_scraper - INFO - 瀏覽器已關閉
+2026-01-02 01:15:12 - merchant_scraper - INFO - ==================================================
+2026-01-02 01:15:12 - merchant_scraper - INFO - 爬取完成!
+2026-01-02 01:15:12 - merchant_scraper - INFO - 頁面數: 121
+2026-01-02 01:15:12 - merchant_scraper - INFO - 保存項目: 0
+2026-01-02 01:15:12 - merchant_scraper - INFO - 錯誤數: 0
+2026-01-02 01:15:12 - merchant_scraper - INFO - 耗時: 351.6 秒
+2026-01-02 01:15:12 - merchant_scraper - INFO - ==================================================

@@ -346,22 +346,67 @@ class AutoScraper(BaseScraper):
         return None
     
     def _extract_images(self, soup: BeautifulSoup) -> List[str]:
-        """提取圖片"""
+        """提取汽車圖片 - 從 JavaScript、背景圖片和 img 標籤提取"""
         images = []
-        exclude_keywords = ['logo', 'icon', 'avatar', 'button', 'ad', 'static-maps', 'placeholder', 'loading']
+        seen = set()
         
-        for img in soup.find_all('img'):
-            src = img.get('src') or img.get('data-src') or img.get('data-lazy-src')
-            if not src:
-                continue
-            if any(x in src.lower() for x in exclude_keywords):
-                continue
-            if src.startswith('//'):
-                src = 'https:' + src
-            elif src.startswith('/'):
-                src = f"{self.BASE_URL}{src}"
-            if src.startswith('http'):
-                images.append(src)
+        # 排除的路徑關鍵字 (UI元素、圖標等)
+        exclude_keywords = [
+            'logo', 'icon', 'avatar', 'button', 'ad', 'static-maps', 
+            'placeholder', 'loading', 'assets/images', 'common/', 
+            'detail/', 'radio_', 'checkbox', 'carfax', 'bell.png',
+            'test-driv', 'empty', 'search', 'svg', 'default',
+            'dealer-logo', 'salesperson'
+        ]
+        
+        # 1. 從 JavaScript 提取 (最完整的來源)
+        for script in soup.find_all('script'):
+            text = script.string or ''
+            if 'auto-car-photos' in text:
+                # 提取所有 auto-car-photos URL
+                urls = re.findall(r'https?://storage\.51yun\.ca/auto-car-photos/[^"\']+\.(?:jpg|jpeg|png|webp)', text, re.I)
+                for url in urls:
+                    if url not in seen:
+                        images.append(url)
+                        seen.add(url)
+        
+        # 2. 從 CSS background-image 提取 (備用)
+        if not images:
+            bg_pattern = re.compile(r'url\(["\']?(https?://[^"\'()]+)["\']?\)')
+            for elem in soup.find_all(style=True):
+                style = elem.get('style', '')
+                for match in bg_pattern.finditer(style):
+                    url = match.group(1)
+                    if url in seen:
+                        continue
+                    if any(x in url.lower() for x in exclude_keywords):
+                        continue
+                    if 'storage.51yun.ca' in url and 'auto-car-photos' in url:
+                        images.append(url)
+                        seen.add(url)
+        
+        # 3. 從 img 標籤提取 (備用)
+        if not images:
+            for img in soup.find_all('img'):
+                src = img.get('src') or img.get('data-src') or img.get('data-lazy-src')
+                if not src or src in seen:
+                    continue
+                
+                if any(x in src.lower() for x in exclude_keywords):
+                    continue
+                
+                if src.startswith('//'):
+                    src = 'https:' + src
+                elif src.startswith('/'):
+                    continue
+                
+                if not src.startswith('http'):
+                    continue
+                
+                if 'storage.51yun.ca' in src and 'auto-car-photos' in src:
+                    images.append(src)
+                    seen.add(src)
+        
         return images[:20]
     
     def save_item(self, data: Dict) -> bool:

@@ -595,10 +595,11 @@ class HouseScraper(BaseScraper):
         images = []
         seen = set()
         
-        # 排除關鍵詞
+        # 排除關鍵詞 (無效圖片)
         exclude_keywords = ['logo', 'icon', 'avatar', 'button', 'banner', 'ad', 
                           'googlemap', 'map.svg', 'loading', 'placeholder', 
-                          'common/images', 'sprite', 'favicon']
+                          'common/images', 'sprite', 'favicon',
+                          'dialog-bg-img.png']  # 背景圖片，需排除
         
         # 從 img 標籤提取
         for img in soup.find_all('img'):
