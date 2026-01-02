@@ -1,6 +1,7 @@
 """
-51.ca 集市爬蟲
+51.ca 集市爬蟲 (Next.js 版本)
 爬取 www.51.ca/market 的二手交易信息
+直接從 __NEXT_DATA__ JSON 提取數據
 """
 
 import re
@@ -15,293 +16,252 @@ from models import get_connection, add_url_to_queue
 
 
 class MarketScraper(BaseScraper):
-    """集市爬蟲"""
+    """集市爬蟲 - 針對 Next.js 網站結構，從 __NEXT_DATA__ 提取數據"""
     
     SCRAPER_NAME = "market_scraper"
     BASE_URL = "https://www.51.ca/market"
     URL_TYPE = "market"
     
-    # 集市分類 (新URL結構)
-    MARKET_CATEGORIES = {
-        'all': '全部',
-        'furniture': '家具',
-        'home-appliance': '生活家电',
-        'kitchen-supplies': '厨房用品',
-        'mother-baby-products': '母婴用品',
-        'auto-parts': '汽车配件',
-        'gardening': '花草园艺',
-        'electronic-products': '电子产品',
-        'computer-phone': '电脑手机',
-        'jewelry': '珠宝首饰',
-        'digital-equipment': '数码设备',
-        'sports-leisure': '运动休闲',
-        'musical-instruments': '乐器音响',
-        'pet-supplies': '宠物用品',
-        'other': '其他物品',
-    }
+    # 集市分類
+    MARKET_CATEGORIES = [
+        '',  # 首頁
+        'furniture', 
+        'home-appliance',
+        'kitchen-supplies',
+        'mother-baby-products',
+        'auto-parts',
+        'gardening',
+        'electronics',
+        'books',
+        'exerciser',
+        'costume-matching',
+        'health',
+        'fruit-vegetable',
+        'musical-instruments',
+        'bags-jewelry',
+        'pet-goods',
+        'others',
+    ]
     
     def get_start_urls(self) -> List[str]:
-        """獲取起始URL列表"""
-        urls = [
-            f"{self.BASE_URL}/all",
-            f"{self.BASE_URL}/furniture",
-            f"{self.BASE_URL}/home-appliance",
-            f"{self.BASE_URL}/kitchen-supplies",
-            f"{self.BASE_URL}/electronic-products",
-        ]
+        """獲取起始URL列表 - 只需要列表頁，因為列表頁包含完整數據"""
+        urls = []
+        for cat in self.MARKET_CATEGORIES:
+            if cat:
+                urls.append(f"{self.BASE_URL}/{cat}")
+            else:
+                urls.append(f"{self.BASE_URL}/")
         return urls
     
     def is_list_page(self, url: str) -> bool:
         """判斷是否為列表頁面"""
-        # 詳情頁格式: /market/post/數字ID
-        if re.search(r'/market/post/\d+', url):
+        # 詳情頁格式: /market/category/數字ID
+        if re.search(r'/market/[^/]+/\d+$', url):
             return False
         return True
     
     def parse_list_page(self, html: str, url: str) -> List[Dict]:
-        """解析集市列表頁面"""
+        """解析集市列表頁面 - 直接從 __NEXT_DATA__ 提取所有商品資訊並保存"""
         soup = BeautifulSoup(html, "lxml")
         items = []
+        saved_count = 0
         
-        # 查找帖子連結 - 多種可能的URL格式
-        patterns = [
-            r'/market/post/\d+',
-            r'/market/\d+',
-            r'/market/[^/]+/\d+',
-            r'/market/[^/]+/post/\d+',
-        ]
+        # 從 __NEXT_DATA__ 提取資料
+        next_data = soup.find('script', id='__NEXT_DATA__')
+        if not next_data:
+            self.logger.warning(f"找不到 __NEXT_DATA__: {url}")
+            return items
         
-        seen_urls = set()
-        for pattern in patterns:
-            post_links = soup.find_all('a', href=re.compile(pattern))
-            for link in post_links:
-                href = link.get('href', '')
-                if not href or '/my/' in href or 'login' in href:
-                    continue
-                
-                if href.startswith('/'):
-                    post_url = f"https://www.51.ca{href}"
-                elif href.startswith('http'):
-                    post_url = href
-                else:
-                    continue
-                
-                post_url = post_url.split('?')[0]
-                
-                if post_url in seen_urls:
-                    continue
-                seen_urls.add(post_url)
-                
-                items.append({'url': post_url})
+        try:
+            data = json.loads(next_data.string)
+            props = data.get('props', {}).get('pageProps', {})
+            
+            # 商品列表在 initData.data 中
+            init_data = props.get('initData', {})
+            products = init_data.get('data', [])
+            
+            # 過濾只要 market 來源的商品 (排除 auto, discount 等)
+            market_products = [p for p in products if p.get('source') == 'market']
+            
+            self.logger.info(f"從 __NEXT_DATA__ 提取到 {len(market_products)} 個集市商品")
+            
+            # 直接保存每個商品
+            for product in market_products:
+                try:
+                    item_data = self._parse_product_from_json(product)
+                    if item_data and self.save_item(item_data):
+                        saved_count += 1
+                except Exception as e:
+                    self.logger.error(f"解析商品失敗: {e}")
+            
+            self.logger.info(f"成功保存 {saved_count} 個商品")
+            
+            # 查找分頁連結 (如果需要爬取更多頁面)
+            pagination = init_data.get('pagination', {})
+            current_page = pagination.get('page', 1)
+            last_page = pagination.get('lastPage', 1)
+            
+            if current_page < last_page and current_page < 5:  # 限制最多5頁
+                next_page_url = f"{url}?page={current_page + 1}"
+                items.append({'url': next_page_url})
+                self.logger.info(f"添加下一頁: {next_page_url}")
+            
+        except json.JSONDecodeError as e:
+            self.logger.error(f"解析 JSON 失敗: {e}")
+        except Exception as e:
+            self.logger.error(f"解析列表頁失敗: {e}")
         
-        # 如果沒找到帖子，嘗試從頁面中提取所有可能的商品連結
-        if not items:
-            # 查找所有包含數字 ID 的連結
-            all_links = soup.find_all('a', href=re.compile(r'/market.*\d{4,}'))
-            for link in all_links:
-                href = link.get('href', '')
-                if not href or '/my/' in href or 'login' in href or 'page=' in href:
-                    continue
-                
-                if href.startswith('/'):
-                    post_url = f"https://www.51.ca{href}"
-                elif href.startswith('http'):
-                    post_url = href
-                else:
-                    continue
-                
-                post_url = post_url.split('?')[0]
-                
-                if post_url not in seen_urls:
-                    seen_urls.add(post_url)
-                    items.append({'url': post_url})
-        
-        self.logger.info(f"列表頁面發現 {len(items)} 個集市帖子")
-        return items
         return items
     
-    def parse_detail_page(self, html: str, url: str) -> Optional[Dict]:
-        """解析集市詳情頁面"""
-        soup = BeautifulSoup(html, "lxml")
-        
-        post_id = self.extract_id_from_url(url, r'/post/(\d+)')
-        if not post_id:
+    def _parse_product_from_json(self, product: Dict) -> Optional[Dict]:
+        """從 JSON 物件解析商品資料"""
+        if not product or not isinstance(product, dict):
             return None
         
-        # 提取帖子信息
-        title = self._extract_title(soup)
-        category = self._extract_category(url)
-        price = self._extract_price(soup)
-        original_price = self._extract_original_price(soup)
-        condition = self._extract_condition(soup)
-        description = self._extract_description(soup)
-        location = self._extract_location(soup)
-        contact_info = self._extract_contact(soup)
-        image_urls = self._extract_images(soup)
-        post_date = self._extract_post_date(soup)
-        view_count = self._extract_view_count(soup)
+        prod_id = product.get('id')
+        if not prod_id:
+            return None
+        
+        # 價格
+        price_str = product.get('formatPrice', '0')
+        try:
+            price = float(price_str.replace(',', ''))
+        except ValueError:
+            price = 0
+        
+        # 圖片 - 過濾只要商品圖片
+        photos = product.get('photos', [])
+        image_urls = [p for p in photos if p and ('storage.51yun.ca' in p or 'p0.51img.ca' in p)]
+        
+        # 位置
+        location = product.get('locationTitleEn', '')
+        
+        # 分類
+        category = product.get('categorySlug', '')
+        
+        # 商家資訊
+        merchant = product.get('merchant')
+        seller_info = ''
+        if merchant:
+            seller_info = f"商家: {merchant.get('title', '')}"
+        
+        # 狀態 (從描述推斷)
+        description = product.get('description', '')
+        condition = self._infer_condition(description)
+        
+        return {
+            'post_id': str(prod_id),
+            'url': f"{self.BASE_URL}/{category}/{prod_id}",
+            'title': product.get('title', ''),
+            'category': category,
+            'price': price,
+            'original_price': None,
+            'condition': condition,
+            'description': description,
+            'location': location,
+            'contact_info': seller_info,
+            'image_urls': self.to_json(image_urls),
+            'post_date': product.get('publishedAt', ''),
+            'view_count': 0,
+        }
+    
+    def _infer_condition(self, text: str) -> str:
+        """從描述推斷物品狀態"""
+        text_lower = text.lower()
+        if '全新' in text or 'new' in text_lower or '未拆' in text:
+            return '全新'
+        elif '九成新' in text or '9成新' in text or '95%新' in text or '9.5成新' in text:
+            return '九成新'
+        elif '八成新' in text or '8成新' in text:
+            return '八成新'
+        elif '二手' in text or 'used' in text_lower:
+            return '二手'
+        return ''
+    
+    def parse_detail_page(self, html: str, url: str) -> Optional[Dict]:
+        """解析集市詳情頁面 - 從 __NEXT_DATA__ 提取"""
+        soup = BeautifulSoup(html, "lxml")
+        
+        next_data = soup.find('script', id='__NEXT_DATA__')
+        if not next_data:
+            self.logger.warning(f"找不到 __NEXT_DATA__: {url}")
+            return None
+        
+        try:
+            data = json.loads(next_data.string)
+            props = data.get('props', {}).get('pageProps', {})
+            product = props.get('data', {})
+            
+            if not product:
+                self.logger.warning(f"找不到商品資料: {url}")
+                return None
+            
+            return self._parse_detail_product(product, url)
+            
+        except json.JSONDecodeError as e:
+            self.logger.error(f"解析 JSON 失敗: {e}")
+            return None
+        except Exception as e:
+            self.logger.error(f"解析詳情頁失敗: {e}")
+            return None
+    
+    def _parse_detail_product(self, product: Dict, url: str) -> Dict:
+        """解析詳情頁的商品資料"""
+        # 從 URL 提取 ID
+        match = re.search(r'/(\d+)$', url)
+        post_id = match.group(1) if match else str(product.get('id', ''))
+        
+        # 分類
+        category_info = product.get('categoryInfo', {})
+        category = category_info.get('titleCn') or category_info.get('slug', '')
+        
+        # 位置
+        location_info = product.get('locationInfo', {})
+        location = location_info.get('titleZh') or location_info.get('titleEn', '')
+        
+        # 賣家
+        user_info = product.get('user', {})
+        seller_name = user_info.get('name', '')
+        
+        # 圖片
+        photos = product.get('photos', [])
+        image_urls = [p for p in photos if p and 'storage.51yun.ca' in p]
+        
+        # 狀態
+        condition_map = {1: '全新', 2: '二手', 3: '九成新'}
+        condition = condition_map.get(product.get('condition'), '')
+        
+        # 取貨方式
+        pickup_map = {1: '自提', 2: '可郵寄', 3: '自提或郵寄'}
+        pickup_methods = product.get('pickupMethods', [])
+        pickup_str = ', '.join([pickup_map.get(m, '') for m in pickup_methods if m in pickup_map])
+        
+        # 價格
+        price_str = product.get('formatPrice', '0')
+        try:
+            price = float(price_str.replace(',', ''))
+        except ValueError:
+            price = 0
+        
+        contact_info = f"賣家: {seller_name}"
+        if pickup_str:
+            contact_info += f"; {pickup_str}"
         
         return {
             'post_id': post_id,
             'url': url,
-            'title': title,
+            'title': product.get('title', ''),
             'category': category,
             'price': price,
-            'original_price': original_price,
+            'original_price': None,
             'condition': condition,
-            'description': description,
+            'description': product.get('description', ''),
             'location': location,
-            'contact_info': contact_info,
+            'contact_info': contact_info.strip('; '),
             'image_urls': self.to_json(image_urls),
-            'post_date': post_date,
-            'view_count': view_count,
+            'post_date': product.get('publishedAt', ''),
+            'view_count': product.get('favoriteCount', 0),
         }
-    
-    def _extract_title(self, soup: BeautifulSoup) -> str:
-        """提取標題"""
-        title_elem = soup.find('h1') or soup.find('title')
-        if title_elem:
-            title = self.clean_text(self.extract_text(title_elem))
-            title = re.sub(r'\s*[-|].*51\.ca.*$', '', title)
-            return title
-        return ""
-    
-    def _extract_category(self, url: str) -> str:
-        """提取分類"""
-        for cat_key, cat_name in self.MARKET_CATEGORIES.items():
-            if cat_key in url:
-                return cat_name
-        return None
-    
-    def _extract_price(self, soup: BeautifulSoup) -> float:
-        """提取價格"""
-        price_elem = soup.find(class_=re.compile(r'price|amount'))
-        if price_elem:
-            text = self.extract_text(price_elem)
-            match = re.search(r'\$?\s*([\d,.]+)', text)
-            if match:
-                try:
-                    return float(match.group(1).replace(',', ''))
-                except ValueError:
-                    pass
-        return None
-    
-    def _extract_original_price(self, soup: BeautifulSoup) -> float:
-        """提取原價"""
-        orig_elem = soup.find(class_=re.compile(r'original|old-price|was'))
-        if orig_elem:
-            text = self.extract_text(orig_elem)
-            match = re.search(r'\$?\s*([\d,.]+)', text)
-            if match:
-                try:
-                    return float(match.group(1).replace(',', ''))
-                except ValueError:
-                    pass
-        return None
-    
-    def _extract_condition(self, soup: BeautifulSoup) -> str:
-        """提取物品狀態"""
-        text = soup.get_text()
-        conditions = {
-            '全新': '全新',
-            '九成新': '九成新',
-            '八成新': '八成新',
-            '七成新': '七成新',
-            '二手': '二手',
-            '新品': '全新',
-            'new': '全新',
-            'used': '二手',
-            'like new': '九成新',
-        }
-        text_lower = text.lower()
-        for key, value in conditions.items():
-            if key.lower() in text_lower:
-                return value
-        return None
-    
-    def _extract_description(self, soup: BeautifulSoup) -> str:
-        """提取描述"""
-        for tag in soup(['script', 'style', 'nav', 'footer', 'header']):
-            tag.decompose()
-        
-        desc_elem = soup.find(class_=re.compile(r'description|content|detail|body'))
-        if desc_elem:
-            return self.clean_text(desc_elem.get_text(separator='\n', strip=True))[:2000]
-        return ""
-    
-    def _extract_location(self, soup: BeautifulSoup) -> str:
-        """提取位置"""
-        loc_elem = soup.find(class_=re.compile(r'location|area|region'))
-        if loc_elem:
-            return self.clean_text(self.extract_text(loc_elem))
-        
-        # 從文本中查找常見地區名
-        text = soup.get_text()
-        locations = ['士嘉堡', '北约克', '万锦', '列治文山', '密西沙加', 
-                     '多伦多市中心', '大多地区', '旺市', '宾顿', '奥克维尔',
-                     'Scarborough', 'North York', 'Markham', 'Richmond Hill', 
-                     'Mississauga', 'Toronto', 'Vaughan', 'Brampton', 'Oakville']
-        for loc in locations:
-            if loc in text:
-                return loc
-        return None
-    
-    def _extract_contact(self, soup: BeautifulSoup) -> str:
-        """提取聯繫方式"""
-        contacts = []
-        
-        # 電話
-        text = soup.get_text()
-        phone_match = re.search(r'(\d{3}[-.\s]?\d{3}[-.\s]?\d{4})', text)
-        if phone_match:
-            contacts.append(f"電話: {phone_match.group(1)}")
-        
-        # 微信
-        wechat_match = re.search(r'微信[号號]?\s*[：:]\s*(\S+)', text)
-        if wechat_match:
-            contacts.append(f"微信: {wechat_match.group(1)}")
-        
-        # 郵箱
-        email_match = re.search(r'[\w\.-]+@[\w\.-]+\.\w+', text)
-        if email_match:
-            contacts.append(f"郵箱: {email_match.group(0)}")
-        
-        return '; '.join(contacts) if contacts else None
-    
-    def _extract_images(self, soup: BeautifulSoup) -> List[str]:
-        """提取圖片"""
-        images = []
-        for img in soup.find_all('img'):
-            src = img.get('src') or img.get('data-src')
-            if src and not any(x in src.lower() for x in ['logo', 'icon', 'avatar', 'button', 'ad']):
-                if src.startswith('//'):
-                    src = 'https:' + src
-                elif src.startswith('/'):
-                    src = 'https://www.51.ca' + src
-                if src.startswith('http'):
-                    images.append(src)
-        return images[:15]
-    
-    def _extract_post_date(self, soup: BeautifulSoup) -> str:
-        """提取發布日期"""
-        date_elem = soup.find(class_=re.compile(r'date|time|posted'))
-        if date_elem:
-            text = self.extract_text(date_elem)
-            # 嘗試解析日期
-            date_match = re.search(r'(\d{4}[-/]\d{1,2}[-/]\d{1,2})', text)
-            if date_match:
-                return date_match.group(1)
-        return None
-    
-    def _extract_view_count(self, soup: BeautifulSoup) -> int:
-        """提取瀏覽次數"""
-        view_elem = soup.find(string=re.compile(r'瀏覽|浏览|views?', re.I))
-        if view_elem:
-            text = str(view_elem)
-            match = re.search(r'(\d+)', text)
-            if match:
-                return int(match.group(1))
-        return 0
     
     def save_item(self, data: Dict) -> bool:
         """保存集市帖子"""
@@ -331,7 +291,7 @@ class MarketScraper(BaseScraper):
                 datetime.now()
             ))
             conn.commit()
-            self.logger.info(f"保存集市帖子: {data.get('title', 'N/A')}")
+            self.logger.info(f"保存集市帖子: {data.get('title', 'N/A')[:30]}")
             return True
         except Exception as e:
             self.logger.error(f"保存集市帖子失敗: {e}")
