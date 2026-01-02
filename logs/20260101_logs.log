@@ -1,0 +1,1598 @@
+2026-01-01 20:37:52 - main - INFO - 運行 news 爬蟲
+2026-01-01 20:37:52 - news_scraper - INFO - ============================================================
+2026-01-01 20:37:52 - news_scraper - INFO - 開始運行 news_scraper 爬蟲
+2026-01-01 20:37:52 - news_scraper - INFO - ============================================================
+2026-01-01 20:37:53 - news_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 20:37:54 - news_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 20:37:54 - news_scraper - INFO - 正在處理: https://info.51.ca/
+2026-01-01 20:37:54 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/
+2026-01-01 20:38:01 - news_scraper - INFO - 列表頁面發現 59 篇文章
+2026-01-01 20:38:02 - news_scraper - INFO - 列表頁面爬取完成: https://info.51.ca/, 發現 59 個項目
+2026-01-01 20:38:03 - news_scraper - INFO - 正在處理: https://info.51.ca/canada
+2026-01-01 20:38:03 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/canada
+2026-01-01 20:38:06 - news_scraper - INFO - 列表頁面發現 42 篇文章
+2026-01-01 20:38:06 - news_scraper - INFO - 列表頁面爬取完成: https://info.51.ca/canada, 發現 42 個項目
+2026-01-01 20:38:07 - news_scraper - INFO - 正在處理: https://info.51.ca/world
+2026-01-01 20:38:07 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/world
+2026-01-01 20:38:10 - news_scraper - INFO - 列表頁面發現 32 篇文章
+2026-01-01 20:38:10 - news_scraper - INFO - 列表頁面爬取完成: https://info.51.ca/world, 發現 32 個項目
+2026-01-01 20:38:11 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500538
+2026-01-01 20:38:11 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500538
+2026-01-01 20:38:13 - news_scraper - DEBUG - 解析文章: 1月1日头条：盘点加拿大今年生效的新法规；滑雪胜地爆炸155...
+2026-01-01 20:38:14 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500544
+2026-01-01 20:38:14 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500544
+2026-01-01 20:38:18 - news_scraper - DEBUG - 解析文章: 好机会！多伦多市政府大量岗位招人，年薪高达$12万...
+2026-01-01 20:38:19 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500537
+2026-01-01 20:38:19 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500537
+2026-01-01 20:38:22 - news_scraper - DEBUG - 解析文章: "家庭厨房"遭卫生局严查! 加拿大餐馆老板反而力挺: 开店真...
+2026-01-01 20:38:23 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500507
+2026-01-01 20:38:23 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500507
+2026-01-01 20:38:25 - news_scraper - DEBUG - 解析文章: 中国的人造钻石，几乎摧毁了加拿大这个地区的财政支柱...
+2026-01-01 20:38:27 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500533
+2026-01-01 20:38:27 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500533
+2026-01-01 20:38:29 - news_scraper - DEBUG - 解析文章: 多伦多95后小情侣准备结婚, 父母催买房! 专家却劝: 别急...
+2026-01-01 20:38:30 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500496
+2026-01-01 20:38:30 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500496
+2026-01-01 20:38:33 - news_scraper - DEBUG - 解析文章: 跨年夜安省10岁孩童死于家中，母亲被送医院，重案组介入调查...
+2026-01-01 20:38:34 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500511
+2026-01-01 20:38:34 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500511
+2026-01-01 20:38:36 - news_scraper - DEBUG - 解析文章: 新年惨剧! 滑雪胜地突发爆炸155死伤! 人群尖叫踩踏 灾难...
+2026-01-01 20:38:38 - news_scraper - INFO - 瀏覽器已關閉
+2026-01-01 20:38:38 - news_scraper - INFO - ============================================================
+2026-01-01 20:38:38 - news_scraper - INFO - 爬蟲運行統計:
+2026-01-01 20:38:38 - news_scraper - INFO -   - 頁面爬取: 10
+2026-01-01 20:38:38 - news_scraper - INFO -   - 項目保存: 7
+2026-01-01 20:38:38 - news_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 20:38:38 - news_scraper - INFO -   - 運行時間: 45.22 秒
+2026-01-01 20:38:38 - news_scraper - INFO - ============================================================
+2026-01-01 20:38:38 - main - INFO - 
+======================================================================
+2026-01-01 20:38:38 - main - INFO - 📊 資料庫統計:
+2026-01-01 20:38:38 - main - INFO - ----------------------------------------
+2026-01-01 20:38:38 - main - INFO -   📰 新聞文章: 7 篇
+2026-01-01 20:38:38 - main - INFO -   🏠 房屋列表: 0 條
+2026-01-01 20:38:38 - main - INFO -   💼 工作職位: 0 個
+2026-01-01 20:38:38 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 20:38:38 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 20:38:38 - main - INFO -   🚗 汽車列表: 0 條
+2026-01-01 20:38:38 - main - INFO - ----------------------------------------
+2026-01-01 20:38:38 - main - INFO -   ⏳ 待爬取URL: 94
+2026-01-01 20:38:38 - main - INFO -   ✅ 已爬取URL: 10
+2026-01-01 20:38:38 - main - INFO - ======================================================================
+2026-01-01 20:38:55 - main - INFO - 運行 jobs 爬蟲
+2026-01-01 20:38:55 - jobs_scraper - INFO - ============================================================
+2026-01-01 20:38:55 - jobs_scraper - INFO - 開始運行 jobs_scraper 爬蟲
+2026-01-01 20:38:55 - jobs_scraper - INFO - ============================================================
+2026-01-01 20:38:55 - jobs_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 20:38:56 - jobs_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 20:38:56 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs
+2026-01-01 20:38:56 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs
+2026-01-01 20:38:59 - jobs_scraper - INFO - 列表頁面發現 66 個職位
+2026-01-01 20:39:00 - jobs_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/jobs, 發現 66 個項目
+2026-01-01 20:39:01 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts
+2026-01-01 20:39:01 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts
+2026-01-01 20:39:03 - jobs_scraper - INFO - 列表頁面發現 15 個職位
+2026-01-01 20:39:04 - jobs_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/jobs/job-posts, 發現 15 個項目
+2026-01-01 20:39:05 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/urgently-hiring
+2026-01-01 20:39:05 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/urgently-hiring
+2026-01-01 20:39:07 - jobs_scraper - INFO - 列表頁面發現 10 個職位
+2026-01-01 20:39:07 - jobs_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/jobs/urgently-hiring, 發現 10 個項目
+2026-01-01 20:39:08 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1171039
+2026-01-01 20:39:08 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1171039
+2026-01-01 20:39:11 - jobs_scraper - DEBUG - 解析職位: 1171039 - Richmond Hill 时代广场新餐馆 诚聘有经验员工薪...
+2026-01-01 20:39:12 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1169376
+2026-01-01 20:39:12 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1169376
+2026-01-01 20:39:14 - jobs_scraper - DEBUG - 解析職位: 1169376 - 大个子砂锅王RH 时代广场新店诚聘服务员薪资面议收藏职位发送...
+2026-01-01 20:39:15 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1161169
+2026-01-01 20:39:15 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1161169
+2026-01-01 20:39:17 - jobs_scraper - DEBUG - 解析職位: 1161169 - 诚聘冷冻专业技术员/帮工19.00~28.00加元/小时推荐...
+2026-01-01 20:39:18 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1160663
+2026-01-01 20:39:18 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1160663
+2026-01-01 20:39:21 - jobs_scraper - DEBUG - 解析職位: 1160663 - Administrator薪资面议推荐收藏职位发送邮件拨打电...
+2026-01-01 20:39:22 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1171325
+2026-01-01 20:39:22 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1171325
+2026-01-01 20:39:24 - jobs_scraper - DEBUG - 解析職位: 1171325 - 【鸿华Bestco市中心店熟食/点心部门招聘】薪资面议收藏职...
+2026-01-01 20:39:25 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1171149
+2026-01-01 20:39:25 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1171149
+2026-01-01 20:39:27 - jobs_scraper - DEBUG - 解析職位: 1171149 - 【鸿华Bestco市中心店果蔬部门招聘】薪资面议收藏职位发送...
+2026-01-01 20:39:28 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173077
+2026-01-01 20:39:28 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173077
+2026-01-01 20:39:31 - jobs_scraper - DEBUG - 解析職位: 1173077 - 全职运营/客服38,400~60,000加元/年收藏职位发送...
+2026-01-01 20:39:32 - jobs_scraper - INFO - 瀏覽器已關閉
+2026-01-01 20:39:32 - jobs_scraper - INFO - ============================================================
+2026-01-01 20:39:32 - jobs_scraper - INFO - 爬蟲運行統計:
+2026-01-01 20:39:32 - jobs_scraper - INFO -   - 頁面爬取: 10
+2026-01-01 20:39:32 - jobs_scraper - INFO -   - 項目保存: 7
+2026-01-01 20:39:32 - jobs_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 20:39:32 - jobs_scraper - INFO -   - 運行時間: 36.91 秒
+2026-01-01 20:39:32 - jobs_scraper - INFO - ============================================================
+2026-01-01 20:39:32 - main - INFO - 
+======================================================================
+2026-01-01 20:39:32 - main - INFO - 📊 資料庫統計:
+2026-01-01 20:39:32 - main - INFO - ----------------------------------------
+2026-01-01 20:39:32 - main - INFO -   📰 新聞文章: 7 篇
+2026-01-01 20:39:32 - main - INFO -   🏠 房屋列表: 0 條
+2026-01-01 20:39:32 - main - INFO -   💼 工作職位: 7 個
+2026-01-01 20:39:32 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 20:39:32 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 20:39:32 - main - INFO -   🚗 汽車列表: 0 條
+2026-01-01 20:39:32 - main - INFO - ----------------------------------------
+2026-01-01 20:39:32 - main - INFO -   ⏳ 待爬取URL: 169
+2026-01-01 20:39:32 - main - INFO -   ✅ 已爬取URL: 20
+2026-01-01 20:39:32 - main - INFO - ======================================================================
+2026-01-01 20:54:50 - main - INFO - 運行 news 爬蟲
+2026-01-01 20:54:50 - news_scraper - INFO - ============================================================
+2026-01-01 20:54:50 - news_scraper - INFO - 開始運行 news_scraper 爬蟲
+2026-01-01 20:54:50 - news_scraper - INFO - ============================================================
+2026-01-01 20:54:50 - news_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 20:54:52 - news_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 20:54:52 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500451
+2026-01-01 20:54:52 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500451
+2026-01-01 20:54:58 - news_scraper - DEBUG - 解析文章: 民调：加拿大人对2026年充满希望，却对国内外重大挑战心存悲...
+2026-01-01 20:54:59 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500443
+2026-01-01 20:54:59 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500443
+2026-01-01 20:55:02 - news_scraper - DEBUG - 解析文章: 年轻人就业难吗？仨高中好友十年创办加拿大最大预制餐食配送公司...
+2026-01-01 20:55:03 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500507/comments
+2026-01-01 20:55:03 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500507/comments
+2026-01-01 20:55:06 - news_scraper - DEBUG - 解析文章: 中国的人造钻石，几乎摧毁了加拿大这个地区的财政支柱...
+2026-01-01 20:55:07 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500441
+2026-01-01 20:55:07 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500441
+2026-01-01 20:55:10 - news_scraper - DEBUG - 解析文章: 荒唐！多伦多公校教育局向一名“连拼写都困难”的诈骗犯汇款10...
+2026-01-01 20:55:11 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500434
+2026-01-01 20:55:11 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500434
+2026-01-01 20:55:13 - news_scraper - DEBUG - 解析文章: 多伦多除夕夜惊魂：男子尾随入室连环性侵三女，或有更多受害者...
+2026-01-01 20:55:14 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500435
+2026-01-01 20:55:14 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500435
+2026-01-01 20:55:17 - news_scraper - DEBUG - 解析文章: 暴风雪、极寒和大雾：2026年元旦加拿大12个省、区发布天气...
+2026-01-01 20:55:18 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500432
+2026-01-01 20:55:18 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500432
+2026-01-01 20:55:20 - news_scraper - DEBUG - 解析文章: 从移民上限到中产阶级减税：盘点加拿大2026年生效的新法律法...
+2026-01-01 20:55:21 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500431
+2026-01-01 20:55:21 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500431
+2026-01-01 20:55:24 - news_scraper - DEBUG - 解析文章: 落地那天是除夕：叙利亚难民一家在加十年，开了自家的餐馆...
+2026-01-01 20:55:25 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500429
+2026-01-01 20:55:25 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500429
+2026-01-01 20:55:28 - news_scraper - DEBUG - 解析文章: 多伦多地区医院喜迎2026年的新年“零点宝宝”，三人都来自宾...
+2026-01-01 20:55:29 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500430
+2026-01-01 20:55:29 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500430
+2026-01-01 20:55:31 - news_scraper - DEBUG - 解析文章: 跨年夜：女司机酒驾撞火车站遭列车撞击，401车祸行人丧生车逃...
+2026-01-01 20:55:32 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500436
+2026-01-01 20:55:32 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500436
+2026-01-01 20:55:35 - news_scraper - DEBUG - 解析文章: 瑞士酒吧爆炸 死亡人数或高达40人涉及多国公民...
+2026-01-01 20:55:36 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500446
+2026-01-01 20:55:36 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500446
+2026-01-01 20:55:38 - news_scraper - DEBUG - 解析文章: 众人皆沉默：中共军演3个惊悚镜头...
+2026-01-01 20:55:39 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500452
+2026-01-01 20:55:39 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500452
+2026-01-01 20:55:42 - news_scraper - DEBUG - 解析文章: 美国小伙赴华15年 金发变“黑发”：叫我“老内”...
+2026-01-01 20:55:43 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1499968/comments
+2026-01-01 20:55:43 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1499968/comments
+2026-01-01 20:55:45 - news_scraper - DEBUG - 解析文章: 加拿大紧急叫停一项难民移民通道，雇主与难民同时被"卡"！...
+2026-01-01 20:55:46 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1499968
+2026-01-01 20:55:46 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1499968
+2026-01-01 20:55:49 - news_scraper - DEBUG - 解析文章: 加拿大紧急叫停一项难民移民通道，雇主与难民同时被"卡"！...
+2026-01-01 20:55:50 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500453
+2026-01-01 20:55:50 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500453
+2026-01-01 20:55:53 - news_scraper - DEBUG - 解析文章: 纽约新市长手按古兰经宣誓 宣布魔鬼新政...
+2026-01-01 20:55:54 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500543
+2026-01-01 20:55:54 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500543
+2026-01-01 20:55:56 - news_scraper - DEBUG - 解析文章: 给每名黑人赔偿500万美元！ 旧金山悄悄通过法律...
+2026-01-01 20:55:57 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500425
+2026-01-01 20:55:57 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500425
+2026-01-01 20:56:00 - news_scraper - DEBUG - 解析文章: 蔡磊发布致渐冻症病友的新年公开信：自己身体......
+2026-01-01 20:56:01 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500422
+2026-01-01 20:56:01 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500422
+2026-01-01 20:56:03 - news_scraper - DEBUG - 解析文章: 去了上海才发现 都是“戴围巾又裹脚踝”打扮...
+2026-01-01 20:56:04 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500555
+2026-01-01 20:56:04 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500555
+2026-01-01 20:56:07 - news_scraper - DEBUG - 解析文章: 年末惊魂：我爸在温哥华被骗，血压飙升170...
+2026-01-01 20:56:08 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500531
+2026-01-01 20:56:08 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500531
+2026-01-01 20:56:10 - news_scraper - DEBUG - 解析文章: 盘点2025年中国特权丑闻 为何引爆全民愤怒...
+2026-01-01 20:56:12 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500168/comments
+2026-01-01 20:56:12 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500168/comments
+2026-01-01 20:56:14 - news_scraper - DEBUG - 解析文章: 紧急提醒! 多伦多蓝桶回收新规明天生效! 业内担心将是一场"...
+2026-01-01 20:56:15 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500168
+2026-01-01 20:56:15 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500168
+2026-01-01 20:56:18 - news_scraper - DEBUG - 解析文章: 紧急提醒! 多伦多蓝桶回收新规明天生效! 业内担心将是一场"...
+2026-01-01 20:56:19 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500578
+2026-01-01 20:56:19 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500578
+2026-01-01 20:56:21 - news_scraper - DEBUG - 解析文章: MIT华裔天才成赌神：每天只花10美元...
+2026-01-01 20:56:22 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500417
+2026-01-01 20:56:22 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500417
+2026-01-01 20:56:25 - news_scraper - DEBUG - 解析文章: 央视主持人在跨年晚会都穿上了厚衣服！网友感慨：孙颖莎说的话含...
+2026-01-01 20:56:26 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500525
+2026-01-01 20:56:26 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500525
+2026-01-01 20:56:28 - news_scraper - DEBUG - 解析文章: 华为固态电池来了！续航3000公里，快充5分钟...
+2026-01-01 20:56:29 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500545
+2026-01-01 20:56:29 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500545
+2026-01-01 20:56:32 - news_scraper - DEBUG - 解析文章: 比美国还狂？2026第一天，新加坡发文告诫中国...
+2026-01-01 20:56:33 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500535
+2026-01-01 20:56:33 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500535
+2026-01-01 20:56:35 - news_scraper - DEBUG - 解析文章: 中国电动汽车将迎来一场洗牌...
+2026-01-01 20:56:36 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500530
+2026-01-01 20:56:36 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500530
+2026-01-01 20:56:39 - news_scraper - DEBUG - 解析文章: 英网红来北京看病 刷屏全球社交平台...
+2026-01-01 20:56:40 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500594
+2026-01-01 20:56:40 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500594
+2026-01-01 20:56:42 - news_scraper - DEBUG - 解析文章: 一种玄学：一定要主动扔掉这三样东西...
+2026-01-01 20:56:43 - news_scraper - INFO - 瀏覽器已關閉
+2026-01-01 20:56:43 - news_scraper - INFO - ============================================================
+2026-01-01 20:56:43 - news_scraper - INFO - 爬蟲運行統計:
+2026-01-01 20:56:43 - news_scraper - INFO -   - 頁面爬取: 30
+2026-01-01 20:56:43 - news_scraper - INFO -   - 項目保存: 30
+2026-01-01 20:56:43 - news_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 20:56:43 - news_scraper - INFO -   - 運行時間: 113.04 秒
+2026-01-01 20:56:43 - news_scraper - INFO - ============================================================
+2026-01-01 20:56:43 - main - INFO - 
+======================================================================
+2026-01-01 20:56:43 - main - INFO - 📊 資料庫統計:
+2026-01-01 20:56:43 - main - INFO - ----------------------------------------
+2026-01-01 20:56:43 - main - INFO -   📰 新聞文章: 34 篇
+2026-01-01 20:56:43 - main - INFO -   🏠 房屋列表: 0 條
+2026-01-01 20:56:43 - main - INFO -   💼 工作職位: 7 個
+2026-01-01 20:56:43 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 20:56:43 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 20:56:43 - main - INFO -   🚗 汽車列表: 0 條
+2026-01-01 20:56:43 - main - INFO - ----------------------------------------
+2026-01-01 20:56:43 - main - INFO -   ⏳ 待爬取URL: 139
+2026-01-01 20:56:43 - main - INFO -   ✅ 已爬取URL: 50
+2026-01-01 20:56:43 - main - INFO - ======================================================================
+2026-01-01 20:56:50 - main - INFO - 運行 house 爬蟲
+2026-01-01 20:56:50 - house_scraper - INFO - ============================================================
+2026-01-01 20:56:50 - house_scraper - INFO - 開始運行 house_scraper 爬蟲
+2026-01-01 20:56:50 - house_scraper - INFO - ============================================================
+2026-01-01 20:56:50 - house_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 20:56:51 - house_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 20:56:51 - house_scraper - INFO - 正在處理: https://house.51.ca/mls
+2026-01-01 20:56:51 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/mls
+2026-01-01 20:56:55 - house_scraper - INFO - 列表頁面發現 394 個房源
+2026-01-01 20:56:58 - house_scraper - INFO - 列表頁面爬取完成: https://house.51.ca/mls, 發現 394 個項目
+2026-01-01 20:56:59 - house_scraper - INFO - 正在處理: https://house.51.ca/mls?transactionType=2
+2026-01-01 20:56:59 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/mls?transactionType=2
+2026-01-01 20:57:02 - house_scraper - INFO - 列表頁面發現 398 個房源
+2026-01-01 20:57:06 - house_scraper - INFO - 列表頁面爬取完成: https://house.51.ca/mls?transactionType=2, 發現 398 個項目
+2026-01-01 20:57:07 - house_scraper - INFO - 正在處理: https://house.51.ca/rental
+2026-01-01 20:57:07 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/rental
+2026-01-01 20:57:11 - house_scraper - INFO - 列表頁面發現 0 個房源
+2026-01-01 20:57:11 - house_scraper - INFO - 列表頁面爬取完成: https://house.51.ca/rental, 發現 0 個項目
+2026-01-01 20:57:12 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12638054
+2026-01-01 20:57:12 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12638054
+2026-01-01 20:57:16 - house_scraper - DEBUG - 解析房源: N12638054 - 还款明细(月)...
+2026-01-01 20:57:17 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12606924
+2026-01-01 20:57:17 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12606924
+2026-01-01 20:57:22 - house_scraper - DEBUG - 解析房源: C12606924 - 还款明细(月)...
+2026-01-01 20:57:23 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/E12652970
+2026-01-01 20:57:23 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/E12652970
+2026-01-01 20:57:27 - house_scraper - DEBUG - 解析房源: E12652970 - 还款明细(月)...
+2026-01-01 20:57:28 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12629102
+2026-01-01 20:57:28 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12629102
+2026-01-01 20:57:33 - house_scraper - DEBUG - 解析房源: N12629102 - 还款明细(月)...
+2026-01-01 20:57:34 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/E12556750
+2026-01-01 20:57:34 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/E12556750
+2026-01-01 20:57:37 - house_scraper - DEBUG - 解析房源: E12556750 - 还款明细(月)...
+2026-01-01 20:57:38 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12655000
+2026-01-01 20:57:38 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12655000
+2026-01-01 20:57:43 - house_scraper - DEBUG - 解析房源: N12655000 - 还款明细(月)...
+2026-01-01 20:57:44 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/E12654336
+2026-01-01 20:57:44 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/E12654336
+2026-01-01 20:57:48 - house_scraper - DEBUG - 解析房源: E12654336 - 还款明细(月)...
+2026-01-01 20:57:49 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12653512
+2026-01-01 20:57:49 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12653512
+2026-01-01 20:57:52 - house_scraper - DEBUG - 解析房源: C12653512 - 还款明细(月)...
+2026-01-01 20:57:53 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12651408
+2026-01-01 20:57:53 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12651408
+2026-01-01 20:57:57 - house_scraper - DEBUG - 解析房源: C12651408 - 还款明细(月)...
+2026-01-01 20:57:58 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12654352
+2026-01-01 20:57:58 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12654352
+2026-01-01 20:58:02 - house_scraper - DEBUG - 解析房源: C12654352 - 还款明细(月)...
+2026-01-01 20:58:03 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12654548
+2026-01-01 20:58:03 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12654548
+2026-01-01 20:58:07 - house_scraper - DEBUG - 解析房源: C12654548 - 还款明细(月)...
+2026-01-01 20:58:08 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12653448
+2026-01-01 20:58:08 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12653448
+2026-01-01 20:58:13 - house_scraper - DEBUG - 解析房源: C12653448 - 还款明细(月)...
+2026-01-01 20:58:14 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12411998
+2026-01-01 20:58:14 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12411998
+2026-01-01 20:58:18 - house_scraper - DEBUG - 解析房源: C12411998 - 还款明细(月)...
+2026-01-01 20:58:19 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12650700
+2026-01-01 20:58:19 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12650700
+2026-01-01 20:58:24 - house_scraper - DEBUG - 解析房源: C12650700 - 还款明细(月)...
+2026-01-01 20:58:25 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12512502
+2026-01-01 20:58:25 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12512502
+2026-01-01 20:58:30 - house_scraper - DEBUG - 解析房源: N12512502 - 还款明细(月)...
+2026-01-01 20:58:31 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12549926
+2026-01-01 20:58:31 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12549926
+2026-01-01 20:58:36 - house_scraper - DEBUG - 解析房源: N12549926 - 还款明细(月)...
+2026-01-01 20:58:37 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12402935
+2026-01-01 20:58:37 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12402935
+2026-01-01 20:58:42 - house_scraper - DEBUG - 解析房源: C12402935 - 还款明细(月)...
+2026-01-01 20:58:43 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12634796
+2026-01-01 20:58:43 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12634796
+2026-01-01 20:58:47 - house_scraper - DEBUG - 解析房源: N12634796 - 还款明细(月)...
+2026-01-01 20:58:49 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12628060
+2026-01-01 20:58:49 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12628060
+2026-01-01 20:58:52 - house_scraper - DEBUG - 解析房源: N12628060 - 还款明细(月)...
+2026-01-01 20:58:53 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/E12500614
+2026-01-01 20:58:53 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/E12500614
+2026-01-01 20:58:57 - house_scraper - DEBUG - 解析房源: E12500614 - 还款明细(月)...
+2026-01-01 20:58:58 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/E12615016
+2026-01-01 20:58:58 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/E12615016
+2026-01-01 20:59:02 - house_scraper - DEBUG - 解析房源: E12615016 - 还款明细(月)...
+2026-01-01 20:59:03 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12654534
+2026-01-01 20:59:03 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12654534
+2026-01-01 20:59:08 - house_scraper - DEBUG - 解析房源: N12654534 - 还款明细(月)...
+2026-01-01 20:59:09 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12630944
+2026-01-01 20:59:09 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12630944
+2026-01-01 20:59:15 - house_scraper - DEBUG - 解析房源: W12630944 - 还款明细(月)...
+2026-01-01 20:59:16 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12631140
+2026-01-01 20:59:16 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12631140
+2026-01-01 20:59:19 - house_scraper - DEBUG - 解析房源: W12631140 - 还款明细(月)...
+2026-01-01 20:59:20 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12635820
+2026-01-01 20:59:20 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12635820
+2026-01-01 20:59:25 - house_scraper - DEBUG - 解析房源: W12635820 - 还款明细(月)...
+2026-01-01 20:59:26 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12636614
+2026-01-01 20:59:26 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12636614
+2026-01-01 20:59:31 - house_scraper - DEBUG - 解析房源: W12636614 - 还款明细(月)...
+2026-01-01 20:59:32 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12638862
+2026-01-01 20:59:32 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12638862
+2026-01-01 20:59:37 - house_scraper - DEBUG - 解析房源: W12638862 - 还款明细(月)...
+2026-01-01 20:59:38 - house_scraper - INFO - 瀏覽器已關閉
+2026-01-01 20:59:38 - house_scraper - INFO - ============================================================
+2026-01-01 20:59:38 - house_scraper - INFO - 爬蟲運行統計:
+2026-01-01 20:59:38 - house_scraper - INFO -   - 頁面爬取: 30
+2026-01-01 20:59:38 - house_scraper - INFO -   - 項目保存: 27
+2026-01-01 20:59:38 - house_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 20:59:38 - house_scraper - INFO -   - 運行時間: 167.90 秒
+2026-01-01 20:59:38 - house_scraper - INFO - ============================================================
+2026-01-01 20:59:38 - main - INFO - 
+======================================================================
+2026-01-01 20:59:38 - main - INFO - 📊 資料庫統計:
+2026-01-01 20:59:38 - main - INFO - ----------------------------------------
+2026-01-01 20:59:38 - main - INFO -   📰 新聞文章: 34 篇
+2026-01-01 20:59:38 - main - INFO -   🏠 房屋列表: 27 條
+2026-01-01 20:59:38 - main - INFO -   💼 工作職位: 7 個
+2026-01-01 20:59:38 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 20:59:38 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 20:59:38 - main - INFO -   🚗 汽車列表: 0 條
+2026-01-01 20:59:38 - main - INFO - ----------------------------------------
+2026-01-01 20:59:38 - main - INFO -   ⏳ 待爬取URL: 904
+2026-01-01 20:59:38 - main - INFO -   ✅ 已爬取URL: 80
+2026-01-01 20:59:38 - main - INFO - ======================================================================
+2026-01-01 20:59:44 - main - INFO - 運行 jobs 爬蟲
+2026-01-01 20:59:44 - jobs_scraper - INFO - ============================================================
+2026-01-01 20:59:44 - jobs_scraper - INFO - 開始運行 jobs_scraper 爬蟲
+2026-01-01 20:59:44 - jobs_scraper - INFO - ============================================================
+2026-01-01 20:59:44 - jobs_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 20:59:45 - jobs_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 20:59:45 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1168571
+2026-01-01 20:59:45 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1168571
+2026-01-01 20:59:48 - jobs_scraper - DEBUG - 解析職位: 1168571 - 全职运营/行政40,000~68,400加元/年收藏职位发送...
+2026-01-01 20:59:49 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173169
+2026-01-01 20:59:49 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173169
+2026-01-01 20:59:52 - jobs_scraper - DEBUG - 解析職位: 1173169 - Machine Operator20.00~25.00加元/...
+2026-01-01 20:59:53 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1172947
+2026-01-01 20:59:53 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1172947
+2026-01-01 20:59:55 - jobs_scraper - DEBUG - 解析職位: 1172947 - Machine Operator20.00~25.00加元/...
+2026-01-01 20:59:56 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1172839
+2026-01-01 20:59:56 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1172839
+2026-01-01 20:59:59 - jobs_scraper - DEBUG - 解析職位: 1172839 - 服务员0.00~0.00加元/小时收藏职位发送邮件拨打电话查...
+2026-01-01 21:00:00 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1170697
+2026-01-01 21:00:00 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1170697
+2026-01-01 21:00:07 - jobs_scraper - DEBUG - 解析職位: 1170697 - 新店开业请全职后厨，要懂捞面，出歺0.00~0.00加元/小...
+2026-01-01 21:00:08 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173212
+2026-01-01 21:00:08 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173212
+2026-01-01 21:00:10 - jobs_scraper - DEBUG - 解析職位: 1173212 - 市中心请全职有经验企台（服务员） – Yonge/Bloor...
+2026-01-01 21:00:11 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173211
+2026-01-01 21:00:11 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173211
+2026-01-01 21:00:14 - jobs_scraper - DEBUG - 解析職位: 1173211 - 市中心请厨房帮厨及学徒（男），全职或兼职薪资面议收藏职位发送...
+2026-01-01 21:00:15 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1170527
+2026-01-01 21:00:15 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1170527
+2026-01-01 21:00:17 - jobs_scraper - DEBUG - 解析職位: 1170527 - 丰亚超市聘：肉部、鱼部、厨房油炉薪资面议收藏职位拨打电话查看...
+2026-01-01 21:00:18 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1169429
+2026-01-01 21:00:18 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1169429
+2026-01-01 21:00:21 - jobs_scraper - DEBUG - 解析職位: 1169429 - 华泰超市 聘烧腊部师傅与帮工薪资面议收藏职位拨打电话查看电话...
+2026-01-01 21:00:22 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173216
+2026-01-01 21:00:22 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173216
+2026-01-01 21:00:24 - jobs_scraper - DEBUG - 解析職位: 1173216 - 华人超市需要熟手蔬菜包装薪资面议收藏职位发送邮件拨打电话查看...
+2026-01-01 21:00:25 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1172832
+2026-01-01 21:00:25 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1172832
+2026-01-01 21:00:28 - jobs_scraper - DEBUG - 解析職位: 1172832 - 面包部师傅薪资面议收藏职位发送邮件拨打电话查看电话64760...
+2026-01-01 21:00:29 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1172853
+2026-01-01 21:00:29 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1172853
+2026-01-01 21:00:31 - jobs_scraper - DEBUG - 解析職位: 1172853 - 新张超市包吃住高薪诚聘杂货，肉部，水果，冷冻大佬及二佬薪资面...
+2026-01-01 21:00:32 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1172529
+2026-01-01 21:00:32 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1172529
+2026-01-01 21:00:34 - jobs_scraper - DEBUG - 解析職位: 1172529 - 肉部包鸡熟手和杂货熟手薪资面议收藏职位发送邮件拨打电话查看电...
+2026-01-01 21:00:35 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1162493
+2026-01-01 21:00:35 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1162493
+2026-01-01 21:00:38 - jobs_scraper - DEBUG - 解析職位: 1162493 - 销售与市场推广代表薪资面议推荐收藏职位发送邮件拨打电话查看电...
+2026-01-01 21:00:39 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1158383
+2026-01-01 21:00:39 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1158383
+2026-01-01 21:00:41 - jobs_scraper - DEBUG - 解析職位: 1158383 - 橱卫批发公司 高薪诚聘 前台 销售（ 女）薪资面议推荐收藏职...
+2026-01-01 21:00:42 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/718239
+2026-01-01 21:00:42 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/718239
+2026-01-01 21:00:44 - jobs_scraper - DEBUG - 解析職位: 718239 - 【T&T大统华】大統華安省招聘店長薪资面议推荐收藏职位发送邮...
+2026-01-01 21:00:45 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/650919
+2026-01-01 21:00:45 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/650919
+2026-01-01 21:00:48 - jobs_scraper - DEBUG - 解析職位: 650919 - 【T&T大统华】大統華安省分店職位12月23日更新薪资面议推...
+2026-01-01 21:00:49 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1171184
+2026-01-01 21:00:49 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1171184
+2026-01-01 21:00:51 - jobs_scraper - DEBUG - 解析職位: 1171184 - 英、粤、普通话三语金融投资经理助理薪资面议收藏职位发送邮件拨...
+2026-01-01 21:00:52 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1169391
+2026-01-01 21:00:52 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1169391
+2026-01-01 21:00:55 - jobs_scraper - DEBUG - 解析職位: 1169391 - 门店成员17.60~21.00加元/小时收藏职位发送邮件...
+2026-01-01 21:00:56 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1168600
+2026-01-01 21:00:56 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1168600
+2026-01-01 21:00:58 - jobs_scraper - DEBUG - 解析職位: 1168600 - 长途A牌司机薪资面议推荐收藏职位发送邮件...
+2026-01-01 21:00:59 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1171878
+2026-01-01 21:00:59 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1171878
+2026-01-01 21:01:02 - jobs_scraper - DEBUG - 解析職位: 1171878 - 大多百士嘉堡Bridlewood Mall 新店招聘销售薪资...
+2026-01-01 21:01:03 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1172622
+2026-01-01 21:01:03 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1172622
+2026-01-01 21:01:05 - jobs_scraper - DEBUG - 解析職位: 1172622 - 厨师20.00~26.00加元/小时收藏职位发送邮件拨打电话...
+2026-01-01 21:01:06 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173168
+2026-01-01 21:01:06 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173168
+2026-01-01 21:01:08 - jobs_scraper - DEBUG - 解析職位: 1173168 - 装修设计/项目协调20.00~30.00加元/小时推荐收藏职...
+2026-01-01 21:01:09 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1171493
+2026-01-01 21:01:09 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1171493
+2026-01-01 21:01:12 - jobs_scraper - DEBUG - 解析職位: 1171493 - 订单客服 part time18.00加元/小时收藏职位发送...
+2026-01-01 21:01:13 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1145722
+2026-01-01 21:01:13 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1145722
+2026-01-01 21:01:15 - jobs_scraper - DEBUG - 解析職位: 1145722 - 招聘 司机搬运薪资面议收藏职位发送邮件拨打电话查看电话647...
+2026-01-01 21:01:16 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173060
+2026-01-01 21:01:16 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173060
+2026-01-01 21:01:19 - jobs_scraper - DEBUG - 解析職位: 1173060 - 租赁协调 / Rental Coordinator18.50...
+2026-01-01 21:01:20 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173059
+2026-01-01 21:01:20 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173059
+2026-01-01 21:01:22 - jobs_scraper - DEBUG - 解析職位: 1173059 - 设备销售代表薪资面议收藏职位发送邮件...
+2026-01-01 21:01:23 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1171954
+2026-01-01 21:01:23 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1171954
+2026-01-01 21:01:25 - jobs_scraper - DEBUG - 解析職位: 1171954 - Merchandising Administrator薪资面...
+2026-01-01 21:01:27 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1171190
+2026-01-01 21:01:27 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1171190
+2026-01-01 21:01:29 - jobs_scraper - DEBUG - 解析職位: 1171190 - Human Resources Coordinator/Ge...
+2026-01-01 21:01:30 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1170582
+2026-01-01 21:01:30 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1170582
+2026-01-01 21:01:32 - jobs_scraper - DEBUG - 解析職位: 1170582 - DT 奶茶店请 全职店员薪资面议收藏职位拨打电话查看电话64...
+2026-01-01 21:01:34 - jobs_scraper - INFO - 瀏覽器已關閉
+2026-01-01 21:01:34 - jobs_scraper - INFO - ============================================================
+2026-01-01 21:01:34 - jobs_scraper - INFO - 爬蟲運行統計:
+2026-01-01 21:01:34 - jobs_scraper - INFO -   - 頁面爬取: 30
+2026-01-01 21:01:34 - jobs_scraper - INFO -   - 項目保存: 30
+2026-01-01 21:01:34 - jobs_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 21:01:34 - jobs_scraper - INFO -   - 運行時間: 109.56 秒
+2026-01-01 21:01:34 - jobs_scraper - INFO - ============================================================
+2026-01-01 21:01:34 - main - INFO - 
+======================================================================
+2026-01-01 21:01:34 - main - INFO - 📊 資料庫統計:
+2026-01-01 21:01:34 - main - INFO - ----------------------------------------
+2026-01-01 21:01:34 - main - INFO -   📰 新聞文章: 34 篇
+2026-01-01 21:01:34 - main - INFO -   🏠 房屋列表: 27 條
+2026-01-01 21:01:34 - main - INFO -   💼 工作職位: 37 個
+2026-01-01 21:01:34 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 21:01:34 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 21:01:34 - main - INFO -   🚗 汽車列表: 0 條
+2026-01-01 21:01:34 - main - INFO - ----------------------------------------
+2026-01-01 21:01:34 - main - INFO -   ⏳ 待爬取URL: 874
+2026-01-01 21:01:34 - main - INFO -   ✅ 已爬取URL: 110
+2026-01-01 21:01:34 - main - INFO - ======================================================================
+2026-01-01 21:01:40 - main - INFO - 運行 service 爬蟲
+2026-01-01 21:01:40 - service_scraper - INFO - ============================================================
+2026-01-01 21:01:40 - service_scraper - INFO - 開始運行 service_scraper 爬蟲
+2026-01-01 21:01:40 - service_scraper - INFO - ============================================================
+2026-01-01 21:01:40 - service_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 21:01:42 - service_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 21:01:43 - service_scraper - INFO - 正在處理: https://www.51.ca/service/
+2026-01-01 21:01:43 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/
+2026-01-01 21:01:49 - service_scraper - INFO - 列表頁面發現 711 個項目
+2026-01-01 21:01:56 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/, 發現 711 個項目
+2026-01-01 21:01:57 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/construction-renovation
+2026-01-01 21:01:57 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/construction-renovation
+2026-01-01 21:02:04 - service_scraper - INFO - 列表頁面發現 144 個項目
+2026-01-01 21:02:06 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/construction-renovation, 發現 144 個項目
+2026-01-01 21:02:07 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/garden-snow-removal-services
+2026-01-01 21:02:07 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/garden-snow-removal-services
+2026-01-01 21:02:10 - service_scraper - INFO - 列表頁面發現 85 個項目
+2026-01-01 21:02:11 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/garden-snow-removal-services, 發現 85 個項目
+2026-01-01 21:02:12 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/roofing
+2026-01-01 21:02:12 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/roofing
+2026-01-01 21:02:15 - service_scraper - INFO - 列表頁面發現 55 個項目
+2026-01-01 21:02:15 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/roofing, 發現 55 個項目
+2026-01-01 21:02:16 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/doors-windows-inserts
+2026-01-01 21:02:16 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/doors-windows-inserts
+2026-01-01 21:02:20 - service_scraper - INFO - 列表頁面發現 40 個項目
+2026-01-01 21:02:20 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/doors-windows-inserts, 發現 40 個項目
+2026-01-01 21:02:21 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/mortgage
+2026-01-01 21:02:21 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/mortgage
+2026-01-01 21:02:25 - service_scraper - INFO - 列表頁面發現 69 個項目
+2026-01-01 21:02:25 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/mortgage, 發現 69 個項目
+2026-01-01 21:02:26 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/heating-cooling-ventilating
+2026-01-01 21:02:26 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/heating-cooling-ventilating
+2026-01-01 21:02:30 - service_scraper - INFO - 列表頁面發現 59 個項目
+2026-01-01 21:02:30 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/heating-cooling-ventilating, 發現 59 個項目
+2026-01-01 21:02:31 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/fence-deck
+2026-01-01 21:02:31 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/fence-deck
+2026-01-01 21:02:34 - service_scraper - INFO - 列表頁面發現 33 個項目
+2026-01-01 21:02:35 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/fence-deck, 發現 33 個項目
+2026-01-01 21:02:36 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/household-cleaning
+2026-01-01 21:02:36 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/household-cleaning
+2026-01-01 21:02:39 - service_scraper - INFO - 列表頁面發現 52 個項目
+2026-01-01 21:02:40 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/household-cleaning, 發現 52 個項目
+2026-01-01 21:02:41 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/electric-services
+2026-01-01 21:02:41 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/electric-services
+2026-01-01 21:02:44 - service_scraper - INFO - 列表頁面發現 42 個項目
+2026-01-01 21:02:44 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/electric-services, 發現 42 個項目
+2026-01-01 21:02:45 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/pest-control
+2026-01-01 21:02:45 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/pest-control
+2026-01-01 21:02:48 - service_scraper - INFO - 列表頁面發現 17 個項目
+2026-01-01 21:02:48 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/pest-control, 發現 17 個項目
+2026-01-01 21:02:49 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/cabinets-stone-materials/posts/240060
+2026-01-01 21:02:49 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/cabinets-stone-materials/posts/240060
+2026-01-01 21:02:53 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/heating-cooling-ventilating/posts/201423
+2026-01-01 21:02:53 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/heating-cooling-ventilating/posts/201423
+2026-01-01 21:02:57 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/construction-renovation/posts/244656
+2026-01-01 21:02:57 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/construction-renovation/posts/244656
+2026-01-01 21:03:00 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/roofing/posts/240272
+2026-01-01 21:03:01 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/roofing/posts/240272
+2026-01-01 21:03:04 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/heat-preservation/posts/247324
+2026-01-01 21:03:04 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/heat-preservation/posts/247324
+2026-01-01 21:03:08 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/construction-renovation/posts/247294
+2026-01-01 21:03:08 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/construction-renovation/posts/247294
+2026-01-01 21:03:12 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/garage-door-installation-maintenance-service/posts/247559
+2026-01-01 21:03:12 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/garage-door-installation-maintenance-service/posts/247559
+2026-01-01 21:03:15 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/heating-cooling-ventilating/posts/234393
+2026-01-01 21:03:15 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/heating-cooling-ventilating/posts/234393
+2026-01-01 21:03:19 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/doors-windows-inserts/posts/242131
+2026-01-01 21:03:19 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/doors-windows-inserts/posts/242131
+2026-01-01 21:03:22 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/construction-renovation/posts/240853
+2026-01-01 21:03:22 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/construction-renovation/posts/240853
+2026-01-01 21:03:26 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/garden-snow-removal-services/posts/234826
+2026-01-01 21:03:26 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/garden-snow-removal-services/posts/234826
+2026-01-01 21:03:29 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/heat-preservation/posts/231532
+2026-01-01 21:03:29 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/heat-preservation/posts/231532
+2026-01-01 21:03:33 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/heating-cooling-ventilating/posts/102990
+2026-01-01 21:03:33 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/heating-cooling-ventilating/posts/102990
+2026-01-01 21:03:37 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/roofing/posts/194805
+2026-01-01 21:03:37 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/roofing/posts/194805
+2026-01-01 21:03:40 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/construction-renovation/posts/244974
+2026-01-01 21:03:40 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/construction-renovation/posts/244974
+2026-01-01 21:03:44 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/mortgage/posts/245479
+2026-01-01 21:03:44 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/mortgage/posts/245479
+2026-01-01 21:03:47 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/garden-snow-removal-services/posts/246598
+2026-01-01 21:03:47 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/garden-snow-removal-services/posts/246598
+2026-01-01 21:03:51 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/garden-snow-removal-services/posts/244841
+2026-01-01 21:03:51 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/garden-snow-removal-services/posts/244841
+2026-01-01 21:03:54 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/fence-deck/posts/241716
+2026-01-01 21:03:54 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/fence-deck/posts/241716
+2026-01-01 21:03:58 - service_scraper - INFO - 瀏覽器已關閉
+2026-01-01 21:03:58 - service_scraper - INFO - ============================================================
+2026-01-01 21:03:58 - service_scraper - INFO - 爬蟲運行統計:
+2026-01-01 21:03:58 - service_scraper - INFO -   - 頁面爬取: 30
+2026-01-01 21:03:58 - service_scraper - INFO -   - 項目保存: 19
+2026-01-01 21:03:58 - service_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 21:03:58 - service_scraper - INFO -   - 運行時間: 137.29 秒
+2026-01-01 21:03:58 - service_scraper - INFO - ============================================================
+2026-01-01 21:03:58 - main - INFO - 
+======================================================================
+2026-01-01 21:03:58 - main - INFO - 📊 資料庫統計:
+2026-01-01 21:03:58 - main - INFO - ----------------------------------------
+2026-01-01 21:03:58 - main - INFO -   📰 新聞文章: 34 篇
+2026-01-01 21:03:58 - main - INFO -   🏠 房屋列表: 27 條
+2026-01-01 21:03:58 - main - INFO -   💼 工作職位: 37 個
+2026-01-01 21:03:58 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 21:03:58 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 21:03:58 - main - INFO -   🚗 汽車列表: 0 條
+2026-01-01 21:03:58 - main - INFO - ----------------------------------------
+2026-01-01 21:03:58 - main - INFO -   ⏳ 待爬取URL: 2018
+2026-01-01 21:03:58 - main - INFO -   ✅ 已爬取URL: 140
+2026-01-01 21:03:58 - main - INFO - ======================================================================
+2026-01-01 21:04:05 - main - INFO - 運行 market 爬蟲
+2026-01-01 21:04:05 - market_scraper - INFO - ============================================================
+2026-01-01 21:04:05 - market_scraper - INFO - 開始運行 market_scraper 爬蟲
+2026-01-01 21:04:05 - market_scraper - INFO - ============================================================
+2026-01-01 21:04:05 - market_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 21:04:06 - market_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 21:04:06 - market_scraper - INFO - 正在處理: https://www.51.ca/market/
+2026-01-01 21:04:06 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/
+2026-01-01 21:04:09 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:04:09 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/, 發現 0 個項目
+2026-01-01 21:04:10 - market_scraper - INFO - 正在處理: https://www.51.ca/market/categories/computer-electronics
+2026-01-01 21:04:10 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/categories/computer-electronics
+2026-01-01 21:04:13 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:04:13 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/categories/computer-electronics, 發現 0 個項目
+2026-01-01 21:04:14 - market_scraper - INFO - 正在處理: https://www.51.ca/market/categories/furniture-appliances
+2026-01-01 21:04:14 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/categories/furniture-appliances
+2026-01-01 21:04:17 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:04:17 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/categories/furniture-appliances, 發現 0 個項目
+2026-01-01 21:04:18 - market_scraper - INFO - 正在處理: https://www.51.ca/market/categories/childrens-clothes-accessories
+2026-01-01 21:04:18 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/categories/childrens-clothes-accessories
+2026-01-01 21:04:21 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:04:21 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/categories/childrens-clothes-accessories, 發現 0 個項目
+2026-01-01 21:04:22 - market_scraper - INFO - 正在處理: https://www.51.ca/market/categories/clothing-accessories
+2026-01-01 21:04:22 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/categories/clothing-accessories
+2026-01-01 21:04:25 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:04:25 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/categories/clothing-accessories, 發現 0 個項目
+2026-01-01 21:04:26 - market_scraper - INFO - 正在處理: https://www.51.ca/market/categories/health-beauty
+2026-01-01 21:04:26 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/categories/health-beauty
+2026-01-01 21:04:28 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:04:28 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/categories/health-beauty, 發現 0 個項目
+2026-01-01 21:04:29 - market_scraper - INFO - 正在處理: https://www.51.ca/market/categories/sports-leisure
+2026-01-01 21:04:29 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/categories/sports-leisure
+2026-01-01 21:04:32 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:04:32 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/categories/sports-leisure, 發現 0 個項目
+2026-01-01 21:04:33 - market_scraper - INFO - 正在處理: https://www.51.ca/market/categories/musical-instruments
+2026-01-01 21:04:33 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/categories/musical-instruments
+2026-01-01 21:04:36 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:04:36 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/categories/musical-instruments, 發現 0 個項目
+2026-01-01 21:04:37 - market_scraper - INFO - 正在處理: https://www.51.ca/market/categories/pet-supplies
+2026-01-01 21:04:37 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/categories/pet-supplies
+2026-01-01 21:04:40 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:04:40 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/categories/pet-supplies, 發現 0 個項目
+2026-01-01 21:04:41 - market_scraper - INFO - 正在處理: https://www.51.ca/market/categories/other-goods
+2026-01-01 21:04:41 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/categories/other-goods
+2026-01-01 21:04:44 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:04:44 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/categories/other-goods, 發現 0 個項目
+2026-01-01 21:04:45 - market_scraper - INFO - 正在處理: https://www.51.ca/market/categories/gift-cards
+2026-01-01 21:04:45 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/categories/gift-cards
+2026-01-01 21:04:48 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:04:48 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/categories/gift-cards, 發現 0 個項目
+2026-01-01 21:04:49 - market_scraper - INFO - 正在處理: https://www.51.ca/market/categories/books-materials
+2026-01-01 21:04:49 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/categories/books-materials
+2026-01-01 21:04:51 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:04:51 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/categories/books-materials, 發現 0 個項目
+2026-01-01 21:04:52 - market_scraper - INFO - 正在處理: https://www.51.ca/market/categories/food
+2026-01-01 21:04:52 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/categories/food
+2026-01-01 21:04:55 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:04:55 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/categories/food, 發現 0 個項目
+2026-01-01 21:04:56 - market_scraper - INFO - 沒有更多未訪問的URL
+2026-01-01 21:04:56 - market_scraper - INFO - 瀏覽器已關閉
+2026-01-01 21:04:56 - market_scraper - INFO - ============================================================
+2026-01-01 21:04:56 - market_scraper - INFO - 爬蟲運行統計:
+2026-01-01 21:04:56 - market_scraper - INFO -   - 頁面爬取: 13
+2026-01-01 21:04:56 - market_scraper - INFO -   - 項目保存: 0
+2026-01-01 21:04:56 - market_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 21:04:56 - market_scraper - INFO -   - 運行時間: 51.76 秒
+2026-01-01 21:04:56 - market_scraper - INFO - ============================================================
+2026-01-01 21:04:56 - main - INFO - 
+======================================================================
+2026-01-01 21:04:56 - main - INFO - 📊 資料庫統計:
+2026-01-01 21:04:56 - main - INFO - ----------------------------------------
+2026-01-01 21:04:56 - main - INFO -   📰 新聞文章: 34 篇
+2026-01-01 21:04:56 - main - INFO -   🏠 房屋列表: 27 條
+2026-01-01 21:04:56 - main - INFO -   💼 工作職位: 37 個
+2026-01-01 21:04:56 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 21:04:56 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 21:04:56 - main - INFO -   🚗 汽車列表: 0 條
+2026-01-01 21:04:56 - main - INFO - ----------------------------------------
+2026-01-01 21:04:56 - main - INFO -   ⏳ 待爬取URL: 2018
+2026-01-01 21:04:56 - main - INFO -   ✅ 已爬取URL: 153
+2026-01-01 21:04:56 - main - INFO - ======================================================================
+2026-01-01 21:05:48 - main - INFO - 運行 auto 爬蟲
+2026-01-01 21:05:48 - auto_scraper - INFO - ============================================================
+2026-01-01 21:05:48 - auto_scraper - INFO - 開始運行 auto_scraper 爬蟲
+2026-01-01 21:05:48 - auto_scraper - INFO - ============================================================
+2026-01-01 21:05:48 - auto_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 21:05:49 - auto_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 21:05:49 - auto_scraper - INFO - 正在處理: https://auto.51.ca/
+2026-01-01 21:05:49 - auto_scraper - DEBUG - 正在訪問: https://auto.51.ca/
+2026-01-01 21:05:49 - auto_scraper - ERROR - 獲取頁面失敗 https://auto.51.ca/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://auto.51.ca/
+Call log:
+  - navigating to "https://auto.51.ca/", waiting until "domcontentloaded"
+
+2026-01-01 21:05:50 - auto_scraper - INFO - 正在處理: https://auto.51.ca/listings
+2026-01-01 21:05:50 - auto_scraper - DEBUG - 正在訪問: https://auto.51.ca/listings
+2026-01-01 21:05:50 - auto_scraper - ERROR - 獲取頁面失敗 https://auto.51.ca/listings: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://auto.51.ca/listings
+Call log:
+  - navigating to "https://auto.51.ca/listings", waiting until "domcontentloaded"
+
+2026-01-01 21:05:51 - auto_scraper - INFO - 正在處理: https://auto.51.ca/
+2026-01-01 21:05:51 - auto_scraper - DEBUG - 正在訪問: https://auto.51.ca/
+2026-01-01 21:05:51 - auto_scraper - ERROR - 獲取頁面失敗 https://auto.51.ca/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://auto.51.ca/
+Call log:
+  - navigating to "https://auto.51.ca/", waiting until "domcontentloaded"
+
+2026-01-01 21:05:52 - auto_scraper - INFO - 正在處理: https://auto.51.ca/listings
+2026-01-01 21:05:52 - auto_scraper - DEBUG - 正在訪問: https://auto.51.ca/listings
+2026-01-01 21:05:52 - auto_scraper - ERROR - 獲取頁面失敗 https://auto.51.ca/listings: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://auto.51.ca/listings
+Call log:
+  - navigating to "https://auto.51.ca/listings", waiting until "domcontentloaded"
+
+2026-01-01 21:05:54 - auto_scraper - INFO - 正在處理: https://auto.51.ca/
+2026-01-01 21:05:54 - auto_scraper - DEBUG - 正在訪問: https://auto.51.ca/
+2026-01-01 21:05:54 - auto_scraper - ERROR - 獲取頁面失敗 https://auto.51.ca/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://auto.51.ca/
+Call log:
+  - navigating to "https://auto.51.ca/", waiting until "domcontentloaded"
+
+2026-01-01 21:05:55 - auto_scraper - INFO - 正在處理: https://auto.51.ca/listings
+2026-01-01 21:05:55 - auto_scraper - DEBUG - 正在訪問: https://auto.51.ca/listings
+2026-01-01 21:05:55 - auto_scraper - ERROR - 獲取頁面失敗 https://auto.51.ca/listings: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://auto.51.ca/listings
+Call log:
+  - navigating to "https://auto.51.ca/listings", waiting until "domcontentloaded"
+
+2026-01-01 21:05:56 - auto_scraper - INFO - 沒有更多未訪問的URL
+2026-01-01 21:05:56 - auto_scraper - INFO - 瀏覽器已關閉
+2026-01-01 21:05:56 - auto_scraper - INFO - ============================================================
+2026-01-01 21:05:56 - auto_scraper - INFO - 爬蟲運行統計:
+2026-01-01 21:05:56 - auto_scraper - INFO -   - 頁面爬取: 0
+2026-01-01 21:05:56 - auto_scraper - INFO -   - 項目保存: 0
+2026-01-01 21:05:56 - auto_scraper - INFO -   - 錯誤數量: 6
+2026-01-01 21:05:56 - auto_scraper - INFO -   - 運行時間: 8.06 秒
+2026-01-01 21:05:56 - auto_scraper - INFO - ============================================================
+2026-01-01 21:05:56 - main - INFO - 
+======================================================================
+2026-01-01 21:05:56 - main - INFO - 📊 資料庫統計:
+2026-01-01 21:05:56 - main - INFO - ----------------------------------------
+2026-01-01 21:05:56 - main - INFO -   📰 新聞文章: 34 篇
+2026-01-01 21:05:56 - main - INFO -   🏠 房屋列表: 27 條
+2026-01-01 21:05:56 - main - INFO -   💼 工作職位: 37 個
+2026-01-01 21:05:56 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 21:05:56 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 21:05:56 - main - INFO -   🚗 汽車列表: 0 條
+2026-01-01 21:05:56 - main - INFO - ----------------------------------------
+2026-01-01 21:05:56 - main - INFO -   ⏳ 待爬取URL: 2020
+2026-01-01 21:05:56 - main - INFO -   ✅ 已爬取URL: 153
+2026-01-01 21:05:56 - main - INFO - ======================================================================
+2026-01-01 21:06:27 - main - INFO - 運行 market 爬蟲
+2026-01-01 21:06:27 - market_scraper - INFO - ============================================================
+2026-01-01 21:06:27 - market_scraper - INFO - 開始運行 market_scraper 爬蟲
+2026-01-01 21:06:27 - market_scraper - INFO - ============================================================
+2026-01-01 21:06:27 - market_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 21:06:29 - market_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 21:06:29 - market_scraper - INFO - 正在處理: https://www.51.ca/market/all
+2026-01-01 21:06:29 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/all
+2026-01-01 21:06:32 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:06:32 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/all, 發現 0 個項目
+2026-01-01 21:06:33 - market_scraper - INFO - 正在處理: https://www.51.ca/market/furniture
+2026-01-01 21:06:33 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/furniture
+2026-01-01 21:06:36 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:06:36 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/furniture, 發現 0 個項目
+2026-01-01 21:06:37 - market_scraper - INFO - 正在處理: https://www.51.ca/market/home-appliance
+2026-01-01 21:06:37 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/home-appliance
+2026-01-01 21:06:40 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:06:40 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/home-appliance, 發現 0 個項目
+2026-01-01 21:06:41 - market_scraper - INFO - 正在處理: https://www.51.ca/market/kitchen-supplies
+2026-01-01 21:06:41 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/kitchen-supplies
+2026-01-01 21:06:44 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:06:44 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/kitchen-supplies, 發現 0 個項目
+2026-01-01 21:06:45 - market_scraper - INFO - 正在處理: https://www.51.ca/market/electronic-products
+2026-01-01 21:06:45 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/electronic-products
+2026-01-01 21:06:48 - market_scraper - INFO - 列表頁面發現 0 個集市帖子
+2026-01-01 21:06:48 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/electronic-products, 發現 0 個項目
+2026-01-01 21:06:49 - market_scraper - INFO - 沒有更多未訪問的URL
+2026-01-01 21:06:49 - market_scraper - INFO - 瀏覽器已關閉
+2026-01-01 21:06:49 - market_scraper - INFO - ============================================================
+2026-01-01 21:06:49 - market_scraper - INFO - 爬蟲運行統計:
+2026-01-01 21:06:49 - market_scraper - INFO -   - 頁面爬取: 5
+2026-01-01 21:06:49 - market_scraper - INFO -   - 項目保存: 0
+2026-01-01 21:06:49 - market_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 21:06:49 - market_scraper - INFO -   - 運行時間: 21.86 秒
+2026-01-01 21:06:49 - market_scraper - INFO - ============================================================
+2026-01-01 21:06:49 - main - INFO - 
+======================================================================
+2026-01-01 21:06:49 - main - INFO - 📊 資料庫統計:
+2026-01-01 21:06:49 - main - INFO - ----------------------------------------
+2026-01-01 21:06:49 - main - INFO -   📰 新聞文章: 34 篇
+2026-01-01 21:06:49 - main - INFO -   🏠 房屋列表: 27 條
+2026-01-01 21:06:49 - main - INFO -   💼 工作職位: 37 個
+2026-01-01 21:06:49 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 21:06:49 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 21:06:49 - main - INFO -   🚗 汽車列表: 0 條
+2026-01-01 21:06:49 - main - INFO - ----------------------------------------
+2026-01-01 21:06:49 - main - INFO -   ⏳ 待爬取URL: 2020
+2026-01-01 21:06:49 - main - INFO -   ✅ 已爬取URL: 158
+2026-01-01 21:06:49 - main - INFO - ======================================================================
+2026-01-01 21:07:25 - main - INFO - 運行 auto 爬蟲
+2026-01-01 21:07:25 - auto_scraper - INFO - ============================================================
+2026-01-01 21:07:25 - auto_scraper - INFO - 開始運行 auto_scraper 爬蟲
+2026-01-01 21:07:25 - auto_scraper - INFO - ============================================================
+2026-01-01 21:07:25 - auto_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 21:07:27 - auto_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 21:07:27 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/
+2026-01-01 21:07:27 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/
+2026-01-01 21:07:30 - auto_scraper - INFO - 列表頁面發現 0 個汽車
+2026-01-01 21:07:30 - auto_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/autos/, 發現 0 個項目
+2026-01-01 21:07:31 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/all
+2026-01-01 21:07:31 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/all
+2026-01-01 21:07:33 - auto_scraper - INFO - 列表頁面發現 0 個汽車
+2026-01-01 21:07:33 - auto_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/autos/all, 發現 0 個項目
+2026-01-01 21:07:34 - auto_scraper - INFO - 沒有更多未訪問的URL
+2026-01-01 21:07:34 - auto_scraper - INFO - 瀏覽器已關閉
+2026-01-01 21:07:34 - auto_scraper - INFO - ============================================================
+2026-01-01 21:07:34 - auto_scraper - INFO - 爬蟲運行統計:
+2026-01-01 21:07:34 - auto_scraper - INFO -   - 頁面爬取: 2
+2026-01-01 21:07:34 - auto_scraper - INFO -   - 項目保存: 0
+2026-01-01 21:07:34 - auto_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 21:07:34 - auto_scraper - INFO -   - 運行時間: 9.35 秒
+2026-01-01 21:07:34 - auto_scraper - INFO - ============================================================
+2026-01-01 21:07:34 - main - INFO - 
+======================================================================
+2026-01-01 21:07:34 - main - INFO - 📊 資料庫統計:
+2026-01-01 21:07:34 - main - INFO - ----------------------------------------
+2026-01-01 21:07:34 - main - INFO -   📰 新聞文章: 34 篇
+2026-01-01 21:07:34 - main - INFO -   🏠 房屋列表: 27 條
+2026-01-01 21:07:34 - main - INFO -   💼 工作職位: 37 個
+2026-01-01 21:07:34 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 21:07:34 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 21:07:34 - main - INFO -   🚗 汽車列表: 0 條
+2026-01-01 21:07:34 - main - INFO - ----------------------------------------
+2026-01-01 21:07:34 - main - INFO -   ⏳ 待爬取URL: 2020
+2026-01-01 21:07:34 - main - INFO -   ✅ 已爬取URL: 160
+2026-01-01 21:07:34 - main - INFO - ======================================================================
+2026-01-01 21:08:12 - main - INFO - 運行 auto 爬蟲
+2026-01-01 21:08:12 - auto_scraper - INFO - ============================================================
+2026-01-01 21:08:12 - auto_scraper - INFO - 開始運行 auto_scraper 爬蟲
+2026-01-01 21:08:12 - auto_scraper - INFO - ============================================================
+2026-01-01 21:08:12 - auto_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 21:08:14 - auto_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 21:08:14 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars
+2026-01-01 21:08:14 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars
+2026-01-01 21:08:17 - auto_scraper - INFO - 列表頁面發現 24 個汽車
+2026-01-01 21:08:17 - auto_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/autos/used-cars, 發現 24 個項目
+2026-01-01 21:08:18 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars
+2026-01-01 21:08:18 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars
+2026-01-01 21:08:21 - auto_scraper - INFO - 列表頁面發現 24 個汽車
+2026-01-01 21:08:21 - auto_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/autos/new-cars, 發現 24 個項目
+2026-01-01 21:08:22 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/lease-cars
+2026-01-01 21:08:22 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/lease-cars
+2026-01-01 21:08:24 - auto_scraper - INFO - 列表頁面發現 11 個汽車
+2026-01-01 21:08:24 - auto_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/autos/lease-cars, 發現 11 個項目
+2026-01-01 21:08:25 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9890
+2026-01-01 21:08:25 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9890
+2026-01-01 21:08:28 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:08:29 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9889
+2026-01-01 21:08:29 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9889
+2026-01-01 21:08:31 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:08:32 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9888
+2026-01-01 21:08:32 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9888
+2026-01-01 21:08:35 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:08:36 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9887
+2026-01-01 21:08:36 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9887
+2026-01-01 21:08:38 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:08:39 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9886
+2026-01-01 21:08:39 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9886
+2026-01-01 21:08:42 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:08:43 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9890
+2026-01-01 21:08:43 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9890
+2026-01-01 21:08:45 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:08:46 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9889
+2026-01-01 21:08:46 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9889
+2026-01-01 21:08:49 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:08:50 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9888
+2026-01-01 21:08:50 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9888
+2026-01-01 21:08:52 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:08:53 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9887
+2026-01-01 21:08:53 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9887
+2026-01-01 21:08:55 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:08:56 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9886
+2026-01-01 21:08:56 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9886
+2026-01-01 21:08:59 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:00 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9890
+2026-01-01 21:09:00 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9890
+2026-01-01 21:09:02 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:03 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9889
+2026-01-01 21:09:03 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9889
+2026-01-01 21:09:06 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:07 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9888
+2026-01-01 21:09:07 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9888
+2026-01-01 21:09:09 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:10 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9887
+2026-01-01 21:09:10 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9887
+2026-01-01 21:09:13 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:14 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9886
+2026-01-01 21:09:14 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9886
+2026-01-01 21:09:16 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:17 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9885
+2026-01-01 21:09:17 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9885
+2026-01-01 21:09:20 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:21 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9884
+2026-01-01 21:09:21 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9884
+2026-01-01 21:09:23 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:24 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9883
+2026-01-01 21:09:24 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9883
+2026-01-01 21:09:26 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:28 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9881
+2026-01-01 21:09:28 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9881
+2026-01-01 21:09:30 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:31 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9880
+2026-01-01 21:09:31 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9880
+2026-01-01 21:09:33 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:34 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9885
+2026-01-01 21:09:34 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9885
+2026-01-01 21:09:37 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:38 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9884
+2026-01-01 21:09:38 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9884
+2026-01-01 21:09:40 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:41 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9883
+2026-01-01 21:09:41 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9883
+2026-01-01 21:09:44 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:45 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9881
+2026-01-01 21:09:45 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9881
+2026-01-01 21:09:47 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:48 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9880
+2026-01-01 21:09:48 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9880
+2026-01-01 21:09:50 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:51 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9885
+2026-01-01 21:09:51 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9885
+2026-01-01 21:09:54 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:55 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9884
+2026-01-01 21:09:55 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9884
+2026-01-01 21:09:57 - auto_scraper - ERROR - 保存汽車失敗: table auto_listings has no column named body_type
+2026-01-01 21:09:59 - auto_scraper - INFO - 瀏覽器已關閉
+2026-01-01 21:09:59 - auto_scraper - INFO - ============================================================
+2026-01-01 21:09:59 - auto_scraper - INFO - 爬蟲運行統計:
+2026-01-01 21:09:59 - auto_scraper - INFO -   - 頁面爬取: 30
+2026-01-01 21:09:59 - auto_scraper - INFO -   - 項目保存: 0
+2026-01-01 21:09:59 - auto_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 21:09:59 - auto_scraper - INFO -   - 運行時間: 106.27 秒
+2026-01-01 21:09:59 - auto_scraper - INFO - ============================================================
+2026-01-01 21:09:59 - main - INFO - 
+======================================================================
+2026-01-01 21:09:59 - main - INFO - 📊 資料庫統計:
+2026-01-01 21:09:59 - main - INFO - ----------------------------------------
+2026-01-01 21:09:59 - main - INFO -   📰 新聞文章: 34 篇
+2026-01-01 21:09:59 - main - INFO -   🏠 房屋列表: 27 條
+2026-01-01 21:09:59 - main - INFO -   💼 工作職位: 37 個
+2026-01-01 21:09:59 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 21:09:59 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 21:09:59 - main - INFO -   🚗 汽車列表: 0 條
+2026-01-01 21:09:59 - main - INFO - ----------------------------------------
+2026-01-01 21:09:59 - main - INFO -   ⏳ 待爬取URL: 2079
+2026-01-01 21:09:59 - main - INFO -   ✅ 已爬取URL: 163
+2026-01-01 21:09:59 - main - INFO - ======================================================================
+2026-01-01 21:10:10 - main - INFO - 運行 news 爬蟲
+2026-01-01 21:10:10 - news_scraper - INFO - ============================================================
+2026-01-01 21:10:10 - news_scraper - INFO - 開始運行 news_scraper 爬蟲
+2026-01-01 21:10:10 - news_scraper - INFO - ============================================================
+2026-01-01 21:10:10 - news_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 21:10:11 - news_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 21:10:11 - news_scraper - INFO - 正在處理: https://info.51.ca/
+2026-01-01 21:10:11 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/
+2026-01-01 21:10:15 - news_scraper - INFO - 列表頁面發現 60 篇文章
+2026-01-01 21:10:15 - news_scraper - INFO - 列表頁面爬取完成: https://info.51.ca/, 發現 60 個項目
+2026-01-01 21:10:16 - news_scraper - INFO - 正在處理: https://info.51.ca/canada
+2026-01-01 21:10:16 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/canada
+2026-01-01 21:10:19 - news_scraper - INFO - 列表頁面發現 42 篇文章
+2026-01-01 21:10:19 - news_scraper - INFO - 列表頁面爬取完成: https://info.51.ca/canada, 發現 42 個項目
+2026-01-01 21:10:20 - news_scraper - INFO - 正在處理: https://info.51.ca/world
+2026-01-01 21:10:20 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/world
+2026-01-01 21:10:22 - news_scraper - INFO - 列表頁面發現 32 篇文章
+2026-01-01 21:10:23 - news_scraper - INFO - 列表頁面爬取完成: https://info.51.ca/world, 發現 32 個項目
+2026-01-01 21:10:24 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500538
+2026-01-01 21:10:24 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500538
+2026-01-01 21:10:26 - news_scraper - DEBUG - 解析文章: 1月1日头条：盘点加拿大今年生效的新法规；滑雪胜地爆炸155...
+2026-01-01 21:10:27 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500544
+2026-01-01 21:10:27 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500544
+2026-01-01 21:10:30 - news_scraper - DEBUG - 解析文章: 好机会！多伦多市政府大量岗位招人，年薪高达$12万...
+2026-01-01 21:10:31 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500537
+2026-01-01 21:10:31 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500537
+2026-01-01 21:10:34 - news_scraper - DEBUG - 解析文章: "家庭厨房"遭卫生局严查! 加拿大餐馆老板反而力挺: 开店真...
+2026-01-01 21:10:35 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500507
+2026-01-01 21:10:35 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500507
+2026-01-01 21:10:37 - news_scraper - DEBUG - 解析文章: 中国的人造钻石，几乎摧毁了加拿大这个地区的财政支柱...
+2026-01-01 21:10:38 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500533
+2026-01-01 21:10:38 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500533
+2026-01-01 21:10:41 - news_scraper - DEBUG - 解析文章: 多伦多95后小情侣准备结婚, 父母催买房! 专家却劝: 别急...
+2026-01-01 21:10:42 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500496
+2026-01-01 21:10:42 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500496
+2026-01-01 21:10:45 - news_scraper - DEBUG - 解析文章: 跨年夜安省10岁孩童死于家中，母亲被送医院，重案组介入调查...
+2026-01-01 21:10:46 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500511
+2026-01-01 21:10:46 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500511
+2026-01-01 21:10:49 - news_scraper - DEBUG - 解析文章: 新年惨剧! 滑雪胜地突发爆炸155死伤! 人群尖叫踩踏 灾难...
+2026-01-01 21:10:50 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500451
+2026-01-01 21:10:50 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500451
+2026-01-01 21:10:52 - news_scraper - DEBUG - 解析文章: 民调：加拿大人对2026年充满希望，却对国内外重大挑战心存悲...
+2026-01-01 21:10:54 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500443
+2026-01-01 21:10:54 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500443
+2026-01-01 21:10:56 - news_scraper - DEBUG - 解析文章: 年轻人就业难吗？仨高中好友十年创办加拿大最大预制餐食配送公司...
+2026-01-01 21:10:57 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1499968/comments
+2026-01-01 21:10:57 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1499968/comments
+2026-01-01 21:11:00 - news_scraper - DEBUG - 解析文章: 加拿大紧急叫停一项难民移民通道，雇主与难民同时被"卡"！...
+2026-01-01 21:11:01 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1499968
+2026-01-01 21:11:01 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1499968
+2026-01-01 21:11:04 - news_scraper - DEBUG - 解析文章: 加拿大紧急叫停一项难民移民通道，雇主与难民同时被"卡"！...
+2026-01-01 21:11:05 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500441
+2026-01-01 21:11:05 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500441
+2026-01-01 21:11:08 - news_scraper - DEBUG - 解析文章: 荒唐！多伦多公校教育局向一名“连拼写都困难”的诈骗犯汇款10...
+2026-01-01 21:11:09 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500434
+2026-01-01 21:11:09 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500434
+2026-01-01 21:11:11 - news_scraper - DEBUG - 解析文章: 多伦多除夕夜惊魂：男子尾随入室连环性侵三女，或有更多受害者...
+2026-01-01 21:11:13 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500435
+2026-01-01 21:11:13 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500435
+2026-01-01 21:11:15 - news_scraper - DEBUG - 解析文章: 暴风雪、极寒和大雾：2026年元旦加拿大12个省、区发布天气...
+2026-01-01 21:11:16 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500432
+2026-01-01 21:11:16 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500432
+2026-01-01 21:11:19 - news_scraper - DEBUG - 解析文章: 从移民上限到中产阶级减税：盘点加拿大2026年生效的新法律法...
+2026-01-01 21:11:20 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500431
+2026-01-01 21:11:20 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500431
+2026-01-01 21:11:23 - news_scraper - DEBUG - 解析文章: 落地那天是除夕：叙利亚难民一家在加十年，开了自家的餐馆...
+2026-01-01 21:11:24 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500429
+2026-01-01 21:11:24 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500429
+2026-01-01 21:11:26 - news_scraper - DEBUG - 解析文章: 多伦多地区医院喜迎2026年的新年“零点宝宝”，三人都来自宾...
+2026-01-01 21:11:28 - news_scraper - INFO - 瀏覽器已關閉
+2026-01-01 21:11:28 - news_scraper - INFO - ============================================================
+2026-01-01 21:11:28 - news_scraper - INFO - 爬蟲運行統計:
+2026-01-01 21:11:28 - news_scraper - INFO -   - 頁面爬取: 20
+2026-01-01 21:11:28 - news_scraper - INFO -   - 項目保存: 17
+2026-01-01 21:11:28 - news_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 21:11:28 - news_scraper - INFO -   - 運行時間: 77.58 秒
+2026-01-01 21:11:28 - news_scraper - INFO - ============================================================
+2026-01-01 21:11:28 - main - INFO - 
+======================================================================
+2026-01-01 21:11:28 - main - INFO - 📊 資料庫統計:
+2026-01-01 21:11:28 - main - INFO - ----------------------------------------
+2026-01-01 21:11:28 - main - INFO -   📰 新聞文章: 16 篇
+2026-01-01 21:11:28 - main - INFO -   🏠 房屋列表: 0 條
+2026-01-01 21:11:28 - main - INFO -   💼 工作職位: 0 個
+2026-01-01 21:11:28 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 21:11:28 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 21:11:28 - main - INFO -   🚗 汽車列表: 0 條
+2026-01-01 21:11:28 - main - INFO - ----------------------------------------
+2026-01-01 21:11:28 - main - INFO -   ⏳ 待爬取URL: 84
+2026-01-01 21:11:28 - main - INFO -   ✅ 已爬取URL: 20
+2026-01-01 21:11:28 - main - INFO - ======================================================================
+2026-01-01 21:11:34 - main - INFO - 運行 house 爬蟲
+2026-01-01 21:11:34 - house_scraper - INFO - ============================================================
+2026-01-01 21:11:34 - house_scraper - INFO - 開始運行 house_scraper 爬蟲
+2026-01-01 21:11:34 - house_scraper - INFO - ============================================================
+2026-01-01 21:11:34 - house_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 21:11:36 - house_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 21:11:36 - house_scraper - INFO - 正在處理: https://house.51.ca/mls
+2026-01-01 21:11:36 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/mls
+2026-01-01 21:11:40 - house_scraper - INFO - 列表頁面發現 394 個房源
+2026-01-01 21:11:44 - house_scraper - INFO - 列表頁面爬取完成: https://house.51.ca/mls, 發現 394 個項目
+2026-01-01 21:11:45 - house_scraper - INFO - 正在處理: https://house.51.ca/mls?transactionType=2
+2026-01-01 21:11:45 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/mls?transactionType=2
+2026-01-01 21:11:48 - house_scraper - INFO - 列表頁面發現 398 個房源
+2026-01-01 21:11:53 - house_scraper - INFO - 列表頁面爬取完成: https://house.51.ca/mls?transactionType=2, 發現 398 個項目
+2026-01-01 21:11:54 - house_scraper - INFO - 正在處理: https://house.51.ca/rental
+2026-01-01 21:11:54 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/rental
+2026-01-01 21:11:58 - house_scraper - INFO - 列表頁面發現 0 個房源
+2026-01-01 21:11:58 - house_scraper - INFO - 列表頁面爬取完成: https://house.51.ca/rental, 發現 0 個項目
+2026-01-01 21:11:59 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12638054
+2026-01-01 21:11:59 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12638054
+2026-01-01 21:12:04 - house_scraper - DEBUG - 解析房源: N12638054 - 还款明细(月)...
+2026-01-01 21:12:05 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12606924
+2026-01-01 21:12:05 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12606924
+2026-01-01 21:12:09 - house_scraper - DEBUG - 解析房源: C12606924 - 还款明细(月)...
+2026-01-01 21:12:10 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/E12652970
+2026-01-01 21:12:10 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/E12652970
+2026-01-01 21:12:15 - house_scraper - DEBUG - 解析房源: E12652970 - 还款明细(月)...
+2026-01-01 21:12:16 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12629102
+2026-01-01 21:12:16 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12629102
+2026-01-01 21:12:21 - house_scraper - DEBUG - 解析房源: N12629102 - 还款明细(月)...
+2026-01-01 21:12:22 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/E12556750
+2026-01-01 21:12:22 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/E12556750
+2026-01-01 21:12:26 - house_scraper - DEBUG - 解析房源: E12556750 - 还款明细(月)...
+2026-01-01 21:12:27 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12655000
+2026-01-01 21:12:27 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12655000
+2026-01-01 21:12:31 - house_scraper - DEBUG - 解析房源: N12655000 - 还款明细(月)...
+2026-01-01 21:12:32 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/E12654336
+2026-01-01 21:12:32 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/E12654336
+2026-01-01 21:12:36 - house_scraper - DEBUG - 解析房源: E12654336 - 还款明细(月)...
+2026-01-01 21:12:37 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12653512
+2026-01-01 21:12:37 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12653512
+2026-01-01 21:12:41 - house_scraper - DEBUG - 解析房源: C12653512 - 还款明细(月)...
+2026-01-01 21:12:42 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12651408
+2026-01-01 21:12:42 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12651408
+2026-01-01 21:12:46 - house_scraper - DEBUG - 解析房源: C12651408 - 还款明细(月)...
+2026-01-01 21:12:47 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12654352
+2026-01-01 21:12:47 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12654352
+2026-01-01 21:12:51 - house_scraper - DEBUG - 解析房源: C12654352 - 还款明细(月)...
+2026-01-01 21:12:52 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12654548
+2026-01-01 21:12:52 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12654548
+2026-01-01 21:12:55 - house_scraper - DEBUG - 解析房源: C12654548 - 还款明细(月)...
+2026-01-01 21:12:56 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12653448
+2026-01-01 21:12:56 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12653448
+2026-01-01 21:13:00 - house_scraper - DEBUG - 解析房源: C12653448 - 还款明细(月)...
+2026-01-01 21:13:01 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12411998
+2026-01-01 21:13:01 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12411998
+2026-01-01 21:13:05 - house_scraper - DEBUG - 解析房源: C12411998 - 还款明细(月)...
+2026-01-01 21:13:06 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12650700
+2026-01-01 21:13:06 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12650700
+2026-01-01 21:13:12 - house_scraper - DEBUG - 解析房源: C12650700 - 还款明细(月)...
+2026-01-01 21:13:13 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12512502
+2026-01-01 21:13:13 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12512502
+2026-01-01 21:13:18 - house_scraper - DEBUG - 解析房源: N12512502 - 还款明细(月)...
+2026-01-01 21:13:19 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12549926
+2026-01-01 21:13:19 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12549926
+2026-01-01 21:13:22 - house_scraper - DEBUG - 解析房源: N12549926 - 还款明细(月)...
+2026-01-01 21:13:23 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12402935
+2026-01-01 21:13:23 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12402935
+2026-01-01 21:13:27 - house_scraper - DEBUG - 解析房源: C12402935 - 还款明细(月)...
+2026-01-01 21:13:28 - house_scraper - INFO - 瀏覽器已關閉
+2026-01-01 21:13:28 - house_scraper - INFO - ============================================================
+2026-01-01 21:13:28 - house_scraper - INFO - 爬蟲運行統計:
+2026-01-01 21:13:28 - house_scraper - INFO -   - 頁面爬取: 20
+2026-01-01 21:13:28 - house_scraper - INFO -   - 項目保存: 17
+2026-01-01 21:13:28 - house_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 21:13:28 - house_scraper - INFO -   - 運行時間: 114.39 秒
+2026-01-01 21:13:28 - house_scraper - INFO - ============================================================
+2026-01-01 21:13:28 - main - INFO - 
+======================================================================
+2026-01-01 21:13:28 - main - INFO - 📊 資料庫統計:
+2026-01-01 21:13:28 - main - INFO - ----------------------------------------
+2026-01-01 21:13:28 - main - INFO -   📰 新聞文章: 16 篇
+2026-01-01 21:13:28 - main - INFO -   🏠 房屋列表: 17 條
+2026-01-01 21:13:28 - main - INFO -   💼 工作職位: 0 個
+2026-01-01 21:13:28 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 21:13:28 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 21:13:28 - main - INFO -   🚗 汽車列表: 0 條
+2026-01-01 21:13:28 - main - INFO - ----------------------------------------
+2026-01-01 21:13:28 - main - INFO -   ⏳ 待爬取URL: 859
+2026-01-01 21:13:28 - main - INFO -   ✅ 已爬取URL: 40
+2026-01-01 21:13:28 - main - INFO - ======================================================================
+2026-01-01 21:13:34 - main - INFO - 運行 jobs 爬蟲
+2026-01-01 21:13:34 - jobs_scraper - INFO - ============================================================
+2026-01-01 21:13:34 - jobs_scraper - INFO - 開始運行 jobs_scraper 爬蟲
+2026-01-01 21:13:34 - jobs_scraper - INFO - ============================================================
+2026-01-01 21:13:34 - jobs_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 21:13:35 - jobs_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 21:13:35 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs
+2026-01-01 21:13:35 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs
+2026-01-01 21:13:39 - jobs_scraper - INFO - 列表頁面發現 66 個職位
+2026-01-01 21:13:40 - jobs_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/jobs, 發現 66 個項目
+2026-01-01 21:13:41 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts
+2026-01-01 21:13:41 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts
+2026-01-01 21:13:43 - jobs_scraper - INFO - 列表頁面發現 15 個職位
+2026-01-01 21:13:43 - jobs_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/jobs/job-posts, 發現 15 個項目
+2026-01-01 21:13:44 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/urgently-hiring
+2026-01-01 21:13:44 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/urgently-hiring
+2026-01-01 21:13:47 - jobs_scraper - INFO - 列表頁面發現 10 個職位
+2026-01-01 21:13:47 - jobs_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/jobs/urgently-hiring, 發現 10 個項目
+2026-01-01 21:13:48 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1170527
+2026-01-01 21:13:48 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1170527
+2026-01-01 21:13:50 - jobs_scraper - DEBUG - 解析職位: 1170527 - 丰亚超市聘：肉部、鱼部、厨房油炉薪资面议收藏职位拨打电话查看...
+2026-01-01 21:13:51 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1169429
+2026-01-01 21:13:51 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1169429
+2026-01-01 21:13:54 - jobs_scraper - DEBUG - 解析職位: 1169429 - 华泰超市 聘烧腊部师傅与帮工薪资面议收藏职位拨打电话查看电话...
+2026-01-01 21:13:55 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173077
+2026-01-01 21:13:55 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173077
+2026-01-01 21:13:57 - jobs_scraper - DEBUG - 解析職位: 1173077 - 全职运营/客服38,400~60,000加元/年收藏职位发送...
+2026-01-01 21:13:58 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1168571
+2026-01-01 21:13:58 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1168571
+2026-01-01 21:14:01 - jobs_scraper - DEBUG - 解析職位: 1168571 - 全职运营/行政40,000~68,400加元/年收藏职位发送...
+2026-01-01 21:14:02 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1171325
+2026-01-01 21:14:02 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1171325
+2026-01-01 21:14:04 - jobs_scraper - DEBUG - 解析職位: 1171325 - 【鸿华Bestco市中心店熟食/点心部门招聘】薪资面议收藏职...
+2026-01-01 21:14:05 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1171149
+2026-01-01 21:14:05 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1171149
+2026-01-01 21:14:07 - jobs_scraper - DEBUG - 解析職位: 1171149 - 【鸿华Bestco市中心店果蔬部门招聘】薪资面议收藏职位发送...
+2026-01-01 21:14:08 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1162493
+2026-01-01 21:14:08 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1162493
+2026-01-01 21:14:11 - jobs_scraper - DEBUG - 解析職位: 1162493 - 销售与市场推广代表薪资面议推荐收藏职位发送邮件拨打电话查看电...
+2026-01-01 21:14:12 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1158383
+2026-01-01 21:14:12 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1158383
+2026-01-01 21:14:14 - jobs_scraper - DEBUG - 解析職位: 1158383 - 橱卫批发公司 高薪诚聘 前台 销售（ 女）薪资面议推荐收藏职...
+2026-01-01 21:14:15 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173060
+2026-01-01 21:14:15 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173060
+2026-01-01 21:14:18 - jobs_scraper - DEBUG - 解析職位: 1173060 - 租赁协调 / Rental Coordinator18.50...
+2026-01-01 21:14:19 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173059
+2026-01-01 21:14:19 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173059
+2026-01-01 21:14:21 - jobs_scraper - DEBUG - 解析職位: 1173059 - 设备销售代表薪资面议收藏职位发送邮件...
+2026-01-01 21:14:22 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1172839
+2026-01-01 21:14:22 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1172839
+2026-01-01 21:14:25 - jobs_scraper - DEBUG - 解析職位: 1172839 - 服务员0.00~0.00加元/小时收藏职位发送邮件拨打电话查...
+2026-01-01 21:14:26 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1170697
+2026-01-01 21:14:26 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1170697
+2026-01-01 21:14:28 - jobs_scraper - DEBUG - 解析職位: 1170697 - 新店开业请全职后厨，要懂捞面，出歺0.00~0.00加元/小...
+2026-01-01 21:14:29 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173216
+2026-01-01 21:14:29 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173216
+2026-01-01 21:14:32 - jobs_scraper - DEBUG - 解析職位: 1173216 - 华人超市需要熟手蔬菜包装薪资面议收藏职位发送邮件拨打电话查看...
+2026-01-01 21:14:33 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1172832
+2026-01-01 21:14:33 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1172832
+2026-01-01 21:14:35 - jobs_scraper - DEBUG - 解析職位: 1172832 - 面包部师傅薪资面议收藏职位发送邮件拨打电话查看电话64760...
+2026-01-01 21:14:36 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1171039
+2026-01-01 21:14:36 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1171039
+2026-01-01 21:14:39 - jobs_scraper - DEBUG - 解析職位: 1171039 - Richmond Hill 时代广场新餐馆 诚聘有经验员工薪...
+2026-01-01 21:14:40 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1169376
+2026-01-01 21:14:40 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1169376
+2026-01-01 21:14:42 - jobs_scraper - DEBUG - 解析職位: 1169376 - 大个子砂锅王RH 时代广场新店诚聘服务员薪资面议收藏职位发送...
+2026-01-01 21:14:43 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173212
+2026-01-01 21:14:43 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173212
+2026-01-01 21:14:46 - jobs_scraper - DEBUG - 解析職位: 1173212 - 市中心请全职有经验企台（服务员） – Yonge/Bloor...
+2026-01-01 21:14:47 - jobs_scraper - INFO - 瀏覽器已關閉
+2026-01-01 21:14:47 - jobs_scraper - INFO - ============================================================
+2026-01-01 21:14:47 - jobs_scraper - INFO - 爬蟲運行統計:
+2026-01-01 21:14:47 - jobs_scraper - INFO -   - 頁面爬取: 20
+2026-01-01 21:14:47 - jobs_scraper - INFO -   - 項目保存: 17
+2026-01-01 21:14:47 - jobs_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 21:14:47 - jobs_scraper - INFO -   - 運行時間: 72.78 秒
+2026-01-01 21:14:47 - jobs_scraper - INFO - ============================================================
+2026-01-01 21:14:47 - main - INFO - 
+======================================================================
+2026-01-01 21:14:47 - main - INFO - 📊 資料庫統計:
+2026-01-01 21:14:47 - main - INFO - ----------------------------------------
+2026-01-01 21:14:47 - main - INFO -   📰 新聞文章: 16 篇
+2026-01-01 21:14:47 - main - INFO -   🏠 房屋列表: 17 條
+2026-01-01 21:14:47 - main - INFO -   💼 工作職位: 17 個
+2026-01-01 21:14:47 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 21:14:47 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 21:14:47 - main - INFO -   🚗 汽車列表: 0 條
+2026-01-01 21:14:47 - main - INFO - ----------------------------------------
+2026-01-01 21:14:47 - main - INFO -   ⏳ 待爬取URL: 924
+2026-01-01 21:14:47 - main - INFO -   ✅ 已爬取URL: 60
+2026-01-01 21:14:47 - main - INFO - ======================================================================
+2026-01-01 21:14:54 - main - INFO - 運行 service 爬蟲
+2026-01-01 21:14:54 - service_scraper - INFO - ============================================================
+2026-01-01 21:14:54 - service_scraper - INFO - 開始運行 service_scraper 爬蟲
+2026-01-01 21:14:54 - service_scraper - INFO - ============================================================
+2026-01-01 21:14:54 - service_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 21:14:55 - service_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 21:14:55 - service_scraper - INFO - 正在處理: https://www.51.ca/service/
+2026-01-01 21:14:55 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/
+2026-01-01 21:15:01 - service_scraper - INFO - 列表頁面發現 712 個項目
+2026-01-01 21:15:08 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/, 發現 712 個項目
+2026-01-01 21:15:09 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/construction-renovation
+2026-01-01 21:15:09 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/construction-renovation
+2026-01-01 21:15:15 - service_scraper - INFO - 列表頁面發現 144 個項目
+2026-01-01 21:15:16 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/construction-renovation, 發現 144 個項目
+2026-01-01 21:15:17 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/garden-snow-removal-services
+2026-01-01 21:15:17 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/garden-snow-removal-services
+2026-01-01 21:15:22 - service_scraper - INFO - 列表頁面發現 85 個項目
+2026-01-01 21:15:23 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/garden-snow-removal-services, 發現 85 個項目
+2026-01-01 21:15:24 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/roofing
+2026-01-01 21:15:24 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/roofing
+2026-01-01 21:15:27 - service_scraper - INFO - 列表頁面發現 55 個項目
+2026-01-01 21:15:27 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/roofing, 發現 55 個項目
+2026-01-01 21:15:28 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/doors-windows-inserts
+2026-01-01 21:15:28 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/doors-windows-inserts
+2026-01-01 21:15:32 - service_scraper - INFO - 列表頁面發現 40 個項目
+2026-01-01 21:15:32 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/doors-windows-inserts, 發現 40 個項目
+2026-01-01 21:15:33 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/mortgage
+2026-01-01 21:15:33 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/mortgage
+2026-01-01 21:15:37 - service_scraper - INFO - 列表頁面發現 69 個項目
+2026-01-01 21:15:38 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/mortgage, 發現 69 個項目
+2026-01-01 21:15:39 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/heating-cooling-ventilating
+2026-01-01 21:15:39 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/heating-cooling-ventilating
+2026-01-01 21:15:42 - service_scraper - INFO - 列表頁面發現 59 個項目
+2026-01-01 21:15:43 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/heating-cooling-ventilating, 發現 59 個項目
+2026-01-01 21:15:44 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/fence-deck
+2026-01-01 21:15:44 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/fence-deck
+2026-01-01 21:15:47 - service_scraper - INFO - 列表頁面發現 33 個項目
+2026-01-01 21:15:47 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/fence-deck, 發現 33 個項目
+2026-01-01 21:15:48 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/household-cleaning
+2026-01-01 21:15:48 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/household-cleaning
+2026-01-01 21:15:51 - service_scraper - INFO - 列表頁面發現 52 個項目
+2026-01-01 21:15:52 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/household-cleaning, 發現 52 個項目
+2026-01-01 21:15:53 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/electric-services
+2026-01-01 21:15:53 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/electric-services
+2026-01-01 21:15:57 - service_scraper - INFO - 列表頁面發現 42 個項目
+2026-01-01 21:15:57 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/electric-services, 發現 42 個項目
+2026-01-01 21:15:58 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/pest-control
+2026-01-01 21:15:58 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/pest-control
+2026-01-01 21:16:01 - service_scraper - INFO - 列表頁面發現 17 個項目
+2026-01-01 21:16:01 - service_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/service/categories/pest-control, 發現 17 個項目
+2026-01-01 21:16:02 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/mortgage/posts/226375
+2026-01-01 21:16:02 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/mortgage/posts/226375
+2026-01-01 21:16:06 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/glass-decoration-services/posts/228252
+2026-01-01 21:16:06 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/glass-decoration-services/posts/228252
+2026-01-01 21:16:10 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/construction-renovation/posts/242431
+2026-01-01 21:16:10 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/construction-renovation/posts/242431
+2026-01-01 21:16:13 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/doors-windows-inserts/posts/227798
+2026-01-01 21:16:13 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/doors-windows-inserts/posts/227798
+2026-01-01 21:16:17 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/construction-renovation/posts/247157
+2026-01-01 21:16:17 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/construction-renovation/posts/247157
+2026-01-01 21:16:20 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/roofing/posts/242642
+2026-01-01 21:16:20 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/roofing/posts/242642
+2026-01-01 21:16:23 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/pipe-services/posts/218744
+2026-01-01 21:16:23 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/pipe-services/posts/218744
+2026-01-01 21:16:27 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/household-cleaning/posts/243462
+2026-01-01 21:16:27 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/household-cleaning/posts/243462
+2026-01-01 21:16:31 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/household-appliances-repair/posts/238189
+2026-01-01 21:16:31 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/household-appliances-repair/posts/238189
+2026-01-01 21:16:34 - service_scraper - INFO - 瀏覽器已關閉
+2026-01-01 21:16:34 - service_scraper - INFO - ============================================================
+2026-01-01 21:16:34 - service_scraper - INFO - 爬蟲運行統計:
+2026-01-01 21:16:34 - service_scraper - INFO -   - 頁面爬取: 20
+2026-01-01 21:16:34 - service_scraper - INFO -   - 項目保存: 9
+2026-01-01 21:16:34 - service_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 21:16:34 - service_scraper - INFO -   - 運行時間: 100.69 秒
+2026-01-01 21:16:34 - service_scraper - INFO - ============================================================
+2026-01-01 21:16:34 - main - INFO - 
+======================================================================
+2026-01-01 21:16:34 - main - INFO - 📊 資料庫統計:
+2026-01-01 21:16:34 - main - INFO - ----------------------------------------
+2026-01-01 21:16:34 - main - INFO -   📰 新聞文章: 16 篇
+2026-01-01 21:16:34 - main - INFO -   🏠 房屋列表: 17 條
+2026-01-01 21:16:34 - main - INFO -   💼 工作職位: 17 個
+2026-01-01 21:16:34 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 21:16:34 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 21:16:34 - main - INFO -   🚗 汽車列表: 0 條
+2026-01-01 21:16:34 - main - INFO - ----------------------------------------
+2026-01-01 21:16:34 - main - INFO -   ⏳ 待爬取URL: 2080
+2026-01-01 21:16:34 - main - INFO -   ✅ 已爬取URL: 80
+2026-01-01 21:16:34 - main - INFO - ======================================================================
+2026-01-01 21:16:35 - main - INFO - 運行 auto 爬蟲
+2026-01-01 21:16:35 - auto_scraper - INFO - ============================================================
+2026-01-01 21:16:35 - auto_scraper - INFO - 開始運行 auto_scraper 爬蟲
+2026-01-01 21:16:35 - auto_scraper - INFO - ============================================================
+2026-01-01 21:16:35 - auto_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 21:16:37 - auto_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 21:16:37 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/
+2026-01-01 21:16:37 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/
+2026-01-01 21:16:40 - auto_scraper - INFO - 列表頁面發現 24 個汽車
+2026-01-01 21:16:40 - auto_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/autos/, 發現 24 個項目
+2026-01-01 21:16:41 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars
+2026-01-01 21:16:41 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars
+2026-01-01 21:16:44 - auto_scraper - INFO - 列表頁面發現 24 個汽車
+2026-01-01 21:16:44 - auto_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/autos/used-cars, 發現 24 個項目
+2026-01-01 21:16:45 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars
+2026-01-01 21:16:45 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars
+2026-01-01 21:16:48 - auto_scraper - INFO - 列表頁面發現 24 個汽車
+2026-01-01 21:16:48 - auto_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/autos/new-cars, 發現 24 個項目
+2026-01-01 21:16:49 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/lease-cars
+2026-01-01 21:16:49 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/lease-cars
+2026-01-01 21:16:52 - auto_scraper - INFO - 列表頁面發現 11 個汽車
+2026-01-01 21:16:52 - auto_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/autos/lease-cars, 發現 11 個項目
+2026-01-01 21:16:53 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9890
+2026-01-01 21:16:53 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9890
+2026-01-01 21:16:55 - auto_scraper - INFO - 保存汽車: 2023 Hyundai Tucson_2023_Hyundai_Tucson_车行直卖_-51汽车
+2026-01-01 21:16:56 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9889
+2026-01-01 21:16:56 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9889
+2026-01-01 21:16:59 - auto_scraper - INFO - 保存汽車: 2019 Audi Q7_2019_Audi_Q7_车行直卖_-51汽车
+2026-01-01 21:17:00 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9888
+2026-01-01 21:17:00 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9888
+2026-01-01 21:17:02 - auto_scraper - INFO - 保存汽車: 2021 BMW X3_2021_BMW_X3_车行直卖_-51汽车
+2026-01-01 21:17:03 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9887
+2026-01-01 21:17:03 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9887
+2026-01-01 21:17:06 - auto_scraper - INFO - 保存汽車: 2021 Lexus ES_2021_Lexus_ES_车行直卖_-51汽车
+2026-01-01 21:17:07 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9886
+2026-01-01 21:17:07 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9886
+2026-01-01 21:17:09 - auto_scraper - INFO - 保存汽車: 2020 Mazda CX-5_2020_Mazda_CX-5_车行直卖_-51汽车
+2026-01-01 21:17:10 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9885
+2026-01-01 21:17:10 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9885
+2026-01-01 21:17:13 - auto_scraper - INFO - 保存汽車: 2012 Nissan Altima_2012_Nissan_Altima_车主直售_-51汽车
+2026-01-01 21:17:14 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9884
+2026-01-01 21:17:14 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9884
+2026-01-01 21:17:16 - auto_scraper - INFO - 保存汽車: 2021 Maserati Ghibli_2021_Maserati_Ghibli_车行直卖_-51汽车
+2026-01-01 21:17:17 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9883
+2026-01-01 21:17:17 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9883
+2026-01-01 21:17:20 - auto_scraper - INFO - 保存汽車: 2024 Chevrolet Silverado 1500_2024_Chevrolet_Silverado 1500_车行直卖_-51汽车
+2026-01-01 21:17:21 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9882
+2026-01-01 21:17:21 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9882
+2026-01-01 21:17:24 - auto_scraper - INFO - 保存汽車: 2025 Fiat 500_2025_Fiat_500_车行直卖_-51汽车
+2026-01-01 21:17:25 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9881
+2026-01-01 21:17:25 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9881
+2026-01-01 21:17:27 - auto_scraper - INFO - 保存汽車: 2024 Buick Encore_2024_Buick_Encore_车行直卖_-51汽车
+2026-01-01 21:17:28 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9880
+2026-01-01 21:17:28 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9880
+2026-01-01 21:17:30 - auto_scraper - INFO - 保存汽車: 2021 Volkswagen Tiguan_2021_Volkswagen_Tiguan_车行直卖_-51汽车
+2026-01-01 21:17:31 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9879
+2026-01-01 21:17:31 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9879
+2026-01-01 21:17:34 - auto_scraper - INFO - 保存汽車: 2019 Jeep Cherokee_2019_Jeep_Cherokee_车行直卖_-51汽车
+2026-01-01 21:17:35 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9878
+2026-01-01 21:17:35 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9878
+2026-01-01 21:17:37 - auto_scraper - INFO - 保存汽車: 2014 Volkswagen Golf_2014_Volkswagen_Golf_车主直售_-51汽车
+2026-01-01 21:17:38 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9877
+2026-01-01 21:17:38 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9877
+2026-01-01 21:17:41 - auto_scraper - INFO - 保存汽車: 2011 Mercedes-Benz B-Class_2011_Mercedes-Benz_B-Class_车行直卖_-51汽车
+2026-01-01 21:17:42 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9876
+2026-01-01 21:17:42 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9876
+2026-01-01 21:17:45 - auto_scraper - INFO - 保存汽車: 2016 Nissan Murano_2016_Nissan_Murano_车行直卖_-51汽车
+2026-01-01 21:17:46 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9875
+2026-01-01 21:17:46 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9875
+2026-01-01 21:17:48 - auto_scraper - INFO - 保存汽車: 2019 Nissan Titan_2019_Nissan_Titan_车行直卖_-51汽车
+2026-01-01 21:17:49 - auto_scraper - INFO - 瀏覽器已關閉
+2026-01-01 21:17:49 - auto_scraper - INFO - ============================================================
+2026-01-01 21:17:49 - auto_scraper - INFO - 爬蟲運行統計:
+2026-01-01 21:17:49 - auto_scraper - INFO -   - 頁面爬取: 20
+2026-01-01 21:17:49 - auto_scraper - INFO -   - 項目保存: 16
+2026-01-01 21:17:49 - auto_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 21:17:49 - auto_scraper - INFO -   - 運行時間: 74.16 秒
+2026-01-01 21:17:49 - auto_scraper - INFO - ============================================================
+2026-01-01 21:17:49 - main - INFO - 
+======================================================================
+2026-01-01 21:17:49 - main - INFO - 📊 資料庫統計:
+2026-01-01 21:17:49 - main - INFO - ----------------------------------------
+2026-01-01 21:17:49 - main - INFO -   📰 新聞文章: 16 篇
+2026-01-01 21:17:49 - main - INFO -   🏠 房屋列表: 17 條
+2026-01-01 21:17:49 - main - INFO -   💼 工作職位: 17 個
+2026-01-01 21:17:49 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 21:17:49 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 21:17:49 - main - INFO -   🚗 汽車列表: 16 條
+2026-01-01 21:17:49 - main - INFO - ----------------------------------------
+2026-01-01 21:17:49 - main - INFO -   ⏳ 待爬取URL: 2123
+2026-01-01 21:17:49 - main - INFO -   ✅ 已爬取URL: 100
+2026-01-01 21:17:49 - main - INFO - ======================================================================
+2026-01-01 21:17:50 - main - INFO - 運行 auto 爬蟲
+2026-01-01 21:17:50 - auto_scraper - INFO - ============================================================
+2026-01-01 21:17:50 - auto_scraper - INFO - 開始運行 auto_scraper 爬蟲
+2026-01-01 21:17:50 - auto_scraper - INFO - ============================================================
+2026-01-01 21:17:50 - auto_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 21:17:52 - auto_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 21:17:52 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9874
+2026-01-01 21:17:52 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9874
+2026-01-01 21:17:55 - auto_scraper - INFO - 保存汽車: 2016 Dodge Charger_2016_Dodge_Charger_车行直卖_-51汽车
+2026-01-01 21:17:56 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9873
+2026-01-01 21:17:56 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9873
+2026-01-01 21:17:58 - auto_scraper - INFO - 保存汽車: 2022 Chevrolet Silverado 1500_2022_Chevrolet_Silverado 1500_车行直卖_-51汽车
+2026-01-01 21:17:59 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9872
+2026-01-01 21:17:59 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9872
+2026-01-01 21:18:02 - auto_scraper - INFO - 保存汽車: 2016 Dodge Charger_2016_Dodge_Charger_车行直卖_-51汽车
+2026-01-01 21:18:03 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9871
+2026-01-01 21:18:03 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9871
+2026-01-01 21:18:05 - auto_scraper - INFO - 保存汽車: 2022 Chevrolet Silverado 1500_2022_Chevrolet_Silverado 1500_车行直卖_-51汽车
+2026-01-01 21:18:06 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9870
+2026-01-01 21:18:06 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9870
+2026-01-01 21:18:09 - auto_scraper - INFO - 保存汽車: 2025 Audi Q5_2025_Audi_Q5_车行直卖_-51汽车
+2026-01-01 21:18:10 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9869
+2026-01-01 21:18:10 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9869
+2026-01-01 21:18:12 - auto_scraper - INFO - 保存汽車: 2023 BMW X1_2023_BMW_X1_车行直卖_-51汽车
+2026-01-01 21:18:13 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9868
+2026-01-01 21:18:13 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9868
+2026-01-01 21:18:16 - auto_scraper - INFO - 保存汽車: 2018 Chevrolet Camaro_2018_Chevrolet_Camaro_车行直卖_-51汽车
+2026-01-01 21:18:17 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9867
+2026-01-01 21:18:17 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9867
+2026-01-01 21:18:19 - auto_scraper - INFO - 保存汽車: 2015 Jeep Grand Cherokee_2015_Jeep_Grand Cherokee_车行直卖_-51汽车
+2026-01-01 21:18:20 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/9865
+2026-01-01 21:18:20 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/9865
+2026-01-01 21:18:23 - auto_scraper - INFO - 保存汽車: 2020 Volkswagen Jetta_2020_Volkswagen_Jetta_车行直卖_-51汽车
+2026-01-01 21:18:24 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9866
+2026-01-01 21:18:24 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9866
+2026-01-01 21:18:26 - auto_scraper - INFO - 保存汽車: 2025 RAM 1500_2025_RAM_1500_车行直卖_-51汽车
+2026-01-01 21:18:27 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9783
+2026-01-01 21:18:27 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9783
+2026-01-01 21:18:30 - auto_scraper - INFO - 保存汽車: 2025 RAM 1500_2025_RAM_1500_车行直卖_-51汽车
+2026-01-01 21:18:31 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9747
+2026-01-01 21:18:31 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9747
+2026-01-01 21:18:33 - auto_scraper - INFO - 保存汽車: 2025 Chrysler Pacifica_2025_Chrysler_Pacifica_车行直卖_-51汽车
+2026-01-01 21:18:34 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9665
+2026-01-01 21:18:34 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9665
+2026-01-01 21:18:37 - auto_scraper - INFO - 保存汽車: 2025 RAM ProMaster_2025_RAM_ProMaster_车行直卖_-51汽车
+2026-01-01 21:18:38 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9659
+2026-01-01 21:18:38 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9659
+2026-01-01 21:18:40 - auto_scraper - INFO - 保存汽車: 2025 Chrysler Grand Caravan_2025_Chrysler_Grand Caravan_车行直卖_-51汽车
+2026-01-01 21:18:41 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9573
+2026-01-01 21:18:41 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9573
+2026-01-01 21:18:44 - auto_scraper - INFO - 保存汽車: 2025 RAM 1500_2025_RAM_1500_车行直卖_-51汽车
+2026-01-01 21:18:45 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9507
+2026-01-01 21:18:45 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9507
+2026-01-01 21:18:47 - auto_scraper - INFO - 保存汽車: 2025 RAM 1500_2025_RAM_1500_车行直卖_-51汽车
+2026-01-01 21:18:48 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9352
+2026-01-01 21:18:48 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9352
+2026-01-01 21:18:51 - auto_scraper - INFO - 保存汽車: 2025 Dodge Durango_2025_Dodge_Durango_车行直卖_-51汽车
+2026-01-01 21:18:52 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9344
+2026-01-01 21:18:52 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9344
+2026-01-01 21:18:54 - auto_scraper - INFO - 保存汽車: 2025 Jeep Grand Cherokee_2025_Jeep_Grand Cherokee_车行直卖_-51汽车
+2026-01-01 21:18:55 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9343
+2026-01-01 21:18:55 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9343
+2026-01-01 21:18:58 - auto_scraper - INFO - 保存汽車: 2025 Jeep Grand Wagoneer_2025_Jeep_Grand Wagoneer_车行直卖_-51汽车
+2026-01-01 21:18:59 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9252
+2026-01-01 21:18:59 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9252
+2026-01-01 21:19:01 - auto_scraper - INFO - 保存汽車: 2025 RAM 3500_2025_RAM_3500_车行直卖_-51汽车
+2026-01-01 21:19:02 - auto_scraper - INFO - 瀏覽器已關閉
+2026-01-01 21:19:02 - auto_scraper - INFO - ============================================================
+2026-01-01 21:19:02 - auto_scraper - INFO - 爬蟲運行統計:
+2026-01-01 21:19:02 - auto_scraper - INFO -   - 頁面爬取: 20
+2026-01-01 21:19:02 - auto_scraper - INFO -   - 項目保存: 20
+2026-01-01 21:19:02 - auto_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 21:19:02 - auto_scraper - INFO -   - 運行時間: 71.97 秒
+2026-01-01 21:19:02 - auto_scraper - INFO - ============================================================
+2026-01-01 21:19:02 - main - INFO - 
+======================================================================
+2026-01-01 21:19:02 - main - INFO - 📊 資料庫統計:
+2026-01-01 21:19:02 - main - INFO - ----------------------------------------
+2026-01-01 21:19:02 - main - INFO -   📰 新聞文章: 16 篇
+2026-01-01 21:19:02 - main - INFO -   🏠 房屋列表: 17 條
+2026-01-01 21:19:02 - main - INFO -   💼 工作職位: 17 個
+2026-01-01 21:19:02 - main - INFO -   🏪 黃頁商家: 0 家
+2026-01-01 21:19:02 - main - INFO -   📦 集市帖子: 0 條
+2026-01-01 21:19:02 - main - INFO -   🚗 汽車列表: 36 條
+2026-01-01 21:19:02 - main - INFO - ----------------------------------------
+2026-01-01 21:19:02 - main - INFO -   ⏳ 待爬取URL: 2103
+2026-01-01 21:19:02 - main - INFO -   ✅ 已爬取URL: 120
+2026-01-01 21:19:02 - main - INFO - ======================================================================
+2026-01-01 23:48:09 - house_scraper - INFO - ============================================================
+2026-01-01 23:48:09 - house_scraper - INFO - 開始運行 house_scraper 爬蟲
+2026-01-01 23:48:09 - house_scraper - INFO - ============================================================
+2026-01-01 23:48:09 - house_scraper - INFO - 正在啟動瀏覽器...
+2026-01-01 23:48:11 - house_scraper - INFO - 瀏覽器啟動成功
+2026-01-01 23:48:11 - house_scraper - INFO - 正在處理: https://house.51.ca/mls
+2026-01-01 23:48:11 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/mls
+2026-01-01 23:48:18 - house_scraper - INFO - 列表頁面發現 394 個房源
+2026-01-01 23:48:21 - house_scraper - INFO - 列表頁面爬取完成: https://house.51.ca/mls, 發現 394 個項目
+2026-01-01 23:48:22 - house_scraper - INFO - 正在處理: https://house.51.ca/mls?page=2
+2026-01-01 23:48:22 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/mls?page=2
+2026-01-01 23:48:25 - house_scraper - INFO - 列表頁面發現 394 個房源
+2026-01-01 23:48:28 - house_scraper - INFO - 列表頁面爬取完成: https://house.51.ca/mls?page=2, 發現 394 個項目
+2026-01-01 23:48:29 - house_scraper - INFO - 正在處理: https://house.51.ca/mls?page=3
+2026-01-01 23:48:29 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/mls?page=3
+2026-01-01 23:48:32 - house_scraper - INFO - 列表頁面發現 394 個房源
+2026-01-01 23:48:35 - house_scraper - INFO - 列表頁面爬取完成: https://house.51.ca/mls?page=3, 發現 394 個項目
+2026-01-01 23:48:36 - house_scraper - INFO - 正在處理: https://house.51.ca/rental
+2026-01-01 23:48:36 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/rental
+2026-01-01 23:48:40 - house_scraper - INFO - 列表頁面發現 22 個房源
+2026-01-01 23:48:40 - house_scraper - INFO - 列表頁面爬取完成: https://house.51.ca/rental, 發現 22 個項目
+2026-01-01 23:48:41 - house_scraper - INFO - 正在處理: https://house.51.ca/rental?page=2
+2026-01-01 23:48:41 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/rental?page=2
+2026-01-01 23:48:45 - house_scraper - INFO - 列表頁面發現 41 個房源
+2026-01-01 23:48:45 - house_scraper - INFO - 列表頁面爬取完成: https://house.51.ca/rental?page=2, 發現 41 個項目
+2026-01-01 23:48:46 - house_scraper - INFO - 正在處理: https://house.51.ca/mls?city=toronto
+2026-01-01 23:48:46 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/mls?city=toronto
+2026-01-01 23:48:49 - house_scraper - INFO - 列表頁面發現 394 個房源
+2026-01-01 23:48:52 - house_scraper - INFO - 列表頁面爬取完成: https://house.51.ca/mls?city=toronto, 發現 394 個項目
+2026-01-01 23:48:53 - house_scraper - INFO - 正在處理: https://house.51.ca/mls?city=markham
+2026-01-01 23:48:53 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/mls?city=markham
+2026-01-01 23:48:56 - house_scraper - INFO - 列表頁面發現 394 個房源
+2026-01-01 23:48:59 - house_scraper - INFO - 列表頁面爬取完成: https://house.51.ca/mls?city=markham, 發現 394 個項目
+2026-01-01 23:49:00 - house_scraper - INFO - 正在處理: https://house.51.ca/mls?city=richmond-hill
+2026-01-01 23:49:00 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/mls?city=richmond-hill
+2026-01-01 23:49:03 - house_scraper - INFO - 列表頁面發現 394 個房源
+2026-01-01 23:49:06 - house_scraper - INFO - 列表頁面爬取完成: https://house.51.ca/mls?city=richmond-hill, 發現 394 個項目
+2026-01-01 23:49:07 - house_scraper - INFO - 正在處理: https://house.51.ca/mls?city=vaughan
+2026-01-01 23:49:07 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/mls?city=vaughan
+2026-01-01 23:49:10 - house_scraper - INFO - 列表頁面發現 394 個房源
+2026-01-01 23:49:13 - house_scraper - INFO - 列表頁面爬取完成: https://house.51.ca/mls?city=vaughan, 發現 394 個項目
+2026-01-01 23:49:14 - house_scraper - INFO - 正在處理: https://house.51.ca/mls?city=mississauga
+2026-01-01 23:49:14 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/mls?city=mississauga
+2026-01-01 23:49:17 - house_scraper - INFO - 列表頁面發現 394 個房源
+2026-01-01 23:49:20 - house_scraper - INFO - 列表頁面爬取完成: https://house.51.ca/mls?city=mississauga, 發現 394 個項目
+2026-01-01 23:49:21 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12654548
+2026-01-01 23:49:21 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12654548
+2026-01-01 23:49:26 - house_scraper - INFO - 解析房源: C12654548 - 122 Parkview Avenue
+2026-01-01 23:49:27 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12570956
+2026-01-01 23:49:27 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12570956
+2026-01-01 23:49:31 - house_scraper - INFO - 解析房源: N12570956 - 23 Lena Drive
+2026-01-01 23:49:32 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12357154
+2026-01-01 23:49:32 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12357154
+2026-01-01 23:49:37 - house_scraper - INFO - 解析房源: N12357154 - 102 Giardina Crescent
+2026-01-01 23:49:38 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12546624
+2026-01-01 23:49:38 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12546624
+2026-01-01 23:49:42 - house_scraper - INFO - 解析房源: N12546624 - 343 Castlemore Avenue
+2026-01-01 23:49:43 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12640758
+2026-01-01 23:49:43 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12640758
+2026-01-01 23:49:48 - house_scraper - INFO - 解析房源: W12640758 - 2231 Shipwright Road
+2026-01-01 23:49:49 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12553682
+2026-01-01 23:49:49 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12553682
+2026-01-01 23:49:54 - house_scraper - INFO - 解析房源: C12553682 - 3207 - 56 Forest Manor Road
+2026-01-01 23:49:55 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12640044
+2026-01-01 23:49:55 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12640044
+2026-01-01 23:49:59 - house_scraper - INFO - 解析房源: N12640044 - 12 Carole Bell Way
+2026-01-01 23:50:00 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12655310
+2026-01-01 23:50:00 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12655310
+2026-01-01 23:50:05 - house_scraper - INFO - 解析房源: W12655310 - 2805 - 3883 Quartz Road
+2026-01-01 23:50:06 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12655302
+2026-01-01 23:50:06 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12655302
+2026-01-01 23:50:10 - house_scraper - INFO - 解析房源: W12655302 - 452 Avon Crescent
+2026-01-01 23:50:12 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12655036
+2026-01-01 23:50:12 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12655036
+2026-01-01 23:50:16 - house_scraper - INFO - 解析房源: N12655036 - 51 - 100 Elgin Mills Road West
+2026-01-01 23:50:17 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12638054
+2026-01-01 23:50:17 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12638054
+2026-01-01 23:50:23 - house_scraper - INFO - 解析房源: N12638054 - 18 Park Lane Circle
+2026-01-01 23:50:24 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12606924
+2026-01-01 23:50:24 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12606924
+2026-01-01 23:50:29 - house_scraper - INFO - 解析房源: C12606924 - 1104 - 23 Sheppard Avenue East
+2026-01-01 23:50:30 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/E12652970
+2026-01-01 23:50:30 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/E12652970
+2026-01-01 23:50:36 - house_scraper - INFO - 解析房源: E12652970 - 39 Earlton Road
+2026-01-01 23:50:37 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12629102
+2026-01-01 23:50:37 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12629102
+2026-01-01 23:50:42 - house_scraper - INFO - 解析房源: N12629102 - 16 Gauguin Avenue
+2026-01-01 23:50:43 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/E12556750
+2026-01-01 23:50:43 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/E12556750
+2026-01-01 23:50:48 - house_scraper - INFO - 解析房源: E12556750 - 135 - 195 Alexmuir Boulevard
+2026-01-01 23:50:49 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12655000
+2026-01-01 23:50:49 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12655000
+2026-01-01 23:50:53 - house_scraper - INFO - 解析房源: N12655000 - 32 Rock Elm Court
+2026-01-01 23:50:54 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/E12654336
+2026-01-01 23:50:54 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/E12654336
+2026-01-01 23:51:00 - house_scraper - INFO - 解析房源: E12654336 - 1 Goodland Gate
+2026-01-01 23:51:01 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12653512
+2026-01-01 23:51:01 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12653512
+2026-01-01 23:51:05 - house_scraper - INFO - 解析房源: C12653512 - 55 Three Valleys Drive
+2026-01-01 23:51:06 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12651408
+2026-01-01 23:51:06 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12651408
+2026-01-01 23:51:11 - house_scraper - INFO - 解析房源: C12651408 - 1565 Mount Pleasant Road
+2026-01-01 23:51:12 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12654352
+2026-01-01 23:51:12 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12654352
+2026-01-01 23:51:16 - house_scraper - INFO - 解析房源: C12654352 - 169 Owen Boulevard
+2026-01-01 23:51:17 - house_scraper - INFO - 瀏覽器已關閉
+2026-01-01 23:51:17 - house_scraper - INFO - ============================================================
+2026-01-01 23:51:17 - house_scraper - INFO - 爬蟲運行統計:
+2026-01-01 23:51:17 - house_scraper - INFO -   - 頁面爬取: 30
+2026-01-01 23:51:17 - house_scraper - INFO -   - 項目保存: 20
+2026-01-01 23:51:17 - house_scraper - INFO -   - 錯誤數量: 0
+2026-01-01 23:51:17 - house_scraper - INFO -   - 運行時間: 188.28 秒
+2026-01-01 23:51:17 - house_scraper - INFO - ============================================================
