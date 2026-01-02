@@ -612,3 +612,1123 @@
 2026-01-02 00:41:35 - service_scraper - INFO -   - 錯誤數量: 0
 2026-01-02 00:41:35 - service_scraper - INFO -   - 運行時間: 142.93 秒
 2026-01-02 00:41:35 - service_scraper - INFO - ============================================================
+2026-01-02 00:53:16 - market_scraper - INFO - ============================================================
+2026-01-02 00:53:16 - market_scraper - INFO - 開始運行 market_scraper 爬蟲
+2026-01-02 00:53:16 - market_scraper - INFO - ============================================================
+2026-01-02 00:53:16 - market_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 00:53:19 - market_scraper - INFO - 瀏覽器啟動成功
+2026-01-02 00:53:19 - market_scraper - INFO - 正在處理: https://www.51.ca/market/
+2026-01-02 00:53:19 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/
+2026-01-02 00:53:22 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 28 個集市商品
+2026-01-02 00:53:22 - market_scraper - INFO - 保存集市帖子: 女性自行车
+2026-01-02 00:53:22 - market_scraper - INFO - 保存集市帖子: IKEA Couch
+2026-01-02 00:53:22 - market_scraper - INFO - 保存集市帖子: iPhone 15pro钛合金，送两个手机壳
+2026-01-02 00:53:22 - market_scraper - INFO - 保存集市帖子: Donnor DEP-20 电子琴 转让
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 电暖器
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 热巧克力
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: $39， 直立旋转式金属鞋架可挂24双，非常节省空间拿取方便
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 全新不锈钢高压锅，不锈钢平底大炒菜锅，电烧水壶，花果肥料，实
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 12月+ 婴儿奶粉，实木婴儿床（全新床垫），室内空气除菌过滤
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 提供定制图案的巧克力金币
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: Macbook Air M3 512gb
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 硬中华
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 不容错过，2D,3D,4D按摩椅只要$499包税，只限元
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 羽绒服
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 一套给小孩子读的传统中文故事图书
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 小孩子简单中文读物
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: booster - 8.5成新
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 3-7岁孩子自行车头盔
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 闲置22寸联想显示器-适合学生，上网，居家办公
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 全新4D 专业全身按摩椅，限时现金包税
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: Baby jogger 儿童推车city select
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 2座沙发
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: Samsung Galaxy S7 – 32 GB
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 床 垫
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 暖气炉
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 电热炉
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 变速自行车
+2026-01-02 00:53:23 - market_scraper - INFO - 保存集市帖子: 全新20张CD/DVD 架两个
+2026-01-02 00:53:23 - market_scraper - INFO - 成功保存 28 個商品
+2026-01-02 00:53:23 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/?page=2
+2026-01-02 00:53:23 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/, 發現 1 個項目
+2026-01-02 00:53:24 - market_scraper - INFO - 正在處理: https://www.51.ca/market/furniture
+2026-01-02 00:53:24 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/furniture
+2026-01-02 00:53:27 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 35 個集市商品
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: IKEA Couch
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 不容错过，2D,3D,4D按摩椅只要$499包税，只限元
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 2座沙发
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 床 垫
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 按摩床
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 7pcs Patio Furniture Set
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 免税九新按摩椅
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 全新床架+床垫，$299起
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 仓库出全新鞋柜
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 7件套藤编户外沙发组合
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 家具仓库出全新超漂亮边柜
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 种植人的最爱
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 沙发
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 带灯Queen size 床架，特价处理
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 床
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 收纳
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 三人位布艺沙发 仅售 $199
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 床
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 多款厨房柜处理$199-389
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 全新高品质办公桌两人位仓库批发价
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 酒架
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 挂衣架鞋架处理，喜欢的来
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 10*10弹出式帐篷反季节清销，现在买超低价，夏天肯定买不到
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 开车的人都应该备一个打火器，预防在路上灭火了少不了用上
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: Boxing Day 按摩椅包税只要699，只限三天，先
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 6479183466
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 元旦包税，只有这几天$499-$799包税，快来抢购
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 宜家沙发，茶几，鞋架，椅子两把和玻璃圆桌
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: (全新)可调节高度站立式办公桌$45，带轮子/双重防滑设计/
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 收纳柜子
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 搬家 - 所有家具和生活用品便宜出售，多买可赠送
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 朋友孩子回流卖家具电视+茶几+沙发几乎全新
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 实木单人床架
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 沙发
+2026-01-02 00:53:27 - market_scraper - INFO - 保存集市帖子: 玻璃餐桌
+2026-01-02 00:53:27 - market_scraper - INFO - 成功保存 35 個商品
+2026-01-02 00:53:27 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/furniture?page=2
+2026-01-02 00:53:27 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/furniture, 發現 1 個項目
+2026-01-02 00:53:28 - market_scraper - INFO - 正在處理: https://www.51.ca/market/home-appliance
+2026-01-02 00:53:28 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/home-appliance
+2026-01-02 00:53:31 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 33 個集市商品
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 电暖器
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: $39， 直立旋转式金属鞋架可挂24双，非常节省空间拿取方便
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 暖气炉
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 电热炉
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 全新20张CD/DVD 架两个
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 无线理发器，有线理发器
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 全新智能马桶
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 双人真皮沙发
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 九成新冰箱250、不锈钢冰箱300$
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 二手干洗衣机
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 二手炉头
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 32寸sharp电视机出让 720
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: LG 22寸电视机出让 lg-22LB4510-led-tv
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 老玩童修炉头冰箱。回收电器、废铁
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 全新手持蒸汽清洁机
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 小米盒子4s海外优化版国内全部电视频道海量影视资源全免
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 烘干机
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 三星电炉头
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 炒菜机
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 二手电脑
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 男士专用化妆品
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 门口门
+2026-01-02 00:53:31 - market_scraper - INFO - 保存集市帖子: 电动空气除尘器 -  强力吹吸尘 二合一和无绳
+2026-01-02 00:53:32 - market_scraper - INFO - 保存集市帖子: 全新抽湿器 35pint 42pint
+2026-01-02 00:53:32 - market_scraper - INFO - 保存集市帖子: Ecovacs deebot 热水自動清洗拖布 吸尘 拖地
+2026-01-02 00:53:32 - market_scraper - INFO - 保存集市帖子: 机器人 拖地扫地吸尘器
+2026-01-02 00:53:32 - market_scraper - INFO - 保存集市帖子: 全新带包装 Ecovac T10 plus 拖地掃地吸塵
+2026-01-02 00:53:32 - market_scraper - INFO - 保存集市帖子: 生活物品合集
+2026-01-02 00:53:32 - market_scraper - INFO - 保存集市帖子: 肩颈按摩仪
+2026-01-02 00:53:32 - market_scraper - INFO - 保存集市帖子: 征西 变压器110V转220V日本110V转220V大功率3
+2026-01-02 00:53:32 - market_scraper - INFO - 保存集市帖子: 椭圆机‌
+2026-01-02 00:53:32 - market_scraper - INFO - 保存集市帖子: 加热汽车刮冰器
+2026-01-02 00:53:32 - market_scraper - INFO - 保存集市帖子: Sharp 42寸 Full HD LCD 彩电
+2026-01-02 00:53:32 - market_scraper - INFO - 成功保存 33 個商品
+2026-01-02 00:53:32 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/home-appliance?page=2
+2026-01-02 00:53:32 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/home-appliance, 發現 1 個項目
+2026-01-02 00:53:33 - market_scraper - INFO - 正在處理: https://www.51.ca/market/kitchen-supplies
+2026-01-02 00:53:33 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/kitchen-supplies
+2026-01-02 00:53:36 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 39 個集市商品
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 全新不锈钢高压锅，不锈钢平底大炒菜锅，电烧水壶，花果肥料，实
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: Toaster 不锈钢烤面包机
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 高压锅
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 闲置电陶炉
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 自動炒菜机
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 電飯煲
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 切菜机
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 攪拌机
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 电陶炉电热盘
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: Frigidaire slide in 炉头。
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 日本菜刀
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 烘焙
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 二手2门干净小冰箱
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 八成新商业洗碗机
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 餐饮洗碗机，洗碗液出售出租
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 微波炉
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 招财猫炖盅Stew Pot/Slow Cooker
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 招财猫炖盅Stew Pot/Slow Cooker
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 电饭煲
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 保温饭盒
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 韦伯原装22英寸木炭烤炉
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: Salton Air-wave health cooker
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: kitchenaid max watts 275 和面机
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 微波炉（可安装炉头上方）
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 装饰品
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 99新碗盘及空气炸锅
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 热水壶
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 铁锅
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 电饭煲
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 西式茶具套装
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 铁丝洗碗布$2、神奇抹布$4、面膜$3
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 全新陶瓷盘，全新陶瓷搅拌盆
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 全套擦丝切片工具，各种全新饼干模具
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 日式砂锅煲仔饭锅
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 手摇切肉机
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 11-in-1电压锅和空气炸锅功能
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 空气炸锅
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 餐椅
+2026-01-02 00:53:36 - market_scraper - INFO - 保存集市帖子: 全新316 不锈钢平锅
+2026-01-02 00:53:36 - market_scraper - INFO - 成功保存 39 個商品
+2026-01-02 00:53:36 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/kitchen-supplies?page=2
+2026-01-02 00:53:36 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/kitchen-supplies, 發現 1 個項目
+2026-01-02 00:53:37 - market_scraper - INFO - 正在處理: https://www.51.ca/market/mother-baby-products
+2026-01-02 00:53:37 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/mother-baby-products
+2026-01-02 00:53:40 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 36 個集市商品
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 12月+ 婴儿奶粉，实木婴儿床（全新床垫），室内空气除菌过滤
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: booster - 8.5成新
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: Baby jogger 儿童推车city select
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 儿童玩具7件打包价50元，联系电话4165283676
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 儿童玩具
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 全新peg perego 安全座椅
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: Car seat儿童安全座椅
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: Amada 双头电动泵奶器
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: Ecovac deebot T10 plus 拖地掃地吸塵
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: wagon四轮车
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 未开封1段水奶
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 8折售出双面保暖服。9成新。共三张图片XL 号
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 全新折叠电动自行车
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 全新毛绒玩具，圣诞礼物的好选择
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: car seat
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 一次性成人中号大号尿裤
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 奶瓶加热器
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: Medela 电动吸奶器（吸奶神器）+ Baby Brezz
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: OshKosh Snow Pants
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: Costco 儿童汽车座椅
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 可携带儿童玩床portable play yard
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 全新Graco 儿童安全座椅
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 6V儿童小汽车，带摇控，圣诞特惠处理
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 不锈钢晾晒架
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 沉香手串
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 婴儿床
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 全新婴儿车套
+2026-01-02 00:53:40 - market_scraper - INFO - 保存集市帖子: 全新新西兰手动吸奶器
+2026-01-02 00:53:41 - market_scraper - INFO - 保存集市帖子: Thermos 儿童保温杯
+2026-01-02 00:53:41 - market_scraper - INFO - 保存集市帖子: 图三
+2026-01-02 00:53:41 - market_scraper - INFO - 保存集市帖子: 儿童安全座椅
+2026-01-02 00:53:41 - market_scraper - INFO - 保存集市帖子: 婴儿推车
+2026-01-02 00:53:41 - market_scraper - INFO - 保存集市帖子: 婴儿床
+2026-01-02 00:53:41 - market_scraper - INFO - 保存集市帖子: maxi-cosi 小推车
+2026-01-02 00:53:41 - market_scraper - INFO - 保存集市帖子: 玩具架
+2026-01-02 00:53:41 - market_scraper - INFO - 保存集市帖子: 儿童自行车
+2026-01-02 00:53:41 - market_scraper - INFO - 成功保存 36 個商品
+2026-01-02 00:53:41 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/mother-baby-products?page=2
+2026-01-02 00:53:41 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/mother-baby-products, 發現 1 個項目
+2026-01-02 00:53:42 - market_scraper - INFO - 正在處理: https://www.51.ca/market/auto-parts
+2026-01-02 00:53:42 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/auto-parts
+2026-01-02 00:53:45 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 39 個集市商品
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: Winter Tire (BFGoodrich)
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 蓝牙车载测试
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 2024年几乎全新michelin 255/45/R21雪胎
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 米其林雪胎（宝马X5）
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 轮胎
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 2018到2025 HONDA Odyssey TPE车垫
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 轮胎雪地轮胎
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 电动空气除尘器 -  强力吹雪 吸尘 二合一和无绳
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 多伦多上门换胎服务
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 全新未拆封 Magellan MiVue 240 行车记录仪
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 特斯拉配件
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 雪胎4个
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 雪肽
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 米其林雪胎带铝合金轮毂195～65～15本田思域用
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 九成新 轮框及雪胎 一套4个型号：235 ／65 R 18
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 电动空气除尘器 -  强力吹雪 吸尘 二合一和无绳
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: RAV4 原厂轮毂+米其林雪胎4个
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 米其林雪胎带轮毂一套
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 车锁
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 二手雪胎和凌志铅合金
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 非常实用的汽车前排储物盒
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: BMW X3 雪胎 245X45X19
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 雪胎带轮毂
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 各种车型二手中控屏
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: MICHELIN WINTER TIRES ON RIMS
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 本田思域雪胎轮毂
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 吹吸两用 强力车载mini 吸尘器
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: MAC TOOLS 工具箱
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 带有新轮毂的雪胎一个
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 雪胎
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: VolvoV6OV90XC406090roofrack
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 雪胎
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 2024 BMW X5 X6. X7 THULE 行李架
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 95新雪胎
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 九成新的BMW X3 雪胎
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 95新倍耐力雪胎
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: Volkswagen Taos 95新雪胎+轮毂
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: AUDI/大众225/50R17 17X7.5J合金轮毂一套
+2026-01-02 00:53:45 - market_scraper - INFO - 保存集市帖子: 车载 吹吸两用 强力mini吸尘器
+2026-01-02 00:53:45 - market_scraper - INFO - 成功保存 39 個商品
+2026-01-02 00:53:45 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/auto-parts?page=2
+2026-01-02 00:53:45 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/auto-parts, 發現 1 個項目
+2026-01-02 00:53:46 - market_scraper - INFO - 正在處理: https://www.51.ca/market/gardening
+2026-01-02 00:53:46 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/gardening
+2026-01-02 00:53:49 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 37 個集市商品
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 雨伞＇
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 虎皮兰， 球兰，万年青 ， 君子兰,等
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 高效复合缓释肥 19-19-19
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 君子兰苗
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 带轮子的雪铲
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 紫苏，盆栽的，一盆里有5-7棵，
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 找专业防冻毯？多伦多 60g/m² 重型套装现货供应
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 绿植
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 菜杆1.8米（1.6），2.1米（2.8）（2.4米3.8）
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 剪草机  本田  Honda 21’’
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 电动除雪机
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 聖誕節燈飾
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 發財玉樹
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 后花园遮阳桌
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 成年成熟昙花
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 各种全新精美花盆，破产商家尾货
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 水养文竹8支
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 水管
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 万年青
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 木纹瓷砖
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: Snow  Joe13英寸10安掊电动铲雪机转让
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 24小时定时器, $10两个
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 多肉
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 后院工具
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 洋姜，也叫鬼子姜，外形像姜，但味脆嫩甜
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 卖香椿树$5+, 大小都有，5元起
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 金钱树/玉树
+2026-01-02 00:53:49 - market_scraper - INFO - 保存集市帖子: 君子兰
+2026-01-02 00:53:50 - market_scraper - INFO - 保存集市帖子: 火龙果树
+2026-01-02 00:53:50 - market_scraper - INFO - 保存集市帖子: 全新未开箱迷你链锯
+2026-01-02 00:53:50 - market_scraper - INFO - 保存集市帖子: Greenworks 铲雪机
+2026-01-02 00:53:50 - market_scraper - INFO - 保存集市帖子: 龟贝竹14，虎皮兰小棵3.99$， 大棵5.99
+2026-01-02 00:53:50 - market_scraper - INFO - 保存集市帖子: 手推鏟雪車
+2026-01-02 00:53:50 - market_scraper - INFO - 保存集市帖子: 120W全光谱 LED 植物灯
+2026-01-02 00:53:50 - market_scraper - INFO - 保存集市帖子: GreenWork 电动剪草机
+2026-01-02 00:53:50 - market_scraper - INFO - 保存集市帖子: 蓝色极光鹦鹉慈鲷 观赏鱼
+2026-01-02 00:53:50 - market_scraper - INFO - 保存集市帖子: 20个椅背花
+2026-01-02 00:53:50 - market_scraper - INFO - 成功保存 37 個商品
+2026-01-02 00:53:50 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/gardening?page=2
+2026-01-02 00:53:50 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/gardening, 發現 1 個項目
+2026-01-02 00:53:51 - market_scraper - INFO - 正在處理: https://www.51.ca/market/electronics
+2026-01-02 00:53:51 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/electronics
+2026-01-02 00:53:53 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 38 個集市商品
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: iPhone 15pro钛合金，送两个手机壳
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: Macbook Air M3 512gb
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: 闲置22寸联想显示器-适合学生，上网，居家办公
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: Samsung Galaxy S7 – 32 GB
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: 按摩坐垫
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: 手机套
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: JBL Tune 770NC 無線頭戴式降噪耳機
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: 监控摄像头
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: 监控头
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: 可视门铃
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: hp I7 笔记本
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: Acer Aspire 3 i3-N305 (9.9成新)
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: PIR 太阳能感应提示器
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: PIR 太阳能感应提示器
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: 二手状态良好笔记本 Acer Aspire E4726414
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: 全新iPhone 16 128g, 黑色 、 外加送Chro
+2026-01-02 00:53:53 - market_scraper - INFO - 保存集市帖子: 特斯拉充电器
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: 游戏电脑
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: 全新未开封ipad11
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: Insta360影石原装全新X4触屏
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: 双镜头摄像头
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: iPhone 16 Plus 手机壳
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: iphone 15 pro 256G 99新
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: hp I7 台式机
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: apple airpods max 一代
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: open ear开放式运动耳机
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: 谷歌Google pixel 10
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: ryobi工具电池
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: Lenovo ThinkPad P50
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: Samsung LED 显示器
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: Brother MFC 7840W
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: 游戏手柄3个
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: 多伦多出iPad Pro 11寸 第三代 128G
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: 全新未拆封Google Pixel 10 128g 黑色
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: Microsoft Surface Laptop 3
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: Traynor DG15R 吉他音箱 – 音色出色，经久耐用
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: Nespresso Vertuo Next 咖啡机
+2026-01-02 00:53:54 - market_scraper - INFO - 保存集市帖子: iphone13 promax 蓝色128G
+2026-01-02 00:53:54 - market_scraper - INFO - 成功保存 38 個商品
+2026-01-02 00:53:54 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/electronics?page=2
+2026-01-02 00:53:54 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/electronics, 發現 1 個項目
+2026-01-02 00:53:55 - market_scraper - INFO - 正在處理: https://www.51.ca/market/books
+2026-01-02 00:53:55 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/books
+2026-01-02 00:53:57 - market_scraper - WARNING - 找不到 __NEXT_DATA__: https://www.51.ca/market/books
+2026-01-02 00:53:57 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/books, 發現 0 個項目
+2026-01-02 00:53:58 - market_scraper - INFO - 正在處理: https://www.51.ca/market/exerciser
+2026-01-02 00:53:58 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/exerciser
+2026-01-02 00:54:00 - market_scraper - WARNING - 找不到 __NEXT_DATA__: https://www.51.ca/market/exerciser
+2026-01-02 00:54:00 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/exerciser, 發現 0 個項目
+2026-01-02 00:54:01 - market_scraper - INFO - 正在處理: https://www.51.ca/market/costume-matching
+2026-01-02 00:54:01 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/costume-matching
+2026-01-02 00:54:04 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 22 個集市商品
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: 羽绒服
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: bape鲨鱼系列卫衣
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: off white卫衣
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: off white卫衣
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: 耐克运动裤、卡帕运动裤都是xl码的
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: 大鹅女款羽绒服：尺码XS
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: Jackson 花滑冰鞋
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: 衣物
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: north face 700蓬 鹅绒L码
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: 铁头安全鞋
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: 太陽眼鏡 墨鏡 40副任選 全新 士嘉堡取貨 可試戴
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: 儿童户外滑雪服
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: 小孩冬季外套
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: 羽绒服
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: 羽绒服
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: 女生纯鹿皮外衣
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: shating shoes
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: Eddie Bauer 高级北极防水羽绒服
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: 儿童冰鞋
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: CCM女冰鞋- 尺寸6号
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: 全新中长款羽绒棉服（女）
+2026-01-02 00:54:04 - market_scraper - INFO - 保存集市帖子: 厚羽绒服
+2026-01-02 00:54:04 - market_scraper - INFO - 成功保存 22 個商品
+2026-01-02 00:54:04 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/costume-matching?page=2
+2026-01-02 00:54:04 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/costume-matching, 發現 1 個項目
+2026-01-02 00:54:05 - market_scraper - INFO - 正在處理: https://www.51.ca/market/health
+2026-01-02 00:54:05 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/health
+2026-01-02 00:54:08 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 40 個集市商品
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 全新4D 专业全身按摩椅，限时现金包税
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 原装古巴雪茄
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 名牌古巴雪茄
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 古巴雪茄
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: Cuba Cigar 古巴雪茄
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 几乎全新名牌按摩椅，现金包税，新年优惠
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 胰岛素
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 老年人助行器
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 电动轮椅
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 眼部护理液/人工泪水
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 中国紫砂茶壼套装
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: CPAP（持续呼吸道正压通气仪, 用于睡眠呼吸暂停患者）
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 黑檀木笔筒礼盒
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 西洋参
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 日本久光鎮痛藥貼/40mg
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 成色很新轮椅，转让
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: Webber Naturals 苹果醋胶囊 500mg
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 紫砂 玻璃 鉄茶具
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 红花抑菌泡脚液，全新没拆封便宜转
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: Metamucil 四合一膳食纤维粉/662克
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: Metamucil 三合一健康膳食纤维胶囊300粒/瓶
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子:  疼痛克星！北京同仁堂艾灸透骨液
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: ！艾草生姜按摩精油
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 祁门红茶清仓 $75/包2.5kg-茶壶做礼品公司活动奖品
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 茶壶养生壶清仓-可用炉子加热，祁门红茶-礼品奖品
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 喝红茶补气血--5斤祁门红茶（豪芽）清仓
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 成色很新， 只用过一次。 北约克自取
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 全新背背佳
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 安神补脑液
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 墨镜女，筋膜枪
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 香港大药房-元气茯苓足贴
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 全新massage 治療床全新的未开封/精美微波加熱玻璃盒兩
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 全新ETL认证可定时三小时有四级调控温度 可清洗双人电热毯/
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: Bast Massage折疊按摩床枕头/佳能文件編辑扫描器办
+2026-01-02 00:54:08 - market_scraper - INFO - 保存集市帖子: 汽車快速充電器/全新羊絨毛皮边多用款披肩/送艾灸粒百分百无添
+2026-01-02 00:54:09 - market_scraper - INFO - 保存集市帖子: 100%全新專業護理膝蓋受傷分隔枕/脊骨和腰部肌肉痠痛護理專
+2026-01-02 00:54:09 - market_scraper - INFO - 保存集市帖子: 女士健身套件
+2026-01-02 00:54:09 - market_scraper - INFO - 保存集市帖子: 全新美的无缝双层防烫功能电热水壶/八年陈艾柱54条/盒 对亞
+2026-01-02 00:54:09 - market_scraper - INFO - 保存集市帖子: 全新婴儿成长过程重要記錄重量/長度电子称/0.11- 250
+2026-01-02 00:54:09 - market_scraper - INFO - 保存集市帖子: 全新Wedge pillow 有記憶的支援功能特殊設計加長支
+2026-01-02 00:54:09 - market_scraper - INFO - 成功保存 40 個商品
+2026-01-02 00:54:09 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/health?page=2
+2026-01-02 00:54:09 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/health, 發現 1 個項目
+2026-01-02 00:54:10 - market_scraper - INFO - 正在處理: https://www.51.ca/market/fruit-vegetable
+2026-01-02 00:54:10 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/fruit-vegetable
+2026-01-02 00:54:12 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 6 個集市商品
+2026-01-02 00:54:12 - market_scraper - INFO - 保存集市帖子: 热巧克力
+2026-01-02 00:54:12 - market_scraper - INFO - 保存集市帖子: 沙丁鱼罐头
+2026-01-02 00:54:12 - market_scraper - INFO - 保存集市帖子: 纯手工制作各种馅料包子
+2026-01-02 00:54:12 - market_scraper - INFO - 保存集市帖子: 新鲜乳鸽
+2026-01-02 00:54:12 - market_scraper - INFO - 保存集市帖子: 花生米
+2026-01-02 00:54:12 - market_scraper - INFO - 保存集市帖子: 头水紫菜
+2026-01-02 00:54:12 - market_scraper - INFO - 成功保存 6 個商品
+2026-01-02 00:54:12 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/fruit-vegetable, 發現 0 個項目
+2026-01-02 00:54:13 - market_scraper - INFO - 正在處理: https://www.51.ca/market/musical-instruments
+2026-01-02 00:54:13 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/musical-instruments
+2026-01-02 00:54:16 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 37 個集市商品
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: Donnor DEP-20 电子琴 转让
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: 小提琴成人4/4
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: 霍夫曼钢琴
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: Yamaha CG171SF Flamenco guitar
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: buffet crampon paris clarinet
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: howard core violin KRUTZ 400 V
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: Yamaha Piano U1 PE// Q.LZ.Wite
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: Denver民谣电吉他
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: Melodion used in the school
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: 钢琴踏板延长器九成新
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: 电吉他
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: 音响
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: 无线耳机
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: K-3 kawai 钢琴
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: 钢琴
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: 电吉他, 木吉他
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: KAMA 吉他
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: Moukey牌吉他
+2026-01-02 00:54:16 - market_scraper - INFO - 保存集市帖子: 全新没开封便携式小钢琴
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: 钢琴
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: 斯坦威旗下BOSTON钢琴
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: 韩国SAMICK钢琴
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: 日本原装—雅马哈YUX专业演奏级立式钢琴
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: 名牌钢琴  Petrof. IV / 3 - A
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: ESP B-55 USA 5-String Bass
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: 吉他
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: Kawaii cn29电钢琴
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: 99新架子鼓
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: 9成新爵士鼓
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: Yamaha 高级电子钢琴
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: KINGSTON电子钢琴
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: YAMAHA Keyboard & 9 books
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: 出雅馬哈Yamaha 鋼琴
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: 旧 二胡及配件
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: 二胡
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: 吉他
+2026-01-02 00:54:17 - market_scraper - INFO - 保存集市帖子: 9.5成新
+2026-01-02 00:54:17 - market_scraper - INFO - 成功保存 37 個商品
+2026-01-02 00:54:17 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/musical-instruments?page=2
+2026-01-02 00:54:17 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/musical-instruments, 發現 1 個項目
+2026-01-02 00:54:18 - market_scraper - INFO - 正在處理: https://www.51.ca/market/bags-jewelry
+2026-01-02 00:54:18 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/bags-jewelry
+2026-01-02 00:54:20 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 33 個集市商品
+2026-01-02 00:54:20 - market_scraper - INFO - 保存集市帖子: $100转让80年代景德镇外销瓷盘，赵惠民《十二金钗》系列
+2026-01-02 00:54:20 - market_scraper - INFO - 保存集市帖子: 随身行李箱
+2026-01-02 00:54:20 - market_scraper - INFO - 保存集市帖子: 电脑包
+2026-01-02 00:54:20 - market_scraper - INFO - 保存集市帖子: 饰物收纳盒
+2026-01-02 00:54:20 - market_scraper - INFO - 保存集市帖子: 全新kate spade粉色包套装
+2026-01-02 00:54:20 - market_scraper - INFO - 保存集市帖子: 黑色随身行李包
+2026-01-02 00:54:20 - market_scraper - INFO - 保存集市帖子: 中国古典玉珠耳坠
+2026-01-02 00:54:20 - market_scraper - INFO - 保存集市帖子: 耳坠
+2026-01-02 00:54:20 - market_scraper - INFO - 保存集市帖子: G-Dragon Zoa multi pouch
+2026-01-02 00:54:20 - market_scraper - INFO - 保存集市帖子: 用过一次lv包
+2026-01-02 00:54:20 - market_scraper - INFO - 保存集市帖子: G-Dragon coin wallet 正品
+2026-01-02 00:54:20 - market_scraper - INFO - 保存集市帖子: 正品G-Dragon cat -Zoa plush
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: 瓷美人
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: 全新 HEYS 小挎包
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: Dyson戴森airstrait吹风直发器收纳包
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: 全新书包 大概尺寸 40cm * 45cm
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: 全新没背过斜挎包
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: DLOR
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: 全新耐吉高級背包   //   結實的大容量背包，
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: 草莓挂件
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: 真皮编织包包
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: 真皮大号水桶 三种背法
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: 珍珠项链，有礼盒包装 圣诞 生日 节日 送礼佳品
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: 耳坠
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: A款自家設計真皮髮型袋
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: 紫砂 鉄 玻璃茶具
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: 手工玛瑙银钩耳坠
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: 摄影包
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: 全新包包
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: Vendome Pearl Jewelry Set
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: Coach Floral Tote Bag
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: Michael Kors tote bag
+2026-01-02 00:54:21 - market_scraper - INFO - 保存集市帖子: 结实耐用大小行李箱甩出
+2026-01-02 00:54:21 - market_scraper - INFO - 成功保存 33 個商品
+2026-01-02 00:54:21 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/bags-jewelry?page=2
+2026-01-02 00:54:21 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/bags-jewelry, 發現 1 個項目
+2026-01-02 00:54:22 - market_scraper - INFO - 正在處理: https://www.51.ca/market/pet-goods
+2026-01-02 00:54:22 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/pet-goods
+2026-01-02 00:54:25 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 34 個集市商品
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 狗狗笼子, 很新很结实，92*58*62厘米
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 喵喵找新家
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 三个月小泰迪女找新家
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 本周六12.27 下午3~4点猫狗展览..每周六下午均有
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 全新宠物狗玩具
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 产卵期配对的成年迷你鹦鹉鱼
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 8个月折耳猫
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 德文妹妹
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: Hill's Science Diet Adult Oral
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 水草，孔雀鱼苗
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 五成新猫爬架
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 可孵化丰年虾大红卵
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 成年迷你鹦鹉鱼
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 年轻迷你鹦鹉鱼
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 宠物旅行航空箱
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 11月29本周六猫狗展览太古宠物
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 可爱小狗找新家
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 宠物航空箱
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 鱼缸及配件和两条热带鱼
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 豆柴宝宝找领养（有偿）
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 狗狗用品
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 水族馆大鱼缸
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 9成新狗笼
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 宠物自动饮水机
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 九间菠萝鱼
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 全新宠物雨衣
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 可折叠，可手提，有窗狗窝
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 宠物雨衣
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 公猫借配 可详聊
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 可爱小狗找新家
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 小猫
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 宠物笼箱
+2026-01-02 00:54:25 - market_scraper - INFO - 保存集市帖子: 猫砂
+2026-01-02 00:54:25 - market_scraper - INFO - 成功保存 34 個商品
+2026-01-02 00:54:25 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/pet-goods?page=2
+2026-01-02 00:54:25 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/pet-goods, 發現 1 個項目
+2026-01-02 00:54:26 - market_scraper - INFO - 正在處理: https://www.51.ca/market/others
+2026-01-02 00:54:26 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/others
+2026-01-02 00:54:29 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 32 個集市商品
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 提供定制图案的巧克力金币
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 藤条编织的屏风
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 龙凤图案剑筒
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 一件小名家手绘丹青作品，青花文房器
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 清代康熙青花花卉纹花口盘
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 清代粉彩花卉喜字纹（带托盘）花盆
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 道光粉彩人物故事大花瓶台灯
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 準锯
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 二手水晶吊灯
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 油漆
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 自行车
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 古董拿破仑三世古币1861
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 9.9成新全身镜
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 出闲置刚拆包大轮子成人折叠电动滑板车30/k 全新强有力的3
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: Bombay 圆实木镜39 英寸
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 电动车
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 全新全棉床上四件套 queen size
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 男童 size 13 九成新溜冰鞋, 头盔
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 冰钻+手柄
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 全新户外野营置物架，夹子
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 纪念币
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 168 色酒精马克笔双头艺术马克笔
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 全新苏州桃花坞木刻年画“一团和气”
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 圣诞树 及节日花束
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 装饰画
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 保溫管
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 3/8" x 50' 冷凍銅管
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 玩具遥控赛车
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: For Living
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 多巧能柜155cmx85cmx50cm
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 全新”荷气生财”精品刺绣相框摆挂件
+2026-01-02 00:54:29 - market_scraper - INFO - 保存集市帖子: 古董美国银元
+2026-01-02 00:54:29 - market_scraper - INFO - 成功保存 32 個商品
+2026-01-02 00:54:29 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/others?page=2
+2026-01-02 00:54:29 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/others, 發現 1 個項目
+2026-01-02 00:54:30 - market_scraper - INFO - 正在處理: https://www.51.ca/market/?page=2
+2026-01-02 00:54:30 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/?page=2
+2026-01-02 00:54:33 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 28 個集市商品
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 全新不锈钢高压锅，不锈钢平底大炒菜锅，电烧水壶，花果肥料，实
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 12月+ 婴儿奶粉，实木婴儿床（全新床垫），室内空气除菌过滤
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 提供定制图案的巧克力金币
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: Macbook Air M3 512gb
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 硬中华
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 不容错过，2D,3D,4D按摩椅只要$499包税，只限元
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 羽绒服
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 一套给小孩子读的传统中文故事图书
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 小孩子简单中文读物
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: booster - 8.5成新
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 3-7岁孩子自行车头盔
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 闲置22寸联想显示器-适合学生，上网，居家办公
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 全新4D 专业全身按摩椅，限时现金包税
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: Baby jogger 儿童推车city select
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 2座沙发
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: Samsung Galaxy S7 – 32 GB
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 床 垫
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 暖气炉
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 电热炉
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 变速自行车
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 全新20张CD/DVD 架两个
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 藤条编织的屏风
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 无线理发器，有线理发器
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 全新智能马桶
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: bape鲨鱼系列卫衣
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: off white卫衣
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: off white卫衣
+2026-01-02 00:54:33 - market_scraper - INFO - 保存集市帖子: 耐克运动裤、卡帕运动裤都是xl码的
+2026-01-02 00:54:33 - market_scraper - INFO - 成功保存 28 個商品
+2026-01-02 00:54:33 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/?page=2?page=2
+2026-01-02 00:54:33 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/?page=2, 發現 1 個項目
+2026-01-02 00:54:34 - market_scraper - INFO - 正在處理: https://www.51.ca/market/furniture?page=2
+2026-01-02 00:54:34 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/furniture?page=2
+2026-01-02 00:54:39 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 34 個集市商品
+2026-01-02 00:54:39 - market_scraper - INFO - 保存集市帖子: 免税九新按摩椅
+2026-01-02 00:54:39 - market_scraper - INFO - 保存集市帖子: 全新床架+床垫，$299起
+2026-01-02 00:54:39 - market_scraper - INFO - 保存集市帖子: 仓库出全新鞋柜
+2026-01-02 00:54:39 - market_scraper - INFO - 保存集市帖子: 7件套藤编户外沙发组合
+2026-01-02 00:54:39 - market_scraper - INFO - 保存集市帖子: 家具仓库出全新超漂亮边柜
+2026-01-02 00:54:39 - market_scraper - INFO - 保存集市帖子: 种植人的最爱
+2026-01-02 00:54:39 - market_scraper - INFO - 保存集市帖子: 沙发
+2026-01-02 00:54:39 - market_scraper - INFO - 保存集市帖子: 带灯Queen size 床架，特价处理
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 床
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 收纳
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 三人位布艺沙发 仅售 $199
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 床
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 多款厨房柜处理$199-389
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 全新高品质办公桌两人位仓库批发价
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 酒架
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 挂衣架鞋架处理，喜欢的来
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 10*10弹出式帐篷反季节清销，现在买超低价，夏天肯定买不到
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 开车的人都应该备一个打火器，预防在路上灭火了少不了用上
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: Boxing Day 按摩椅包税只要699，只限三天，先
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 6479183466
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 元旦包税，只有这几天$499-$799包税，快来抢购
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 宜家沙发，茶几，鞋架，椅子两把和玻璃圆桌
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: (全新)可调节高度站立式办公桌$45，带轮子/双重防滑设计/
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 收纳柜子
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 搬家 - 所有家具和生活用品便宜出售，多买可赠送
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 朋友孩子回流卖家具电视+茶几+沙发几乎全新
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 实木单人床架
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 沙发
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 玻璃餐桌
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 房间隔断(宽 4 英尺至 6 英尺 8 英寸)
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: box,  双人床架
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 收納櫃子
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 全木质双人床架
+2026-01-02 00:54:40 - market_scraper - INFO - 保存集市帖子: 电脑椅子
+2026-01-02 00:54:40 - market_scraper - INFO - 成功保存 34 個商品
+2026-01-02 00:54:40 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/furniture?page=2?page=2
+2026-01-02 00:54:40 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/furniture?page=2, 發現 1 個項目
+2026-01-02 00:54:41 - market_scraper - INFO - 正在處理: https://www.51.ca/market/home-appliance?page=2
+2026-01-02 00:54:41 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/home-appliance?page=2
+2026-01-02 00:54:44 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 33 個集市商品
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 全新智能马桶
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 双人真皮沙发
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 九成新冰箱250、不锈钢冰箱300$
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 二手干洗衣机
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 二手炉头
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 32寸sharp电视机出让 720
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: LG 22寸电视机出让 lg-22LB4510-led-tv
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 老玩童修炉头冰箱。回收电器、废铁
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 全新手持蒸汽清洁机
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 小米盒子4s海外优化版国内全部电视频道海量影视资源全免
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 烘干机
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 三星电炉头
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 炒菜机
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 二手电脑
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 男士专用化妆品
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 门口门
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 电动空气除尘器 -  强力吹吸尘 二合一和无绳
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 全新抽湿器 35pint 42pint
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: Ecovacs deebot 热水自動清洗拖布 吸尘 拖地
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 机器人 拖地扫地吸尘器
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 全新带包装 Ecovac T10 plus 拖地掃地吸塵
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 生活物品合集
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 肩颈按摩仪
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 征西 变压器110V转220V日本110V转220V大功率3
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 椭圆机‌
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 加热汽车刮冰器
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: Sharp 42寸 Full HD LCD 彩电
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 床架2张，床垫1.2的和1.5 m各一张
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 铲雪机
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: Winix C535 空气净化器｜True HEPA
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 小洗衣機
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 多种牌子微波炉.不锈钢烤箱.自动恒温开水壶
+2026-01-02 00:54:44 - market_scraper - INFO - 保存集市帖子: 电陶炉电热丝盘.全自动吸尘机器人.锂电池吸尘机.海尔小洗衣机
+2026-01-02 00:54:44 - market_scraper - INFO - 成功保存 33 個商品
+2026-01-02 00:54:44 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/home-appliance?page=2?page=2
+2026-01-02 00:54:44 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/home-appliance?page=2, 發現 1 個項目
+2026-01-02 00:54:45 - market_scraper - INFO - 正在處理: https://www.51.ca/market/kitchen-supplies?page=2
+2026-01-02 00:54:45 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/kitchen-supplies?page=2
+2026-01-02 00:54:48 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 39 個集市商品
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 切菜机
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 攪拌机
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 电陶炉电热盘
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: Frigidaire slide in 炉头。
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 日本菜刀
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 烘焙
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 二手2门干净小冰箱
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 八成新商业洗碗机
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 餐饮洗碗机，洗碗液出售出租
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 微波炉
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 招财猫炖盅Stew Pot/Slow Cooker
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 招财猫炖盅Stew Pot/Slow Cooker
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 电饭煲
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 保温饭盒
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 韦伯原装22英寸木炭烤炉
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: Salton Air-wave health cooker
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: kitchenaid max watts 275 和面机
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 微波炉（可安装炉头上方）
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 装饰品
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 99新碗盘及空气炸锅
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 热水壶
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 铁锅
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 电饭煲
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 西式茶具套装
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 铁丝洗碗布$2、神奇抹布$4、面膜$3
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 全新陶瓷盘，全新陶瓷搅拌盆
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 全套擦丝切片工具，各种全新饼干模具
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 日式砂锅煲仔饭锅
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 手摇切肉机
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 11-in-1电压锅和空气炸锅功能
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 空气炸锅
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 餐椅
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 全新316 不锈钢平锅
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: Ecovacs deebot T10 plus 拖地扫地吸尘
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 取暖气
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 全新ECOVACS 地宝 T10 Plus 扫地拖地机器人
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 餐馆热餐台
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 小冰箱
+2026-01-02 00:54:48 - market_scraper - INFO - 保存集市帖子: 双立人全新喷油壶
+2026-01-02 00:54:48 - market_scraper - INFO - 成功保存 39 個商品
+2026-01-02 00:54:48 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/kitchen-supplies?page=2?page=2
+2026-01-02 00:54:48 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/kitchen-supplies?page=2, 發現 1 個項目
+2026-01-02 00:54:49 - market_scraper - INFO - 正在處理: https://www.51.ca/market/mother-baby-products?page=2
+2026-01-02 00:54:49 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/mother-baby-products?page=2
+2026-01-02 00:54:52 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 34 個集市商品
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: Car seat儿童安全座椅
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: Amada 双头电动泵奶器
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: Ecovac deebot T10 plus 拖地掃地吸塵
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: wagon四轮车
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 未开封1段水奶
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 8折售出双面保暖服。9成新。共三张图片XL 号
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 全新折叠电动自行车
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 全新毛绒玩具，圣诞礼物的好选择
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: car seat
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 一次性成人中号大号尿裤
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 奶瓶加热器
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: Medela 电动吸奶器（吸奶神器）+ Baby Brezz
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: OshKosh Snow Pants
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: Costco 儿童汽车座椅
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 可携带儿童玩床portable play yard
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 全新Graco 儿童安全座椅
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 6V儿童小汽车，带摇控，圣诞特惠处理
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 不锈钢晾晒架
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 沉香手串
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 婴儿床
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 全新婴儿车套
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 全新新西兰手动吸奶器
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: Thermos 儿童保温杯
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 图三
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 儿童安全座椅
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 婴儿推车
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 婴儿床
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: maxi-cosi 小推车
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 玩具架
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 儿童自行车
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 2018 Uppa Baby Vista推车+睡篮 500出
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 玻璃辅食机
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 推车手套
+2026-01-02 00:54:52 - market_scraper - INFO - 保存集市帖子: 幼儿车
+2026-01-02 00:54:52 - market_scraper - INFO - 成功保存 34 個商品
+2026-01-02 00:54:52 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/mother-baby-products?page=2?page=2
+2026-01-02 00:54:52 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/mother-baby-products?page=2, 發現 1 個項目
+2026-01-02 00:54:53 - market_scraper - INFO - 正在處理: https://www.51.ca/market/auto-parts?page=2
+2026-01-02 00:54:53 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/auto-parts?page=2
+2026-01-02 00:54:56 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 40 個集市商品
+2026-01-02 00:54:56 - market_scraper - INFO - 保存集市帖子: 2018到2025 HONDA Odyssey TPE车垫
+2026-01-02 00:54:56 - market_scraper - INFO - 保存集市帖子: 轮胎雪地轮胎
+2026-01-02 00:54:56 - market_scraper - INFO - 保存集市帖子: 电动空气除尘器 -  强力吹雪 吸尘 二合一和无绳
+2026-01-02 00:54:56 - market_scraper - INFO - 保存集市帖子: 多伦多上门换胎服务
+2026-01-02 00:54:56 - market_scraper - INFO - 保存集市帖子: 全新未拆封 Magellan MiVue 240 行车记录仪
+2026-01-02 00:54:56 - market_scraper - INFO - 保存集市帖子: 特斯拉配件
+2026-01-02 00:54:56 - market_scraper - INFO - 保存集市帖子: 雪胎4个
+2026-01-02 00:54:56 - market_scraper - INFO - 保存集市帖子: 雪肽
+2026-01-02 00:54:56 - market_scraper - INFO - 保存集市帖子: 米其林雪胎带铝合金轮毂195～65～15本田思域用
+2026-01-02 00:54:56 - market_scraper - INFO - 保存集市帖子: 九成新 轮框及雪胎 一套4个型号：235 ／65 R 18
+2026-01-02 00:54:56 - market_scraper - INFO - 保存集市帖子: 电动空气除尘器 -  强力吹雪 吸尘 二合一和无绳
+2026-01-02 00:54:56 - market_scraper - INFO - 保存集市帖子: RAV4 原厂轮毂+米其林雪胎4个
+2026-01-02 00:54:56 - market_scraper - INFO - 保存集市帖子: 米其林雪胎带轮毂一套
+2026-01-02 00:54:56 - market_scraper - INFO - 保存集市帖子: 车锁
+2026-01-02 00:54:56 - market_scraper - INFO - 保存集市帖子: 二手雪胎和凌志铅合金
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 非常实用的汽车前排储物盒
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: BMW X3 雪胎 245X45X19
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 雪胎带轮毂
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 各种车型二手中控屏
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: MICHELIN WINTER TIRES ON RIMS
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 本田思域雪胎轮毂
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 吹吸两用 强力车载mini 吸尘器
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: MAC TOOLS 工具箱
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 带有新轮毂的雪胎一个
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 雪胎
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: VolvoV6OV90XC406090roofrack
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 雪胎
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 2024 BMW X5 X6. X7 THULE 行李架
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 95新雪胎
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 九成新的BMW X3 雪胎
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 95新倍耐力雪胎
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: Volkswagen Taos 95新雪胎+轮毂
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: AUDI/大众225/50R17 17X7.5J合金轮毂一套
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 车载 吹吸两用 强力mini吸尘器
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 除冰扫雪器
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: Porsche 保时捷冬季胎 19寸
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 17寸冬季轮毂 – Snow Tire 215/65/R17
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 米其林四季胎带合金轮毂
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 福特F150后斗盖
+2026-01-02 00:54:57 - market_scraper - INFO - 保存集市帖子: 丰田卡罗拉雪胎4个
+2026-01-02 00:54:57 - market_scraper - INFO - 成功保存 40 個商品
+2026-01-02 00:54:57 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/auto-parts?page=2?page=2
+2026-01-02 00:54:57 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/auto-parts?page=2, 發現 1 個項目
+2026-01-02 00:54:58 - market_scraper - INFO - 正在處理: https://www.51.ca/market/gardening?page=2
+2026-01-02 00:54:58 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/gardening?page=2
+2026-01-02 00:55:00 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 37 個集市商品
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 找专业防冻毯？多伦多 60g/m² 重型套装现货供应
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 绿植
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 菜杆1.8米（1.6），2.1米（2.8）（2.4米3.8）
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 剪草机  本田  Honda 21’’
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 电动除雪机
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 聖誕節燈飾
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 發財玉樹
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 后花园遮阳桌
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 成年成熟昙花
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 各种全新精美花盆，破产商家尾货
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 水养文竹8支
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 水管
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 万年青
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 木纹瓷砖
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: Snow  Joe13英寸10安掊电动铲雪机转让
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 24小时定时器, $10两个
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 多肉
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 后院工具
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 洋姜，也叫鬼子姜，外形像姜，但味脆嫩甜
+2026-01-02 00:55:00 - market_scraper - INFO - 保存集市帖子: 卖香椿树$5+, 大小都有，5元起
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子: 金钱树/玉树
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子: 君子兰
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子: 火龙果树
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子: 全新未开箱迷你链锯
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子: Greenworks 铲雪机
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子: 龟贝竹14，虎皮兰小棵3.99$， 大棵5.99
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子: 手推鏟雪車
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子: 120W全光谱 LED 植物灯
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子: GreenWork 电动剪草机
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子: 蓝色极光鹦鹉慈鲷 观赏鱼
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子: 20个椅背花
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子: 8个桌花-仿真花
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子: 球兰
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子: 手动割草机
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子: 德国品牌 Kärcher 高压清洗机   2600 PSI 
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子:  园艺多功能植物八字扣
+2026-01-02 00:55:01 - market_scraper - INFO - 保存集市帖子: 富贵竹
+2026-01-02 00:55:01 - market_scraper - INFO - 成功保存 37 個商品
+2026-01-02 00:55:01 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/gardening?page=2?page=2
+2026-01-02 00:55:01 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/gardening?page=2, 發現 1 個項目
+2026-01-02 00:55:02 - market_scraper - INFO - 正在處理: https://www.51.ca/market/electronics?page=2
+2026-01-02 00:55:02 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/electronics?page=2
+2026-01-02 00:55:04 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 38 個集市商品
+2026-01-02 00:55:04 - market_scraper - INFO - 保存集市帖子: iPhone 15pro钛合金，送两个手机壳
+2026-01-02 00:55:04 - market_scraper - INFO - 保存集市帖子: Macbook Air M3 512gb
+2026-01-02 00:55:04 - market_scraper - INFO - 保存集市帖子: 闲置22寸联想显示器-适合学生，上网，居家办公
+2026-01-02 00:55:04 - market_scraper - INFO - 保存集市帖子: Samsung Galaxy S7 – 32 GB
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: 按摩坐垫
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: 手机套
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: JBL Tune 770NC 無線頭戴式降噪耳機
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: 监控摄像头
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: 监控头
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: 可视门铃
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: hp I7 笔记本
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: Acer Aspire 3 i3-N305 (9.9成新)
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: PIR 太阳能感应提示器
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: PIR 太阳能感应提示器
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: 二手状态良好笔记本 Acer Aspire E4726414
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: 全新iPhone 16 128g, 黑色 、 外加送Chro
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: 特斯拉充电器
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: 游戏电脑
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: 全新未开封ipad11
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: Insta360影石原装全新X4触屏
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: 双镜头摄像头
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: iPhone 16 Plus 手机壳
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: iphone 15 pro 256G 99新
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: hp I7 台式机
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: apple airpods max 一代
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: open ear开放式运动耳机
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: 谷歌Google pixel 10
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: ryobi工具电池
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: Lenovo ThinkPad P50
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: Samsung LED 显示器
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: Brother MFC 7840W
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: 游戏手柄3个
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: 多伦多出iPad Pro 11寸 第三代 128G
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: 全新未拆封Google Pixel 10 128g 黑色
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: Microsoft Surface Laptop 3
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: Traynor DG15R 吉他音箱 – 音色出色，经久耐用
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: Nespresso Vertuo Next 咖啡机
+2026-01-02 00:55:05 - market_scraper - INFO - 保存集市帖子: iphone13 promax 蓝色128G
+2026-01-02 00:55:05 - market_scraper - INFO - 成功保存 38 個商品
+2026-01-02 00:55:05 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/electronics?page=2?page=2
+2026-01-02 00:55:05 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/electronics?page=2, 發現 1 個項目
+2026-01-02 00:55:06 - market_scraper - INFO - 正在處理: https://www.51.ca/market/costume-matching?page=2
+2026-01-02 00:55:06 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/costume-matching?page=2
+2026-01-02 00:55:09 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 17 個集市商品
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: Jackson 花滑冰鞋
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: 衣物
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: north face 700蓬 鹅绒L码
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: 铁头安全鞋
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: 太陽眼鏡 墨鏡 40副任選 全新 士嘉堡取貨 可試戴
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: 儿童户外滑雪服
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: 小孩冬季外套
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: 羽绒服
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: 羽绒服
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: 女生纯鹿皮外衣
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: shating shoes
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: Eddie Bauer 高级北极防水羽绒服
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: 儿童冰鞋
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: CCM女冰鞋- 尺寸6号
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: 全新中长款羽绒棉服（女）
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: 厚羽绒服
+2026-01-02 00:55:09 - market_scraper - INFO - 保存集市帖子: 羊毛靴 35码
+2026-01-02 00:55:09 - market_scraper - INFO - 成功保存 17 個商品
+2026-01-02 00:55:09 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/costume-matching?page=2?page=2
+2026-01-02 00:55:09 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/costume-matching?page=2, 發現 1 個項目
+2026-01-02 00:55:10 - market_scraper - INFO - 正在處理: https://www.51.ca/market/health?page=2
+2026-01-02 00:55:10 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/health?page=2
+2026-01-02 00:55:12 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 40 個集市商品
+2026-01-02 00:55:12 - market_scraper - INFO - 保存集市帖子: 胰岛素
+2026-01-02 00:55:12 - market_scraper - INFO - 保存集市帖子: 老年人助行器
+2026-01-02 00:55:12 - market_scraper - INFO - 保存集市帖子: 电动轮椅
+2026-01-02 00:55:12 - market_scraper - INFO - 保存集市帖子: 眼部护理液/人工泪水
+2026-01-02 00:55:12 - market_scraper - INFO - 保存集市帖子: 中国紫砂茶壼套装
+2026-01-02 00:55:12 - market_scraper - INFO - 保存集市帖子: CPAP（持续呼吸道正压通气仪, 用于睡眠呼吸暂停患者）
+2026-01-02 00:55:12 - market_scraper - INFO - 保存集市帖子: 黑檀木笔筒礼盒
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 西洋参
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 日本久光鎮痛藥貼/40mg
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 成色很新轮椅，转让
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: Webber Naturals 苹果醋胶囊 500mg
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 紫砂 玻璃 鉄茶具
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 红花抑菌泡脚液，全新没拆封便宜转
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: Metamucil 四合一膳食纤维粉/662克
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: Metamucil 三合一健康膳食纤维胶囊300粒/瓶
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子:  疼痛克星！北京同仁堂艾灸透骨液
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: ！艾草生姜按摩精油
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 祁门红茶清仓 $75/包2.5kg-茶壶做礼品公司活动奖品
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 茶壶养生壶清仓-可用炉子加热，祁门红茶-礼品奖品
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 喝红茶补气血--5斤祁门红茶（豪芽）清仓
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 成色很新， 只用过一次。 北约克自取
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 全新背背佳
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 安神补脑液
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 墨镜女，筋膜枪
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 香港大药房-元气茯苓足贴
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 全新massage 治療床全新的未开封/精美微波加熱玻璃盒兩
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 全新ETL认证可定时三小时有四级调控温度 可清洗双人电热毯/
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: Bast Massage折疊按摩床枕头/佳能文件編辑扫描器办
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 汽車快速充電器/全新羊絨毛皮边多用款披肩/送艾灸粒百分百无添
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 100%全新專業護理膝蓋受傷分隔枕/脊骨和腰部肌肉痠痛護理專
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 女士健身套件
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 全新美的无缝双层防烫功能电热水壶/八年陈艾柱54条/盒 对亞
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 全新婴儿成长过程重要記錄重量/長度电子称/0.11- 250
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 全新Wedge pillow 有記憶的支援功能特殊設計加長支
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: PEAK HEIGH ( Height Maximizer)
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 可移动坐便器
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 养身调理护肝 南京同仁堂29味汉方湿茶
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 瘫痪, 卧床,体弱病人所需器具与用品
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 电动护理床
+2026-01-02 00:55:13 - market_scraper - INFO - 保存集市帖子: 手动护理床
+2026-01-02 00:55:13 - market_scraper - INFO - 成功保存 40 個商品
+2026-01-02 00:55:13 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/health?page=2?page=2
+2026-01-02 00:55:13 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/health?page=2, 發現 1 個項目
+2026-01-02 00:55:14 - market_scraper - INFO - 正在處理: https://www.51.ca/market/musical-instruments?page=2
+2026-01-02 00:55:14 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/musical-instruments?page=2
+2026-01-02 00:55:17 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 37 個集市商品
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: Denver民谣电吉他
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: Melodion used in the school
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 钢琴踏板延长器九成新
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 电吉他
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 音响
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 无线耳机
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: K-3 kawai 钢琴
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 钢琴
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 电吉他, 木吉他
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: KAMA 吉他
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: Moukey牌吉他
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 全新没开封便携式小钢琴
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 钢琴
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 斯坦威旗下BOSTON钢琴
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 韩国SAMICK钢琴
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 日本原装—雅马哈YUX专业演奏级立式钢琴
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 名牌钢琴  Petrof. IV / 3 - A
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: ESP B-55 USA 5-String Bass
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 吉他
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: Kawaii cn29电钢琴
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 99新架子鼓
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 9成新爵士鼓
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: Yamaha 高级电子钢琴
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: KINGSTON电子钢琴
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: YAMAHA Keyboard & 9 books
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 出雅馬哈Yamaha 鋼琴
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 旧 二胡及配件
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 二胡
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 吉他
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 9.5成新
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: Yamaha U30A 保养非常好，可调节座椅
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 十九世纪古玩留声机
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 肖邦（Chopin）立式钢琴 – 加拿大制造｜适合学生或家庭
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 手工1/2尺寸小提琴 - 音色清脆, 状态良好！
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 施坦威钢琴厂家直销会：一生仅此一次的机会！
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 十几年新珠江钢琴
+2026-01-02 00:55:17 - market_scraper - INFO - 保存集市帖子: 1998年产雅马哈钢琴
+2026-01-02 00:55:17 - market_scraper - INFO - 成功保存 37 個商品
+2026-01-02 00:55:17 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/musical-instruments?page=2?page=2
+2026-01-02 00:55:17 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/musical-instruments?page=2, 發現 1 個項目
+2026-01-02 00:55:18 - market_scraper - INFO - 正在處理: https://www.51.ca/market/bags-jewelry?page=2
+2026-01-02 00:55:18 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/bags-jewelry?page=2
+2026-01-02 00:55:21 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 32 個集市商品
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 中国古典玉珠耳坠
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 耳坠
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: G-Dragon Zoa multi pouch
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 用过一次lv包
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: G-Dragon coin wallet 正品
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 正品G-Dragon cat -Zoa plush
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 瓷美人
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 全新 HEYS 小挎包
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: Dyson戴森airstrait吹风直发器收纳包
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 全新书包 大概尺寸 40cm * 45cm
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 全新没背过斜挎包
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: DLOR
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 全新耐吉高級背包   //   結實的大容量背包，
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 草莓挂件
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 真皮编织包包
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 真皮大号水桶 三种背法
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 珍珠项链，有礼盒包装 圣诞 生日 节日 送礼佳品
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 耳坠
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: A款自家設計真皮髮型袋
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 紫砂 鉄 玻璃茶具
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 手工玛瑙银钩耳坠
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 摄影包
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: 全新包包
+2026-01-02 00:55:21 - market_scraper - INFO - 保存集市帖子: Vendome Pearl Jewelry Set
+2026-01-02 00:55:22 - market_scraper - INFO - 保存集市帖子: Coach Floral Tote Bag
+2026-01-02 00:55:22 - market_scraper - INFO - 保存集市帖子: Michael Kors tote bag
+2026-01-02 00:55:22 - market_scraper - INFO - 保存集市帖子: 结实耐用大小行李箱甩出
+2026-01-02 00:55:22 - market_scraper - INFO - 保存集市帖子: 拉杆箱，登机箱
+2026-01-02 00:55:22 - market_scraper - INFO - 保存集市帖子: 九眼天珠
+2026-01-02 00:55:22 - market_scraper - INFO - 保存集市帖子: 真品coach包包
+2026-01-02 00:55:22 - market_scraper - INFO - 保存集市帖子: 囍事、福祿壽、笑口常開；共三份剪紙
+2026-01-02 00:55:22 - market_scraper - INFO - 保存集市帖子: 大容量包包
+2026-01-02 00:55:22 - market_scraper - INFO - 成功保存 32 個商品
+2026-01-02 00:55:22 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/bags-jewelry?page=2?page=2
+2026-01-02 00:55:22 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/bags-jewelry?page=2, 發現 1 個項目
+2026-01-02 00:55:23 - market_scraper - INFO - 正在處理: https://www.51.ca/market/pet-goods?page=2
+2026-01-02 00:55:23 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/pet-goods?page=2
+2026-01-02 00:55:25 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 34 個集市商品
+2026-01-02 00:55:25 - market_scraper - INFO - 保存集市帖子: 8个月折耳猫
+2026-01-02 00:55:25 - market_scraper - INFO - 保存集市帖子: 德文妹妹
+2026-01-02 00:55:25 - market_scraper - INFO - 保存集市帖子: Hill's Science Diet Adult Oral
+2026-01-02 00:55:25 - market_scraper - INFO - 保存集市帖子: 水草，孔雀鱼苗
+2026-01-02 00:55:25 - market_scraper - INFO - 保存集市帖子: 五成新猫爬架
+2026-01-02 00:55:25 - market_scraper - INFO - 保存集市帖子: 可孵化丰年虾大红卵
+2026-01-02 00:55:25 - market_scraper - INFO - 保存集市帖子: 成年迷你鹦鹉鱼
+2026-01-02 00:55:25 - market_scraper - INFO - 保存集市帖子: 年轻迷你鹦鹉鱼
+2026-01-02 00:55:25 - market_scraper - INFO - 保存集市帖子: 宠物旅行航空箱
+2026-01-02 00:55:25 - market_scraper - INFO - 保存集市帖子: 11月29本周六猫狗展览太古宠物
+2026-01-02 00:55:25 - market_scraper - INFO - 保存集市帖子: 可爱小狗找新家
+2026-01-02 00:55:25 - market_scraper - INFO - 保存集市帖子: 宠物航空箱
+2026-01-02 00:55:25 - market_scraper - INFO - 保存集市帖子: 鱼缸及配件和两条热带鱼
+2026-01-02 00:55:25 - market_scraper - INFO - 保存集市帖子: 豆柴宝宝找领养（有偿）
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 狗狗用品
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 水族馆大鱼缸
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 9成新狗笼
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 宠物自动饮水机
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 九间菠萝鱼
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 全新宠物雨衣
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 可折叠，可手提，有窗狗窝
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 宠物雨衣
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 公猫借配 可详聊
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 可爱小狗找新家
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 小猫
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 宠物笼箱
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 猫砂
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 猫架
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 猫架
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 鱼缸
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 狗笼
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 狗笼子带所料底架，食物架，垫子
+2026-01-02 00:55:26 - market_scraper - INFO - 保存集市帖子: 大的宠物铁笼子，可折叠$45
+2026-01-02 00:55:26 - market_scraper - INFO - 成功保存 34 個商品
+2026-01-02 00:55:26 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/pet-goods?page=2?page=2
+2026-01-02 00:55:26 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/pet-goods?page=2, 發現 1 個項目
+2026-01-02 00:55:27 - market_scraper - INFO - 瀏覽器已關閉
+2026-01-02 00:55:27 - market_scraper - INFO - ============================================================
+2026-01-02 00:55:27 - market_scraper - INFO - 爬蟲運行統計:
+2026-01-02 00:55:27 - market_scraper - INFO -   - 頁面爬取: 30
+2026-01-02 00:55:27 - market_scraper - INFO -   - 項目保存: 0
+2026-01-02 00:55:27 - market_scraper - INFO -   - 錯誤數量: 0
+2026-01-02 00:55:27 - market_scraper - INFO -   - 運行時間: 130.63 秒
+2026-01-02 00:55:27 - market_scraper - INFO - ============================================================
