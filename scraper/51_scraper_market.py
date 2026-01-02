@@ -68,6 +68,7 @@ class MarketScraper(BaseScraper):
             r'/market/post/\d+',
             r'/market/\d+',
             r'/market/[^/]+/\d+',
+            r'/market/[^/]+/post/\d+',
         ]
         
         seen_urls = set()
@@ -93,7 +94,30 @@ class MarketScraper(BaseScraper):
                 
                 items.append({'url': post_url})
         
+        # 如果沒找到帖子，嘗試從頁面中提取所有可能的商品連結
+        if not items:
+            # 查找所有包含數字 ID 的連結
+            all_links = soup.find_all('a', href=re.compile(r'/market.*\d{4,}'))
+            for link in all_links:
+                href = link.get('href', '')
+                if not href or '/my/' in href or 'login' in href or 'page=' in href:
+                    continue
+                
+                if href.startswith('/'):
+                    post_url = f"https://www.51.ca{href}"
+                elif href.startswith('http'):
+                    post_url = href
+                else:
+                    continue
+                
+                post_url = post_url.split('?')[0]
+                
+                if post_url not in seen_urls:
+                    seen_urls.add(post_url)
+                    items.append({'url': post_url})
+        
         self.logger.info(f"列表頁面發現 {len(items)} 個集市帖子")
+        return items
         return items
     
     def parse_detail_page(self, html: str, url: str) -> Optional[Dict]:

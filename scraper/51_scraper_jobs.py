@@ -119,7 +119,7 @@ class JobsScraper(BaseScraper):
         category = self._extract_category(soup)
         
         # 提取描述
-        description = self._extract_description(soup)
+        description = self._extract_description(soup, html)
         
         # 提取要求
         requirements = self._extract_requirements(soup)
@@ -158,12 +158,33 @@ class JobsScraper(BaseScraper):
     
     def _extract_title(self, soup: BeautifulSoup) -> str:
         """提取標題"""
+        # 方法1: 使用正確的 CSS 選擇器
+        title_elem = soup.select_one('h1.overview-section .inner > strong')
+        if title_elem:
+            return self.clean_text(title_elem.get_text()).strip()
+        
+        # 方法2: 備用 - 查找 h1 內的 strong
+        h1 = soup.find('h1', class_=re.compile(r'overview'))
+        if h1:
+            inner = h1.find(class_='inner')
+            if inner:
+                strong = inner.find('strong')
+                if strong:
+                    return self.clean_text(strong.get_text()).strip()
+        
+        # 方法3: 傳統方式
         title_elem = soup.find('h1') or soup.find('title')
         if title_elem:
             title = self.clean_text(self.extract_text(title_elem))
-            # 移除網站名稱
+            # 移除網站名稱和多餘的按鈕文字
             title = re.sub(r'\s*[-|]\s*51.*$', '', title)
-            return title
+            # 移除價格後的收藏、電話等按鈕文字
+            title = re.sub(r'(加元/[小时年時]+|面议).*$', r'\1', title)
+            title = re.sub(r'收藏职位.*$', '', title)
+            title = re.sub(r'拨打电话.*$', '', title)
+            title = re.sub(r'发送邮件.*$', '', title)
+            title = re.sub(r'查看电话.*$', '', title)
+            return title.strip()
         return ""
     
     def _extract_company(self, soup: BeautifulSoup) -> tuple:
@@ -275,18 +296,56 @@ class JobsScraper(BaseScraper):
         
         return '其他'
     
-    def _extract_description(self, soup: BeautifulSoup) -> str:
+    def _extract_description(self, soup: BeautifulSoup, html: str) -> str:
         """提取描述"""
-        # 查找描述區域
-        desc_elem = soup.find(class_=re.compile(r'description|content|detail'))
-        if desc_elem:
-            return self.clean_text(self.extract_text(desc_elem))[:2000]
+        # 排除不需要的內容
+        exclude_texts = [
+            '常用入口', '租房发布管理', '黄页发布管理', '工作发布管理',
+            '集市发布管理', '汽车发布管理', '工具汇率', '用户中心',
+            '修改密码', '修改邮箱', '修改昵称', '修改头像', '电话认证',
+            '绑定电话', '帮助中心', '请谨慎以下行为', '如发现可疑信息',
+        ]
         
-        # 取body內容
-        body = soup.find('body')
-        if body:
-            text = body.get_text(separator='\n', strip=True)
-            return self.clean_text(text)[:2000]
+        # 方法1: 使用 p.detail-intro-content 選擇器 (最準確)
+        intro_elem = soup.select_one('p.detail-intro-content')
+        if intro_elem:
+            desc = intro_elem.get_text(separator='\n', strip=True)
+            if desc and len(desc) > 10 and not any(ex in desc for ex in exclude_texts):
+                return self.clean_text(desc)[:2000]
+        
+        # 方法2: 使用 class 模糊匹配
+        intro_elem = soup.find(class_=re.compile(r'detail-intro-content'))
+        if intro_elem:
+            desc = intro_elem.get_text(separator='\n', strip=True)
+            if desc and len(desc) > 10 and not any(ex in desc for ex in exclude_texts):
+                return self.clean_text(desc)[:2000]
+        
+        # 方法3: 查找 .job-detail-section 內的內容
+        detail_section = soup.select_one('.job-detail-section')
+        if detail_section:
+            # 移除不需要的元素
+            for tag in detail_section.find_all(['script', 'style', 'nav', 'footer', 'aside']):
+                tag.decompose()
+            desc = detail_section.get_text(separator='\n', strip=True)
+            # 移除「詳細介紹」標題
+            desc = re.sub(r'^详细介绍\s*', '', desc)
+            if desc and len(desc) > 20 and not any(ex in desc for ex in exclude_texts):
+                return self.clean_text(desc)[:2000]
+        
+        # 方法4: 從頁面中找職位內容段落
+        job_patterns = [
+            r'([\u4e00-\u9fff]+(高薪聘|急聘|诚聘|招聘)[\s\S]{20,500}?(?:联系|电话|請|请|谢谢|薪资面议))',
+            r'(工作(内容|职责|描述)[：:\s][\s\S]{20,500}?(?:联系|电话|請|请|谢谢))',
+        ]
+        for pattern in job_patterns:
+            match = re.search(pattern, html)
+            if match:
+                # 清理 HTML 標籤
+                desc = re.sub(r'<[^>]+>', ' ', match.group(1))
+                desc = re.sub(r'\s+', ' ', desc)
+                desc = self.clean_text(desc)
+                if desc and not any(ex in desc for ex in exclude_texts):
+                    return desc[:2000]
         
         return ""
     

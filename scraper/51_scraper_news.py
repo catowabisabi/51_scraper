@@ -207,31 +207,65 @@ class NewsScraper(BaseScraper):
     
     def _extract_content(self, soup: BeautifulSoup) -> str:
         """提取文章正文"""
+        # 排除不需要的內容關鍵詞
+        exclude_keywords = [
+            '本地要闻', '生活资讯', '中国和国际', '查看更多文章', '往期头条',
+            '网友评论', '请先', '点击登录', '推荐房源', '生活服务',
+            '广告报价', 'APP下载', '投资理财', '商家动态', '如何展示在这里',
+            '二手汽车', '查看全部房源', '关于我们', '法律声明', '隐私政策',
+            '加国无忧旗下站点', '帮助中心', '编辑邮箱',
+        ]
+        
         # 移除不需要的元素
         for tag in soup(['script', 'style', 'nav', 'footer', 'header', 'aside', 'iframe']):
             tag.decompose()
         
-        # 查找文章內容區域
+        # 方法1: 查找 article 標籤內的段落
+        article = soup.find('article')
+        if article:
+            paragraphs = article.find_all('p')
+            if paragraphs:
+                content_parts = []
+                for p in paragraphs:
+                    text = p.get_text(strip=True)
+                    # 排除包含無關關鍵詞的段落
+                    if text and len(text) > 20 and not any(kw in text for kw in exclude_keywords):
+                        content_parts.append(text)
+                if content_parts:
+                    return '\n\n'.join(content_parts)
+        
+        # 方法2: 查找特定 class
         content_selectors = [
-            'article',
             '.article-content',
             '.article-body',
-            '.content',
             '.post-content',
-            'main',
+            '.content',
         ]
         
         for selector in content_selectors:
             content_elem = soup.select_one(selector)
             if content_elem:
-                text = content_elem.get_text(separator='\n', strip=True)
-                if len(text) > 100:  # 確保有足夠內容
-                    return self.clean_text(text)
+                paragraphs = content_elem.find_all('p')
+                if paragraphs:
+                    content_parts = []
+                    for p in paragraphs:
+                        text = p.get_text(strip=True)
+                        if text and len(text) > 20 and not any(kw in text for kw in exclude_keywords):
+                            content_parts.append(text)
+                    if content_parts:
+                        return '\n\n'.join(content_parts)
         
-        # 如果找不到特定區域，取body內容
-        body = soup.find('body')
-        if body:
-            return self.clean_text(body.get_text(separator='\n', strip=True))
+        # 方法3: 從頁面中提取所有 p 標籤
+        all_paragraphs = soup.find_all('p')
+        content_parts = []
+        for p in all_paragraphs:
+            text = p.get_text(strip=True)
+            # 只保留較長的段落（可能是正文）
+            if text and len(text) > 50 and not any(kw in text for kw in exclude_keywords):
+                content_parts.append(text)
+        
+        if content_parts:
+            return '\n\n'.join(content_parts)
         
         return ""
     

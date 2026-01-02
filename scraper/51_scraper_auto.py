@@ -131,8 +131,13 @@ class AutoScraper(BaseScraper):
         title_elem = soup.find('h1') or soup.find('title')
         if title_elem:
             title = self.clean_text(self.extract_text(title_elem))
-            title = re.sub(r'\s*[-|].*51\.ca.*$', '', title)
-            return title
+            # 移除網站名稱
+            title = re.sub(r'\s*[-|_].*51.*$', '', title)
+            # 移除重複的 "_年份_品牌_型號_車行直賣_" 格式
+            title = re.sub(r'_\d{4}_[A-Za-z]+_[A-Za-z0-9]+_车行直卖_?', '', title)
+            title = re.sub(r'_车行直卖_?', '', title)
+            title = re.sub(r'_私人转让_?', '', title)
+            return title.strip()
         return ""
     
     def _extract_make_model(self, soup: BeautifulSoup, title: str) -> tuple:
@@ -140,13 +145,17 @@ class AutoScraper(BaseScraper):
         make = None
         model = None
         
+        # 清理標題中的重複部分
+        clean_title = re.sub(r'_\d{4}_[A-Za-z]+_[A-Za-z0-9]+_车行直卖_?', '', title)
+        clean_title = re.sub(r'_车行直卖_?', '', clean_title)
+        
         # 從標題中提取品牌
         for brand in self.CAR_BRANDS:
-            if brand.lower() in title.lower():
+            if brand.lower() in clean_title.lower():
                 make = brand
                 # 提取型號 (品牌後面的單詞)
                 pattern = rf'{brand}\s+(\w+)'
-                model_match = re.search(pattern, title, re.I)
+                model_match = re.search(pattern, clean_title, re.I)
                 if model_match:
                     model = model_match.group(1)
                 break
@@ -339,15 +348,20 @@ class AutoScraper(BaseScraper):
     def _extract_images(self, soup: BeautifulSoup) -> List[str]:
         """提取圖片"""
         images = []
+        exclude_keywords = ['logo', 'icon', 'avatar', 'button', 'ad', 'static-maps', 'placeholder', 'loading']
+        
         for img in soup.find_all('img'):
-            src = img.get('src') or img.get('data-src')
-            if src and not any(x in src.lower() for x in ['logo', 'icon', 'avatar', 'button', 'ad']):
-                if src.startswith('//'):
-                    src = 'https:' + src
-                elif src.startswith('/'):
-                    src = f"{self.BASE_URL}{src}"
-                if src.startswith('http'):
-                    images.append(src)
+            src = img.get('src') or img.get('data-src') or img.get('data-lazy-src')
+            if not src:
+                continue
+            if any(x in src.lower() for x in exclude_keywords):
+                continue
+            if src.startswith('//'):
+                src = 'https:' + src
+            elif src.startswith('/'):
+                src = f"{self.BASE_URL}{src}"
+            if src.startswith('http'):
+                images.append(src)
         return images[:20]
     
     def save_item(self, data: Dict) -> bool:

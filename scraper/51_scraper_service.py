@@ -270,12 +270,40 @@ class ServiceScraper(BaseScraper):
     
     def _extract_content(self, soup: BeautifulSoup) -> str:
         """提取內容"""
+        # 排除不需要的關鍵詞
+        exclude_keywords = [
+            '常用入口', '租房发布管理', '黄页发布管理', '工作发布管理',
+            '帮助中心', '用户中心', '修改密码', '广告服务',
+        ]
+        
         for tag in soup(['script', 'style', 'nav', 'footer', 'header']):
             tag.decompose()
         
+        # 查找內容區域
         content_elem = soup.find('article') or soup.find('main') or soup.find(class_='content')
         if content_elem:
-            return self.clean_text(content_elem.get_text(separator='\n', strip=True))[:3000]
+            # 提取段落
+            paragraphs = content_elem.find_all('p')
+            if paragraphs:
+                content_parts = []
+                for p in paragraphs:
+                    text = p.get_text(strip=True)
+                    # 排除日期格式和無關內容
+                    if text and len(text) > 10:
+                        # 排除純日期行 (如 "03.10 2025")
+                        if re.match(r'^\d{2}\.\d{2}\s+\d{4}$', text):
+                            continue
+                        if not any(kw in text for kw in exclude_keywords):
+                            content_parts.append(text)
+                if content_parts:
+                    return '\n'.join(content_parts)[:3000]
+            
+            # 如果沒有段落，取整體內容但過濾
+            text = content_elem.get_text(separator='\n', strip=True)
+            # 移除日期行
+            lines = text.split('\n')
+            filtered_lines = [line for line in lines if line and not re.match(r'^\d{2}\.\d{2}\s+\d{4}$', line.strip())]
+            return self.clean_text('\n'.join(filtered_lines))[:3000]
         return ""
     
     def _extract_services(self, soup: BeautifulSoup) -> List[str]:
