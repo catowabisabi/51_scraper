@@ -297,7 +297,7 @@ DETAIL_CONFIG = {
             'columns': 2,
             'fields': [
                 {'key': 'contact_info', 'label': '聯絡資訊'},
-                {'key': 'company_url', 'label': '公司頁面', 'type': 'link', 'text': '造訪商家'},
+                {'key': 'merchant_id', 'label': '商家頁面', 'type': 'merchant_link', 'text': '查看商家'},
             ]
         },
     ],
@@ -466,6 +466,23 @@ def prepare_field(record: dict, field: dict) -> dict:
     elif field_type == 'link':
         link_url = raw_value or record.get(field.get('fallback_key', 'url'))
         value = {'url': link_url, 'text': field.get('text') or link_url}
+    elif field_type == 'merchant_link':
+        # 連結到本地商家詳情頁
+        merchant_id = raw_value
+        if merchant_id:
+            # 從 service_merchants 找到對應的 id
+            conn = get_connection()
+            cursor = conn.cursor()
+            cursor.execute("SELECT id, name FROM service_merchants WHERE merchant_id = ?", (str(merchant_id),))
+            merchant = cursor.fetchone()
+            conn.close()
+            if merchant:
+                value = {'url': f'/detail/service_merchants/{merchant[0]}', 'text': merchant[1] or field.get('text', '查看商家')}
+            else:
+                value = None
+        else:
+            value = None
+        field_type = 'link'
     else:
         value = raw_value
 

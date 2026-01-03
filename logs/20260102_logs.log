@@ -2724,3 +2724,2274 @@
 2026-01-02 01:15:12 - merchant_scraper - INFO - 錯誤數: 0
 2026-01-02 01:15:12 - merchant_scraper - INFO - 耗時: 351.6 秒
 2026-01-02 01:15:12 - merchant_scraper - INFO - ==================================================
+2026-01-02 17:21:54 - news_scraper - INFO - ============================================================
+2026-01-02 17:21:54 - news_scraper - INFO - 開始運行 news_scraper 爬蟲
+2026-01-02 17:21:54 - news_scraper - INFO - ============================================================
+2026-01-02 17:21:54 - news_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 17:21:56 - news_scraper - INFO - 瀏覽器啟動成功
+2026-01-02 17:21:56 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500679
+2026-01-02 17:21:56 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500679
+2026-01-02 17:22:03 - news_scraper - DEBUG - 解析文章: 习近平急于拉拢这个国家...
+2026-01-02 17:22:04 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500223/comments
+2026-01-02 17:22:04 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500223/comments
+2026-01-02 17:22:06 - news_scraper - DEBUG - 解析文章: 贸易战压力下求突围！安省计划在2026年设立多个“经济特区”...
+2026-01-02 17:22:07 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500223
+2026-01-02 17:22:07 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500223
+2026-01-02 17:22:10 - news_scraper - DEBUG - 解析文章: 贸易战压力下求突围！安省计划在2026年设立多个“经济特区”...
+2026-01-02 17:22:11 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500655
+2026-01-02 17:22:11 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500655
+2026-01-02 17:22:14 - news_scraper - DEBUG - 解析文章: 53岁丹麦王后惊艳晚宴，“液体裙”别致...
+2026-01-02 17:22:14 - news_scraper - INFO - 用戶中斷爬蟲
+2026-01-02 17:22:15 - house_scraper - INFO - ============================================================
+2026-01-02 17:22:15 - house_scraper - INFO - 開始運行 house_scraper 爬蟲
+2026-01-02 17:22:15 - house_scraper - INFO - ============================================================
+2026-01-02 17:22:15 - house_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 17:22:15 - jobs_scraper - INFO - ============================================================
+2026-01-02 17:22:15 - jobs_scraper - INFO - 開始運行 jobs_scraper 爬蟲
+2026-01-02 17:22:15 - jobs_scraper - INFO - ============================================================
+2026-01-02 17:22:15 - jobs_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 17:22:15 - service_scraper - INFO - ============================================================
+2026-01-02 17:22:15 - service_scraper - INFO - 開始運行 service_scraper 爬蟲
+2026-01-02 17:22:15 - service_scraper - INFO - ============================================================
+2026-01-02 17:22:15 - service_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 17:22:15 - market_scraper - INFO - ============================================================
+2026-01-02 17:22:15 - market_scraper - INFO - 開始運行 market_scraper 爬蟲
+2026-01-02 17:22:15 - market_scraper - INFO - ============================================================
+2026-01-02 17:22:15 - market_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 17:22:15 - auto_scraper - INFO - ============================================================
+2026-01-02 17:22:15 - auto_scraper - INFO - 開始運行 auto_scraper 爬蟲
+2026-01-02 17:22:15 - auto_scraper - INFO - ============================================================
+2026-01-02 17:22:15 - auto_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 17:22:15 - merchant_scraper - INFO - ==================================================
+2026-01-02 17:22:15 - merchant_scraper - INFO - 開始爬取商家資訊...
+2026-01-02 17:22:15 - merchant_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 17:22:15 - merchant_scraper - ERROR - 爬取過程發生錯誤: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-01-02 17:22:15 - merchant_scraper - INFO - 瀏覽器已關閉
+2026-01-02 17:22:15 - merchant_scraper - INFO - ==================================================
+2026-01-02 17:22:15 - merchant_scraper - INFO - 爬取完成!
+2026-01-02 17:22:15 - merchant_scraper - INFO - 頁面數: 0
+2026-01-02 17:22:15 - merchant_scraper - INFO - 保存項目: 0
+2026-01-02 17:22:15 - merchant_scraper - INFO - 錯誤數: 0
+2026-01-02 17:22:15 - merchant_scraper - INFO - 耗時: 0.0 秒
+2026-01-02 17:22:15 - merchant_scraper - INFO - ==================================================
+2026-01-02 17:25:32 - news_scraper - INFO - ============================================================
+2026-01-02 17:25:32 - news_scraper - INFO - 開始運行 news_scraper 爬蟲
+2026-01-02 17:25:32 - news_scraper - INFO - ============================================================
+2026-01-02 17:25:32 - news_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 17:25:36 - news_scraper - INFO - 瀏覽器啟動成功
+2026-01-02 17:25:36 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500597
+2026-01-02 17:25:36 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500597
+2026-01-02 17:25:40 - news_scraper - DEBUG - 解析文章: 中医曾两次大规模“验药”，结果很尴尬...
+2026-01-02 17:25:41 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500615
+2026-01-02 17:25:41 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500615
+2026-01-02 17:25:44 - news_scraper - DEBUG - 解析文章: 脑梗是吃出来的？天天吃这3种早餐 血管易堵...
+2026-01-02 17:25:45 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500698
+2026-01-02 17:25:45 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500698
+2026-01-02 17:25:47 - news_scraper - DEBUG - 解析文章: 传奇球星佩特莱斯库确诊癌症...
+2026-01-02 17:25:48 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500699
+2026-01-02 17:25:48 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500699
+2026-01-02 17:25:51 - news_scraper - DEBUG - 解析文章: 宇宙也想“躺平”？ 发现暗能量正在减弱...
+2026-01-02 17:25:52 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500696
+2026-01-02 17:25:52 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500696
+2026-01-02 17:25:55 - news_scraper - DEBUG - 解析文章: 20岁华裔女大学生开始存退休金 24岁达6位数...
+2026-01-02 17:25:56 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500697
+2026-01-02 17:25:56 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500697
+2026-01-02 17:25:59 - news_scraper - DEBUG - 解析文章: 特斯拉车主横跨整个美国 全程没碰方向盘...
+2026-01-02 17:26:00 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500626
+2026-01-02 17:26:00 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500626
+2026-01-02 17:26:03 - news_scraper - DEBUG - 解析文章: 现在的东三省，很多地方如“鬼城”...
+2026-01-02 17:26:04 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500692
+2026-01-02 17:26:04 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500692
+2026-01-02 17:26:07 - news_scraper - DEBUG - 解析文章: 川普自曝每天服用这种药 来预防心脏病...
+2026-01-02 17:26:08 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500446
+2026-01-02 17:26:08 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500446
+2026-01-02 17:26:11 - news_scraper - DEBUG - 解析文章: 众人皆沉默：中共军演3个惊悚镜头...
+2026-01-02 17:26:12 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500427
+2026-01-02 17:26:12 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500427
+2026-01-02 17:26:15 - news_scraper - DEBUG - 解析文章: 摊牌了!离婚两年后汪峰章子怡公开认爱,这一次......
+2026-01-02 17:26:16 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500481
+2026-01-02 17:26:16 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500481
+2026-01-02 17:26:18 - news_scraper - DEBUG - 解析文章: 成龙女儿终于开口，多伦多华人圈炸了...
+2026-01-02 17:26:19 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1499968
+2026-01-02 17:26:19 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1499968
+2026-01-02 17:26:22 - news_scraper - DEBUG - 解析文章: 加拿大紧急叫停一项难民移民通道，雇主与难民同时被"卡"！...
+2026-01-02 17:26:23 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500168
+2026-01-02 17:26:23 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500168
+2026-01-02 17:26:26 - news_scraper - DEBUG - 解析文章: 紧急提醒! 多伦多蓝桶回收新规明天生效! 业内担心将是一场"...
+2026-01-02 17:26:27 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500218
+2026-01-02 17:26:27 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500218
+2026-01-02 17:26:30 - news_scraper - DEBUG - 解析文章: 加拿大总理、总督，中俄等国领导人新年致辞！...
+2026-01-02 17:26:31 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500201
+2026-01-02 17:26:31 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500201
+2026-01-02 17:26:34 - news_scraper - DEBUG - 解析文章: 这个行业遭受剧烈冲击! 多伦多律师警告: 慎用AI, 恐得不...
+2026-01-02 17:26:35 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500179
+2026-01-02 17:26:35 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500179
+2026-01-02 17:26:38 - news_scraper - DEBUG - 解析文章: 不是开玩笑：Loblaw的CEO严肃地考虑过将香蕉拆开，一根...
+2026-01-02 17:26:39 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1499018
+2026-01-02 17:26:39 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1499018
+2026-01-02 17:26:42 - news_scraper - DEBUG - 解析文章: 快讯：卡尼总理表示加拿大将向乌克兰提供25亿加元经济援助...
+2026-01-02 17:26:43 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1498946
+2026-01-02 17:26:43 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1498946
+2026-01-02 17:26:46 - news_scraper - DEBUG - 解析文章: 脱衣舞俱乐部居然拿到1000万安省政府资金：培训新行业女性？...
+2026-01-02 17:26:47 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1498453
+2026-01-02 17:26:47 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1498453
+2026-01-02 17:26:50 - news_scraper - DEBUG - 解析文章: 美股连续三年大涨，2026年还能再涨一轮吗？三大因素决定...
+2026-01-02 17:26:51 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1498395
+2026-01-02 17:26:51 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1498395
+2026-01-02 17:26:53 - news_scraper - DEBUG - 解析文章: 不会马上见效，但必须坚持！总理卡尼年终专访谈加拿大经济...
+2026-01-02 17:26:54 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1498114
+2026-01-02 17:26:54 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1498114
+2026-01-02 17:26:57 - news_scraper - DEBUG - 解析文章: 不看好2026年！民调揭示加拿大人的真实心态...
+2026-01-02 17:26:58 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1498119
+2026-01-02 17:26:58 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1498119
+2026-01-02 17:27:01 - news_scraper - DEBUG - 解析文章: 多伦多市长选情升温：邹至蕙支持率领先庄德利...
+2026-01-02 17:27:02 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1496149
+2026-01-02 17:27:02 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1496149
+2026-01-02 17:27:05 - news_scraper - DEBUG - 解析文章: 万锦女子说服老公贷款100万投资加密货币连续被骗损失170万...
+2026-01-02 17:27:06 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500168/comments
+2026-01-02 17:27:06 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500168/comments
+2026-01-02 17:27:09 - news_scraper - DEBUG - 解析文章: 紧急提醒! 多伦多蓝桶回收新规明天生效! 业内担心将是一场"...
+2026-01-02 17:27:10 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500255
+2026-01-02 17:27:10 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500255
+2026-01-02 17:27:12 - news_scraper - DEBUG - 解析文章: 12月31日头条：加总督总理新年致辞；多伦多蓝桶回收新规明生...
+2026-01-02 17:27:13 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500215
+2026-01-02 17:27:13 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500215
+2026-01-02 17:27:16 - news_scraper - DEBUG - 解析文章: 士嘉堡43岁暖男老师骤然离世! 全校师生心碎: 他是"一束光...
+2026-01-02 17:27:17 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500242
+2026-01-02 17:27:17 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500242
+2026-01-02 17:27:20 - news_scraper - DEBUG - 解析文章: “如果开车，千万别喝酒”：GTA警方敦促跨年夜庆祝前提前做好...
+2026-01-02 17:27:21 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500179/comments
+2026-01-02 17:27:21 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500179/comments
+2026-01-02 17:27:24 - news_scraper - DEBUG - 解析文章: 不是开玩笑：Loblaw的CEO严肃地考虑过将香蕉拆开，一根...
+2026-01-02 17:27:25 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500200
+2026-01-02 17:27:25 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500200
+2026-01-02 17:27:28 - news_scraper - DEBUG - 解析文章: "横加公路"淹大水: 2000户家庭, 100个商家遭殃! ...
+2026-01-02 17:27:29 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500199
+2026-01-02 17:27:29 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500199
+2026-01-02 17:27:32 - news_scraper - DEBUG - 解析文章: 宾顿商场停车场枪杀案：3名男子被控一级谋杀...
+2026-01-02 17:27:33 - news_scraper - INFO - 瀏覽器已關閉
+2026-01-02 17:27:33 - news_scraper - INFO - ============================================================
+2026-01-02 17:27:33 - news_scraper - INFO - 爬蟲運行統計:
+2026-01-02 17:27:33 - news_scraper - INFO -   - 頁面爬取: 30
+2026-01-02 17:27:33 - news_scraper - INFO -   - 項目保存: 30
+2026-01-02 17:27:33 - news_scraper - INFO -   - 錯誤數量: 0
+2026-01-02 17:27:33 - news_scraper - INFO -   - 運行時間: 120.52 秒
+2026-01-02 17:27:33 - news_scraper - INFO - ============================================================
+2026-01-02 17:27:33 - house_scraper - INFO - ============================================================
+2026-01-02 17:27:33 - house_scraper - INFO - 開始運行 house_scraper 爬蟲
+2026-01-02 17:27:33 - house_scraper - INFO - ============================================================
+2026-01-02 17:27:33 - house_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 17:27:35 - house_scraper - INFO - 瀏覽器啟動成功
+2026-01-02 17:27:35 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12653448
+2026-01-02 17:27:35 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12653448
+2026-01-02 17:27:40 - house_scraper - INFO - 解析房源: C12653448 - 118 Palm Drive
+2026-01-02 17:27:41 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12411998
+2026-01-02 17:27:41 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12411998
+2026-01-02 17:27:46 - house_scraper - INFO - 解析房源: C12411998 - 328 - 399 Spring Garden Avenue
+2026-01-02 17:27:47 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12650700
+2026-01-02 17:27:47 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12650700
+2026-01-02 17:27:52 - house_scraper - INFO - 解析房源: C12650700 - 332 Senlac Road
+2026-01-02 17:27:53 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12512502
+2026-01-02 17:27:53 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12512502
+2026-01-02 17:27:58 - house_scraper - INFO - 解析房源: N12512502 - 17 Charrington Crescent
+2026-01-02 17:27:59 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12549926
+2026-01-02 17:27:59 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12549926
+2026-01-02 17:28:05 - house_scraper - INFO - 解析房源: N12549926 - 91 William Bartlett Drive
+2026-01-02 17:28:06 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/C12402935
+2026-01-02 17:28:06 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/C12402935
+2026-01-02 17:28:12 - house_scraper - INFO - 解析房源: C12402935 - 402 - 30 Nelson Street
+2026-01-02 17:28:13 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12634796
+2026-01-02 17:28:13 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12634796
+2026-01-02 17:28:19 - house_scraper - INFO - 解析房源: N12634796 - 241 SEGUIN Street
+2026-01-02 17:28:20 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12628060
+2026-01-02 17:28:20 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12628060
+2026-01-02 17:28:24 - house_scraper - INFO - 解析房源: N12628060 - 248 Seguin Street
+2026-01-02 17:28:25 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/E12500614
+2026-01-02 17:28:25 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/E12500614
+2026-01-02 17:28:30 - house_scraper - INFO - 解析房源: E12500614 - 406 - 50 Town Centre Court
+2026-01-02 17:28:31 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/E12615016
+2026-01-02 17:28:31 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/E12615016
+2026-01-02 17:28:37 - house_scraper - INFO - 解析房源: E12615016 - 27 Hookwood Drive
+2026-01-02 17:28:38 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/N12654534
+2026-01-02 17:28:38 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/N12654534
+2026-01-02 17:28:43 - house_scraper - INFO - 解析房源: N12654534 - 7 Paper Mills Crescent
+2026-01-02 17:28:44 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12630944
+2026-01-02 17:28:44 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12630944
+2026-01-02 17:28:51 - house_scraper - INFO - 解析房源: W12630944 - 801 - 80 Absolute Avenue
+2026-01-02 17:28:52 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12631140
+2026-01-02 17:28:52 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12631140
+2026-01-02 17:28:57 - house_scraper - INFO - 解析房源: W12631140 - 3304 - 3939 Duke Of York Boulevard
+2026-01-02 17:28:58 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12635820
+2026-01-02 17:28:58 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12635820
+2026-01-02 17:29:02 - house_scraper - INFO - 解析房源: W12635820 - 2904 - 385 Prince Of Wales Drive
+2026-01-02 17:29:03 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12636614
+2026-01-02 17:29:03 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12636614
+2026-01-02 17:29:08 - house_scraper - INFO - 解析房源: W12636614 - 2103 - 3900 Confederation Parkway
+2026-01-02 17:29:09 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12638862
+2026-01-02 17:29:09 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12638862
+2026-01-02 17:29:14 - house_scraper - INFO - 解析房源: W12638862 - 1705 - 223 WEBB Drive
+2026-01-02 17:29:15 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12638282
+2026-01-02 17:29:15 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12638282
+2026-01-02 17:29:19 - house_scraper - INFO - 解析房源: W12638282 - 1103 - 200 Burnhamthorpe Road East
+2026-01-02 17:29:20 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12638006
+2026-01-02 17:29:20 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12638006
+2026-01-02 17:29:25 - house_scraper - INFO - 解析房源: W12638006 - 1104A - 3605 Kariya Drive
+2026-01-02 17:29:26 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12643900
+2026-01-02 17:29:26 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12643900
+2026-01-02 17:29:31 - house_scraper - INFO - 解析房源: W12643900 - 3209 - 36 Elm Drive West
+2026-01-02 17:29:32 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/E12483237
+2026-01-02 17:29:32 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/E12483237
+2026-01-02 17:29:37 - house_scraper - INFO - 解析房源: E12483237 - 802 - 55 Bamburgh Circle
+2026-01-02 17:29:39 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12644242
+2026-01-02 17:29:39 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12644242
+2026-01-02 17:29:43 - house_scraper - INFO - 解析房源: W12644242 - 1901 - 360 Square One Drive
+2026-01-02 17:29:44 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/E12644296
+2026-01-02 17:29:44 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/E12644296
+2026-01-02 17:29:50 - house_scraper - INFO - 解析房源: E12644296 - 1209 - 55 Bamburgh Circle
+2026-01-02 17:29:51 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12646296
+2026-01-02 17:29:51 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12646296
+2026-01-02 17:29:56 - house_scraper - INFO - 解析房源: W12646296 - 1110 - 33 Elm Drive West
+2026-01-02 17:29:57 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12647930
+2026-01-02 17:29:57 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12647930
+2026-01-02 17:30:02 - house_scraper - INFO - 解析房源: W12647930 - 806 - 33 Elm Drive West
+2026-01-02 17:30:03 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12650946
+2026-01-02 17:30:03 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12650946
+2026-01-02 17:30:08 - house_scraper - INFO - 解析房源: W12650946 - 1206 - 4090 Living Arts Drive
+2026-01-02 17:30:09 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12651084
+2026-01-02 17:30:09 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12651084
+2026-01-02 17:30:14 - house_scraper - INFO - 解析房源: W12651084 - 1508 - 225 Webb Drive
+2026-01-02 17:30:15 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12651812
+2026-01-02 17:30:15 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12651812
+2026-01-02 17:30:19 - house_scraper - INFO - 解析房源: W12651812 - 305 - 3985 GRAND PARK Drive
+2026-01-02 17:30:20 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12652152
+2026-01-02 17:30:20 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12652152
+2026-01-02 17:30:25 - house_scraper - INFO - 解析房源: W12652152 - 1109 - 430 Square One Drive
+2026-01-02 17:30:26 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12651456
+2026-01-02 17:30:26 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12651456
+2026-01-02 17:30:31 - house_scraper - INFO - 解析房源: W12651456 - 2901 - 330 Burnhamthorpe Road West
+2026-01-02 17:30:32 - house_scraper - INFO - 正在處理: https://house.51.ca/redirect/property/W12652686
+2026-01-02 17:30:32 - house_scraper - DEBUG - 正在訪問: https://house.51.ca/redirect/property/W12652686
+2026-01-02 17:30:37 - house_scraper - INFO - 解析房源: W12652686 - 515 - 349 Rathburn Road West
+2026-01-02 17:30:38 - house_scraper - INFO - 瀏覽器已關閉
+2026-01-02 17:30:38 - house_scraper - INFO - ============================================================
+2026-01-02 17:30:38 - house_scraper - INFO - 爬蟲運行統計:
+2026-01-02 17:30:38 - house_scraper - INFO -   - 頁面爬取: 30
+2026-01-02 17:30:38 - house_scraper - INFO -   - 項目保存: 30
+2026-01-02 17:30:38 - house_scraper - INFO -   - 錯誤數量: 0
+2026-01-02 17:30:38 - house_scraper - INFO -   - 運行時間: 184.71 秒
+2026-01-02 17:30:38 - house_scraper - INFO - ============================================================
+2026-01-02 17:30:39 - jobs_scraper - INFO - ============================================================
+2026-01-02 17:30:39 - jobs_scraper - INFO - 開始運行 jobs_scraper 爬蟲
+2026-01-02 17:30:39 - jobs_scraper - INFO - ============================================================
+2026-01-02 17:30:39 - jobs_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 17:30:40 - jobs_scraper - INFO - 瀏覽器啟動成功
+2026-01-02 17:30:40 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1171878
+2026-01-02 17:30:40 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1171878
+2026-01-02 17:30:44 - jobs_scraper - DEBUG - 解析職位: 1171878 - 大多百士嘉堡Bridlewood Mall 新店招聘销售...
+2026-01-02 17:30:45 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173168
+2026-01-02 17:30:45 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173168
+2026-01-02 17:30:47 - jobs_scraper - DEBUG - 解析職位: 1173168 - 装修设计/项目协调...
+2026-01-02 17:30:48 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1172622
+2026-01-02 17:30:48 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1172622
+2026-01-02 17:30:51 - jobs_scraper - DEBUG - 解析職位: 1172622 - 厨师...
+2026-01-02 17:30:52 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1169391
+2026-01-02 17:30:52 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1169391
+2026-01-02 17:30:54 - jobs_scraper - DEBUG - 解析職位: 1169391 - 门店成员...
+2026-01-02 17:30:55 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1145722
+2026-01-02 17:30:55 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1145722
+2026-01-02 17:30:58 - jobs_scraper - DEBUG - 解析職位: 1145722 - 招聘 司机搬运...
+2026-01-02 17:30:59 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1172839
+2026-01-02 17:30:59 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1172839
+2026-01-02 17:31:01 - jobs_scraper - DEBUG - 解析職位: 1172839 - 服务员...
+2026-01-02 17:31:02 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1170697
+2026-01-02 17:31:02 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1170697
+2026-01-02 17:31:05 - jobs_scraper - DEBUG - 解析職位: 1170697 - 新店开业请全职后厨，要懂捞面，出歺...
+2026-01-02 17:31:06 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173060
+2026-01-02 17:31:06 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173060
+2026-01-02 17:31:08 - jobs_scraper - DEBUG - 解析職位: 1173060 - 租赁协调 / Rental Coordinator...
+2026-01-02 17:31:09 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173059
+2026-01-02 17:31:09 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173059
+2026-01-02 17:31:12 - jobs_scraper - DEBUG - 解析職位: 1173059 - 设备销售代表...
+2026-01-02 17:31:13 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1168600
+2026-01-02 17:31:13 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1168600
+2026-01-02 17:31:15 - jobs_scraper - DEBUG - 解析職位: 1168600 - 长途A牌司机...
+2026-01-02 17:31:16 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173152
+2026-01-02 17:31:16 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173152
+2026-01-02 17:31:19 - jobs_scraper - DEBUG - 解析職位: 1173152 - 牛肉厂男质检员...
+2026-01-02 17:31:20 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173063
+2026-01-02 17:31:20 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173063
+2026-01-02 17:31:22 - jobs_scraper - DEBUG - 解析職位: 1173063 - 夜班机器清洁员...
+2026-01-02 17:31:23 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1168631
+2026-01-02 17:31:23 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1168631
+2026-01-02 17:31:25 - jobs_scraper - DEBUG - 解析職位: 1168631 - 全职文员...
+2026-01-02 17:31:26 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1168630
+2026-01-02 17:31:26 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1168630
+2026-01-02 17:31:29 - jobs_scraper - DEBUG - 解析職位: 1168630 - 兼职会计和助理会计...
+2026-01-02 17:31:30 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1172053
+2026-01-02 17:31:30 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1172053
+2026-01-02 17:31:32 - jobs_scraper - DEBUG - 解析職位: 1172053 - 维修技工...
+2026-01-02 17:31:33 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1171548
+2026-01-02 17:31:33 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1171548
+2026-01-02 17:31:36 - jobs_scraper - DEBUG - 解析職位: 1171548 - 密市超市打包工...
+2026-01-02 17:31:37 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1171952
+2026-01-02 17:31:37 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1171952
+2026-01-02 17:31:39 - jobs_scraper - DEBUG - 解析職位: 1171952 - 【168新岗】 北约克私立高中请Registrar Assi...
+2026-01-02 17:31:40 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1171951
+2026-01-02 17:31:40 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1171951
+2026-01-02 17:31:43 - jobs_scraper - DEBUG - 解析職位: 1171951 - 【168新岗】 多伦多市中心医美诊所请Medical Off...
+2026-01-02 17:31:44 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1172953
+2026-01-02 17:31:44 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1172953
+2026-01-02 17:31:46 - jobs_scraper - DEBUG - 解析職位: 1172953 - 印刷公司 Graphic Designer Assistan...
+2026-01-02 17:31:47 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1172952
+2026-01-02 17:31:47 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1172952
+2026-01-02 17:31:49 - jobs_scraper - DEBUG - 解析職位: 1172952 - 美容会所 Receptionist...
+2026-01-02 17:31:50 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173129
+2026-01-02 17:31:50 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173129
+2026-01-02 17:31:53 - jobs_scraper - DEBUG - 解析職位: 1173129 - 【密西大型国际物流公司诚聘仓库运营管理】...
+2026-01-02 17:31:54 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1172924
+2026-01-02 17:31:54 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1172924
+2026-01-02 17:31:56 - jobs_scraper - DEBUG - 解析職位: 1172924 - 【北约克教育平台诚招双语教育顾问多名】...
+2026-01-02 17:31:57 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173061
+2026-01-02 17:31:57 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173061
+2026-01-02 17:32:00 - jobs_scraper - DEBUG - 解析職位: 1173061 - 密市物流电商公司招聘电商物流专员18-20/h...
+2026-01-02 17:32:01 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1172856
+2026-01-02 17:32:01 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1172856
+2026-01-02 17:32:03 - jobs_scraper - DEBUG - 解析職位: 1172856 - 发布信息不存在...
+2026-01-02 17:32:04 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1168544
+2026-01-02 17:32:04 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1168544
+2026-01-02 17:32:06 - jobs_scraper - DEBUG - 解析職位: 1168544 - 初级Cabinet Maker 【橱柜工Noc 72311 ...
+2026-01-02 17:32:07 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1168541
+2026-01-02 17:32:08 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1168541
+2026-01-02 17:32:10 - jobs_scraper - DEBUG - 解析職位: 1168541 - 足球顾问...
+2026-01-02 17:32:11 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173075
+2026-01-02 17:32:11 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173075
+2026-01-02 17:32:13 - jobs_scraper - DEBUG - 解析職位: 1173075 - 招CNC 激光操作员...
+2026-01-02 17:32:14 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1173074
+2026-01-02 17:32:14 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1173074
+2026-01-02 17:32:17 - jobs_scraper - DEBUG - 解析職位: 1173074 - CNC机加工操作员...
+2026-01-02 17:32:18 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1172850
+2026-01-02 17:32:18 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1172850
+2026-01-02 17:32:20 - jobs_scraper - DEBUG - 解析職位: 1172850 - 有福利工厂男女工人...
+2026-01-02 17:32:21 - jobs_scraper - INFO - 正在處理: https://www.51.ca/jobs/job-posts/1171851
+2026-01-02 17:32:21 - jobs_scraper - DEBUG - 正在訪問: https://www.51.ca/jobs/job-posts/1171851
+2026-01-02 17:32:23 - jobs_scraper - DEBUG - 解析職位: 1171851 - Food Court油炉(女）现金免问...
+2026-01-02 17:32:25 - jobs_scraper - INFO - 瀏覽器已關閉
+2026-01-02 17:32:25 - jobs_scraper - INFO - ============================================================
+2026-01-02 17:32:25 - jobs_scraper - INFO - 爬蟲運行統計:
+2026-01-02 17:32:25 - jobs_scraper - INFO -   - 頁面爬取: 30
+2026-01-02 17:32:25 - jobs_scraper - INFO -   - 項目保存: 30
+2026-01-02 17:32:25 - jobs_scraper - INFO -   - 錯誤數量: 0
+2026-01-02 17:32:25 - jobs_scraper - INFO -   - 運行時間: 106.05 秒
+2026-01-02 17:32:25 - jobs_scraper - INFO - ============================================================
+2026-01-02 17:32:25 - service_scraper - INFO - ============================================================
+2026-01-02 17:32:25 - service_scraper - INFO - 開始運行 service_scraper 爬蟲
+2026-01-02 17:32:25 - service_scraper - INFO - ============================================================
+2026-01-02 17:32:25 - service_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 17:32:27 - service_scraper - INFO - 瀏覽器啟動成功
+2026-01-02 17:32:27 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/roofing/posts/240272
+2026-01-02 17:32:27 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/roofing/posts/240272
+2026-01-02 17:32:31 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/pest-control/posts/160421
+2026-01-02 17:32:31 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/pest-control/posts/160421
+2026-01-02 17:32:34 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/roofing/posts/235811
+2026-01-02 17:32:34 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/roofing/posts/235811
+2026-01-02 17:32:38 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/garden-snow-removal-services/posts/246482
+2026-01-02 17:32:38 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/garden-snow-removal-services/posts/246482
+2026-01-02 17:32:42 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/mortgage/posts/245479
+2026-01-02 17:32:42 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/mortgage/posts/245479
+2026-01-02 17:32:46 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/mortgage/posts/236111
+2026-01-02 17:32:46 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/mortgage/posts/236111
+2026-01-02 17:32:49 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/mortgage/posts/247057
+2026-01-02 17:32:49 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/mortgage/posts/247057
+2026-01-02 17:32:53 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/construction-renovation/posts/247157
+2026-01-02 17:32:53 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/construction-renovation/posts/247157
+2026-01-02 17:32:57 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/cabinets-stone-materials/posts/240060
+2026-01-02 17:32:57 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/cabinets-stone-materials/posts/240060
+2026-01-02 17:33:00 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/electric-services/posts/236062
+2026-01-02 17:33:00 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/electric-services/posts/236062
+2026-01-02 17:33:04 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/construction-renovation/posts/244656
+2026-01-02 17:33:04 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/construction-renovation/posts/244656
+2026-01-02 17:33:07 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/fence-deck/posts/162175
+2026-01-02 17:33:07 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/fence-deck/posts/162175
+2026-01-02 17:33:11 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/construction-renovation/posts/193958
+2026-01-02 17:33:11 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/construction-renovation/posts/193958
+2026-01-02 17:33:15 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/basement-construction-repair/posts/175470
+2026-01-02 17:33:15 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/basement-construction-repair/posts/175470
+2026-01-02 17:33:18 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/doors-windows-inserts/posts/233558
+2026-01-02 17:33:18 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/doors-windows-inserts/posts/233558
+2026-01-02 17:33:22 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/glass-decoration-services/posts/228252
+2026-01-02 17:33:22 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/glass-decoration-services/posts/228252
+2026-01-02 17:33:25 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/fence-deck/posts/241219
+2026-01-02 17:33:25 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/fence-deck/posts/241219
+2026-01-02 17:33:29 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/mortgage/posts/230598
+2026-01-02 17:33:29 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/mortgage/posts/230598
+2026-01-02 17:33:33 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/construction-renovation/posts/242431
+2026-01-02 17:33:33 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/construction-renovation/posts/242431
+2026-01-02 17:33:36 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/heating-cooling-ventilating/posts/201423
+2026-01-02 17:33:36 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/heating-cooling-ventilating/posts/201423
+2026-01-02 17:33:40 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/garden-snow-removal-services/posts/245491
+2026-01-02 17:33:40 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/garden-snow-removal-services/posts/245491
+2026-01-02 17:33:43 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/electric-services/posts/189951
+2026-01-02 17:33:43 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/electric-services/posts/189951
+2026-01-02 17:33:47 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/cabinets-stone-materials/posts/138610
+2026-01-02 17:33:47 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/cabinets-stone-materials/posts/138610
+2026-01-02 17:33:50 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/construction-renovation/posts/227714
+2026-01-02 17:33:50 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/construction-renovation/posts/227714
+2026-01-02 17:33:54 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/alarms-security-services/posts/244454
+2026-01-02 17:33:54 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/alarms-security-services/posts/244454
+2026-01-02 17:33:57 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/interior-decoration/posts/226707
+2026-01-02 17:33:57 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/interior-decoration/posts/226707
+2026-01-02 17:34:01 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/heating-cooling-ventilating/posts/245699
+2026-01-02 17:34:01 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/heating-cooling-ventilating/posts/245699
+2026-01-02 17:34:05 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/roofing/posts/244762
+2026-01-02 17:34:05 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/roofing/posts/244762
+2026-01-02 17:34:08 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/mortgage/posts/226375
+2026-01-02 17:34:08 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/mortgage/posts/226375
+2026-01-02 17:34:11 - service_scraper - INFO - 正在處理: https://www.51.ca/service/categories/drain-plumbing/posts/240557
+2026-01-02 17:34:11 - service_scraper - DEBUG - 正在訪問: https://www.51.ca/service/categories/drain-plumbing/posts/240557
+2026-01-02 17:34:15 - service_scraper - INFO - 瀏覽器已關閉
+2026-01-02 17:34:15 - service_scraper - INFO - ============================================================
+2026-01-02 17:34:15 - service_scraper - INFO - 爬蟲運行統計:
+2026-01-02 17:34:15 - service_scraper - INFO -   - 頁面爬取: 30
+2026-01-02 17:34:15 - service_scraper - INFO -   - 項目保存: 30
+2026-01-02 17:34:15 - service_scraper - INFO -   - 錯誤數量: 0
+2026-01-02 17:34:15 - service_scraper - INFO -   - 運行時間: 109.87 秒
+2026-01-02 17:34:15 - service_scraper - INFO - ============================================================
+2026-01-02 17:34:16 - market_scraper - INFO - ============================================================
+2026-01-02 17:34:16 - market_scraper - INFO - 開始運行 market_scraper 爬蟲
+2026-01-02 17:34:16 - market_scraper - INFO - ============================================================
+2026-01-02 17:34:16 - market_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 17:34:17 - market_scraper - INFO - 瀏覽器啟動成功
+2026-01-02 17:34:17 - market_scraper - INFO - 正在處理: https://www.51.ca/market/others?page=2
+2026-01-02 17:34:17 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/others?page=2
+2026-01-02 17:34:20 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 33 個集市商品
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 【东方建材】本期特价 Jan 02 - 12
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 【东方建材】圣诞特价 Dec 19 - 24
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 提供定制图案的巧克力金币
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 藤条编织的屏风
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 龙凤图案剑筒
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 一件小名家手绘丹青作品，青花文房器
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 清代康熙青花花卉纹花口盘
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 清代粉彩花卉喜字纹（带托盘）花盆
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 道光粉彩人物故事大花瓶台灯
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 準锯
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 二手水晶吊灯
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 油漆
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 自行车
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 古董拿破仑三世古币1861
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 9.9成新全身镜
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 出闲置刚拆包大轮子成人折叠电动滑板车30/k 全新强有力的3
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: Bombay 圆实木镜39 英寸
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 电动车
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 全新全棉床上四件套 queen size
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 男童 size 13 九成新溜冰鞋, 头盔
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 冰钻+手柄
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 全新户外野营置物架，夹子
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 纪念币
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 168 色酒精马克笔双头艺术马克笔
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 全新苏州桃花坞木刻年画“一团和气”
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 圣诞树 及节日花束
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 装饰画
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 保溫管
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 3/8" x 50' 冷凍銅管
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 玩具遥控赛车
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: For Living
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 多巧能柜155cmx85cmx50cm
+2026-01-02 17:34:20 - market_scraper - INFO - 保存集市帖子: 全新”荷气生财”精品刺绣相框摆挂件
+2026-01-02 17:34:20 - market_scraper - INFO - 成功保存 33 個商品
+2026-01-02 17:34:20 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/others?page=2?page=2
+2026-01-02 17:34:20 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/others?page=2, 發現 1 個項目
+2026-01-02 17:34:21 - market_scraper - INFO - 正在處理: https://www.51.ca/market/?page=2?page=2
+2026-01-02 17:34:21 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/?page=2?page=2
+2026-01-02 17:34:24 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 28 個集市商品
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 锐步椭圆机545
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 【东方建材】本期特价 Jan 02 - 12
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 【东方建材】圣诞特价 Dec 19 - 24
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 塑料文件柜
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 乐谱支架
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: IKEA大电脑桌
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 实木卧室家具
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 乒乓球台
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 梯子
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 小冰箱
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: Whirlpool glass top stove, 对流烤
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 君子兰
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 三人座沙发 - Sofa for sale
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 双人座沙发  -  Lover seat for sale
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 夏普 43 寸 彩色电视
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 星海牌钢琴
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: BenQ ScreenBar Halo 显示器挂灯
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 有偿寄养宠物
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 路由器
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 墨粉
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 激光打印机
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 三星干衣机
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 女性自行车
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: IKEA Couch
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: iPhone 15pro钛合金，送两个手机壳
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: Donnor DEP-20 电子琴 转让
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 电暖器
+2026-01-02 17:34:24 - market_scraper - INFO - 保存集市帖子: 热巧克力
+2026-01-02 17:34:24 - market_scraper - INFO - 成功保存 28 個商品
+2026-01-02 17:34:24 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/?page=2?page=2?page=2
+2026-01-02 17:34:25 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/?page=2?page=2, 發現 1 個項目
+2026-01-02 17:34:26 - market_scraper - INFO - 正在處理: https://www.51.ca/market/furniture?page=2?page=2
+2026-01-02 17:34:26 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/furniture?page=2?page=2
+2026-01-02 17:34:28 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 34 個集市商品
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 塑料文件柜
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: IKEA大电脑桌
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 实木卧室家具
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 三人座沙发 - Sofa for sale
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 双人座沙发  -  Lover seat for sale
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: IKEA Couch
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 不容错过，2D,3D,4D按摩椅只要$499起包税，只限元
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 2座沙发
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 床 垫
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 按摩床
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 7pcs Patio Furniture Set
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 免税九新按摩椅
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 全新床架+床垫，$299起
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 仓库出全新鞋柜
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 7件套藤编户外沙发组合
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 家具仓库出全新超漂亮边柜
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 种植人的最爱
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 沙发
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 带灯Queen size 床架，特价处理
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 床
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 收纳
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 三人位布艺沙发 仅售 $199
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 床
+2026-01-02 17:34:28 - market_scraper - INFO - 保存集市帖子: 多款厨房柜处理$199-389
+2026-01-02 17:34:29 - market_scraper - INFO - 保存集市帖子: 全新高品质办公桌两人位仓库批发价
+2026-01-02 17:34:29 - market_scraper - INFO - 保存集市帖子: 酒架
+2026-01-02 17:34:29 - market_scraper - INFO - 保存集市帖子: 挂衣架鞋架处理，喜欢的来
+2026-01-02 17:34:29 - market_scraper - INFO - 保存集市帖子: 10*10弹出式帐篷反季节清销，现在买超低价，夏天肯定买不到
+2026-01-02 17:34:29 - market_scraper - INFO - 保存集市帖子: 开车的人都应该备一个打火器，预防在路上灭火了少不了用上
+2026-01-02 17:34:29 - market_scraper - INFO - 保存集市帖子: Boxing Day 按摩椅包税只要699，只限三天，先
+2026-01-02 17:34:29 - market_scraper - INFO - 保存集市帖子: 6479183466
+2026-01-02 17:34:29 - market_scraper - INFO - 保存集市帖子: 元旦包税，只有这几天$499-$799包税，快来抢购
+2026-01-02 17:34:29 - market_scraper - INFO - 保存集市帖子: 宜家沙发，茶几，鞋架，椅子两把和玻璃圆桌
+2026-01-02 17:34:29 - market_scraper - INFO - 保存集市帖子: (全新)可调节高度站立式办公桌$45，带轮子/双重防滑设计/
+2026-01-02 17:34:29 - market_scraper - INFO - 成功保存 34 個商品
+2026-01-02 17:34:29 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/furniture?page=2?page=2?page=2
+2026-01-02 17:34:29 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/furniture?page=2?page=2, 發現 1 個項目
+2026-01-02 17:34:30 - market_scraper - INFO - 正在處理: https://www.51.ca/market/home-appliance?page=2?page=2
+2026-01-02 17:34:30 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/home-appliance?page=2?page=2
+2026-01-02 17:34:32 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 34 個集市商品
+2026-01-02 17:34:32 - market_scraper - INFO - 保存集市帖子: 锐步椭圆机545
+2026-01-02 17:34:32 - market_scraper - INFO - 保存集市帖子: 小冰箱
+2026-01-02 17:34:32 - market_scraper - INFO - 保存集市帖子: 激光打印机
+2026-01-02 17:34:32 - market_scraper - INFO - 保存集市帖子: 三星干衣机
+2026-01-02 17:34:32 - market_scraper - INFO - 保存集市帖子: 电暖器
+2026-01-02 17:34:32 - market_scraper - INFO - 保存集市帖子: $39， 直立旋转式金属鞋架可挂24双，非常节省空间拿取方便
+2026-01-02 17:34:32 - market_scraper - INFO - 保存集市帖子: 58寸 LED Samsung Smart 电视
+2026-01-02 17:34:32 - market_scraper - INFO - 保存集市帖子: 暖气炉
+2026-01-02 17:34:32 - market_scraper - INFO - 保存集市帖子: 电热炉
+2026-01-02 17:34:32 - market_scraper - INFO - 保存集市帖子: 全新20张CD/DVD 架两个
+2026-01-02 17:34:32 - market_scraper - INFO - 保存集市帖子: 无线理发器，有线理发器
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 全新智能马桶
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 双人真皮沙发
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 九成新冰箱250、不锈钢冰箱300$
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 二手干洗衣机
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 二手炉头
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 32寸sharp电视机出让 720
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: LG 22寸电视机出让 lg-22LB4510-led-tv
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 老玩童修炉头冰箱。回收电器、废铁
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 全新手持蒸汽清洁机
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 小米盒子4s海外优化版国内全部电视频道海量影视资源全免
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 烘干机
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 三星电炉头
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 炒菜机
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 二手电脑
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 男士专用化妆品
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 门口门
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 电动空气除尘器 -  强力吹吸尘 二合一和无绳
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 全新抽湿器 35pint 42pint
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: Ecovacs deebot 热水自動清洗拖布 吸尘 拖地
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 机器人 拖地扫地吸尘器
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 全新带包装 Ecovac T10 plus 拖地掃地吸塵
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 生活物品合集
+2026-01-02 17:34:33 - market_scraper - INFO - 保存集市帖子: 肩颈按摩仪
+2026-01-02 17:34:33 - market_scraper - INFO - 成功保存 34 個商品
+2026-01-02 17:34:33 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/home-appliance?page=2?page=2?page=2
+2026-01-02 17:34:33 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/home-appliance?page=2?page=2, 發現 1 個項目
+2026-01-02 17:34:34 - market_scraper - INFO - 正在處理: https://www.51.ca/market/kitchen-supplies?page=2?page=2
+2026-01-02 17:34:34 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/kitchen-supplies?page=2?page=2
+2026-01-02 17:34:36 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 39 個集市商品
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: Whirlpool glass top stove, 对流烤
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 全新不锈钢高压锅，不锈钢平底大炒菜锅，电烧水壶，花果肥料，实
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: Toaster 不锈钢烤面包机
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 高压锅
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 闲置电陶炉
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 自動炒菜机
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 電飯煲
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 切菜机
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 攪拌机
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 电陶炉电热盘
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: Frigidaire slide in 炉头。
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 日本菜刀
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 烘焙
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 二手2门干净小冰箱
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 八成新商业洗碗机
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 餐饮洗碗机，洗碗液出售出租
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 微波炉
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 招财猫炖盅Stew Pot/Slow Cooker
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 招财猫炖盅Stew Pot/Slow Cooker
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 电饭煲
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 保温饭盒
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 韦伯原装22英寸木炭烤炉
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: Salton Air-wave health cooker
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: kitchenaid max watts 275 和面机
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 微波炉（可安装炉头上方）
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 装饰品
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 99新碗盘及空气炸锅
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 热水壶
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 铁锅
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 电饭煲
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 西式茶具套装
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 铁丝洗碗布$2、神奇抹布$4、面膜$3
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 全新陶瓷盘，全新陶瓷搅拌盆
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 全套擦丝切片工具，各种全新饼干模具
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 日式砂锅煲仔饭锅
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 手摇切肉机
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 11-in-1电压锅和空气炸锅功能
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 空气炸锅
+2026-01-02 17:34:37 - market_scraper - INFO - 保存集市帖子: 餐椅
+2026-01-02 17:34:37 - market_scraper - INFO - 成功保存 39 個商品
+2026-01-02 17:34:37 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/kitchen-supplies?page=2?page=2?page=2
+2026-01-02 17:34:37 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/kitchen-supplies?page=2?page=2, 發現 1 個項目
+2026-01-02 17:34:38 - market_scraper - INFO - 正在處理: https://www.51.ca/market/mother-baby-products?page=2?page=2
+2026-01-02 17:34:38 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/mother-baby-products?page=2?page=2
+2026-01-02 17:34:41 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 36 個集市商品
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 12月+ 婴儿奶粉，实木婴儿床（全新床垫），室内空气除菌过滤
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: booster - 8.5成新
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: Baby jogger 儿童推车city select
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 儿童玩具7件打包价50元，联系电话4165283676
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 儿童玩具
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 全新peg perego 安全座椅
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: Car seat儿童安全座椅
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: Amada 双头电动泵奶器
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: Ecovac deebot T10 plus 拖地掃地吸塵
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: wagon四轮车
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 未开封1段水奶
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 8折售出双面保暖服。9成新。共三张图片XL 号
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 全新折叠电动自行车
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 全新毛绒玩具，圣诞礼物的好选择
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: car seat
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 一次性成人中号大号尿裤
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 奶瓶加热器
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: Medela 电动吸奶器（吸奶神器）+ Baby Brezz
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: OshKosh Snow Pants
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: Costco 儿童汽车座椅
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 可携带儿童玩床portable play yard
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 全新Graco 儿童安全座椅
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 6V儿童小汽车，带摇控，圣诞特惠处理
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 不锈钢晾晒架
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 沉香手串
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 婴儿床
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 全新婴儿车套
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 全新新西兰手动吸奶器
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: Thermos 儿童保温杯
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 图三
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 儿童安全座椅
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 婴儿推车
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 婴儿床
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: maxi-cosi 小推车
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 玩具架
+2026-01-02 17:34:41 - market_scraper - INFO - 保存集市帖子: 儿童自行车
+2026-01-02 17:34:41 - market_scraper - INFO - 成功保存 36 個商品
+2026-01-02 17:34:41 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/mother-baby-products?page=2?page=2?page=2
+2026-01-02 17:34:41 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/mother-baby-products?page=2?page=2, 發現 1 個項目
+2026-01-02 17:34:42 - market_scraper - INFO - 正在處理: https://www.51.ca/market/auto-parts?page=2?page=2
+2026-01-02 17:34:42 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/auto-parts?page=2?page=2
+2026-01-02 17:34:45 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 39 個集市商品
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: Winter Tire (BFGoodrich)
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 蓝牙车载测试
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 2024年几乎全新michelin 255/45/R21雪胎
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 米其林雪胎（宝马X5）
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 轮胎
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 2018到2025 HONDA Odyssey TPE车垫
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 轮胎雪地轮胎
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 电动空气除尘器 -  强力吹雪 吸尘 二合一和无绳
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 多伦多上门换胎服务
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 全新未拆封 Magellan MiVue 240 行车记录仪
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 特斯拉配件
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 雪胎4个
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 雪肽
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 米其林雪胎带铝合金轮毂195～65～15本田思域用
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 九成新 轮框及雪胎 一套4个型号：235 ／65 R 18
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 电动空气除尘器 -  强力吹雪 吸尘 二合一和无绳
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: RAV4 原厂轮毂+米其林雪胎4个
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 米其林雪胎带轮毂一套
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 车锁
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 二手雪胎和凌志铅合金
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 非常实用的汽车前排储物盒
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: BMW X3 雪胎 245X45X19
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 雪胎带轮毂
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 各种车型二手中控屏
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: MICHELIN WINTER TIRES ON RIMS
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 本田思域雪胎轮毂
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 吹吸两用 强力车载mini 吸尘器
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: MAC TOOLS 工具箱
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 带有新轮毂的雪胎一个
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 雪胎
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: VolvoV6OV90XC406090roofrack
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 雪胎
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 2024 BMW X5 X6. X7 THULE 行李架
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 95新雪胎
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 九成新的BMW X3 雪胎
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 95新倍耐力雪胎
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: Volkswagen Taos 95新雪胎+轮毂
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: AUDI/大众225/50R17 17X7.5J合金轮毂一套
+2026-01-02 17:34:45 - market_scraper - INFO - 保存集市帖子: 车载 吹吸两用 强力mini吸尘器
+2026-01-02 17:34:45 - market_scraper - INFO - 成功保存 39 個商品
+2026-01-02 17:34:45 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/auto-parts?page=2?page=2?page=2
+2026-01-02 17:34:45 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/auto-parts?page=2?page=2, 發現 1 個項目
+2026-01-02 17:34:46 - market_scraper - INFO - 正在處理: https://www.51.ca/market/gardening?page=2?page=2
+2026-01-02 17:34:46 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/gardening?page=2?page=2
+2026-01-02 17:34:49 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 37 個集市商品
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 梯子
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 君子兰
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 雨伞＇
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 虎皮兰， 球兰，万年青 ， 君子兰,等
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 高效复合缓释肥 19-19-19
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 君子兰苗
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 带轮子的雪铲
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 紫苏，盆栽的，一盆里有5-7棵，
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 找专业防冻毯？多伦多 60g/m² 重型套装现货供应
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 绿植
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 菜杆1.8米（1.6），2.1米（2.8）（2.4米3.8）
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 剪草机  本田  Honda 21’’
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 电动除雪机
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 聖誕節燈飾
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 發財玉樹
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 后花园遮阳桌
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 成年成熟昙花
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 各种全新精美花盆，破产商家尾货
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 水养文竹8支
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 水管
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 万年青
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 木纹瓷砖
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: Snow  Joe13英寸10安掊电动铲雪机转让
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 24小时定时器, $10两个
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 多肉
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 后院工具
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 洋姜，也叫鬼子姜，外形像姜，但味脆嫩甜
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 卖香椿树$5+, 大小都有，5元起
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 金钱树/玉树
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 君子兰
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 火龙果树
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 全新未开箱迷你链锯
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: Greenworks 铲雪机
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 龟贝竹14，虎皮兰小棵3.99$， 大棵5.99
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 手推鏟雪車
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: 120W全光谱 LED 植物灯
+2026-01-02 17:34:49 - market_scraper - INFO - 保存集市帖子: GreenWork 电动剪草机
+2026-01-02 17:34:49 - market_scraper - INFO - 成功保存 37 個商品
+2026-01-02 17:34:49 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/gardening?page=2?page=2?page=2
+2026-01-02 17:34:49 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/gardening?page=2?page=2, 發現 1 個項目
+2026-01-02 17:34:50 - market_scraper - INFO - 正在處理: https://www.51.ca/market/electronics?page=2?page=2
+2026-01-02 17:34:50 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/electronics?page=2?page=2
+2026-01-02 17:34:53 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 38 個集市商品
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 夏普 43 寸 彩色电视
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: BenQ ScreenBar Halo 显示器挂灯
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 路由器
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 墨粉
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: iPhone 15pro钛合金，送两个手机壳
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: Macbook Air M3 512gb
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: Google Nest H2D
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 闲置22寸联想显示器-适合学生，上网，居家办公
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: Samsung Galaxy S7 – 32 GB
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 按摩坐垫
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 手机套
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: JBL Tune 770NC 無線頭戴式降噪耳機
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 监控摄像头
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 监控头
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 可视门铃
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: hp I7 笔记本
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: Acer Aspire 3 i3-N305 (9.9成新)
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: PIR 太阳能感应提示器
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: PIR 太阳能感应提示器
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 二手状态良好笔记本 Acer Aspire E4726414
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 全新iPhone 16 128g, 黑色 、 外加送Chro
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 特斯拉充电器
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: iPhone 14 128GB 黑色
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 游戏电脑
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 全新未开封ipad11
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: Insta360影石原装全新X4触屏
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 双镜头摄像头
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: iPhone 16 Plus 手机壳
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: iphone 15 pro 256G 99新
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: hp I7 台式机
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: apple airpods max 一代
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: open ear开放式运动耳机
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 谷歌Google pixel 10
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: ryobi工具电池
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: Lenovo ThinkPad P50
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: Samsung LED 显示器
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: Brother MFC 7840W
+2026-01-02 17:34:53 - market_scraper - INFO - 保存集市帖子: 游戏手柄3个
+2026-01-02 17:34:53 - market_scraper - INFO - 成功保存 38 個商品
+2026-01-02 17:34:53 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/electronics?page=2?page=2?page=2
+2026-01-02 17:34:53 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/electronics?page=2?page=2, 發現 1 個項目
+2026-01-02 17:34:54 - market_scraper - INFO - 正在處理: https://www.51.ca/market/costume-matching?page=2?page=2
+2026-01-02 17:34:54 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/costume-matching?page=2?page=2
+2026-01-02 17:34:57 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 21 個集市商品
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: 羽绒服
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: bape鲨鱼系列卫衣
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: off white卫衣
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: off white卫衣
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: 耐克运动裤、卡帕运动裤都是xl码的
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: 大鹅女款羽绒服：尺码XS
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: Jackson 花滑冰鞋
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: 衣物
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: 铁头安全鞋
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: 太陽眼鏡 墨鏡 40副任選 全新 士嘉堡取貨 可試戴
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: 儿童户外滑雪服
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: 小孩冬季外套
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: 羽绒服
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: 羽绒服
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: 女生纯鹿皮外衣
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: shating shoes
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: Eddie Bauer 高级北极防水羽绒服
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: 儿童冰鞋
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: CCM女冰鞋- 尺寸6号
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: 全新中长款羽绒棉服（女）
+2026-01-02 17:34:57 - market_scraper - INFO - 保存集市帖子: 厚羽绒服
+2026-01-02 17:34:57 - market_scraper - INFO - 成功保存 21 個商品
+2026-01-02 17:34:57 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/costume-matching?page=2?page=2?page=2
+2026-01-02 17:34:57 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/costume-matching?page=2?page=2, 發現 1 個項目
+2026-01-02 17:34:58 - market_scraper - INFO - 正在處理: https://www.51.ca/market/health?page=2?page=2
+2026-01-02 17:34:58 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/health?page=2?page=2
+2026-01-02 17:35:01 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 40 個集市商品
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 全新4D 专业全身按摩椅，限时现金包税
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 几乎全新名牌按摩椅，现金包税，新年优惠
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 胰岛素
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 老年人助行器
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 电动轮椅
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 眼部护理液/人工泪水
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 中国紫砂茶壼套装
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: CPAP（持续呼吸道正压通气仪, 用于睡眠呼吸暂停患者）
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 黑檀木笔筒礼盒
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 西洋参
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 日本久光鎮痛藥貼/40mg
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 成色很新轮椅，转让
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: Webber Naturals 苹果醋胶囊 500mg
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 紫砂 玻璃 鉄茶具
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 红花抑菌泡脚液，全新没拆封便宜转
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: Metamucil 四合一膳食纤维粉/662克
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: Metamucil 三合一健康膳食纤维胶囊300粒/瓶
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子:  疼痛克星！北京同仁堂艾灸透骨液
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: ！艾草生姜按摩精油
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 祁门红茶清仓 $75/包2.5kg-茶壶做礼品公司活动奖品
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 茶壶养生壶清仓-可用炉子加热，祁门红茶-礼品奖品
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 喝红茶补气血--5斤祁门红茶（豪芽）清仓
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 成色很新， 只用过一次。 北约克自取
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 全新背背佳
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 安神补脑液
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 墨镜女，筋膜枪
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 香港大药房-元气茯苓足贴
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 全新massage 治療床全新的未开封/精美微波加熱玻璃盒兩
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 全新ETL认证可定时三小时有四级调控温度 可清洗双人电热毯/
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: Bast Massage折疊按摩床枕头/佳能文件編辑扫描器办
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 汽車快速充電器/全新羊絨毛皮边多用款披肩/送艾灸粒百分百无添
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 100%全新專業護理膝蓋受傷分隔枕/脊骨和腰部肌肉痠痛護理專
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 女士健身套件
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 全新美的无缝双层防烫功能电热水壶/八年陈艾柱54条/盒 对亞
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 全新婴儿成长过程重要記錄重量/長度电子称/0.11- 250
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 全新Wedge pillow 有記憶的支援功能特殊設計加長支
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: PEAK HEIGH ( Height Maximizer)
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 可移动坐便器
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 养身调理护肝 南京同仁堂29味汉方湿茶
+2026-01-02 17:35:01 - market_scraper - INFO - 保存集市帖子: 瘫痪, 卧床,体弱病人所需器具与用品
+2026-01-02 17:35:01 - market_scraper - INFO - 成功保存 40 個商品
+2026-01-02 17:35:01 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/health?page=2?page=2?page=2
+2026-01-02 17:35:02 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/health?page=2?page=2, 發現 1 個項目
+2026-01-02 17:35:03 - market_scraper - INFO - 正在處理: https://www.51.ca/market/musical-instruments?page=2?page=2
+2026-01-02 17:35:03 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/musical-instruments?page=2?page=2
+2026-01-02 17:35:05 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 37 個集市商品
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: 乐谱支架
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: 星海牌钢琴
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: Donnor DEP-20 电子琴 转让
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: 小提琴成人4/4
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: 霍夫曼钢琴
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: Yamaha CG171SF Flamenco guitar
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: buffet crampon paris clarinet
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: howard core violin KRUTZ 400 V
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: Yamaha Piano U1 PE// Q.LZ.Wite
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: Denver民谣电吉他
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: Melodion used in the school
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: 钢琴踏板延长器九成新
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: 电吉他
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: 音响
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: 无线耳机
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: K-3 kawai 钢琴
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: 钢琴
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: 电吉他, 木吉他
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: KAMA 吉他
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: Moukey牌吉他
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: 全新没开封便携式小钢琴
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: 钢琴
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: 斯坦威旗下BOSTON钢琴
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: 韩国SAMICK钢琴
+2026-01-02 17:35:05 - market_scraper - INFO - 保存集市帖子: 日本原装—雅马哈YUX专业演奏级立式钢琴
+2026-01-02 17:35:06 - market_scraper - INFO - 保存集市帖子: 名牌钢琴  Petrof. IV / 3 - A
+2026-01-02 17:35:06 - market_scraper - INFO - 保存集市帖子: ESP B-55 USA 5-String Bass
+2026-01-02 17:35:06 - market_scraper - INFO - 保存集市帖子: 吉他
+2026-01-02 17:35:06 - market_scraper - INFO - 保存集市帖子: Kawaii cn29电钢琴
+2026-01-02 17:35:06 - market_scraper - INFO - 保存集市帖子: 99新架子鼓
+2026-01-02 17:35:06 - market_scraper - INFO - 保存集市帖子: 9成新爵士鼓
+2026-01-02 17:35:06 - market_scraper - INFO - 保存集市帖子: Yamaha 高级电子钢琴
+2026-01-02 17:35:06 - market_scraper - INFO - 保存集市帖子: KINGSTON电子钢琴
+2026-01-02 17:35:06 - market_scraper - INFO - 保存集市帖子: YAMAHA Keyboard & 9 books
+2026-01-02 17:35:06 - market_scraper - INFO - 保存集市帖子: 出雅馬哈Yamaha 鋼琴
+2026-01-02 17:35:06 - market_scraper - INFO - 保存集市帖子: 旧 二胡及配件
+2026-01-02 17:35:06 - market_scraper - INFO - 保存集市帖子: 二胡
+2026-01-02 17:35:06 - market_scraper - INFO - 成功保存 37 個商品
+2026-01-02 17:35:06 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/musical-instruments?page=2?page=2?page=2
+2026-01-02 17:35:06 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/musical-instruments?page=2?page=2, 發現 1 個項目
+2026-01-02 17:35:07 - market_scraper - INFO - 正在處理: https://www.51.ca/market/bags-jewelry?page=2?page=2
+2026-01-02 17:35:07 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/bags-jewelry?page=2?page=2
+2026-01-02 17:35:09 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 33 個集市商品
+2026-01-02 17:35:09 - market_scraper - INFO - 保存集市帖子: $100转让80年代景德镇外销瓷盘，赵惠民《十二金钗》系列
+2026-01-02 17:35:09 - market_scraper - INFO - 保存集市帖子: 随身行李箱
+2026-01-02 17:35:09 - market_scraper - INFO - 保存集市帖子: 电脑包
+2026-01-02 17:35:09 - market_scraper - INFO - 保存集市帖子: 饰物收纳盒
+2026-01-02 17:35:09 - market_scraper - INFO - 保存集市帖子: 全新kate spade粉色包套装
+2026-01-02 17:35:09 - market_scraper - INFO - 保存集市帖子: 黑色随身行李包
+2026-01-02 17:35:09 - market_scraper - INFO - 保存集市帖子: 中国古典玉珠耳坠
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 耳坠
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: G-Dragon Zoa multi pouch
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 用过一次lv包
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: G-Dragon coin wallet 正品
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 正品G-Dragon cat -Zoa plush
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 瓷美人
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 全新 HEYS 小挎包
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: Dyson戴森airstrait吹风直发器收纳包
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 全新书包 大概尺寸 40cm * 45cm
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 全新没背过斜挎包
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: DLOR
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 全新耐吉高級背包   //   結實的大容量背包，
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 草莓挂件
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 真皮编织包包
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 真皮大号水桶 三种背法
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 珍珠项链，有礼盒包装 圣诞 生日 节日 送礼佳品
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 耳坠
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: A款自家設計真皮髮型袋
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 紫砂 鉄 玻璃茶具
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 手工玛瑙银钩耳坠
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 摄影包
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 全新包包
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: Vendome Pearl Jewelry Set
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: Coach Floral Tote Bag
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: Michael Kors tote bag
+2026-01-02 17:35:10 - market_scraper - INFO - 保存集市帖子: 结实耐用大小行李箱甩出
+2026-01-02 17:35:10 - market_scraper - INFO - 成功保存 33 個商品
+2026-01-02 17:35:10 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/bags-jewelry?page=2?page=2?page=2
+2026-01-02 17:35:10 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/bags-jewelry?page=2?page=2, 發現 1 個項目
+2026-01-02 17:35:11 - market_scraper - INFO - 正在處理: https://www.51.ca/market/pet-goods?page=2?page=2
+2026-01-02 17:35:11 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/pet-goods?page=2?page=2
+2026-01-02 17:35:14 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 34 個集市商品
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 有偿寄养宠物
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 狗狗笼子, 很新很结实，92*58*62厘米
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 喵喵找新家
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 三个月小泰迪女找新家
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 本周六12.27 下午3~4点猫狗展览..每周六下午均有
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 全新宠物狗玩具
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 产卵期配对的成年迷你鹦鹉鱼
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 8个月折耳猫
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 德文妹妹
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: Hill's Science Diet Adult Oral
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 水草，孔雀鱼苗
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 五成新猫爬架
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 可孵化丰年虾大红卵
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 成年迷你鹦鹉鱼
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 年轻迷你鹦鹉鱼
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 宠物旅行航空箱
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 11月29本周六猫狗展览太古宠物
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 可爱小狗找新家
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 宠物航空箱
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 鱼缸及配件和两条热带鱼
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 豆柴宝宝找领养（有偿）
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 狗狗用品
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 水族馆大鱼缸
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 9成新狗笼
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 宠物自动饮水机
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 九间菠萝鱼
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 全新宠物雨衣
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 可折叠，可手提，有窗狗窝
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 宠物雨衣
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 公猫借配 可详聊
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 可爱小狗找新家
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 小猫
+2026-01-02 17:35:14 - market_scraper - INFO - 保存集市帖子: 宠物笼箱
+2026-01-02 17:35:14 - market_scraper - INFO - 成功保存 34 個商品
+2026-01-02 17:35:14 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/pet-goods?page=2?page=2?page=2
+2026-01-02 17:35:14 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/pet-goods?page=2?page=2, 發現 1 個項目
+2026-01-02 17:35:15 - market_scraper - INFO - 正在處理: https://www.51.ca/market/others?page=2?page=2
+2026-01-02 17:35:15 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/others?page=2?page=2
+2026-01-02 17:35:18 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 34 個集市商品
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 龙凤图案剑筒
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 一件小名家手绘丹青作品，青花文房器
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 清代康熙青花花卉纹花口盘
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 清代粉彩花卉喜字纹（带托盘）花盆
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 道光粉彩人物故事大花瓶台灯
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 準锯
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 二手水晶吊灯
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 油漆
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 自行车
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 古董拿破仑三世古币1861
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 9.9成新全身镜
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 出闲置刚拆包大轮子成人折叠电动滑板车30/k 全新强有力的3
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: Bombay 圆实木镜39 英寸
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 电动车
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 全新全棉床上四件套 queen size
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 男童 size 13 九成新溜冰鞋, 头盔
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 冰钻+手柄
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 全新户外野营置物架，夹子
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 纪念币
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 168 色酒精马克笔双头艺术马克笔
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 全新苏州桃花坞木刻年画“一团和气”
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 圣诞树 及节日花束
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 装饰画
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 保溫管
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 3/8" x 50' 冷凍銅管
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 玩具遥控赛车
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: For Living
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 多巧能柜155cmx85cmx50cm
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 全新”荷气生财”精品刺绣相框摆挂件
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 古董美国银元
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 古董台湾省孙中山纸币
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 古董维多利亚女王加拿大铜钱
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 高压水枪
+2026-01-02 17:35:18 - market_scraper - INFO - 保存集市帖子: 扇子
+2026-01-02 17:35:18 - market_scraper - INFO - 成功保存 34 個商品
+2026-01-02 17:35:18 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/others?page=2?page=2?page=2
+2026-01-02 17:35:18 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/others?page=2?page=2, 發現 1 個項目
+2026-01-02 17:35:19 - market_scraper - INFO - 正在處理: https://www.51.ca/market/?page=2?page=2?page=2
+2026-01-02 17:35:19 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/?page=2?page=2?page=2
+2026-01-02 17:35:22 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 28 個集市商品
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: IKEA大电脑桌
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 实木卧室家具
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 乒乓球台
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 梯子
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 小冰箱
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: Whirlpool glass top stove, 对流烤
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 君子兰
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 三人座沙发 - Sofa for sale
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 双人座沙发  -  Lover seat for sale
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 夏普 43 寸 彩色电视
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 星海牌钢琴
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: BenQ ScreenBar Halo 显示器挂灯
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 有偿寄养宠物
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 路由器
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 墨粉
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 激光打印机
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 三星干衣机
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 女性自行车
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: IKEA Couch
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: iPhone 15pro钛合金，送两个手机壳
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: Donnor DEP-20 电子琴 转让
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 电暖器
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 热巧克力
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: $39， 直立旋转式金属鞋架可挂24双，非常节省空间拿取方便
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 全新不锈钢高压锅，不锈钢平底大炒菜锅，电烧水壶，花果肥料，实
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 12月+ 婴儿奶粉，实木婴儿床（全新床垫），室内空气除菌过滤
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: 提供定制图案的巧克力金币
+2026-01-02 17:35:22 - market_scraper - INFO - 保存集市帖子: Macbook Air M3 512gb
+2026-01-02 17:35:22 - market_scraper - INFO - 成功保存 28 個商品
+2026-01-02 17:35:22 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/?page=2?page=2?page=2?page=2
+2026-01-02 17:35:22 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/?page=2?page=2?page=2, 發現 1 個項目
+2026-01-02 17:35:23 - market_scraper - INFO - 正在處理: https://www.51.ca/market/furniture?page=2?page=2?page=2
+2026-01-02 17:35:23 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/furniture?page=2?page=2?page=2
+2026-01-02 17:35:26 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 34 個集市商品
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 塑料文件柜
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: IKEA大电脑桌
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 实木卧室家具
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 三人座沙发 - Sofa for sale
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 双人座沙发  -  Lover seat for sale
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: IKEA Couch
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 不容错过，2D,3D,4D按摩椅只要$499起包税，只限元
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 2座沙发
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 床 垫
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 按摩床
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 7pcs Patio Furniture Set
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 免税九新按摩椅
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 全新床架+床垫，$299起
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 仓库出全新鞋柜
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 7件套藤编户外沙发组合
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 家具仓库出全新超漂亮边柜
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 种植人的最爱
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 沙发
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 带灯Queen size 床架，特价处理
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 床
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 收纳
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 三人位布艺沙发 仅售 $199
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 床
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 多款厨房柜处理$199-389
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 全新高品质办公桌两人位仓库批发价
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 酒架
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 挂衣架鞋架处理，喜欢的来
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 10*10弹出式帐篷反季节清销，现在买超低价，夏天肯定买不到
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 开车的人都应该备一个打火器，预防在路上灭火了少不了用上
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: Boxing Day 按摩椅包税只要699，只限三天，先
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 6479183466
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 元旦包税，只有这几天$499-$799包税，快来抢购
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: 宜家沙发，茶几，鞋架，椅子两把和玻璃圆桌
+2026-01-02 17:35:26 - market_scraper - INFO - 保存集市帖子: (全新)可调节高度站立式办公桌$45，带轮子/双重防滑设计/
+2026-01-02 17:35:26 - market_scraper - INFO - 成功保存 34 個商品
+2026-01-02 17:35:26 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/furniture?page=2?page=2?page=2?page=2
+2026-01-02 17:35:26 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/furniture?page=2?page=2?page=2, 發現 1 個項目
+2026-01-02 17:35:27 - market_scraper - INFO - 正在處理: https://www.51.ca/market/home-appliance?page=2?page=2?page=2
+2026-01-02 17:35:27 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/home-appliance?page=2?page=2?page=2
+2026-01-02 17:35:30 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 33 個集市商品
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 58寸 LED Samsung Smart 电视
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 暖气炉
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 电热炉
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 全新20张CD/DVD 架两个
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 无线理发器，有线理发器
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 全新智能马桶
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 双人真皮沙发
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 九成新冰箱250、不锈钢冰箱300$
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 二手干洗衣机
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 二手炉头
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 32寸sharp电视机出让 720
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: LG 22寸电视机出让 lg-22LB4510-led-tv
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 老玩童修炉头冰箱。回收电器、废铁
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 全新手持蒸汽清洁机
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 小米盒子4s海外优化版国内全部电视频道海量影视资源全免
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 烘干机
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 三星电炉头
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 炒菜机
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 二手电脑
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 男士专用化妆品
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 门口门
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 电动空气除尘器 -  强力吹吸尘 二合一和无绳
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 全新抽湿器 35pint 42pint
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: Ecovacs deebot 热水自動清洗拖布 吸尘 拖地
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 机器人 拖地扫地吸尘器
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 全新带包装 Ecovac T10 plus 拖地掃地吸塵
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 生活物品合集
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 肩颈按摩仪
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 征西 变压器110V转220V日本110V转220V大功率3
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 椭圆机‌
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 加热汽车刮冰器
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: Sharp 42寸 Full HD LCD 彩电
+2026-01-02 17:35:30 - market_scraper - INFO - 保存集市帖子: 床架2张，床垫1.2的和1.5 m各一张
+2026-01-02 17:35:30 - market_scraper - INFO - 成功保存 33 個商品
+2026-01-02 17:35:30 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/home-appliance?page=2?page=2?page=2?page=2
+2026-01-02 17:35:30 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/home-appliance?page=2?page=2?page=2, 發現 1 個項目
+2026-01-02 17:35:31 - market_scraper - INFO - 正在處理: https://www.51.ca/market/kitchen-supplies?page=2?page=2?page=2
+2026-01-02 17:35:31 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/kitchen-supplies?page=2?page=2?page=2
+2026-01-02 17:35:34 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 39 個集市商品
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: Whirlpool glass top stove, 对流烤
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 全新不锈钢高压锅，不锈钢平底大炒菜锅，电烧水壶，花果肥料，实
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: Toaster 不锈钢烤面包机
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 高压锅
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 闲置电陶炉
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 自動炒菜机
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 電飯煲
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 切菜机
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 攪拌机
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 电陶炉电热盘
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: Frigidaire slide in 炉头。
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 日本菜刀
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 烘焙
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 二手2门干净小冰箱
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 八成新商业洗碗机
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 餐饮洗碗机，洗碗液出售出租
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 微波炉
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 招财猫炖盅Stew Pot/Slow Cooker
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 招财猫炖盅Stew Pot/Slow Cooker
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 电饭煲
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 保温饭盒
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 韦伯原装22英寸木炭烤炉
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: Salton Air-wave health cooker
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: kitchenaid max watts 275 和面机
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 微波炉（可安装炉头上方）
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 装饰品
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 99新碗盘及空气炸锅
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 热水壶
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 铁锅
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 电饭煲
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 西式茶具套装
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 铁丝洗碗布$2、神奇抹布$4、面膜$3
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 全新陶瓷盘，全新陶瓷搅拌盆
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 全套擦丝切片工具，各种全新饼干模具
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 日式砂锅煲仔饭锅
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 手摇切肉机
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 11-in-1电压锅和空气炸锅功能
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 空气炸锅
+2026-01-02 17:35:34 - market_scraper - INFO - 保存集市帖子: 餐椅
+2026-01-02 17:35:34 - market_scraper - INFO - 成功保存 39 個商品
+2026-01-02 17:35:34 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/kitchen-supplies?page=2?page=2?page=2?page=2
+2026-01-02 17:35:34 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/kitchen-supplies?page=2?page=2?page=2, 發現 1 個項目
+2026-01-02 17:35:35 - market_scraper - INFO - 正在處理: https://www.51.ca/market/mother-baby-products?page=2?page=2?page=2
+2026-01-02 17:35:35 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/mother-baby-products?page=2?page=2?page=2
+2026-01-02 17:35:38 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 36 個集市商品
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 12月+ 婴儿奶粉，实木婴儿床（全新床垫），室内空气除菌过滤
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: booster - 8.5成新
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: Baby jogger 儿童推车city select
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 儿童玩具7件打包价50元，联系电话4165283676
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 儿童玩具
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 全新peg perego 安全座椅
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: Car seat儿童安全座椅
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: Amada 双头电动泵奶器
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: Ecovac deebot T10 plus 拖地掃地吸塵
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: wagon四轮车
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 未开封1段水奶
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 8折售出双面保暖服。9成新。共三张图片XL 号
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 全新折叠电动自行车
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 全新毛绒玩具，圣诞礼物的好选择
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: car seat
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 一次性成人中号大号尿裤
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 奶瓶加热器
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: Medela 电动吸奶器（吸奶神器）+ Baby Brezz
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: OshKosh Snow Pants
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: Costco 儿童汽车座椅
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 可携带儿童玩床portable play yard
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 全新Graco 儿童安全座椅
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 6V儿童小汽车，带摇控，圣诞特惠处理
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 不锈钢晾晒架
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 沉香手串
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 婴儿床
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 全新婴儿车套
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 全新新西兰手动吸奶器
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: Thermos 儿童保温杯
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 图三
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 儿童安全座椅
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 婴儿推车
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 婴儿床
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: maxi-cosi 小推车
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 玩具架
+2026-01-02 17:35:38 - market_scraper - INFO - 保存集市帖子: 儿童自行车
+2026-01-02 17:35:38 - market_scraper - INFO - 成功保存 36 個商品
+2026-01-02 17:35:38 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/mother-baby-products?page=2?page=2?page=2?page=2
+2026-01-02 17:35:38 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/mother-baby-products?page=2?page=2?page=2, 發現 1 個項目
+2026-01-02 17:35:39 - market_scraper - INFO - 正在處理: https://www.51.ca/market/auto-parts?page=2?page=2?page=2
+2026-01-02 17:35:39 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/auto-parts?page=2?page=2?page=2
+2026-01-02 17:35:42 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 40 個集市商品
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 2018到2025 HONDA Odyssey TPE车垫
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 轮胎雪地轮胎
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 电动空气除尘器 -  强力吹雪 吸尘 二合一和无绳
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 多伦多上门换胎服务
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 全新未拆封 Magellan MiVue 240 行车记录仪
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 特斯拉配件
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 雪胎4个
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 雪肽
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 米其林雪胎带铝合金轮毂195～65～15本田思域用
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 九成新 轮框及雪胎 一套4个型号：235 ／65 R 18
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 电动空气除尘器 -  强力吹雪 吸尘 二合一和无绳
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: RAV4 原厂轮毂+米其林雪胎4个
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 米其林雪胎带轮毂一套
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 车锁
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 二手雪胎和凌志铅合金
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 非常实用的汽车前排储物盒
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: BMW X3 雪胎 245X45X19
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 雪胎带轮毂
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 各种车型二手中控屏
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: MICHELIN WINTER TIRES ON RIMS
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 本田思域雪胎轮毂
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 吹吸两用 强力车载mini 吸尘器
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: MAC TOOLS 工具箱
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 带有新轮毂的雪胎一个
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 雪胎
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: VolvoV6OV90XC406090roofrack
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 雪胎
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 2024 BMW X5 X6. X7 THULE 行李架
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 95新雪胎
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 九成新的BMW X3 雪胎
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 95新倍耐力雪胎
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: Volkswagen Taos 95新雪胎+轮毂
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: AUDI/大众225/50R17 17X7.5J合金轮毂一套
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 车载 吹吸两用 强力mini吸尘器
+2026-01-02 17:35:42 - market_scraper - INFO - 保存集市帖子: 除冰扫雪器
+2026-01-02 17:35:43 - market_scraper - INFO - 保存集市帖子: Porsche 保时捷冬季胎 19寸
+2026-01-02 17:35:43 - market_scraper - INFO - 保存集市帖子: 17寸冬季轮毂 – Snow Tire 215/65/R17
+2026-01-02 17:35:43 - market_scraper - INFO - 保存集市帖子: 米其林四季胎带合金轮毂
+2026-01-02 17:35:43 - market_scraper - INFO - 保存集市帖子: 福特F150后斗盖
+2026-01-02 17:35:43 - market_scraper - INFO - 保存集市帖子: 丰田卡罗拉雪胎4个
+2026-01-02 17:35:43 - market_scraper - INFO - 成功保存 40 個商品
+2026-01-02 17:35:43 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/auto-parts?page=2?page=2?page=2?page=2
+2026-01-02 17:35:43 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/auto-parts?page=2?page=2?page=2, 發現 1 個項目
+2026-01-02 17:35:44 - market_scraper - INFO - 正在處理: https://www.51.ca/market/gardening?page=2?page=2?page=2
+2026-01-02 17:35:44 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/gardening?page=2?page=2?page=2
+2026-01-02 17:35:46 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 37 個集市商品
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 带轮子的雪铲
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 紫苏，盆栽的，一盆里有5-7棵，
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 找专业防冻毯？多伦多 60g/m² 重型套装现货供应
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 绿植
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 菜杆1.8米（1.6），2.1米（2.8）（2.4米3.8）
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 剪草机  本田  Honda 21’’
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 电动除雪机
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 聖誕節燈飾
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 發財玉樹
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 后花园遮阳桌
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 成年成熟昙花
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 各种全新精美花盆，破产商家尾货
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 水养文竹8支
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 水管
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 万年青
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 木纹瓷砖
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: Snow  Joe13英寸10安掊电动铲雪机转让
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 24小时定时器, $10两个
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 多肉
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 后院工具
+2026-01-02 17:35:46 - market_scraper - INFO - 保存集市帖子: 洋姜，也叫鬼子姜，外形像姜，但味脆嫩甜
+2026-01-02 17:35:47 - market_scraper - INFO - 保存集市帖子: 卖香椿树$5+, 大小都有，5元起
+2026-01-02 17:35:47 - market_scraper - INFO - 保存集市帖子: 金钱树/玉树
+2026-01-02 17:35:47 - market_scraper - INFO - 保存集市帖子: 君子兰
+2026-01-02 17:35:47 - market_scraper - INFO - 保存集市帖子: 火龙果树
+2026-01-02 17:35:47 - market_scraper - INFO - 保存集市帖子: 全新未开箱迷你链锯
+2026-01-02 17:35:47 - market_scraper - INFO - 保存集市帖子: Greenworks 铲雪机
+2026-01-02 17:35:47 - market_scraper - INFO - 保存集市帖子: 龟贝竹14，虎皮兰小棵3.99$， 大棵5.99
+2026-01-02 17:35:47 - market_scraper - INFO - 保存集市帖子: 手推鏟雪車
+2026-01-02 17:35:47 - market_scraper - INFO - 保存集市帖子: 120W全光谱 LED 植物灯
+2026-01-02 17:35:47 - market_scraper - INFO - 保存集市帖子: GreenWork 电动剪草机
+2026-01-02 17:35:47 - market_scraper - INFO - 保存集市帖子: 蓝色极光鹦鹉慈鲷 观赏鱼
+2026-01-02 17:35:47 - market_scraper - INFO - 保存集市帖子: 20个椅背花
+2026-01-02 17:35:47 - market_scraper - INFO - 保存集市帖子: 8个桌花-仿真花
+2026-01-02 17:35:47 - market_scraper - INFO - 保存集市帖子: 球兰
+2026-01-02 17:35:47 - market_scraper - INFO - 保存集市帖子: 手动割草机
+2026-01-02 17:35:47 - market_scraper - INFO - 保存集市帖子: 德国品牌 Kärcher 高压清洗机   2600 PSI 
+2026-01-02 17:35:47 - market_scraper - INFO - 成功保存 37 個商品
+2026-01-02 17:35:47 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/gardening?page=2?page=2?page=2?page=2
+2026-01-02 17:35:47 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/gardening?page=2?page=2?page=2, 發現 1 個項目
+2026-01-02 17:35:48 - market_scraper - INFO - 正在處理: https://www.51.ca/market/electronics?page=2?page=2?page=2
+2026-01-02 17:35:48 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/electronics?page=2?page=2?page=2
+2026-01-02 17:35:50 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 38 個集市商品
+2026-01-02 17:35:50 - market_scraper - INFO - 保存集市帖子: 夏普 43 寸 彩色电视
+2026-01-02 17:35:50 - market_scraper - INFO - 保存集市帖子: BenQ ScreenBar Halo 显示器挂灯
+2026-01-02 17:35:50 - market_scraper - INFO - 保存集市帖子: 路由器
+2026-01-02 17:35:50 - market_scraper - INFO - 保存集市帖子: 墨粉
+2026-01-02 17:35:50 - market_scraper - INFO - 保存集市帖子: iPhone 15pro钛合金，送两个手机壳
+2026-01-02 17:35:50 - market_scraper - INFO - 保存集市帖子: Macbook Air M3 512gb
+2026-01-02 17:35:50 - market_scraper - INFO - 保存集市帖子: Google Nest H2D
+2026-01-02 17:35:50 - market_scraper - INFO - 保存集市帖子: 闲置22寸联想显示器-适合学生，上网，居家办公
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: Samsung Galaxy S7 – 32 GB
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: 按摩坐垫
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: 手机套
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: JBL Tune 770NC 無線頭戴式降噪耳機
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: 监控摄像头
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: 监控头
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: 可视门铃
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: hp I7 笔记本
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: Acer Aspire 3 i3-N305 (9.9成新)
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: PIR 太阳能感应提示器
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: PIR 太阳能感应提示器
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: 二手状态良好笔记本 Acer Aspire E4726414
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: 全新iPhone 16 128g, 黑色 、 外加送Chro
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: 特斯拉充电器
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: iPhone 14 128GB 黑色
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: 游戏电脑
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: 全新未开封ipad11
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: Insta360影石原装全新X4触屏
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: 双镜头摄像头
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: iPhone 16 Plus 手机壳
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: iphone 15 pro 256G 99新
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: hp I7 台式机
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: apple airpods max 一代
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: open ear开放式运动耳机
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: 谷歌Google pixel 10
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: ryobi工具电池
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: Lenovo ThinkPad P50
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: Samsung LED 显示器
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: Brother MFC 7840W
+2026-01-02 17:35:51 - market_scraper - INFO - 保存集市帖子: 游戏手柄3个
+2026-01-02 17:35:51 - market_scraper - INFO - 成功保存 38 個商品
+2026-01-02 17:35:51 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/electronics?page=2?page=2?page=2?page=2
+2026-01-02 17:35:51 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/electronics?page=2?page=2?page=2, 發現 1 個項目
+2026-01-02 17:35:52 - market_scraper - INFO - 正在處理: https://www.51.ca/market/costume-matching?page=2?page=2?page=2
+2026-01-02 17:35:52 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/costume-matching?page=2?page=2?page=2
+2026-01-02 17:35:55 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 17 個集市商品
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: Jackson 花滑冰鞋
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: 衣物
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: 铁头安全鞋
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: 太陽眼鏡 墨鏡 40副任選 全新 士嘉堡取貨 可試戴
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: 儿童户外滑雪服
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: 小孩冬季外套
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: 羽绒服
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: 羽绒服
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: 女生纯鹿皮外衣
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: shating shoes
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: Eddie Bauer 高级北极防水羽绒服
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: 儿童冰鞋
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: CCM女冰鞋- 尺寸6号
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: 全新中长款羽绒棉服（女）
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: 厚羽绒服
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: 羊毛靴 35码
+2026-01-02 17:35:55 - market_scraper - INFO - 保存集市帖子: 全新女孩休闲鞋youth 5
+2026-01-02 17:35:55 - market_scraper - INFO - 成功保存 17 個商品
+2026-01-02 17:35:55 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/costume-matching?page=2?page=2?page=2?page=2
+2026-01-02 17:35:55 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/costume-matching?page=2?page=2?page=2, 發現 1 個項目
+2026-01-02 17:35:56 - market_scraper - INFO - 正在處理: https://www.51.ca/market/health?page=2?page=2?page=2
+2026-01-02 17:35:56 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/health?page=2?page=2?page=2
+2026-01-02 17:35:58 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 40 個集市商品
+2026-01-02 17:35:58 - market_scraper - INFO - 保存集市帖子: 中国紫砂茶壼套装
+2026-01-02 17:35:58 - market_scraper - INFO - 保存集市帖子: CPAP（持续呼吸道正压通气仪, 用于睡眠呼吸暂停患者）
+2026-01-02 17:35:58 - market_scraper - INFO - 保存集市帖子: 黑檀木笔筒礼盒
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 西洋参
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 日本久光鎮痛藥貼/40mg
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 成色很新轮椅，转让
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: Webber Naturals 苹果醋胶囊 500mg
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 紫砂 玻璃 鉄茶具
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 红花抑菌泡脚液，全新没拆封便宜转
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: Metamucil 四合一膳食纤维粉/662克
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: Metamucil 三合一健康膳食纤维胶囊300粒/瓶
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子:  疼痛克星！北京同仁堂艾灸透骨液
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: ！艾草生姜按摩精油
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 祁门红茶清仓 $75/包2.5kg-茶壶做礼品公司活动奖品
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 茶壶养生壶清仓-可用炉子加热，祁门红茶-礼品奖品
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 喝红茶补气血--5斤祁门红茶（豪芽）清仓
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 成色很新， 只用过一次。 北约克自取
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 全新背背佳
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 安神补脑液
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 墨镜女，筋膜枪
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 香港大药房-元气茯苓足贴
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 全新massage 治療床全新的未开封/精美微波加熱玻璃盒兩
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 全新ETL认证可定时三小时有四级调控温度 可清洗双人电热毯/
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: Bast Massage折疊按摩床枕头/佳能文件編辑扫描器办
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 汽車快速充電器/全新羊絨毛皮边多用款披肩/送艾灸粒百分百无添
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 100%全新專業護理膝蓋受傷分隔枕/脊骨和腰部肌肉痠痛護理專
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 女士健身套件
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 全新美的无缝双层防烫功能电热水壶/八年陈艾柱54条/盒 对亞
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 全新婴儿成长过程重要記錄重量/長度电子称/0.11- 250
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 全新Wedge pillow 有記憶的支援功能特殊設計加長支
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: PEAK HEIGH ( Height Maximizer)
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 可移动坐便器
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 养身调理护肝 南京同仁堂29味汉方湿茶
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 瘫痪, 卧床,体弱病人所需器具与用品
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 电动护理床
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 手动护理床
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 全新宜兴紫砂壶
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 中文语音播报测压仪 全新
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 新西兰原装进口绵羊油润肤霜500g大罐装
+2026-01-02 17:35:59 - market_scraper - INFO - 保存集市帖子: 脚气药水
+2026-01-02 17:35:59 - market_scraper - INFO - 成功保存 40 個商品
+2026-01-02 17:35:59 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/health?page=2?page=2?page=2?page=2
+2026-01-02 17:35:59 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/health?page=2?page=2?page=2, 發現 1 個項目
+2026-01-02 17:36:00 - market_scraper - INFO - 正在處理: https://www.51.ca/market/musical-instruments?page=2?page=2?page=2
+2026-01-02 17:36:00 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/musical-instruments?page=2?page=2?page=2
+2026-01-02 17:36:03 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 37 個集市商品
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: buffet crampon paris clarinet
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: howard core violin KRUTZ 400 V
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: Yamaha Piano U1 PE// Q.LZ.Wite
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: Denver民谣电吉他
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: Melodion used in the school
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 钢琴踏板延长器九成新
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 电吉他
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 音响
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 无线耳机
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: K-3 kawai 钢琴
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 钢琴
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 电吉他, 木吉他
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: KAMA 吉他
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: Moukey牌吉他
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 全新没开封便携式小钢琴
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 钢琴
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 斯坦威旗下BOSTON钢琴
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 韩国SAMICK钢琴
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 日本原装—雅马哈YUX专业演奏级立式钢琴
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 名牌钢琴  Petrof. IV / 3 - A
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: ESP B-55 USA 5-String Bass
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 吉他
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: Kawaii cn29电钢琴
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 99新架子鼓
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 9成新爵士鼓
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: Yamaha 高级电子钢琴
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: KINGSTON电子钢琴
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: YAMAHA Keyboard & 9 books
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 出雅馬哈Yamaha 鋼琴
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 旧 二胡及配件
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 二胡
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 吉他
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 9.5成新
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: Yamaha U30A 保养非常好，可调节座椅
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 十九世纪古玩留声机
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 肖邦（Chopin）立式钢琴 – 加拿大制造｜适合学生或家庭
+2026-01-02 17:36:03 - market_scraper - INFO - 保存集市帖子: 手工1/2尺寸小提琴 - 音色清脆, 状态良好！
+2026-01-02 17:36:03 - market_scraper - INFO - 成功保存 37 個商品
+2026-01-02 17:36:03 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/musical-instruments?page=2?page=2?page=2?page=2
+2026-01-02 17:36:03 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/musical-instruments?page=2?page=2?page=2, 發現 1 個項目
+2026-01-02 17:36:04 - market_scraper - INFO - 正在處理: https://www.51.ca/market/bags-jewelry?page=2?page=2?page=2
+2026-01-02 17:36:04 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/bags-jewelry?page=2?page=2?page=2
+2026-01-02 17:36:07 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 33 個集市商品
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: $100转让80年代景德镇外销瓷盘，赵惠民《十二金钗》系列
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 随身行李箱
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 电脑包
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 饰物收纳盒
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 全新kate spade粉色包套装
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 黑色随身行李包
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 中国古典玉珠耳坠
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 耳坠
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: G-Dragon Zoa multi pouch
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 用过一次lv包
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: G-Dragon coin wallet 正品
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 正品G-Dragon cat -Zoa plush
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 瓷美人
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 全新 HEYS 小挎包
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: Dyson戴森airstrait吹风直发器收纳包
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 全新书包 大概尺寸 40cm * 45cm
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 全新没背过斜挎包
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: DLOR
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 全新耐吉高級背包   //   結實的大容量背包，
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 草莓挂件
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 真皮编织包包
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 真皮大号水桶 三种背法
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 珍珠项链，有礼盒包装 圣诞 生日 节日 送礼佳品
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 耳坠
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: A款自家設計真皮髮型袋
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 紫砂 鉄 玻璃茶具
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 手工玛瑙银钩耳坠
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 摄影包
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 全新包包
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: Vendome Pearl Jewelry Set
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: Coach Floral Tote Bag
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: Michael Kors tote bag
+2026-01-02 17:36:07 - market_scraper - INFO - 保存集市帖子: 结实耐用大小行李箱甩出
+2026-01-02 17:36:07 - market_scraper - INFO - 成功保存 33 個商品
+2026-01-02 17:36:07 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/bags-jewelry?page=2?page=2?page=2?page=2
+2026-01-02 17:36:07 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/bags-jewelry?page=2?page=2?page=2, 發現 1 個項目
+2026-01-02 17:36:08 - market_scraper - INFO - 正在處理: https://www.51.ca/market/pet-goods?page=2?page=2?page=2
+2026-01-02 17:36:08 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/pet-goods?page=2?page=2?page=2
+2026-01-02 17:36:11 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 34 個集市商品
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 产卵期配对的成年迷你鹦鹉鱼
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 8个月折耳猫
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 德文妹妹
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: Hill's Science Diet Adult Oral
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 水草，孔雀鱼苗
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 五成新猫爬架
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 可孵化丰年虾大红卵
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 成年迷你鹦鹉鱼
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 年轻迷你鹦鹉鱼
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 宠物旅行航空箱
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 11月29本周六猫狗展览太古宠物
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 可爱小狗找新家
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 宠物航空箱
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 鱼缸及配件和两条热带鱼
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 豆柴宝宝找领养（有偿）
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 狗狗用品
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 水族馆大鱼缸
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 9成新狗笼
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 宠物自动饮水机
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 九间菠萝鱼
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 全新宠物雨衣
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 可折叠，可手提，有窗狗窝
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 宠物雨衣
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 公猫借配 可详聊
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 可爱小狗找新家
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 小猫
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 宠物笼箱
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 猫砂
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 猫架
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 猫架
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 鱼缸
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 狗笼
+2026-01-02 17:36:11 - market_scraper - INFO - 保存集市帖子: 狗笼子带所料底架，食物架，垫子
+2026-01-02 17:36:11 - market_scraper - INFO - 成功保存 34 個商品
+2026-01-02 17:36:11 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/pet-goods?page=2?page=2?page=2?page=2
+2026-01-02 17:36:11 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/pet-goods?page=2?page=2?page=2, 發現 1 個項目
+2026-01-02 17:36:12 - market_scraper - INFO - 正在處理: https://www.51.ca/market/others?page=2?page=2?page=2
+2026-01-02 17:36:12 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/others?page=2?page=2?page=2
+2026-01-02 17:36:15 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 34 個集市商品
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 準锯
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 二手水晶吊灯
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 油漆
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 自行车
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 古董拿破仑三世古币1861
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 9.9成新全身镜
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 出闲置刚拆包大轮子成人折叠电动滑板车30/k 全新强有力的3
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: Bombay 圆实木镜39 英寸
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 电动车
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 全新全棉床上四件套 queen size
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 男童 size 13 九成新溜冰鞋, 头盔
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 冰钻+手柄
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 全新户外野营置物架，夹子
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 纪念币
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 168 色酒精马克笔双头艺术马克笔
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 全新苏州桃花坞木刻年画“一团和气”
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 圣诞树 及节日花束
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 装饰画
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 保溫管
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 3/8" x 50' 冷凍銅管
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 玩具遥控赛车
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: For Living
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 多巧能柜155cmx85cmx50cm
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 全新”荷气生财”精品刺绣相框摆挂件
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 古董美国银元
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 古董台湾省孙中山纸币
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 古董维多利亚女王加拿大铜钱
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 高压水枪
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 扇子
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 花鸟绘画
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 专业木工锯
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 旅行箱
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: 工艺品-中国民间内画骏马图
+2026-01-02 17:36:15 - market_scraper - INFO - 保存集市帖子: Door Locker Box
+2026-01-02 17:36:15 - market_scraper - INFO - 成功保存 34 個商品
+2026-01-02 17:36:15 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/others?page=2?page=2?page=2?page=2
+2026-01-02 17:36:15 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/others?page=2?page=2?page=2, 發現 1 個項目
+2026-01-02 17:36:16 - market_scraper - INFO - 正在處理: https://www.51.ca/market/?page=2?page=2?page=2?page=2
+2026-01-02 17:36:16 - market_scraper - DEBUG - 正在訪問: https://www.51.ca/market/?page=2?page=2?page=2?page=2
+2026-01-02 17:36:19 - market_scraper - INFO - 從 __NEXT_DATA__ 提取到 27 個集市商品
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: Whirlpool glass top stove, 对流烤
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 君子兰
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 三人座沙发 - Sofa for sale
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 双人座沙发  -  Lover seat for sale
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 夏普 43 寸 彩色电视
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 星海牌钢琴
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: BenQ ScreenBar Halo 显示器挂灯
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 有偿寄养宠物
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 路由器
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 墨粉
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 激光打印机
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 三星干衣机
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 女性自行车
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: IKEA Couch
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: iPhone 15pro钛合金，送两个手机壳
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: Donnor DEP-20 电子琴 转让
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 电暖器
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 热巧克力
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: $39， 直立旋转式金属鞋架可挂24双，非常节省空间拿取方便
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 全新不锈钢高压锅，不锈钢平底大炒菜锅，电烧水壶，花果肥料，实
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 12月+ 婴儿奶粉，实木婴儿床（全新床垫），室内空气除菌过滤
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 提供定制图案的巧克力金币
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: Macbook Air M3 512gb
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: Google Nest H2D
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 不容错过，2D,3D,4D按摩椅只要$499起包税，只限元
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 羽绒服
+2026-01-02 17:36:19 - market_scraper - INFO - 保存集市帖子: 一套给小孩子读的传统中文故事图书
+2026-01-02 17:36:19 - market_scraper - INFO - 成功保存 27 個商品
+2026-01-02 17:36:19 - market_scraper - INFO - 添加下一頁: https://www.51.ca/market/?page=2?page=2?page=2?page=2?page=2
+2026-01-02 17:36:19 - market_scraper - INFO - 列表頁面爬取完成: https://www.51.ca/market/?page=2?page=2?page=2?page=2, 發現 1 個項目
+2026-01-02 17:36:20 - market_scraper - INFO - 瀏覽器已關閉
+2026-01-02 17:36:20 - market_scraper - INFO - ============================================================
+2026-01-02 17:36:20 - market_scraper - INFO - 爬蟲運行統計:
+2026-01-02 17:36:20 - market_scraper - INFO -   - 頁面爬取: 30
+2026-01-02 17:36:20 - market_scraper - INFO -   - 項目保存: 0
+2026-01-02 17:36:20 - market_scraper - INFO -   - 錯誤數量: 0
+2026-01-02 17:36:20 - market_scraper - INFO -   - 運行時間: 124.64 秒
+2026-01-02 17:36:20 - market_scraper - INFO - ============================================================
+2026-01-02 17:36:21 - auto_scraper - INFO - ============================================================
+2026-01-02 17:36:21 - auto_scraper - INFO - 開始運行 auto_scraper 爬蟲
+2026-01-02 17:36:21 - auto_scraper - INFO - ============================================================
+2026-01-02 17:36:21 - auto_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 17:36:22 - auto_scraper - INFO - 瀏覽器啟動成功
+2026-01-02 17:36:22 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9783
+2026-01-02 17:36:22 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9783
+2026-01-02 17:36:25 - auto_scraper - INFO - 保存汽車: 2025 RAM 1500
+2026-01-02 17:36:26 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9747
+2026-01-02 17:36:26 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9747
+2026-01-02 17:36:29 - auto_scraper - INFO - 保存汽車: 2025 Chrysler Pacifica
+2026-01-02 17:36:30 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9665
+2026-01-02 17:36:30 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9665
+2026-01-02 17:36:32 - auto_scraper - INFO - 保存汽車: 2025 RAM ProMaster
+2026-01-02 17:36:33 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9659
+2026-01-02 17:36:33 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9659
+2026-01-02 17:36:36 - auto_scraper - INFO - 保存汽車: 2025 Chrysler Grand Caravan
+2026-01-02 17:36:37 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9573
+2026-01-02 17:36:37 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9573
+2026-01-02 17:36:39 - auto_scraper - INFO - 保存汽車: 2025 RAM 1500
+2026-01-02 17:36:40 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9507
+2026-01-02 17:36:40 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9507
+2026-01-02 17:36:43 - auto_scraper - INFO - 保存汽車: 2025 RAM 1500
+2026-01-02 17:36:44 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9352
+2026-01-02 17:36:44 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9352
+2026-01-02 17:36:46 - auto_scraper - INFO - 保存汽車: 2025 Dodge Durango
+2026-01-02 17:36:47 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9344
+2026-01-02 17:36:47 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9344
+2026-01-02 17:36:49 - auto_scraper - INFO - 保存汽車: 2025 Jeep Grand Cherokee
+2026-01-02 17:36:50 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9343
+2026-01-02 17:36:50 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9343
+2026-01-02 17:36:53 - auto_scraper - INFO - 保存汽車: 2025 Jeep Grand Wagoneer
+2026-01-02 17:36:54 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9252
+2026-01-02 17:36:54 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9252
+2026-01-02 17:36:56 - auto_scraper - INFO - 保存汽車: 2025 RAM 3500
+2026-01-02 17:36:57 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9241
+2026-01-02 17:36:57 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9241
+2026-01-02 17:37:00 - auto_scraper - INFO - 保存汽車: 2025 RAM 1500
+2026-01-02 17:37:01 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9226
+2026-01-02 17:37:01 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9226
+2026-01-02 17:37:03 - auto_scraper - INFO - 保存汽車: 2025 Jeep Wrangler
+2026-01-02 17:37:04 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9213
+2026-01-02 17:37:04 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9213
+2026-01-02 17:37:07 - auto_scraper - INFO - 保存汽車: 2025 Jeep Grand Cherokee
+2026-01-02 17:37:08 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9212
+2026-01-02 17:37:08 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9212
+2026-01-02 17:37:10 - auto_scraper - INFO - 保存汽車: 2025 Jeep Compass
+2026-01-02 17:37:11 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9147
+2026-01-02 17:37:11 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9147
+2026-01-02 17:37:14 - auto_scraper - INFO - 保存汽車: 2025 RAM 3500
+2026-01-02 17:37:15 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9143
+2026-01-02 17:37:15 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9143
+2026-01-02 17:37:17 - auto_scraper - INFO - 保存汽車: 2025 RAM 1500
+2026-01-02 17:37:18 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9121
+2026-01-02 17:37:18 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9121
+2026-01-02 17:37:21 - auto_scraper - INFO - 保存汽車: 2025 RAM 2500
+2026-01-02 17:37:22 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9100
+2026-01-02 17:37:22 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9100
+2026-01-02 17:37:24 - auto_scraper - INFO - 保存汽車: 2025 Kia EV6
+2026-01-02 17:37:25 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9099
+2026-01-02 17:37:25 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9099
+2026-01-02 17:37:28 - auto_scraper - INFO - 保存汽車: 2025 Kia Sorento Hybrid Plug
+2026-01-02 17:37:29 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9052
+2026-01-02 17:37:29 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9052
+2026-01-02 17:37:31 - auto_scraper - INFO - 保存汽車: 2025 RAM 2500
+2026-01-02 17:37:32 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9051
+2026-01-02 17:37:32 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9051
+2026-01-02 17:37:35 - auto_scraper - INFO - 保存汽車: 2025 Jeep Wrangler
+2026-01-02 17:37:36 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/new-cars/9039
+2026-01-02 17:37:36 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/new-cars/9039
+2026-01-02 17:37:38 - auto_scraper - INFO - 保存汽車: 2025 RAM ProMaster
+2026-01-02 17:37:39 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/lease-cars/9511
+2026-01-02 17:37:39 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/lease-cars/9511
+2026-01-02 17:37:42 - auto_scraper - INFO - 保存汽車: 2024 Volkswagen Taos
+2026-01-02 17:37:43 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/lease-cars/9476
+2026-01-02 17:37:43 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/lease-cars/9476
+2026-01-02 17:37:45 - auto_scraper - INFO - 保存汽車: 2025 Ford F 150
+2026-01-02 17:37:46 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/lease-cars/9449
+2026-01-02 17:37:46 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/lease-cars/9449
+2026-01-02 17:37:49 - auto_scraper - INFO - 保存汽車: 2022 Mercedes
+2026-01-02 17:37:50 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/lease-cars/9371
+2026-01-02 17:37:50 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/lease-cars/9371
+2026-01-02 17:37:52 - auto_scraper - INFO - 保存汽車: 2024 Volkswagen Taos
+2026-01-02 17:37:53 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/lease-cars/7924
+2026-01-02 17:37:53 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/lease-cars/7924
+2026-01-02 17:37:56 - auto_scraper - INFO - 保存汽車: 2023 Tesla Model Y
+2026-01-02 17:37:57 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/lease-cars/9063
+2026-01-02 17:37:57 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/lease-cars/9063
+2026-01-02 17:38:00 - auto_scraper - INFO - 保存汽車: 2025 Subaru WRX
+2026-01-02 17:38:01 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/lease-cars/8771
+2026-01-02 17:38:01 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/lease-cars/8771
+2026-01-02 17:38:03 - auto_scraper - INFO - 保存汽車: 2025 Audi Q3
+2026-01-02 17:38:04 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/lease-cars/8720
+2026-01-02 17:38:04 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/lease-cars/8720
+2026-01-02 17:38:06 - auto_scraper - INFO - 保存汽車: 2025 Acura RDX
+2026-01-02 17:38:08 - auto_scraper - INFO - 瀏覽器已關閉
+2026-01-02 17:38:08 - auto_scraper - INFO - ============================================================
+2026-01-02 17:38:08 - auto_scraper - INFO - 爬蟲運行統計:
+2026-01-02 17:38:08 - auto_scraper - INFO -   - 頁面爬取: 30
+2026-01-02 17:38:08 - auto_scraper - INFO -   - 項目保存: 30
+2026-01-02 17:38:08 - auto_scraper - INFO -   - 錯誤數量: 0
+2026-01-02 17:38:08 - auto_scraper - INFO -   - 運行時間: 106.67 秒
+2026-01-02 17:38:08 - auto_scraper - INFO - ============================================================
+2026-01-02 17:38:08 - merchant_scraper - INFO - ==================================================
+2026-01-02 17:38:08 - merchant_scraper - INFO - 開始爬取商家資訊...
+2026-01-02 17:38:08 - merchant_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 17:38:09 - merchant_scraper - INFO - 瀏覽器啟動成功
+2026-01-02 17:38:09 - merchant_scraper - INFO - 開始從首頁收集商家ID...
+2026-01-02 17:38:09 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/
+2026-01-02 17:38:13 - merchant_scraper - INFO - 從首頁發現 120 個商家ID
+2026-01-02 17:38:13 - merchant_scraper - INFO - 準備爬取 120 個商家
+2026-01-02 17:38:13 - merchant_scraper - INFO - [1/120] 爬取商家: https://merchant.51.ca/merchants/3937
+2026-01-02 17:38:13 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3937
+2026-01-02 17:38:16 - merchant_scraper - INFO - 解析商家: 51电脑运维
+2026-01-02 17:38:16 - merchant_scraper - INFO - 保存商家: 51电脑运维
+2026-01-02 17:38:16 - merchant_scraper - INFO - [2/120] 爬取商家: https://merchant.51.ca/merchants/3124
+2026-01-02 17:38:16 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3124
+2026-01-02 17:38:19 - merchant_scraper - INFO - 解析商家: 中凯金融
+2026-01-02 17:38:19 - merchant_scraper - INFO - 保存商家: 中凯金融
+2026-01-02 17:38:19 - merchant_scraper - INFO - [3/120] 爬取商家: https://merchant.51.ca/merchants/7569
+2026-01-02 17:38:19 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7569
+2026-01-02 17:38:22 - merchant_scraper - INFO - 解析商家: 冬季鏟雪, 专业砍树，草坪护理，围栏
+2026-01-02 17:38:22 - merchant_scraper - INFO - 保存商家: 冬季鏟雪, 专业砍树，草坪护理，围栏
+2026-01-02 17:38:22 - merchant_scraper - INFO - [4/120] 爬取商家: https://merchant.51.ca/merchants/4981
+2026-01-02 17:38:22 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4981
+2026-01-02 17:38:25 - merchant_scraper - INFO - 解析商家: 好帮手家电
+2026-01-02 17:38:25 - merchant_scraper - INFO - 保存商家: 好帮手家电
+2026-01-02 17:38:25 - merchant_scraper - INFO - [5/120] 爬取商家: https://merchant.51.ca/merchants/7604
+2026-01-02 17:38:25 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7604
+2026-01-02 17:38:28 - merchant_scraper - INFO - 解析商家: VISION HOME DECORVISION HOME DECOR
+2026-01-02 17:38:28 - merchant_scraper - INFO - 保存商家: VISION HOME DECORVISION HOME DECOR
+2026-01-02 17:38:28 - merchant_scraper - INFO - [6/120] 爬取商家: https://merchant.51.ca/merchants/7971
+2026-01-02 17:38:28 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7971
+2026-01-02 17:38:30 - merchant_scraper - INFO - 解析商家: 蜀乐馨居建筑园艺装修公司
+2026-01-02 17:38:30 - merchant_scraper - INFO - 保存商家: 蜀乐馨居建筑园艺装修公司
+2026-01-02 17:38:31 - merchant_scraper - INFO - [7/120] 爬取商家: https://merchant.51.ca/merchants/4843
+2026-01-02 17:38:31 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4843
+2026-01-02 17:38:33 - merchant_scraper - INFO - 解析商家: 晓禾清洁公司
+2026-01-02 17:38:33 - merchant_scraper - INFO - 保存商家: 晓禾清洁公司
+2026-01-02 17:38:34 - merchant_scraper - INFO - [8/120] 爬取商家: https://merchant.51.ca/merchants/2343
+2026-01-02 17:38:34 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2343
+2026-01-02 17:38:36 - merchant_scraper - INFO - 解析商家: 星联冷暖
+2026-01-02 17:38:36 - merchant_scraper - INFO - 保存商家: 星联冷暖
+2026-01-02 17:38:37 - merchant_scraper - INFO - [9/120] 爬取商家: https://merchant.51.ca/merchants/2947
+2026-01-02 17:38:37 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2947
+2026-01-02 17:38:39 - merchant_scraper - INFO - 解析商家: Viewmax 门窗公司
+2026-01-02 17:38:39 - merchant_scraper - INFO - 保存商家: Viewmax 门窗公司
+2026-01-02 17:38:40 - merchant_scraper - INFO - [10/120] 爬取商家: https://merchant.51.ca/merchants/7818
+2026-01-02 17:38:40 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7818
+2026-01-02 17:38:42 - merchant_scraper - INFO - 解析商家: 超低价电器直销
+2026-01-02 17:38:42 - merchant_scraper - INFO - 保存商家: 超低价电器直销
+2026-01-02 17:38:42 - merchant_scraper - INFO - [11/120] 爬取商家: https://merchant.51.ca/merchants/7407
+2026-01-02 17:38:42 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7407
+2026-01-02 17:38:45 - merchant_scraper - INFO - 解析商家: NA待填写
+2026-01-02 17:38:45 - merchant_scraper - INFO - 保存商家: NA待填写
+2026-01-02 17:38:45 - merchant_scraper - INFO - [12/120] 爬取商家: https://merchant.51.ca/merchants/5364
+2026-01-02 17:38:45 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5364
+2026-01-02 17:38:48 - merchant_scraper - INFO - 解析商家: 四季顺搬家
+2026-01-02 17:38:48 - merchant_scraper - INFO - 保存商家: 四季顺搬家
+2026-01-02 17:38:48 - merchant_scraper - INFO - [13/120] 爬取商家: https://merchant.51.ca/merchants/2267
+2026-01-02 17:38:48 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2267
+2026-01-02 17:38:50 - merchant_scraper - INFO - 解析商家: 城市专业屋顶工程公司
+2026-01-02 17:38:50 - merchant_scraper - INFO - 保存商家: 城市专业屋顶工程公司
+2026-01-02 17:38:51 - merchant_scraper - INFO - [14/120] 爬取商家: https://merchant.51.ca/merchants/7921
+2026-01-02 17:38:51 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7921
+2026-01-02 17:38:53 - merchant_scraper - INFO - 解析商家: 汇枫超市
+2026-01-02 17:38:53 - merchant_scraper - INFO - 保存商家: 汇枫超市
+2026-01-02 17:38:54 - merchant_scraper - INFO - [15/120] 爬取商家: https://merchant.51.ca/merchants/7416
+2026-01-02 17:38:54 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7416
+2026-01-02 17:38:56 - merchant_scraper - INFO - 解析商家: world peace moblie weldingzhiqiang he （zed）
+2026-01-02 17:38:56 - merchant_scraper - INFO - 保存商家: world peace moblie weldingzhiqiang he （zed）
+2026-01-02 17:38:57 - merchant_scraper - INFO - [16/120] 爬取商家: https://merchant.51.ca/merchants/5098
+2026-01-02 17:38:57 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5098
+2026-01-02 17:38:59 - merchant_scraper - INFO - 解析商家: Dexign Matter Studio Inc.待填写
+2026-01-02 17:38:59 - merchant_scraper - INFO - 保存商家: Dexign Matter Studio Inc.待填写
+2026-01-02 17:39:00 - merchant_scraper - INFO - [17/120] 爬取商家: https://merchant.51.ca/merchants/7709
+2026-01-02 17:39:00 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7709
+2026-01-02 17:39:02 - merchant_scraper - INFO - 解析商家: Maple Ridge Roofer待填写
+2026-01-02 17:39:02 - merchant_scraper - INFO - 保存商家: Maple Ridge Roofer待填写
+2026-01-02 17:39:03 - merchant_scraper - INFO - [18/120] 爬取商家: https://merchant.51.ca/merchants/3472
+2026-01-02 17:39:03 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3472
+2026-01-02 17:39:05 - merchant_scraper - INFO - 解析商家: 佳创餐饮管理待填写
+2026-01-02 17:39:05 - merchant_scraper - INFO - 保存商家: 佳创餐饮管理待填写
+2026-01-02 17:39:06 - merchant_scraper - INFO - [19/120] 爬取商家: https://merchant.51.ca/merchants/7945
+2026-01-02 17:39:06 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7945
+2026-01-02 17:39:08 - merchant_scraper - INFO - 解析商家: 龙祥手机 配件 维修店
+2026-01-02 17:39:08 - merchant_scraper - INFO - 保存商家: 龙祥手机 配件 维修店
+2026-01-02 17:39:08 - merchant_scraper - INFO - [20/120] 爬取商家: https://merchant.51.ca/merchants/7511
+2026-01-02 17:39:08 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7511
+2026-01-02 17:39:11 - merchant_scraper - INFO - 解析商家: 至尊假期待填写
+2026-01-02 17:39:11 - merchant_scraper - INFO - 保存商家: 至尊假期待填写
+2026-01-02 17:39:11 - merchant_scraper - INFO - [21/120] 爬取商家: https://merchant.51.ca/merchants/4177
+2026-01-02 17:39:11 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4177
+2026-01-02 17:39:14 - merchant_scraper - INFO - 解析商家: 东诚餐具
+2026-01-02 17:39:14 - merchant_scraper - INFO - 保存商家: 东诚餐具
+2026-01-02 17:39:14 - merchant_scraper - INFO - [22/120] 爬取商家: https://merchant.51.ca/merchants/4580
+2026-01-02 17:39:14 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4580
+2026-01-02 17:39:17 - merchant_scraper - INFO - 解析商家: 天工巧匠
+2026-01-02 17:39:17 - merchant_scraper - INFO - 保存商家: 天工巧匠
+2026-01-02 17:39:17 - merchant_scraper - INFO - [23/120] 爬取商家: https://merchant.51.ca/merchants/3419
+2026-01-02 17:39:17 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3419
+2026-01-02 17:39:20 - merchant_scraper - INFO - 解析商家: 东方建材
+2026-01-02 17:39:20 - merchant_scraper - INFO - 保存商家: 东方建材
+2026-01-02 17:39:20 - merchant_scraper - INFO - [24/120] 爬取商家: https://merchant.51.ca/merchants/4298
+2026-01-02 17:39:20 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4298
+2026-01-02 17:39:23 - merchant_scraper - INFO - 解析商家: 晨阳建筑（外墙，园艺）Daybreak Construction
+2026-01-02 17:39:23 - merchant_scraper - INFO - 保存商家: 晨阳建筑（外墙，园艺）Daybreak Construction
+2026-01-02 17:39:23 - merchant_scraper - INFO - [25/120] 爬取商家: https://merchant.51.ca/merchants/7671
+2026-01-02 17:39:23 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7671
+2026-01-02 17:39:26 - merchant_scraper - INFO - 解析商家: 7671
+2026-01-02 17:39:26 - merchant_scraper - INFO - 保存商家: 7671
+2026-01-02 17:39:26 - merchant_scraper - INFO - [26/120] 爬取商家: https://merchant.51.ca/merchants/7792
+2026-01-02 17:39:26 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7792
+2026-01-02 17:39:29 - merchant_scraper - INFO - 解析商家: 一沐园艺
+2026-01-02 17:39:29 - merchant_scraper - INFO - 保存商家: 一沐园艺
+2026-01-02 17:39:29 - merchant_scraper - INFO - [27/120] 爬取商家: https://merchant.51.ca/merchants/7645
+2026-01-02 17:39:29 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7645
+2026-01-02 17:39:32 - merchant_scraper - INFO - 解析商家: 浣熊猎人
+2026-01-02 17:39:32 - merchant_scraper - INFO - 保存商家: 浣熊猎人
+2026-01-02 17:39:32 - merchant_scraper - INFO - [28/120] 爬取商家: https://merchant.51.ca/merchants/7725
+2026-01-02 17:39:32 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7725
+2026-01-02 17:39:35 - merchant_scraper - INFO - 解析商家: Dreams Remodeling & Construction Ltd.待填写
+2026-01-02 17:39:35 - merchant_scraper - INFO - 保存商家: Dreams Remodeling & Construction Ltd.待填写
+2026-01-02 17:39:35 - merchant_scraper - INFO - [29/120] 爬取商家: https://merchant.51.ca/merchants/7636
+2026-01-02 17:39:35 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7636
+2026-01-02 17:39:37 - merchant_scraper - INFO - 解析商家: Huntingwood house rental待填写
+2026-01-02 17:39:37 - merchant_scraper - INFO - 保存商家: Huntingwood house rental待填写
+2026-01-02 17:39:38 - merchant_scraper - INFO - [30/120] 爬取商家: https://merchant.51.ca/merchants/7483
+2026-01-02 17:39:38 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7483
+2026-01-02 17:39:40 - merchant_scraper - INFO - 解析商家: 红牛屋顶
+2026-01-02 17:39:40 - merchant_scraper - INFO - 保存商家: 红牛屋顶
+2026-01-02 17:39:41 - merchant_scraper - INFO - [31/120] 爬取商家: https://merchant.51.ca/merchants/6476
+2026-01-02 17:39:41 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6476
+2026-01-02 17:39:43 - merchant_scraper - INFO - 解析商家: 秋秋多伦多家具批发零售待填写
+2026-01-02 17:39:43 - merchant_scraper - INFO - 保存商家: 秋秋多伦多家具批发零售待填写
+2026-01-02 17:39:44 - merchant_scraper - INFO - [32/120] 爬取商家: https://merchant.51.ca/merchants/6201
+2026-01-02 17:39:44 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6201
+2026-01-02 17:39:46 - merchant_scraper - INFO - 解析商家: EMMO 电动自行车
+2026-01-02 17:39:46 - merchant_scraper - INFO - 保存商家: EMMO 电动自行车
+2026-01-02 17:39:47 - merchant_scraper - INFO - [33/120] 爬取商家: https://merchant.51.ca/merchants/1266
+2026-01-02 17:39:47 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1266
+2026-01-02 17:39:49 - merchant_scraper - INFO - 解析商家: 顺成法律
+2026-01-02 17:39:49 - merchant_scraper - INFO - 保存商家: 顺成法律
+2026-01-02 17:39:49 - merchant_scraper - INFO - [34/120] 爬取商家: https://merchant.51.ca/merchants/3047
+2026-01-02 17:39:49 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3047
+2026-01-02 17:39:52 - merchant_scraper - INFO - 解析商家: 志诚法律事务所
+2026-01-02 17:39:52 - merchant_scraper - INFO - 保存商家: 志诚法律事务所
+2026-01-02 17:39:52 - merchant_scraper - INFO - [35/120] 爬取商家: https://merchant.51.ca/merchants/7880
+2026-01-02 17:39:52 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7880
+2026-01-02 17:39:55 - merchant_scraper - INFO - 解析商家: 7880
+2026-01-02 17:39:55 - merchant_scraper - INFO - 保存商家: 7880
+2026-01-02 17:39:56 - merchant_scraper - INFO - [36/120] 爬取商家: https://merchant.51.ca/merchants/7589
+2026-01-02 17:39:56 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7589
+2026-01-02 17:39:58 - merchant_scraper - INFO - 解析商家: 鸿华超市
+2026-01-02 17:39:58 - merchant_scraper - INFO - 保存商家: 鸿华超市
+2026-01-02 17:39:59 - merchant_scraper - INFO - [37/120] 爬取商家: https://merchant.51.ca/merchants/4397
+2026-01-02 17:39:59 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4397
+2026-01-02 17:40:01 - merchant_scraper - INFO - 解析商家: TESCO （特亿建材）Tesco
+2026-01-02 17:40:01 - merchant_scraper - INFO - 保存商家: TESCO （特亿建材）Tesco
+2026-01-02 17:40:02 - merchant_scraper - INFO - [38/120] 爬取商家: https://merchant.51.ca/merchants/6416
+2026-01-02 17:40:02 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6416
+2026-01-02 17:40:04 - merchant_scraper - INFO - 解析商家: 巧匠园艺
+2026-01-02 17:40:04 - merchant_scraper - INFO - 保存商家: 巧匠园艺
+2026-01-02 17:40:05 - merchant_scraper - INFO - [39/120] 爬取商家: https://merchant.51.ca/merchants/5874
+2026-01-02 17:40:05 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5874
+2026-01-02 17:40:07 - merchant_scraper - INFO - 解析商家: 多伦多橱柜 JOSH KitchenJOSH Kitchen Toronto Cabinets
+2026-01-02 17:40:07 - merchant_scraper - INFO - 保存商家: 多伦多橱柜 JOSH KitchenJOSH Kitchen Toronto Cabinets
+2026-01-02 17:40:07 - merchant_scraper - INFO - [40/120] 爬取商家: https://merchant.51.ca/merchants/1747
+2026-01-02 17:40:07 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1747
+2026-01-02 17:40:10 - merchant_scraper - INFO - 解析商家: 浣熊先生动物处理公司
+2026-01-02 17:40:10 - merchant_scraper - INFO - 保存商家: 浣熊先生动物处理公司
+2026-01-02 17:40:10 - merchant_scraper - INFO - [41/120] 爬取商家: https://merchant.51.ca/merchants/1878
+2026-01-02 17:40:10 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1878
+2026-01-02 17:40:13 - merchant_scraper - INFO - 解析商家: Brian ChenRBC 贷款经理 Brian Chen
+2026-01-02 17:40:13 - merchant_scraper - INFO - 保存商家: Brian ChenRBC 贷款经理 Brian Chen
+2026-01-02 17:40:13 - merchant_scraper - INFO - [42/120] 爬取商家: https://merchant.51.ca/merchants/7411
+2026-01-02 17:40:13 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7411
+2026-01-02 17:40:15 - merchant_scraper - INFO - 解析商家: 拾谷物流供应链
+2026-01-02 17:40:15 - merchant_scraper - INFO - 保存商家: 拾谷物流供应链
+2026-01-02 17:40:16 - merchant_scraper - INFO - [43/120] 爬取商家: https://merchant.51.ca/merchants/7887
+2026-01-02 17:40:16 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7887
+2026-01-02 17:40:18 - merchant_scraper - INFO - 解析商家: 何师傅（专业屋顶
+2026-01-02 17:40:18 - merchant_scraper - INFO - 保存商家: 何师傅（专业屋顶
+2026-01-02 17:40:19 - merchant_scraper - INFO - [44/120] 爬取商家: https://merchant.51.ca/merchants/1319
+2026-01-02 17:40:19 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1319
+2026-01-02 17:40:21 - merchant_scraper - INFO - 解析商家: 春风园艺
+2026-01-02 17:40:21 - merchant_scraper - INFO - 保存商家: 春风园艺
+2026-01-02 17:40:22 - merchant_scraper - INFO - [45/120] 爬取商家: https://merchant.51.ca/merchants/7427
+2026-01-02 17:40:22 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7427
+2026-01-02 17:40:24 - merchant_scraper - INFO - 解析商家: 蓝泰智能
+2026-01-02 17:40:24 - merchant_scraper - INFO - 保存商家: 蓝泰智能
+2026-01-02 17:40:25 - merchant_scraper - INFO - [46/120] 爬取商家: https://merchant.51.ca/merchants/6746
+2026-01-02 17:40:25 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6746
+2026-01-02 17:40:27 - merchant_scraper - INFO - 解析商家: 熊猫日用品批发
+2026-01-02 17:40:27 - merchant_scraper - INFO - 保存商家: 熊猫日用品批发
+2026-01-02 17:40:27 - merchant_scraper - INFO - [47/120] 爬取商家: https://merchant.51.ca/merchants/4959
+2026-01-02 17:40:27 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4959
+2026-01-02 17:40:30 - merchant_scraper - INFO - 解析商家: 知行园艺
+2026-01-02 17:40:30 - merchant_scraper - INFO - 保存商家: 知行园艺
+2026-01-02 17:40:30 - merchant_scraper - INFO - [48/120] 爬取商家: https://merchant.51.ca/merchants/7412
+2026-01-02 17:40:30 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7412
+2026-01-02 17:40:33 - merchant_scraper - INFO - 解析商家: Kstone Group Ltd待填写
+2026-01-02 17:40:33 - merchant_scraper - INFO - 保存商家: Kstone Group Ltd待填写
+2026-01-02 17:40:33 - merchant_scraper - INFO - [49/120] 爬取商家: https://merchant.51.ca/merchants/5266
+2026-01-02 17:40:33 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5266
+2026-01-02 17:40:36 - merchant_scraper - INFO - 解析商家: 灯具电料 批发公司
+2026-01-02 17:40:36 - merchant_scraper - INFO - 保存商家: 灯具电料 批发公司
+2026-01-02 17:40:36 - merchant_scraper - INFO - [50/120] 爬取商家: https://merchant.51.ca/merchants/6767
+2026-01-02 17:40:36 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6767
+2026-01-02 17:40:39 - merchant_scraper - INFO - 解析商家: 巅峰屋顶
+2026-01-02 17:40:39 - merchant_scraper - INFO - 保存商家: 巅峰屋顶
+2026-01-02 17:40:39 - merchant_scraper - INFO - [51/120] 爬取商家: https://merchant.51.ca/merchants/1257
+2026-01-02 17:40:39 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1257
+2026-01-02 17:40:41 - merchant_scraper - INFO - 解析商家: 杰能冷暖
+2026-01-02 17:40:41 - merchant_scraper - INFO - 保存商家: 杰能冷暖
+2026-01-02 17:40:42 - merchant_scraper - INFO - [52/120] 爬取商家: https://merchant.51.ca/merchants/7720
+2026-01-02 17:40:42 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7720
+2026-01-02 17:40:44 - merchant_scraper - INFO - 解析商家: 鹏力冷暖工程
+2026-01-02 17:40:44 - merchant_scraper - INFO - 保存商家: 鹏力冷暖工程
+2026-01-02 17:40:45 - merchant_scraper - INFO - [53/120] 爬取商家: https://merchant.51.ca/merchants/1506
+2026-01-02 17:40:45 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1506
+2026-01-02 17:40:47 - merchant_scraper - INFO - 解析商家: 红叶假期
+2026-01-02 17:40:47 - merchant_scraper - INFO - 保存商家: 红叶假期
+2026-01-02 17:40:48 - merchant_scraper - INFO - [54/120] 爬取商家: https://merchant.51.ca/merchants/2350
+2026-01-02 17:40:48 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2350
+2026-01-02 17:40:50 - merchant_scraper - INFO - 解析商家: 致远冷暖 ( Eco Star Home Services Co)Eco Star Home Services
+2026-01-02 17:40:50 - merchant_scraper - INFO - 保存商家: 致远冷暖 ( Eco Star Home Services Co)Eco Star Home Services
+2026-01-02 17:40:51 - merchant_scraper - INFO - [55/120] 爬取商家: https://merchant.51.ca/merchants/7653
+2026-01-02 17:40:51 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7653
+2026-01-02 17:40:53 - merchant_scraper - INFO - 解析商家: 加明运输 - GarmingMoving  服务大多伦多地区25年
+2026-01-02 17:40:53 - merchant_scraper - INFO - 保存商家: 加明运输 - GarmingMoving  服务大多伦多地区25年
+2026-01-02 17:40:53 - merchant_scraper - INFO - [56/120] 爬取商家: https://merchant.51.ca/merchants/1310
+2026-01-02 17:40:53 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1310
+2026-01-02 17:40:56 - merchant_scraper - INFO - 解析商家: 惠多多电子电讯
+2026-01-02 17:40:56 - merchant_scraper - INFO - 保存商家: 惠多多电子电讯
+2026-01-02 17:40:56 - merchant_scraper - INFO - [57/120] 爬取商家: https://merchant.51.ca/merchants/7732
+2026-01-02 17:40:56 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7732
+2026-01-02 17:40:59 - merchant_scraper - INFO - 解析商家: 7732
+2026-01-02 17:40:59 - merchant_scraper - INFO - 保存商家: 7732
+2026-01-02 17:41:00 - merchant_scraper - INFO - [58/120] 爬取商家: https://merchant.51.ca/merchants/7499
+2026-01-02 17:41:00 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7499
+2026-01-02 17:41:02 - merchant_scraper - INFO - 解析商家: 太阳园艺
+2026-01-02 17:41:02 - merchant_scraper - INFO - 保存商家: 太阳园艺
+2026-01-02 17:41:03 - merchant_scraper - INFO - [59/120] 爬取商家: https://merchant.51.ca/merchants/7840
+2026-01-02 17:41:03 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7840
+2026-01-02 17:41:05 - merchant_scraper - INFO - 解析商家: 999 园艺装修999 linterlocking&Decoration
+2026-01-02 17:41:05 - merchant_scraper - INFO - 保存商家: 999 园艺装修999 linterlocking&Decoration
+2026-01-02 17:41:06 - merchant_scraper - INFO - [60/120] 爬取商家: https://merchant.51.ca/merchants/7890
+2026-01-02 17:41:06 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7890
+2026-01-02 17:41:08 - merchant_scraper - INFO - 解析商家: 光速冷链物流
+2026-01-02 17:41:08 - merchant_scraper - INFO - 保存商家: 光速冷链物流
+2026-01-02 17:41:09 - merchant_scraper - INFO - [61/120] 爬取商家: https://merchant.51.ca/merchants/7907
+2026-01-02 17:41:09 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7907
+2026-01-02 17:41:11 - merchant_scraper - INFO - 解析商家: 悦恒健康管理中心
+2026-01-02 17:41:11 - merchant_scraper - INFO - 保存商家: 悦恒健康管理中心
+2026-01-02 17:41:12 - merchant_scraper - INFO - [62/120] 爬取商家: https://merchant.51.ca/merchants/4112
+2026-01-02 17:41:12 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4112
+2026-01-02 17:41:14 - merchant_scraper - INFO - 解析商家: 4112
+2026-01-02 17:41:14 - merchant_scraper - INFO - 保存商家: 4112
+2026-01-02 17:41:15 - merchant_scraper - INFO - [63/120] 爬取商家: https://merchant.51.ca/merchants/1519
+2026-01-02 17:41:15 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1519
+2026-01-02 17:41:17 - merchant_scraper - INFO - 解析商家: 泰山工程
+2026-01-02 17:41:17 - merchant_scraper - INFO - 保存商家: 泰山工程
+2026-01-02 17:41:18 - merchant_scraper - INFO - [64/120] 爬取商家: https://merchant.51.ca/merchants/4962
+2026-01-02 17:41:18 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4962
+2026-01-02 17:41:20 - merchant_scraper - INFO - 解析商家: 多伦多专业水槽、屋顶、墙身
+2026-01-02 17:41:20 - merchant_scraper - INFO - 保存商家: 多伦多专业水槽、屋顶、墙身
+2026-01-02 17:41:20 - merchant_scraper - INFO - [65/120] 爬取商家: https://merchant.51.ca/merchants/4733
+2026-01-02 17:41:20 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4733
+2026-01-02 17:41:23 - merchant_scraper - INFO - 解析商家: Heights Electric Inc.Heights Electric Inc.
+2026-01-02 17:41:23 - merchant_scraper - INFO - 保存商家: Heights Electric Inc.Heights Electric Inc.
+2026-01-02 17:41:23 - merchant_scraper - INFO - [66/120] 爬取商家: https://merchant.51.ca/merchants/4633
+2026-01-02 17:41:23 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4633
+2026-01-02 17:41:26 - merchant_scraper - INFO - 解析商家: Xiaomifeng小蜜蜂🐝
+2026-01-02 17:41:26 - merchant_scraper - INFO - 保存商家: Xiaomifeng小蜜蜂🐝
+2026-01-02 17:41:26 - merchant_scraper - INFO - [67/120] 爬取商家: https://merchant.51.ca/merchants/6146
+2026-01-02 17:41:26 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6146
+2026-01-02 17:41:28 - merchant_scraper - INFO - 解析商家: 大世界超市
+2026-01-02 17:41:28 - merchant_scraper - INFO - 保存商家: 大世界超市
+2026-01-02 17:41:29 - merchant_scraper - INFO - [68/120] 爬取商家: https://merchant.51.ca/merchants/7385
+2026-01-02 17:41:29 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7385
+2026-01-02 17:41:31 - merchant_scraper - INFO - 解析商家: 安林玻璃直销（设计+安装+急修）Anlin Glass Direct SalesAnlin Glass Direct Sales (Production + Installation + Emergency Repair)
+2026-01-02 17:41:31 - merchant_scraper - INFO - 保存商家: 安林玻璃直销（设计+安装+急修）Anlin Glass Direct SalesAnlin Glass Direct Sales (Production + Installation + Emergency Repair)
+2026-01-02 17:41:32 - merchant_scraper - INFO - [69/120] 爬取商家: https://merchant.51.ca/merchants/6346
+2026-01-02 17:41:32 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6346
+2026-01-02 17:41:34 - merchant_scraper - INFO - 解析商家: 橙速汇
+2026-01-02 17:41:34 - merchant_scraper - INFO - 保存商家: 橙速汇
+2026-01-02 17:41:35 - merchant_scraper - INFO - [70/120] 爬取商家: https://merchant.51.ca/merchants/2168
+2026-01-02 17:41:35 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2168
+2026-01-02 17:41:37 - merchant_scraper - INFO - 解析商家: 华安电气
+2026-01-02 17:41:37 - merchant_scraper - INFO - 保存商家: 华安电气
+2026-01-02 17:41:38 - merchant_scraper - INFO - [71/120] 爬取商家: https://merchant.51.ca/merchants/7319
+2026-01-02 17:41:38 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7319
+2026-01-02 17:41:40 - merchant_scraper - INFO - 解析商家: 汪律师（团队）William Wang
+2026-01-02 17:41:40 - merchant_scraper - INFO - 保存商家: 汪律师（团队）William Wang
+2026-01-02 17:41:40 - merchant_scraper - INFO - [72/120] 爬取商家: https://merchant.51.ca/merchants/1485
+2026-01-02 17:41:40 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1485
+2026-01-02 17:41:43 - merchant_scraper - INFO - 解析商家: 首选搬运
+2026-01-02 17:41:43 - merchant_scraper - INFO - 保存商家: 首选搬运
+2026-01-02 17:41:43 - merchant_scraper - INFO - [73/120] 爬取商家: https://merchant.51.ca/merchants/6864
+2026-01-02 17:41:43 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6864
+2026-01-02 17:41:46 - merchant_scraper - INFO - 解析商家: 爱家家具仓厍批发零售
+2026-01-02 17:41:46 - merchant_scraper - INFO - 保存商家: 爱家家具仓厍批发零售
+2026-01-02 17:41:46 - merchant_scraper - INFO - [74/120] 爬取商家: https://merchant.51.ca/merchants/2893
+2026-01-02 17:41:46 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2893
+2026-01-02 17:41:49 - merchant_scraper - INFO - 解析商家: 杰艺室内装修
+2026-01-02 17:41:49 - merchant_scraper - INFO - 保存商家: 杰艺室内装修
+2026-01-02 17:41:49 - merchant_scraper - INFO - [75/120] 爬取商家: https://merchant.51.ca/merchants/3018
+2026-01-02 17:41:49 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3018
+2026-01-02 17:41:52 - merchant_scraper - INFO - 解析商家: 美国 加拿大移民 留学 住宿
+2026-01-02 17:41:52 - merchant_scraper - INFO - 保存商家: 美国 加拿大移民 留学 住宿
+2026-01-02 17:41:52 - merchant_scraper - INFO - [76/120] 爬取商家: https://merchant.51.ca/merchants/3083
+2026-01-02 17:41:52 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3083
+2026-01-02 17:41:54 - merchant_scraper - INFO - 解析商家: 加国无忧51.CA INC.
+2026-01-02 17:41:55 - merchant_scraper - INFO - 保存商家: 加国无忧51.CA INC.
+2026-01-02 17:41:55 - merchant_scraper - INFO - [77/120] 爬取商家: https://merchant.51.ca/merchants/6474
+2026-01-02 17:41:55 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6474
+2026-01-02 17:41:57 - merchant_scraper - INFO - 解析商家: EtherroofingEtherroofing
+2026-01-02 17:41:57 - merchant_scraper - INFO - 保存商家: EtherroofingEtherroofing
+2026-01-02 17:41:58 - merchant_scraper - INFO - [78/120] 爬取商家: https://merchant.51.ca/merchants/6615
+2026-01-02 17:41:58 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6615
+2026-01-02 17:42:00 - merchant_scraper - INFO - 解析商家: 美蘭床垫 美兰床垫
+2026-01-02 17:42:00 - merchant_scraper - INFO - 保存商家: 美蘭床垫 美兰床垫
+2026-01-02 17:42:01 - merchant_scraper - INFO - [79/120] 爬取商家: https://merchant.51.ca/merchants/7420
+2026-01-02 17:42:01 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7420
+2026-01-02 17:42:03 - merchant_scraper - INFO - 解析商家: Milano浴室排气扇
+2026-01-02 17:42:03 - merchant_scraper - INFO - 保存商家: Milano浴室排气扇
+2026-01-02 17:42:03 - merchant_scraper - INFO - [80/120] 爬取商家: https://merchant.51.ca/merchants/3180
+2026-01-02 17:42:03 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3180
+2026-01-02 17:42:06 - merchant_scraper - INFO - 解析商家: 大多百百货集团
+2026-01-02 17:42:06 - merchant_scraper - INFO - 保存商家: 大多百百货集团
+2026-01-02 17:42:06 - merchant_scraper - INFO - [81/120] 爬取商家: https://merchant.51.ca/merchants/7800
+2026-01-02 17:42:06 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7800
+2026-01-02 17:42:09 - merchant_scraper - INFO - 解析商家: AEGIS 安胜律师事务所
+2026-01-02 17:42:09 - merchant_scraper - INFO - 保存商家: AEGIS 安胜律师事务所
+2026-01-02 17:42:09 - merchant_scraper - INFO - [82/120] 爬取商家: https://merchant.51.ca/merchants/2134
+2026-01-02 17:42:09 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2134
+2026-01-02 17:42:12 - merchant_scraper - INFO - 解析商家: 友联装修待填写
+2026-01-02 17:42:12 - merchant_scraper - INFO - 保存商家: 友联装修待填写
+2026-01-02 17:42:12 - merchant_scraper - INFO - [83/120] 爬取商家: https://merchant.51.ca/merchants/3883
+2026-01-02 17:42:12 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3883
+2026-01-02 17:42:14 - merchant_scraper - INFO - 解析商家: 商业/个人保险
+2026-01-02 17:42:14 - merchant_scraper - INFO - 保存商家: 商业/个人保险
+2026-01-02 17:42:15 - merchant_scraper - INFO - [84/120] 爬取商家: https://merchant.51.ca/merchants/7644
+2026-01-02 17:42:15 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7644
+2026-01-02 17:42:17 - merchant_scraper - INFO - 解析商家: 金凤凰屋顶承包
+2026-01-02 17:42:17 - merchant_scraper - INFO - 保存商家: 金凤凰屋顶承包
+2026-01-02 17:42:18 - merchant_scraper - INFO - [85/120] 爬取商家: https://merchant.51.ca/merchants/2139
+2026-01-02 17:42:18 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2139
+2026-01-02 17:42:20 - merchant_scraper - INFO - 解析商家: 陈氏法律移民事务所
+2026-01-02 17:42:20 - merchant_scraper - INFO - 保存商家: 陈氏法律移民事务所
+2026-01-02 17:42:21 - merchant_scraper - INFO - [86/120] 爬取商家: https://merchant.51.ca/merchants/7782
+2026-01-02 17:42:21 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7782
+2026-01-02 17:42:23 - merchant_scraper - INFO - 解析商家: 新泰轮胎
+2026-01-02 17:42:23 - merchant_scraper - INFO - 保存商家: 新泰轮胎
+2026-01-02 17:42:24 - merchant_scraper - INFO - [87/120] 爬取商家: https://merchant.51.ca/merchants/2250
+2026-01-02 17:42:24 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2250
+2026-01-02 17:42:26 - merchant_scraper - INFO - 解析商家: 多伦多在线高中
+2026-01-02 17:42:26 - merchant_scraper - INFO - 保存商家: 多伦多在线高中
+2026-01-02 17:42:27 - merchant_scraper - INFO - [88/120] 爬取商家: https://merchant.51.ca/merchants/3527
+2026-01-02 17:42:27 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3527
+2026-01-02 17:42:29 - merchant_scraper - INFO - 解析商家: 嘉禾搬运
+2026-01-02 17:42:29 - merchant_scraper - INFO - 保存商家: 嘉禾搬运
+2026-01-02 17:42:29 - merchant_scraper - INFO - [89/120] 爬取商家: https://merchant.51.ca/merchants/7937
+2026-01-02 17:42:29 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7937
+2026-01-02 17:42:32 - merchant_scraper - INFO - 解析商家: ArcviewArcview Window and Doors
+2026-01-02 17:42:32 - merchant_scraper - INFO - 保存商家: ArcviewArcview Window and Doors
+2026-01-02 17:42:32 - merchant_scraper - INFO - [90/120] 爬取商家: https://merchant.51.ca/merchants/7462
+2026-01-02 17:42:32 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7462
+2026-01-02 17:42:35 - merchant_scraper - INFO - 解析商家: 万隆装修
+2026-01-02 17:42:35 - merchant_scraper - INFO - 保存商家: 万隆装修
+2026-01-02 17:42:35 - merchant_scraper - INFO - [91/120] 爬取商家: https://merchant.51.ca/merchants/7162
+2026-01-02 17:42:35 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7162
+2026-01-02 17:42:38 - merchant_scraper - INFO - 解析商家: ALEX——环宇车库门
+2026-01-02 17:42:38 - merchant_scraper - INFO - 保存商家: ALEX——环宇车库门
+2026-01-02 17:42:38 - merchant_scraper - INFO - [92/120] 爬取商家: https://merchant.51.ca/merchants/2584
+2026-01-02 17:42:38 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2584
+2026-01-02 17:42:40 - merchant_scraper - INFO - 解析商家: Canada First Construction Inc待填写
+2026-01-02 17:42:40 - merchant_scraper - INFO - 保存商家: Canada First Construction Inc待填写
+2026-01-02 17:42:41 - merchant_scraper - INFO - [93/120] 爬取商家: https://merchant.51.ca/merchants/6836
+2026-01-02 17:42:41 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6836
+2026-01-02 17:42:43 - merchant_scraper - INFO - 解析商家: 多伦多监控摄像头安装维修
+2026-01-02 17:42:43 - merchant_scraper - INFO - 保存商家: 多伦多监控摄像头安装维修
+2026-01-02 17:42:44 - merchant_scraper - INFO - [94/120] 爬取商家: https://merchant.51.ca/merchants/7460
+2026-01-02 17:42:44 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7460
+2026-01-02 17:42:46 - merchant_scraper - INFO - 解析商家: 楊教練待填写
+2026-01-02 17:42:46 - merchant_scraper - INFO - 保存商家: 楊教練待填写
+2026-01-02 17:42:47 - merchant_scraper - INFO - [95/120] 爬取商家: https://merchant.51.ca/merchants/1834
+2026-01-02 17:42:47 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1834
+2026-01-02 17:42:49 - merchant_scraper - INFO - 解析商家: 大众法律事务中心
+2026-01-02 17:42:49 - merchant_scraper - INFO - 保存商家: 大众法律事务中心
+2026-01-02 17:42:49 - merchant_scraper - INFO - [96/120] 爬取商家: https://merchant.51.ca/merchants/3116
+2026-01-02 17:42:49 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/3116
+2026-01-02 17:42:52 - merchant_scraper - INFO - 解析商家: 大统华超级市场
+2026-01-02 17:42:52 - merchant_scraper - INFO - 保存商家: 大统华超级市场
+2026-01-02 17:42:52 - merchant_scraper - INFO - [97/120] 爬取商家: https://merchant.51.ca/merchants/7841
+2026-01-02 17:42:52 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7841
+2026-01-02 17:42:55 - merchant_scraper - INFO - 解析商家: 迅行法律服务
+2026-01-02 17:42:55 - merchant_scraper - INFO - 保存商家: 迅行法律服务
+2026-01-02 17:42:55 - merchant_scraper - INFO - [98/120] 爬取商家: https://merchant.51.ca/merchants/5598
+2026-01-02 17:42:55 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5598
+2026-01-02 17:42:57 - merchant_scraper - INFO - 解析商家: IronwoodoutdoorIronwoodoutdoor
+2026-01-02 17:42:57 - merchant_scraper - INFO - 保存商家: IronwoodoutdoorIronwoodoutdoor
+2026-01-02 17:42:58 - merchant_scraper - INFO - [99/120] 爬取商家: https://merchant.51.ca/merchants/6838
+2026-01-02 17:42:58 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6838
+2026-01-02 17:43:00 - merchant_scraper - INFO - 解析商家: 永昇专业屋顶公司2646629 Ontario Inc
+2026-01-02 17:43:00 - merchant_scraper - INFO - 保存商家: 永昇专业屋顶公司2646629 Ontario Inc
+2026-01-02 17:43:01 - merchant_scraper - INFO - [100/120] 爬取商家: https://merchant.51.ca/merchants/8027
+2026-01-02 17:43:01 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/8027
+2026-01-02 17:43:03 - merchant_scraper - INFO - 解析商家: 富维车库门
+2026-01-02 17:43:03 - merchant_scraper - INFO - 保存商家: 富维车库门
+2026-01-02 17:43:04 - merchant_scraper - INFO - [101/120] 爬取商家: https://merchant.51.ca/merchants/4011
+2026-01-02 17:43:04 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4011
+2026-01-02 17:43:06 - merchant_scraper - INFO - 解析商家: 薄荷到家
+2026-01-02 17:43:06 - merchant_scraper - INFO - 保存商家: 薄荷到家
+2026-01-02 17:43:07 - merchant_scraper - INFO - [102/120] 爬取商家: https://merchant.51.ca/merchants/5978
+2026-01-02 17:43:07 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/5978
+2026-01-02 17:43:09 - merchant_scraper - INFO - 解析商家: 老叶兰州牛肉面
+2026-01-02 17:43:09 - merchant_scraper - INFO - 保存商家: 老叶兰州牛肉面
+2026-01-02 17:43:09 - merchant_scraper - INFO - [103/120] 爬取商家: https://merchant.51.ca/merchants/7931
+2026-01-02 17:43:09 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7931
+2026-01-02 17:43:12 - merchant_scraper - INFO - 解析商家: 上海融力天闻律师事务所-多伦多办事处
+2026-01-02 17:43:12 - merchant_scraper - INFO - 保存商家: 上海融力天闻律师事务所-多伦多办事处
+2026-01-02 17:43:12 - merchant_scraper - INFO - [104/120] 爬取商家: https://merchant.51.ca/merchants/6576
+2026-01-02 17:43:12 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6576
+2026-01-02 17:43:15 - merchant_scraper - INFO - 解析商家: 持牌顾问亲自出手｜10年经验，定制高通过率签证移民解决方案待填写
+2026-01-02 17:43:15 - merchant_scraper - INFO - 保存商家: 持牌顾问亲自出手｜10年经验，定制高通过率签证移民解决方案待填写
+2026-01-02 17:43:15 - merchant_scraper - INFO - [105/120] 爬取商家: https://merchant.51.ca/merchants/7356
+2026-01-02 17:43:15 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7356
+2026-01-02 17:43:17 - merchant_scraper - INFO - 解析商家: JZW装修
+2026-01-02 17:43:18 - merchant_scraper - INFO - 保存商家: JZW装修
+2026-01-02 17:43:18 - merchant_scraper - INFO - [106/120] 爬取商家: https://merchant.51.ca/merchants/7500
+2026-01-02 17:43:18 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7500
+2026-01-02 17:43:20 - merchant_scraper - INFO - 解析商家: A&M Spa LimitedVitality Wellness center
+2026-01-02 17:43:20 - merchant_scraper - INFO - 保存商家: A&M Spa LimitedVitality Wellness center
+2026-01-02 17:43:21 - merchant_scraper - INFO - [107/120] 爬取商家: https://merchant.51.ca/merchants/7976
+2026-01-02 17:43:21 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7976
+2026-01-02 17:43:23 - merchant_scraper - INFO - 解析商家: 北约克星音乐学校待填写
+2026-01-02 17:43:23 - merchant_scraper - INFO - 保存商家: 北约克星音乐学校待填写
+2026-01-02 17:43:24 - merchant_scraper - INFO - [108/120] 爬取商家: https://merchant.51.ca/merchants/1772
+2026-01-02 17:43:24 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1772
+2026-01-02 17:43:26 - merchant_scraper - INFO - 解析商家: 山东园艺
+2026-01-02 17:43:26 - merchant_scraper - INFO - 保存商家: 山东园艺
+2026-01-02 17:43:27 - merchant_scraper - INFO - [109/120] 爬取商家: https://merchant.51.ca/merchants/6135
+2026-01-02 17:43:27 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6135
+2026-01-02 17:43:29 - merchant_scraper - INFO - 解析商家: Golden Season International Renovation Inc.Golden season
+2026-01-02 17:43:29 - merchant_scraper - INFO - 保存商家: Golden Season International Renovation Inc.Golden season
+2026-01-02 17:43:29 - merchant_scraper - INFO - [110/120] 爬取商家: https://merchant.51.ca/merchants/6134
+2026-01-02 17:43:29 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6134
+2026-01-02 17:43:32 - merchant_scraper - INFO - 解析商家: 腾达户外
+2026-01-02 17:43:32 - merchant_scraper - INFO - 保存商家: 腾达户外
+2026-01-02 17:43:32 - merchant_scraper - INFO - [111/120] 爬取商家: https://merchant.51.ca/merchants/7590
+2026-01-02 17:43:32 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7590
+2026-01-02 17:43:35 - merchant_scraper - INFO - 解析商家: 鼎丰橱卫有限公司
+2026-01-02 17:43:35 - merchant_scraper - INFO - 保存商家: 鼎丰橱卫有限公司
+2026-01-02 17:43:35 - merchant_scraper - INFO - [112/120] 爬取商家: https://merchant.51.ca/merchants/6750
+2026-01-02 17:43:35 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6750
+2026-01-02 17:43:38 - merchant_scraper - INFO - 解析商家: Mc2 Reno 室内装修
+2026-01-02 17:43:38 - merchant_scraper - INFO - 保存商家: Mc2 Reno 室内装修
+2026-01-02 17:43:38 - merchant_scraper - INFO - [113/120] 爬取商家: https://merchant.51.ca/merchants/6457
+2026-01-02 17:43:38 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/6457
+2026-01-02 17:43:40 - merchant_scraper - INFO - 解析商家: 邦邦
+2026-01-02 17:43:40 - merchant_scraper - INFO - 保存商家: 邦邦
+2026-01-02 17:43:41 - merchant_scraper - INFO - [114/120] 爬取商家: https://merchant.51.ca/merchants/7936
+2026-01-02 17:43:41 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7936
+2026-01-02 17:43:43 - merchant_scraper - INFO - 解析商家: 恒泰会计师事务所
+2026-01-02 17:43:43 - merchant_scraper - INFO - 保存商家: 恒泰会计师事务所
+2026-01-02 17:43:44 - merchant_scraper - INFO - [115/120] 爬取商家: https://merchant.51.ca/merchants/4803
+2026-01-02 17:43:44 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/4803
+2026-01-02 17:43:46 - merchant_scraper - INFO - 解析商家: A1 Raccoon Wildlife ControlA1 raccoon
+2026-01-02 17:43:46 - merchant_scraper - INFO - 保存商家: A1 Raccoon Wildlife ControlA1 raccoon
+2026-01-02 17:43:47 - merchant_scraper - INFO - [116/120] 爬取商家: https://merchant.51.ca/merchants/1659
+2026-01-02 17:43:47 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1659
+2026-01-02 17:43:49 - merchant_scraper - INFO - 解析商家: 加拿大科技学院 政府资助
+2026-01-02 17:43:49 - merchant_scraper - INFO - 保存商家: 加拿大科技学院 政府资助
+2026-01-02 17:43:50 - merchant_scraper - INFO - [117/120] 爬取商家: https://merchant.51.ca/merchants/2576
+2026-01-02 17:43:50 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/2576
+2026-01-02 17:43:52 - merchant_scraper - INFO - 解析商家: Ami 玻璃门窗制作安装
+2026-01-02 17:43:52 - merchant_scraper - INFO - 保存商家: Ami 玻璃门窗制作安装
+2026-01-02 17:43:52 - merchant_scraper - INFO - [118/120] 爬取商家: https://merchant.51.ca/merchants/1975
+2026-01-02 17:43:52 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/1975
+2026-01-02 17:43:55 - merchant_scraper - INFO - 解析商家: 恒致居家冷暖
+2026-01-02 17:43:55 - merchant_scraper - INFO - 保存商家: 恒致居家冷暖
+2026-01-02 17:43:55 - merchant_scraper - INFO - [119/120] 爬取商家: https://merchant.51.ca/merchants/7922
+2026-01-02 17:43:55 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7922
+2026-01-02 17:43:58 - merchant_scraper - INFO - 解析商家: 大唐金融
+2026-01-02 17:43:58 - merchant_scraper - INFO - 保存商家: 大唐金融
+2026-01-02 17:43:58 - merchant_scraper - INFO - [120/120] 爬取商家: https://merchant.51.ca/merchants/7526
+2026-01-02 17:43:58 - merchant_scraper - DEBUG - 正在訪問: https://merchant.51.ca/merchants/7526
+2026-01-02 17:44:01 - merchant_scraper - INFO - 解析商家: 艺森园艺
+2026-01-02 17:44:01 - merchant_scraper - INFO - 保存商家: 艺森园艺
+2026-01-02 17:44:01 - merchant_scraper - INFO - 瀏覽器已關閉
+2026-01-02 17:44:01 - merchant_scraper - INFO - ==================================================
+2026-01-02 17:44:01 - merchant_scraper - INFO - 爬取完成!
+2026-01-02 17:44:01 - merchant_scraper - INFO - 頁面數: 121
+2026-01-02 17:44:01 - merchant_scraper - INFO - 保存項目: 0
+2026-01-02 17:44:01 - merchant_scraper - INFO - 錯誤數: 0
+2026-01-02 17:44:01 - merchant_scraper - INFO - 耗時: 353.1 秒
+2026-01-02 17:44:01 - merchant_scraper - INFO - ==================================================
+2026-01-02 20:06:34 - news_scraper - INFO - ============================================================
+2026-01-02 20:06:34 - news_scraper - INFO - 開始運行 news_scraper 爬蟲
+2026-01-02 20:06:34 - news_scraper - INFO - ============================================================
+2026-01-02 20:06:34 - news_scraper - INFO - 正在啟動瀏覽器...
+2026-01-02 20:06:36 - news_scraper - INFO - 瀏覽器啟動成功
+2026-01-02 20:06:36 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500188
+2026-01-02 20:06:36 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500188
+2026-01-02 20:06:44 - news_scraper - DEBUG - 解析文章: 埃德蒙顿警犬忙里偷闲，扑倒罪犯前先在雪地里“热身”！...
+2026-01-02 20:06:45 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500238
+2026-01-02 20:06:45 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500238
+2026-01-02 20:06:48 - news_scraper - DEBUG - 解析文章: 加拿大超市行为准则将于明日正式实施，能降低购物成本吗？...
+2026-01-02 20:06:49 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500187
+2026-01-02 20:06:49 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500187
+2026-01-02 20:06:52 - news_scraper - DEBUG - 解析文章: 秘鲁两列观光火车迎头相撞现场惨烈！七名加拿大游客受伤...
+2026-01-02 20:06:53 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500186
+2026-01-02 20:06:53 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500186
+2026-01-02 20:06:56 - news_scraper - DEBUG - 解析文章: 清晨买菜过马路，多伦多80岁老妇被两车撞倒，当场身亡...
+2026-01-02 20:06:57 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500181
+2026-01-02 20:06:57 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500181
+2026-01-02 20:07:00 - news_scraper - DEBUG - 解析文章: 本周特价: 苹果、香梨$0.98 茉莉香米$12.88 牛肩...
+2026-01-02 20:07:01 - news_scraper - INFO - 正在處理: https://info.51.ca/articles/1500695
+2026-01-02 20:07:01 - news_scraper - DEBUG - 正在訪問: https://info.51.ca/articles/1500695

@@ -134,60 +134,38 @@ class MerchantScraper(BaseScraper):
                     data['description'] = description[:2000]
                 break
         
-        # 5. 從「聯繫我們」section 提取聯繫資訊
-        contact_section = None
-        for sec in soup.find_all(['section', 'div'], recursive=True):
-            heading = sec.find(['h2', 'h3'], string=re.compile('联系我们|聯繫我們'))
-            if heading:
-                contact_section = sec
-                break
+        # 5. 聯繫資訊 - 從整個頁面提取 tel: 和 mailto: 連結
+        # 電話 - 從所有 tel: 連結提取
+        phones = []
+        for tel in soup.find_all('a', href=re.compile(r'^tel:')):
+            phone = tel.get('href', '').replace('tel:', '')
+            # 清理電話格式
+            phone = re.sub(r'[^\d,\-\(\)\s]', '', phone).strip()
+            if phone and phone not in phones:
+                phones.append(phone)
+        if phones:
+            data['phone'] = ', '.join(phones)
         
-        if contact_section:
-            # 電話 - 從 tel: 連結提取
-            phones = []
-            for tel in contact_section.find_all('a', href=re.compile(r'^tel:')):
-                phone = tel.get('href', '').replace('tel:', '').replace('-', '')
-                if phone and phone not in phones:
-                    phones.append(phone)
-            if phones:
-                data['phone'] = ', '.join(phones)
-            
-            # 郵箱 - 從 mailto: 連結提取
-            emails = []
-            for mail in contact_section.find_all('a', href=re.compile(r'^mailto:')):
-                email = mail.get('href', '').replace('mailto:', '')
-                if email and email not in emails:
-                    emails.append(email)
-            if emails:
-                data['website'] = ', '.join(emails)  # 暫用 website 存郵箱
-            
-            # 地址 - 從 Google Maps 連結提取 (最精準)
-            maps_link = contact_section.find('a', href=re.compile(r'google\.com/maps'))
-            if maps_link:
-                maps_url = maps_link.get('href', '')
-                addr_match = re.search(r'query=([^&]+)', maps_url)
-                if addr_match:
-                    from urllib.parse import unquote
-                    addr = unquote(addr_match.group(1).replace('+', ' '))
-                    if addr and len(addr) > 5:
-                        data['address'] = addr
-            
-            # 如果沒有從 Google Maps 拿到地址，嘗試從文字匹配
-            if 'address' not in data:
-                info_text = contact_section.get_text()
-                # 移除「查看路線」等干擾文字
-                info_text = re.sub(r'查看路[线線]', '', info_text)
-                addr_patterns = [
-                    r'[\w\s\d]+,\s*[\w\s]+,\s*(?:ON|BC|AB|QC|MB|SK|NS|NB)\s*[A-Z]\d[A-Z]\s*\d[A-Z]\d',
-                    r'\d+\s+[\w\s]+(?:Street|St|Avenue|Ave|Road|Rd|Drive|Dr|Boulevard|Blvd|Way|Court|Ct|Circle|Cir|Lane|Ln)[,\s]+[\w\s]+,\s*(?:ON|BC|AB|QC)',
-                ]
-                for pattern in addr_patterns:
-                    addr_match = re.search(pattern, info_text, re.I)
-                    if addr_match:
-                        addr = addr_match.group().strip().lstrip(',').strip()
-                        if len(addr) > 5:
-                            data['address'] = addr
-                            break
+        # 郵箱 - 從所有 mailto: 連結提取
+        emails = []
+        for mail in soup.find_all('a', href=re.compile(r'^mailto:')):
+            email = mail.get('href', '').replace('mailto:', '')
+            if email and email not in emails:
+                emails.append(email)
+        if emails:
+            data['website'] = ', '.join(emails)
+        
+        # 地址 - 從 Google Maps 連結提取
+        for maps_link in soup.find_all('a', href=re.compile(r'google\.com/maps')):
+            maps_url = maps_link.get('href', '')
+            addr_match = re.search(r'query=([^&]+)', maps_url)
+            if addr_match:
+                from urllib.parse import unquote
+                addr = unquote(addr_match.group(1).replace('+', ' '))
+                addr = addr.strip().strip(',').strip()
+                if addr and len(addr) > 3:
+                    data['address'] = addr
+                    break
         
         # 6. 辦公環境圖片
         images = []
