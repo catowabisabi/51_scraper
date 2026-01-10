@@ -1,0 +1,1 @@
+.\51_scraper\scraper; python run_all_scrapers.py --max-pages 50 

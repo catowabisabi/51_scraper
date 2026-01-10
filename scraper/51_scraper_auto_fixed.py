@@ -1,5 +1,5 @@
 """
-51.ca 汽車爬蟲
+51.ca 汽車爬蟲 - 修正版本
 爬取 auto.51.ca 的汽車交易信息
 """
 
@@ -126,8 +126,34 @@ class AutoScraper(BaseScraper):
             'seller_name': seller_name,
             'contact_phone': contact_phone,
             'location': location,
+            'post_date': post_date,
             'image_urls': self.to_json(image_urls),
         }
+
+    def _extract_listing_type(self, url: str, soup: BeautifulSoup) -> str:
+        """提取汽車類型"""
+        # 從URL路徑判斷
+        if '/used-cars/' in url:
+            return '二手'
+        elif '/new-cars/' in url:
+            return '新車'  
+        elif '/lease-cars/' in url:
+            return '轉lease'
+        elif '/market/auto-parts/' in url:
+            return '汽車配件'
+            
+        # 從頁面內容判斷
+        text = soup.get_text().lower()
+        if '二手车' in text or '二手車' in text or 'used car' in text:
+            return '二手'
+        elif '新车' in text or '新車' in text or 'new car' in text:
+            return '新車'
+        elif 'lease' in text:
+            return '轉lease'
+        elif '配件' in text or 'parts' in text:
+            return '汽車配件'
+            
+        return None
     
     def _extract_title(self, soup: BeautifulSoup) -> str:
         """提取標題"""
@@ -184,31 +210,6 @@ class AutoScraper(BaseScraper):
         if year_match:
             return int(year_match.group(1))
         
-        return None
-    
-    def _extract_listing_type(self, url: str, soup: BeautifulSoup) -> str:
-        """提取汽車類型"""
-        # 從URL路徑判斷
-        if '/used-cars/' in url:
-            return '二手'
-        elif '/new-cars/' in url:
-            return '新車'  
-        elif '/lease-cars/' in url:
-            return '轉lease'
-        elif '/market/auto-parts/' in url:
-            return '汽車配件'
-            
-        # 從頁面內容判斷
-        text = soup.get_text().lower()
-        if '二手车' in text or '二手車' in text or 'used car' in text:
-            return '二手'
-        elif '新车' in text or '新車' in text or 'new car' in text:
-            return '新車'
-        elif 'lease' in text:
-            return '轉lease'
-        elif '配件' in text or 'parts' in text:
-            return '汽車配件'
-            
         return None
 
     def _extract_price(self, soup: BeautifulSoup) -> float:
@@ -315,7 +316,7 @@ class AutoScraper(BaseScraper):
                 if keyword.lower() in text:
                     return color_name
         return None
-    
+
     def _extract_vin(self, soup: BeautifulSoup) -> str:
         """提取VIN碼"""
         text = soup.get_text()
@@ -337,16 +338,47 @@ class AutoScraper(BaseScraper):
                     return potential_vin
                     
         return None
+    
+    def _extract_description(self, soup: BeautifulSoup) -> str:
+        """提取描述"""
+        for tag in soup(['script', 'style', 'nav', 'footer', 'header']):
+            tag.decompose()
+        
+        desc_elem = soup.find(class_=re.compile(r'description|content|detail'))
+        if desc_elem:
+            return self.clean_text(desc_elem.get_text(separator='\n', strip=True))[:2000]
+        return ""
+    
+    def _extract_features(self, soup: BeautifulSoup) -> List[str]:
+        """提取配置特點"""
+        features = []
+        
+        feature_keywords = [
+            '天窗', 'sunroof', '真皮', 'leather', '导航', 'navigation',
+            '倒车影像', 'backup camera', '蓝牙', 'bluetooth', '加热座椅',
+            'heated seats', '全景天窗', 'panoramic', 'AWD', '四驱',
+            'CarPlay', 'Android Auto', '自动泊车', 'parking assist'
+        ]
+        
+        text = soup.get_text().lower()
+        for feature in feature_keywords:
+            if feature.lower() in text:
+                features.append(feature)
+        
+        return features
+    
+    def _extract_seller_type(self, soup: BeautifulSoup) -> str:
+        """提取賣家類型"""
+        text = soup.get_text().lower()
+        if 'dealer' in text or '车行' in text or '車行' in text:
+            return '车行'
+        elif 'private' in text or '私人' in text or '个人' in text:
+            return '私人'
+        return None
 
     def _extract_seller_name(self, soup: BeautifulSoup) -> str:
         """提取賣家名稱"""
         # 從車行信息中提取
-        dealer_patterns = [
-            r'class_="dealer-name[^"]*"[^>]*>([^<]+)',
-            r'查看车行网站[^>]*>([^<]+)',
-            r'automotive|motors|auto|cars|dealer'
-        ]
-        
         text = soup.get_text()
         
         # 查找車行名稱
@@ -366,13 +398,16 @@ class AutoScraper(BaseScraper):
             if seller_text and len(seller_text) < 50:
                 return seller_text[:100]
                 
+        return None
+    
+    def _extract_phone(self, soup: BeautifulSoup) -> str:
         """提取電話"""
         text = soup.get_text()
         phone_match = re.search(r'(\d{3}[-.\s]?\d{3}[-.\s]?\d{4})', text)
         if phone_match:
             return phone_match.group(1)
         return None
-    
+
     def _extract_location(self, soup: BeautifulSoup) -> str:
         """提取位置"""
         text = soup.get_text()

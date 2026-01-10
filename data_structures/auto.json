@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Used Car Listing",
+  "type": "object",
+  "properties": {
+    "listing": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "make": { "type": "string" },
+        "model": { "type": "string" },
+        "year": { "type": "integer" },
+        "trim": { "type": "string" },
+        "body_type": { "type": "string" },
+        "color": { "type": "string" },
+        "transmission": { "type": "string" },
+        "drivetrain": { "type": "string" },
+        "fuel_type": { "type": "string" },
+        "kilometers": { "type": "integer" },
+        "price": { "type": "number" },
+        "currency": {
+          "type": "string",
+          "enum": ["CAD", "USD"]
+        },
+        "location": {
+          "type": "object",
+          "properties": {
+            "city": { "type": "string" },
+            "province": { "type": "string" }
+          },
+          "required": ["city", "province"],
+          "additionalProperties": false
+        },
+        "dealer": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "address": { "type": "string" },
+            "phone": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "vin": { "type": "string" },
+        "carfax_available": { "type": "boolean" },
+        "features": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "description": { "type": "string" },
+        "images": {
+          "type": "array",
+          "items": { "type": "string", "format": "uri" }
+        },
+        "promotions": {
+          "type": "object",
+          "properties": {
+            "same_day_approval": { "type": "boolean" },
+            "no_credit_ok": { "type": "boolean" },
+            "no_job_ok": { "type": "boolean" },
+            "delivery_available": { "type": "boolean" },
+            "warranty_available": { "type": "boolean" }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "make",
+        "model",
+        "year",
+        "price",
+        "currency"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": ["listing"],
+  "additionalProperties": false
+}

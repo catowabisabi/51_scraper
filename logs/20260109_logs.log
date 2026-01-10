@@ -1,0 +1,53 @@
+2026-01-09 19:17:14 - auto_scraper - INFO - ============================================================
+2026-01-09 19:17:14 - auto_scraper - INFO - 開始運行 auto_scraper 爬蟲
+2026-01-09 19:17:14 - auto_scraper - INFO - ============================================================
+2026-01-09 19:17:14 - auto_scraper - INFO - 正在啟動瀏覽器...
+2026-01-09 19:17:18 - auto_scraper - INFO - 瀏覽器啟動成功
+2026-01-09 19:17:18 - auto_scraper - INFO - 沒有更多未訪問的URL
+2026-01-09 19:17:18 - auto_scraper - INFO - 瀏覽器已關閉
+2026-01-09 19:17:18 - auto_scraper - INFO - ============================================================
+2026-01-09 19:17:18 - auto_scraper - INFO - 爬蟲運行統計:
+2026-01-09 19:17:18 - auto_scraper - INFO -   - 頁面爬取: 0
+2026-01-09 19:17:18 - auto_scraper - INFO -   - 項目保存: 0
+2026-01-09 19:17:18 - auto_scraper - INFO -   - 錯誤數量: 0
+2026-01-09 19:17:18 - auto_scraper - INFO -   - 運行時間: 4.64 秒
+2026-01-09 19:17:18 - auto_scraper - INFO - ============================================================
+2026-01-09 19:17:29 - auto_scraper - INFO - ============================================================
+2026-01-09 19:17:29 - auto_scraper - INFO - 開始運行 auto_scraper 爬蟲
+2026-01-09 19:17:29 - auto_scraper - INFO - ============================================================
+2026-01-09 19:17:29 - auto_scraper - INFO - 正在啟動瀏覽器...
+2026-01-09 19:17:31 - auto_scraper - INFO - 瀏覽器啟動成功
+2026-01-09 19:17:31 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/10021
+2026-01-09 19:17:31 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/10021
+2026-01-09 19:17:36 - auto_scraper - ERROR - 爬蟲運行錯誤: 'AutoScraper' object has no attribute '_extract_description'
+2026-01-09 19:17:36 - auto_scraper - INFO - 瀏覽器已關閉
+2026-01-09 19:17:36 - auto_scraper - INFO - ============================================================
+2026-01-09 19:17:36 - auto_scraper - INFO - 爬蟲運行統計:
+2026-01-09 19:17:36 - auto_scraper - INFO -   - 頁面爬取: 1
+2026-01-09 19:17:36 - auto_scraper - INFO -   - 項目保存: 0
+2026-01-09 19:17:36 - auto_scraper - INFO -   - 錯誤數量: 0
+2026-01-09 19:17:36 - auto_scraper - INFO -   - 運行時間: 6.99 秒
+2026-01-09 19:17:36 - auto_scraper - INFO - ============================================================
+2026-01-09 19:19:33 - auto_scraper - INFO - ============================================================
+2026-01-09 19:19:33 - auto_scraper - INFO - 開始運行 auto_scraper 爬蟲
+2026-01-09 19:19:33 - auto_scraper - INFO - ============================================================
+2026-01-09 19:19:33 - auto_scraper - INFO - 正在啟動瀏覽器...
+2026-01-09 19:19:35 - auto_scraper - INFO - 瀏覽器啟動成功
+2026-01-09 19:19:35 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/10021
+2026-01-09 19:19:35 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/10021
+2026-01-09 19:19:37 - auto_scraper - INFO - 保存汽車: 2018 BMW 3 Series
+2026-01-09 19:19:38 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/10020
+2026-01-09 19:19:38 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/10020
+2026-01-09 19:19:41 - auto_scraper - INFO - 保存汽車: 2006 Lexus ES
+2026-01-09 19:19:42 - auto_scraper - INFO - 正在處理: https://www.51.ca/autos/used-cars/10019
+2026-01-09 19:19:42 - auto_scraper - DEBUG - 正在訪問: https://www.51.ca/autos/used-cars/10019
+2026-01-09 19:19:44 - auto_scraper - INFO - 保存汽車: 2011 Dodge Durango
+2026-01-09 19:19:45 - auto_scraper - INFO - 沒有更多未訪問的URL
+2026-01-09 19:19:45 - auto_scraper - INFO - 瀏覽器已關閉
+2026-01-09 19:19:45 - auto_scraper - INFO - ============================================================
+2026-01-09 19:19:45 - auto_scraper - INFO - 爬蟲運行統計:
+2026-01-09 19:19:45 - auto_scraper - INFO -   - 頁面爬取: 3
+2026-01-09 19:19:45 - auto_scraper - INFO -   - 項目保存: 3
+2026-01-09 19:19:45 - auto_scraper - INFO -   - 錯誤數量: 0
+2026-01-09 19:19:45 - auto_scraper - INFO -   - 運行時間: 12.25 秒
+2026-01-09 19:19:45 - auto_scraper - INFO - ============================================================
