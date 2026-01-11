@@ -217,6 +217,19 @@ class JobsScraper(BaseScraper):
                 if category_elem.count() > 0:
                     detail['category'] = category_elem.first.inner_text()
             
+            # 從頁面提取詳細描述 (第二個 .job-detail-section 包含 "詳細介紹")
+            detail_sections = self._page.locator('.job-detail-section')
+            if detail_sections.count() >= 2:
+                # 第二個 section 包含詳細介紹
+                content_section = detail_sections.nth(1).inner_text()
+                # 移除 "詳細介紹" 標題
+                if content_section.startswith('详细介绍'):
+                    content_section = content_section[4:].strip()
+                # 移除末尾的發布時間等
+                if '发布时间：' in content_section:
+                    content_section = content_section.split('发布时间：')[0].strip()
+                detail['content'] = content_section
+            
             return detail
             
         except Exception as e:
