@@ -35,9 +35,7 @@ def check_all_data():
     if 'house_listings' in tables:
         c.execute("SELECT COUNT(*) FROM house_listings")
         count = c.fetchone()[0]
-        c.execute("SELECT COUNT(DISTINCT transaction_type) FROM house_listings")
-        types = c.fetchone()[0]
-        stats['房屋 (house_listings)'] = f"{count} 筆 (類型數: {types})"
+        stats['房屋 (house_listings)'] = f"{count} 筆"
     
     # 工作
     if 'jobs' in tables:
@@ -65,9 +63,7 @@ def check_all_data():
     if 'auto_listings' in tables:
         c.execute("SELECT COUNT(*) FROM auto_listings")
         count = c.fetchone()[0]
-        c.execute("SELECT COUNT(DISTINCT brand) FROM auto_listings WHERE brand IS NOT NULL")
-        brands = c.fetchone()[0]
-        stats['汽車 (auto_listings)'] = f"{count} 筆 (品牌數: {brands})"
+        stats['汽車 (auto_listings)'] = f"{count} 筆"
     
     # 活動
     if 'events' in tables:

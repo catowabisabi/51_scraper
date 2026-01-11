@@ -1374,3 +1374,143 @@ Call log:
 2026-01-11 14:33:49 - news - INFO - 正在處理: https://info.51.ca/articles/1503590
 2026-01-11 14:33:53 - news - INFO - 保存新聞: 巨型“垃圾山”崩塌！多人遭活埋... (內容長度: 602)
 2026-01-11 14:33:54 - news - INFO - 正在處理: https://info.51.ca/articles/1503623
+2026-01-11 15:31:48 - news - INFO - ============================================================
+2026-01-11 15:31:48 - news - INFO - 開始運行 news 爬蟲
+2026-01-11 15:31:48 - news - INFO - ============================================================
+2026-01-11 15:31:48 - news - INFO - 正在啟動瀏覽器...
+2026-01-11 15:31:50 - news - INFO - 瀏覽器啟動成功
+2026-01-11 15:31:50 - news - INFO - 正在處理: https://info.51.ca/articles/1503623
+2026-01-11 15:31:56 - news - INFO - 保存新聞: 太坦誠了？霍啟剛財產公示：35套物業曝光... (內容長度: 412)
+2026-01-11 15:31:57 - news - INFO - 正在處理: https://info.51.ca/articles/1503622
+2026-01-11 15:32:00 - news - INFO - 保存新聞: 以馬杜羅為鑑，慎防“敵在本能寺”... (內容長度: 1350)
+2026-01-11 15:32:01 - news - INFO - 正在處理: https://info.51.ca/articles/1503621
+2026-01-11 15:32:11 - news - ERROR - 獲取頁面失敗 https://info.51.ca/articles/1503621: Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to "https://info.51.ca/articles/1503621", waiting until "networkidle"
+
+2026-01-11 15:32:12 - news - INFO - 正在處理: https://info.51.ca/articles/1503609
+2026-01-11 15:32:15 - news - INFO - 保存新聞: 崔天凱：別幻想，委內瑞拉跟臺灣不是一碼事... (內容長度: 844)
+2026-01-11 15:32:16 - news - INFO - 正在處理: https://info.51.ca/articles/1503598
+2026-01-11 15:32:19 - news - INFO - 保存新聞: 景區公廁，擠滿悄悄崩潰的女性... (內容長度: 4579)
+2026-01-11 15:32:20 - news - INFO - 正在處理: https://info.51.ca/articles/1503378
+2026-01-11 15:32:23 - news - INFO - 保存新聞: 150年奢侈百貨巨頭最快明天申請破產! CEO已辭職, 加拿... (內容長度: 1369)
+2026-01-11 15:32:24 - news - INFO - 正在處理: https://info.51.ca/articles/1503288
+2026-01-11 15:32:27 - news - INFO - 保存新聞: 加拿大名校小姐姐第一次去同校男生家 當場崩潰... (內容長度: 556)
+2026-01-11 15:32:28 - news - INFO - 正在處理: https://info.51.ca/articles/1503280
+2026-01-11 15:32:31 - news - INFO - 保存新聞: 國內這些超便宜的東西在加拿大貴炸天，真讓人分分鐘想回國！... (內容長度: 1289)
+2026-01-11 15:32:32 - news - INFO - 正在處理: https://info.51.ca/articles/1503347
+2026-01-11 15:32:35 - news - INFO - 保存新聞: 大多倫多房主"不剪草"被鄰居投訴, 市政府出手! 結果他一告... (內容長度: 1383)
+2026-01-11 15:32:36 - news - INFO - 正在處理: https://info.51.ca/articles/1503361
+2026-01-11 15:32:46 - news - ERROR - 獲取頁面失敗 https://info.51.ca/articles/1503361: Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to "https://info.51.ca/articles/1503361", waiting until "networkidle"
+
+2026-01-11 15:32:47 - news - INFO - 正在處理: https://info.51.ca/articles/1503311
+2026-01-11 15:32:50 - news - INFO - 保存新聞: 安省再次開出Lotto Max頭獎，此前剛誕生8000萬加元... (內容長度: 497)
+2026-01-11 15:32:51 - news - INFO - 正在處理: https://info.51.ca/articles/1503360
+2026-01-11 15:32:53 - news - INFO - 保存新聞: 環境部發警告：大多倫多地區部分路段今晚可能因凍雨變得溼滑... (內容長度: 632)
+2026-01-11 15:32:54 - news - INFO - 正在處理: https://info.51.ca/articles/1503282
+2026-01-11 15:32:57 - news - INFO - 保存新聞: 加國本週最高利率出爐：儲蓄賬戶 vs GIC 誰更划算？... (內容長度: 786)
+2026-01-11 15:32:58 - news - INFO - 正在處理: https://info.51.ca/articles/1503294
+2026-01-11 15:33:02 - news - INFO - 保存新聞: 震驚！加國急診過度治療區慘狀曝光！省長：不可接受！... (內容長度: 1007)
+2026-01-11 15:33:03 - news - INFO - 正在處理: https://info.51.ca/articles/1503009
+2026-01-11 15:33:06 - news - INFO - 保存新聞: 離開美國到加拿大教書的教授：沒料到加拿大人竟這樣天真... (內容長度: 1464)
+2026-01-11 15:33:07 - news - INFO - 正在處理: https://info.51.ca/articles/1503061
+2026-01-11 15:33:10 - news - INFO - 保存新聞: 倒戈才一個月，國會議員馬榮錚將隨總理卡尼訪問中國！... (內容長度: 1414)
+2026-01-11 15:33:11 - news - INFO - 正在處理: https://info.51.ca/articles/1503315
+2026-01-11 15:33:21 - news - ERROR - 獲取頁面失敗 https://info.51.ca/articles/1503315: Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to "https://info.51.ca/articles/1503315", waiting until "networkidle"
+
+2026-01-11 15:33:22 - news - INFO - 正在處理: https://info.51.ca/articles/1503296
+2026-01-11 15:33:24 - news - INFO - 保存新聞: 卡尼將到訪中國，推進戰略夥伴關係、貿易多元化及投資合作... (內容長度: 446)
+2026-01-11 15:33:25 - news - INFO - 正在處理: https://info.51.ca/articles/1502980
+2026-01-11 15:33:36 - news - ERROR - 獲取頁面失敗 https://info.51.ca/articles/1502980: Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to "https://info.51.ca/articles/1502980", waiting until "networkidle"
+
+2026-01-11 15:33:37 - news - INFO - 正在處理: https://info.51.ca/articles/1502962
+2026-01-11 15:33:47 - news - ERROR - 獲取頁面失敗 https://info.51.ca/articles/1502962: Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to "https://info.51.ca/articles/1502962", waiting until "networkidle"
+
+2026-01-11 15:33:48 - news - INFO - 正在處理: https://info.51.ca/articles/1503030
+2026-01-11 15:34:02 - news - INFO - ============================================================
+2026-01-11 15:34:02 - news - INFO - 開始運行 news 爬蟲
+2026-01-11 15:34:02 - news - INFO - ============================================================
+2026-01-11 15:34:02 - news - INFO - 正在啟動瀏覽器...
+2026-01-11 15:34:03 - news - INFO - 瀏覽器啟動成功
+2026-01-11 15:34:03 - news - INFO - 正在處理: https://info.51.ca/articles/1503030
+2026-01-11 15:34:07 - news - INFO - 保存新聞: TD突然上調房貸利率！加拿大今年續約的房貸族現在該怎麼辦... (內容長度: 968)
+2026-01-11 15:34:08 - news - INFO - 正在處理: https://info.51.ca/articles/1502961
+2026-01-11 15:34:11 - news - INFO - 保存新聞: 專家預測2026年房地產市場將如何變化：“安省情況只會更糟”... (內容長度: 1619)
+2026-01-11 15:34:12 - news - INFO - 正在處理: https://info.51.ca/articles/1502667
+2026-01-11 15:34:15 - news - INFO - 保存新聞: 約克區大幅增加警察：徵求居民意見，優先處理哪些犯罪？... (內容長度: 633)
+2026-01-11 15:34:16 - news - INFO - 正在處理: https://info.51.ca/articles/1502262
+2026-01-11 15:34:19 - news - INFO - 保存新聞: 快訊！加拿大總理卡尼將於1月13日至17日訪華！... (內容長度: 1958)
+2026-01-11 15:34:20 - news - INFO - 正在處理: https://info.51.ca/articles/1501908
+2026-01-11 15:34:24 - news - INFO - 保存新聞: 安省公務員上街抗議不滿五天到崗，或引發離職潮... (內容長度: 1444)
+2026-01-11 15:34:25 - news - INFO - 正在處理: https://info.51.ca/articles/1501630
+2026-01-11 15:34:28 - news - INFO - 保存新聞: 烏克蘭移民酒後駕駛闖紅燈車禍為保移民身份求判緩刑：法官否決... (內容長度: 1067)
+2026-01-11 15:34:29 - news - INFO - 正在處理: https://info.51.ca/articles/1503384
+2026-01-11 15:34:31 - news - INFO - 保存新聞: 1月10日頭條：加拿大央行裁員10%，安省再次開出Lotto... (內容長度: 0)
+2026-01-11 15:34:32 - news - INFO - 正在處理: https://info.51.ca/articles/1503381
+2026-01-11 15:34:35 - news - INFO - 保存新聞: "簡直是一場噩夢"! 省長福特放話: Eglinton輕軌最... (內容長度: 557)
+2026-01-11 15:34:36 - news - INFO - 正在處理: https://info.51.ca/articles/1503374
+2026-01-11 15:34:46 - news - ERROR - 獲取頁面失敗 https://info.51.ca/articles/1503374: Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to "https://info.51.ca/articles/1503374", waiting until "networkidle"
+
+2026-01-11 15:34:47 - news - INFO - 正在處理: https://info.51.ca/articles/1503366
+2026-01-11 15:34:50 - news - INFO - 保存新聞: 旺市發生工業事故：一名40多歲的男子被叉車壓住身亡... (內容長度: 265)
+2026-01-11 15:34:51 - news - INFO - 正在處理: https://info.51.ca/articles/1503093
+2026-01-11 15:35:01 - news - ERROR - 獲取頁面失敗 https://info.51.ca/articles/1503093: Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to "https://info.51.ca/articles/1503093", waiting until "networkidle"
+
+2026-01-11 15:35:02 - news - INFO - 正在處理: https://info.51.ca/articles/1503343
+2026-01-11 15:35:06 - news - INFO - 保存新聞: 西捷航班乘務員嘲笑乘客體重並拍其腹部：男子要求補償... (內容長度: 874)
+2026-01-11 15:35:07 - news - INFO - 正在處理: https://info.51.ca/articles/1503323
+2026-01-11 15:35:10 - news - INFO - 保存新聞: 涉嫌酒駕司機在400高速公路撞上救護車後被捕... (內容長度: 199)
+2026-01-11 15:35:11 - news - INFO - 正在處理: https://info.51.ca/articles/1503295
+2026-01-11 15:35:14 - news - INFO - 保存新聞: 加拿大Ticketmaster被告了！本身就是天價黃牛！坐地... (內容長度: 879)
+2026-01-11 15:35:15 - news - INFO - 正在處理: https://info.51.ca/articles/1503293
+2026-01-11 15:35:17 - news - INFO - 保存新聞: 沒有國際駕照的後果這麼嚴重？魁北克男子親歷：如墜地獄！... (內容長度: 1269)
+2026-01-11 15:35:18 - news - INFO - 正在處理: https://info.51.ca/articles/1503292
+2026-01-11 15:35:21 - news - INFO - 保存新聞: 列治文非法網約車氾濫 警突擊抓人！單日罰單高達13,343元... (內容長度: 767)
+2026-01-11 15:35:22 - news - INFO - 正在處理: https://info.51.ca/articles/1503625
+2026-01-11 15:35:24 - news - INFO - 保存新聞: 突發！香港知名男星片場發飆趕走配角演員... (內容長度: 1132)
+2026-01-11 15:35:25 - news - INFO - 正在處理: https://info.51.ca/articles/1503624
+2026-01-11 15:35:27 - news - INFO - 保存新聞: 閆學晶終於發文致歉！網友批評毫不留情... (內容長度: 1395)
+2026-01-11 15:35:28 - news - INFO - 正在處理: https://info.51.ca/articles/1503619
+2026-01-11 15:35:31 - news - INFO - 保存新聞: 知名參雞湯變"雞屎湯" 餐廳沒道歉推諉供應商... (內容長度: 712)
+2026-01-11 15:35:32 - news - INFO - 正在處理: https://info.51.ca/articles/1503618
+2026-01-11 15:35:34 - news - INFO - 保存新聞: 美國籲公民撤離委內瑞拉 武裝民兵截車搜尋美公民... (內容長度: 374)
+2026-01-11 15:35:35 - news - INFO - 正在處理: https://info.51.ca/articles/1503616
+2026-01-11 15:35:38 - news - INFO - 保存新聞: 金喜善收到成龍來信叫出聲！回憶殺太驚豔... (內容長度: 450)
+2026-01-11 15:35:39 - news - INFO - 正在處理: https://info.51.ca/articles/1503615
+2026-01-11 15:35:42 - news - INFO - 保存新聞: 朱媛媛帶止痛泵拍遺作，零下5度淋雨戲拒用替身... (內容長度: 659)
+2026-01-11 15:35:43 - news - INFO - 正在處理: https://info.51.ca/articles/1503614
+2026-01-11 15:35:46 - news - INFO - 保存新聞: 閆學晶兒子被舉報涉高考移民，本人遼晚遭抵制... (內容長度: 1108)
+2026-01-11 15:35:47 - news - INFO - 正在處理: https://info.51.ca/articles/1503612
+2026-01-11 15:35:49 - news - INFO - 保存新聞: 69歲趙學煌去世！曾主演瓊瑤劇《鬼丈夫》《望夫崖》... (內容長度: 580)
+2026-01-11 15:35:50 - news - INFO - 正在處理: https://info.51.ca/articles/1503611
+2026-01-11 15:35:54 - news - INFO - 保存新聞: 內塔尼亞胡：望波斯民族能早日擺脫暴政枷鎖... (內容長度: 1314)
+2026-01-11 15:35:55 - news - INFO - 正在處理: https://info.51.ca/articles/1503610
+2026-01-11 15:35:58 - news - INFO - 保存新聞: 對抗中國 日本不應“隨風起舞”... (內容長度: 1748)
+2026-01-11 15:35:59 - news - INFO - 正在處理: https://info.51.ca/articles/1503608
+2026-01-11 15:36:02 - news - INFO - 保存新聞: 川普正在“溫水煮青蛙”... (內容長度: 2295)
+2026-01-11 15:36:03 - news - INFO - 正在處理: https://info.51.ca/articles/1503605
+2026-01-11 15:36:06 - news - INFO - 保存新聞: 英防相：捉拿普京，是首選... (內容長度: 760)
+2026-01-11 15:36:07 - news - INFO - 正在處理: https://info.51.ca/articles/1503604
+2026-01-11 15:36:10 - news - INFO - 保存新聞: 川普稱沒打過減肥針但可能會用 6年體重變化曝光... (內容長度: 694)
+2026-01-11 15:36:11 - news - INFO - 正在處理: https://info.51.ca/articles/1503602
+2026-01-11 15:36:15 - news - INFO - 保存新聞: 俄羅斯2次發射“榛樹”導彈打擊烏克蘭 聯合國緊急開會... (內容長度: 923)
+2026-01-11 15:36:16 - news - INFO - 瀏覽器已關閉
+2026-01-11 15:36:16 - news - INFO - ============================================================
+2026-01-11 15:36:16 - news - INFO - 爬蟲運行統計:
+2026-01-11 15:36:16 - news - INFO -   - 頁面爬取: 30
+2026-01-11 15:36:16 - news - INFO -   - 項目保存: 28
+2026-01-11 15:36:16 - news - INFO -   - 錯誤數量: 0
+2026-01-11 15:36:16 - news - INFO -   - 運行時間: 134.31 秒
+2026-01-11 15:36:16 - news - INFO - ============================================================
