@@ -1,6 +1,24 @@
-./.claude/
-*.skills
-/.claude/
-/skills
-skills
-.claude
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+.venv/
+
+# Database files
+*.db
+*.sqlite
+
+# Log files
+*.log
+logs/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
