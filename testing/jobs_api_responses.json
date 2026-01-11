@@ -1,0 +1,1161 @@
+[
+  {
+    "url": "https://www.51.ca/jobs/api/job-locations/menu",
+    "method": "GET",
+    "data_keys": [
+      "code",
+      "message",
+      "errors",
+      "pagination",
+      "extra",
+      "data"
+    ],
+    "data": {
+      "code": 0,
+      "message": "",
+      "errors": [],
+      "pagination": null,
+      "extra": [],
+      "data": [
+        {
+          "id": 1,
+          "title": "大多地区",
+          "children": [
+            {
+              "id": 10001,
+              "title": "多市中心",
+              "children": []
+            },
+            {
+              "id": 10003,
+              "title": "东约克",
+              "children": []
+            },
+            {
+              "id": 10005,
+              "title": "北约克",
+              "children": []
+            },
+            {
+              "id": 10006,
+              "title": "士嘉堡",
+              "children": []
+            },
+            {
+              "id": 10007,
+              "title": "怡陶碧谷",
+              "children": []
+            },
+            {
+              "id": 10008,
+              "title": "密西沙加",
+              "children": []
+            },
+            {
+              "id": 10009,
+              "title": "列治文山",
+              "children": []
+            },
+            {
+              "id": 10010,
+              "title": "万锦",
+              "children": []
+            },
+            {
+              "id": 10011,
+              "title": "康山",
+              "children": []
+            },
+            {
+              "id": 10012,
+              "title": "宾顿",
+              "children": []
+            },
+            {
+              "id": 10013,
+              "title": "旺市",
+              "children": []
+            },
+            {
+              "id": 10014,
+              "title": "皮克灵",
+              "children": []
+            },
+            {
+              "id": 10030,
+              "title": "新市",
+              "children": []
+            },
+            {
+              "id": 10031,
+              "title": "奥罗拉",
+              "children": []
+            },
+            {
+              "id": 10033,
+              "title": "奥克维尔",
+              "children": []
+            },
+            {
+              "id": 10034,
+              "title": "伯灵顿",
+              "children": []
+            },
+            {
+              "id": 10035,
+              "title": "弥敦",
+              "children": []
+            },
+            {
+              "id": 10036,
+              "title": "大多其他地区",
+              "children": []
+            },
+            {
+              "id": 10039,
+              "title": "艾加科斯",
+              "children": []
+            },
+            {
+              "id": 10040,
+              "title": "惠特比",
+              "children": []
+            },
+            {
+              "id": 10041,
+              "title": "奥沙华",
+              "children": []
+            },
+            {
+              "id": 10042,
+              "title": "史托维尔",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "大温地区",
+          "children": [
+            {
+              "id": 10015,
+              "title": "Vancouver",
+              "children": []
+            },
+            {
+              "id": 10016,
+              "title": "Burnaby",
+              "children": []
+            },
+            {
+              "id": 10017,
+              "title": "Richmond",
+              "children": []
+            },
+            {
+              "id": 10018,
+              "title": "West Vancouver",
+              "children": []
+            },
+            {
+              "id": 10019,
+              "title": "North Vancouver",
+              "children": []
+            },
+            {
+              "id": 10020,
+              "title": "Delta",
+              "children": []
+            },
+            {
+              "id": 10021,
+              "title": "Surrey",
+              "children": []
+            },
+            {
+              "id": 10022,
+              "title": "Port Coquitlam",
+              "children": []
+            },
+            {
+              "id": 10023,
+              "title": "Coquitlam",
+              "children": []
+            },
+            {
+              "id": 10024,
+              "title": "Port Moody",
+              "children": []
+            },
+            {
+              "id": 10025,
+              "title": "White Rock",
+              "children": []
+            },
+            {
+              "id": 10026,
+              "title": "Langley",
+              "children": []
+            },
+            {
+              "id": 10027,
+              "title": "Abbotsford",
+              "children": []
+            },
+            {
+              "id": 10028,
+              "title": "Maple Ridge",
+              "children": []
+            },
+            {
+              "id": 10037,
+              "title": "大温其他地区",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 10000,
+          "title": "其它地区",
+          "children": [
+            {
+              "id": 3,
+              "title": "渥太华",
+              "children": []
+            },
+            {
+              "id": 4,
+              "title": "卡加利",
+              "children": []
+            },
+            {
+              "id": 5,
+              "title": "蒙特利尔",
+              "children": []
+            },
+            {
+              "id": 6,
+              "title": "伦敦",
+              "children": []
+            },
+            {
+              "id": 7,
+              "title": "温沙",
+              "children": []
+            },
+            {
+              "id": 10029,
+              "title": "滑铁卢",
+              "children": []
+            },
+            {
+              "id": 10032,
+              "title": "哈密尔顿",
+              "children": []
+            },
+            {
+              "id": 10038,
+              "title": "加拿大其他地区",
+              "children": []
+            },
+            {
+              "id": 10043,
+              "title": "美国",
+              "children": []
+            },
+            {
+              "id": 10044,
+              "title": "维多利亚",
+              "children": []
+            },
+            {
+              "id": 10045,
+              "title": "巴里",
+              "children": []
+            },
+            {
+              "id": 10046,
+              "title": "尼亚加拉地区",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.51.ca/jobs/api/job-categories/menu",
+    "method": "GET",
+    "data_keys": [
+      "code",
+      "message",
+      "errors",
+      "pagination",
+      "extra",
+      "data"
+    ],
+    "data": {
+      "code": 0,
+      "message": "",
+      "errors": [],
+      "pagination": null,
+      "extra": [],
+      "data": [
+        {
+          "id": 1,
+          "title": "体力工作",
+          "children": [
+            {
+              "id": 22,
+              "title": "工厂工人",
+              "children": []
+            },
+            {
+              "id": 23,
+              "title": "店员招待",
+              "children": []
+            },
+            {
+              "id": 24,
+              "title": "司机搬运",
+              "children": []
+            },
+            {
+              "id": 26,
+              "title": "其他体力工",
+              "children": []
+            },
+            {
+              "id": 30,
+              "title": "装修杂工",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "办公文员",
+          "children": []
+        },
+        {
+          "id": 3,
+          "title": "销售相关",
+          "children": [
+            {
+              "id": 27,
+              "title": "店铺销售",
+              "children": []
+            },
+            {
+              "id": 28,
+              "title": "销售代理",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "专业技术",
+          "children": []
+        },
+        {
+          "id": 7,
+          "title": "义工/CO-OP",
+          "children": [
+            {
+              "id": 8,
+              "title": "技术类义工",
+              "children": []
+            },
+            {
+              "id": 9,
+              "title": "社服类义工",
+              "children": []
+            },
+            {
+              "id": 10,
+              "title": "其他类义工",
+              "children": []
+            },
+            {
+              "id": 16,
+              "title": "CO-OP 机会",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "教师培训",
+          "children": []
+        },
+        {
+          "id": 18,
+          "title": "家庭教育",
+          "children": [
+            {
+              "id": 19,
+              "title": "子女家教",
+              "children": []
+            },
+            {
+              "id": 20,
+              "title": "语言教育",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "title": "医护护理",
+          "children": []
+        },
+        {
+          "id": 6,
+          "title": "其他类别",
+          "children": []
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://ai.51.ca/console/api/system-features",
+    "method": "GET",
+    "data_keys": [
+      "sso_enforced_for_signin",
+      "sso_enforced_for_signin_protocol",
+      "enable_marketplace",
+      "max_plugin_package_size",
+      "enable_email_code_login",
+      "enable_email_password_login",
+      "enable_social_oauth_login",
+      "is_allow_register",
+      "is_allow_create_workspace",
+      "is_email_setup",
+      "license",
+      "branding",
+      "webapp_auth",
+      "plugin_installation_permission"
+    ],
+    "data": {
+      "sso_enforced_for_signin": false,
+      "sso_enforced_for_signin_protocol": "",
+      "enable_marketplace": true,
+      "max_plugin_package_size": 52428800,
+      "enable_email_code_login": false,
+      "enable_email_password_login": true,
+      "enable_social_oauth_login": false,
+      "is_allow_register": false,
+      "is_allow_create_workspace": false,
+      "is_email_setup": true,
+      "license": {
+        "status": "none",
+        "expired_at": "",
+        "workspaces": {
+          "enabled": false,
+          "size": 0,
+          "limit": 0
+        }
+      },
+      "branding": {
+        "enabled": false,
+        "application_title": "",
+        "login_page_logo": "",
+        "workspace_logo": "",
+        "favicon": ""
+      },
+      "webapp_auth": {
+        "enabled": false,
+        "allow_sso": false,
+        "sso_config": {
+          "protocol": ""
+        },
+        "allow_email_code_login": false,
+        "allow_email_password_login": false
+      },
+      "plugin_installation_permission": {
+        "plugin_installation_scope": "all",
+        "restrict_to_marketplace_only": false
+      }
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/webapp/access-mode?appCode=Y5UsmBv2FSx6d6Ga",
+    "method": "GET",
+    "data_keys": [
+      "accessMode"
+    ],
+    "data": {
+      "accessMode": "public"
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/passport?",
+    "method": "GET",
+    "data_keys": [
+      "access_token"
+    ],
+    "data": {
+      "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjMjg2ZTEwNi1hM2JiLTQ4NDUtYjJmYS01MGU1Y2JlMGY4NDgiLCJzdWIiOiJXZWIgQVBJIFBhc3Nwb3J0IiwiYXBwX2lkIjoiYzI4NmUxMDYtYTNiYi00ODQ1LWIyZmEtNTBlNWNiZTBmODQ4IiwiYXBwX2NvZGUiOiJZNVVzbUJ2MkZTeDZkNkdhIiwiZW5kX3VzZXJfaWQiOiI1NTFhMTc2Ny0zYzVlLTQ5MWYtYWZkYS0yZTE4NTFjMGUwN2UifQ.ahsllCBa_yWatiM4HPWau3UJ2AsZ9OtjutTzkTxFc1g"
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/parameters",
+    "method": "GET",
+    "data_keys": [
+      "opening_statement",
+      "suggested_questions",
+      "suggested_questions_after_answer",
+      "speech_to_text",
+      "text_to_speech",
+      "retriever_resource",
+      "annotation_reply",
+      "more_like_this",
+      "user_input_form",
+      "sensitive_word_avoidance",
+      "file_upload",
+      "system_parameters"
+    ],
+    "data": {
+      "opening_statement": "您好，亲爱的用户，我是加国无忧的AI智能客服，有关加国无忧产品的任何问题，您都可以向我提问，我会尽力为您解答~",
+      "suggested_questions": [],
+      "suggested_questions_after_answer": {
+        "enabled": false
+      },
+      "speech_to_text": {
+        "enabled": false
+      },
+      "text_to_speech": {
+        "autoPlay": "disabled",
+        "enabled": false,
+        "language": "",
+        "voice": ""
+      },
+      "retriever_resource": {
+        "enabled": false
+      },
+      "annotation_reply": {
+        "enabled": false
+      },
+      "more_like_this": {
+        "enabled": false
+      },
+      "user_input_form": [],
+      "sensitive_word_avoidance": {
+        "enabled": false
+      },
+      "file_upload": {
+        "image": {
+          "enabled": false,
+          "number_limits": 3,
+          "transfer_methods": [
+            "local_file",
+            "remote_url"
+          ]
+        },
+        "enabled": false,
+        "allowed_file_types": [
+          "image"
+        ],
+        "allowed_file_extensions": [
+          ".JPG",
+          ".JPEG",
+          ".PNG",
+          ".GIF",
+          ".WEBP",
+          ".SVG"
+        ],
+        "allowed_file_upload_methods": [
+          "local_file",
+          "remote_url"
+        ],
+        "number_limits": 3,
+        "fileUploadConfig": {
+          "file_size_limit": 15,
+          "batch_count_limit": 5,
+          "image_file_size_limit": 10,
+          "video_file_size_limit": 100,
+          "audio_file_size_limit": 50,
+          "workflow_file_upload_limit": 10
+        }
+      },
+      "system_parameters": {
+        "image_file_size_limit": 10,
+        "video_file_size_limit": 100,
+        "audio_file_size_limit": 50,
+        "file_size_limit": 15,
+        "workflow_file_upload_limit": 10
+      }
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/meta",
+    "method": "GET",
+    "data_keys": [
+      "tool_icons"
+    ],
+    "data": {
+      "tool_icons": {}
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/site",
+    "method": "GET",
+    "data_keys": [
+      "app_id",
+      "end_user_id",
+      "enable_site",
+      "site",
+      "model_config",
+      "plan",
+      "can_replace_logo",
+      "custom_config"
+    ],
+    "data": {
+      "app_id": "c286e106-a3bb-4845-b2fa-50e5cbe0f848",
+      "end_user_id": "551a1767-3c5e-491f-afda-2e1851c0e07e",
+      "enable_site": true,
+      "site": {
+        "title": "加国无忧AI客服助手",
+        "chat_color_theme": "#33cc66",
+        "chat_color_theme_inverted": false,
+        "icon_type": "image",
+        "icon": "9f6d70eb-92c6-4ea8-bd6c-9d2ec5a68faa",
+        "icon_background": "#FFEAD5",
+        "icon_url": "/files/9f6d70eb-92c6-4ea8-bd6c-9d2ec5a68faa/file-preview?timestamp=1768122284&nonce=5b732b2b1ff8c4be1c13c63f37df4b08&sign=1httMXbVbgsRMkr19rKxMQt5oLsDPvdROUllTrpzlAI=",
+        "description": null,
+        "copyright": "",
+        "privacy_policy": null,
+        "custom_disclaimer": "",
+        "default_language": "zh-Hans",
+        "prompt_public": false,
+        "show_workflow_steps": false,
+        "use_icon_as_answer_icon": true
+      },
+      "model_config": null,
+      "plan": "basic",
+      "can_replace_logo": false,
+      "custom_config": null
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/conversations?limit=100&pinned=true",
+    "method": "GET",
+    "data_keys": [
+      "limit",
+      "has_more",
+      "data"
+    ],
+    "data": {
+      "limit": 100,
+      "has_more": false,
+      "data": []
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/conversations?limit=100&pinned=false",
+    "method": "GET",
+    "data_keys": [
+      "limit",
+      "has_more",
+      "data"
+    ],
+    "data": {
+      "limit": 100,
+      "has_more": false,
+      "data": []
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/parameters",
+    "method": "GET",
+    "data_keys": [
+      "opening_statement",
+      "suggested_questions",
+      "suggested_questions_after_answer",
+      "speech_to_text",
+      "text_to_speech",
+      "retriever_resource",
+      "annotation_reply",
+      "more_like_this",
+      "user_input_form",
+      "sensitive_word_avoidance",
+      "file_upload",
+      "system_parameters"
+    ],
+    "data": {
+      "opening_statement": "您好，亲爱的用户，我是加国无忧的AI智能客服，有关加国无忧产品的任何问题，您都可以向我提问，我会尽力为您解答~",
+      "suggested_questions": [],
+      "suggested_questions_after_answer": {
+        "enabled": false
+      },
+      "speech_to_text": {
+        "enabled": false
+      },
+      "text_to_speech": {
+        "autoPlay": "disabled",
+        "enabled": false,
+        "language": "",
+        "voice": ""
+      },
+      "retriever_resource": {
+        "enabled": false
+      },
+      "annotation_reply": {
+        "enabled": false
+      },
+      "more_like_this": {
+        "enabled": false
+      },
+      "user_input_form": [],
+      "sensitive_word_avoidance": {
+        "enabled": false
+      },
+      "file_upload": {
+        "image": {
+          "enabled": false,
+          "number_limits": 3,
+          "transfer_methods": [
+            "local_file",
+            "remote_url"
+          ]
+        },
+        "enabled": false,
+        "allowed_file_types": [
+          "image"
+        ],
+        "allowed_file_extensions": [
+          ".JPG",
+          ".JPEG",
+          ".PNG",
+          ".GIF",
+          ".WEBP",
+          ".SVG"
+        ],
+        "allowed_file_upload_methods": [
+          "local_file",
+          "remote_url"
+        ],
+        "number_limits": 3,
+        "fileUploadConfig": {
+          "file_size_limit": 15,
+          "batch_count_limit": 5,
+          "image_file_size_limit": 10,
+          "video_file_size_limit": 100,
+          "audio_file_size_limit": 50,
+          "workflow_file_upload_limit": 10
+        }
+      },
+      "system_parameters": {
+        "image_file_size_limit": 10,
+        "video_file_size_limit": 100,
+        "audio_file_size_limit": 50,
+        "file_size_limit": 15,
+        "workflow_file_upload_limit": 10
+      }
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/meta",
+    "method": "GET",
+    "data_keys": [
+      "tool_icons"
+    ],
+    "data": {
+      "tool_icons": {}
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/conversations?limit=100&pinned=true",
+    "method": "GET",
+    "data_keys": [
+      "limit",
+      "has_more",
+      "data"
+    ],
+    "data": {
+      "limit": 100,
+      "has_more": false,
+      "data": []
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/conversations?limit=100&pinned=false",
+    "method": "GET",
+    "data_keys": [
+      "limit",
+      "has_more",
+      "data"
+    ],
+    "data": {
+      "limit": 100,
+      "has_more": false,
+      "data": []
+    }
+  },
+  {
+    "url": "https://ai.51.ca/console/api/system-features",
+    "method": "GET",
+    "data_keys": [
+      "sso_enforced_for_signin",
+      "sso_enforced_for_signin_protocol",
+      "enable_marketplace",
+      "max_plugin_package_size",
+      "enable_email_code_login",
+      "enable_email_password_login",
+      "enable_social_oauth_login",
+      "is_allow_register",
+      "is_allow_create_workspace",
+      "is_email_setup",
+      "license",
+      "branding",
+      "webapp_auth",
+      "plugin_installation_permission"
+    ],
+    "data": {
+      "sso_enforced_for_signin": false,
+      "sso_enforced_for_signin_protocol": "",
+      "enable_marketplace": true,
+      "max_plugin_package_size": 52428800,
+      "enable_email_code_login": false,
+      "enable_email_password_login": true,
+      "enable_social_oauth_login": false,
+      "is_allow_register": false,
+      "is_allow_create_workspace": false,
+      "is_email_setup": true,
+      "license": {
+        "status": "none",
+        "expired_at": "",
+        "workspaces": {
+          "enabled": false,
+          "size": 0,
+          "limit": 0
+        }
+      },
+      "branding": {
+        "enabled": false,
+        "application_title": "",
+        "login_page_logo": "",
+        "workspace_logo": "",
+        "favicon": ""
+      },
+      "webapp_auth": {
+        "enabled": false,
+        "allow_sso": false,
+        "sso_config": {
+          "protocol": ""
+        },
+        "allow_email_code_login": false,
+        "allow_email_password_login": false
+      },
+      "plugin_installation_permission": {
+        "plugin_installation_scope": "all",
+        "restrict_to_marketplace_only": false
+      }
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/webapp/access-mode?appCode=Y5UsmBv2FSx6d6Ga",
+    "method": "GET",
+    "data_keys": [
+      "accessMode"
+    ],
+    "data": {
+      "accessMode": "public"
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/site",
+    "method": "GET",
+    "data_keys": [
+      "app_id",
+      "end_user_id",
+      "enable_site",
+      "site",
+      "model_config",
+      "plan",
+      "can_replace_logo",
+      "custom_config"
+    ],
+    "data": {
+      "app_id": "c286e106-a3bb-4845-b2fa-50e5cbe0f848",
+      "end_user_id": "551a1767-3c5e-491f-afda-2e1851c0e07e",
+      "enable_site": true,
+      "site": {
+        "title": "加国无忧AI客服助手",
+        "chat_color_theme": "#33cc66",
+        "chat_color_theme_inverted": false,
+        "icon_type": "image",
+        "icon": "9f6d70eb-92c6-4ea8-bd6c-9d2ec5a68faa",
+        "icon_background": "#FFEAD5",
+        "icon_url": "/files/9f6d70eb-92c6-4ea8-bd6c-9d2ec5a68faa/file-preview?timestamp=1768122295&nonce=6a17607067ab2b0f76ef005c5c1e129d&sign=y7iQ1Gy08LWvVu4Y1OSiP__-1ECF19djKuYixuVo8Us=",
+        "description": null,
+        "copyright": "",
+        "privacy_policy": null,
+        "custom_disclaimer": "",
+        "default_language": "zh-Hans",
+        "prompt_public": false,
+        "show_workflow_steps": false,
+        "use_icon_as_answer_icon": true
+      },
+      "model_config": null,
+      "plan": "basic",
+      "can_replace_logo": false,
+      "custom_config": null
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/parameters",
+    "method": "GET",
+    "data_keys": [
+      "opening_statement",
+      "suggested_questions",
+      "suggested_questions_after_answer",
+      "speech_to_text",
+      "text_to_speech",
+      "retriever_resource",
+      "annotation_reply",
+      "more_like_this",
+      "user_input_form",
+      "sensitive_word_avoidance",
+      "file_upload",
+      "system_parameters"
+    ],
+    "data": {
+      "opening_statement": "您好，亲爱的用户，我是加国无忧的AI智能客服，有关加国无忧产品的任何问题，您都可以向我提问，我会尽力为您解答~",
+      "suggested_questions": [],
+      "suggested_questions_after_answer": {
+        "enabled": false
+      },
+      "speech_to_text": {
+        "enabled": false
+      },
+      "text_to_speech": {
+        "autoPlay": "disabled",
+        "enabled": false,
+        "language": "",
+        "voice": ""
+      },
+      "retriever_resource": {
+        "enabled": false
+      },
+      "annotation_reply": {
+        "enabled": false
+      },
+      "more_like_this": {
+        "enabled": false
+      },
+      "user_input_form": [],
+      "sensitive_word_avoidance": {
+        "enabled": false
+      },
+      "file_upload": {
+        "image": {
+          "enabled": false,
+          "number_limits": 3,
+          "transfer_methods": [
+            "local_file",
+            "remote_url"
+          ]
+        },
+        "enabled": false,
+        "allowed_file_types": [
+          "image"
+        ],
+        "allowed_file_extensions": [
+          ".JPG",
+          ".JPEG",
+          ".PNG",
+          ".GIF",
+          ".WEBP",
+          ".SVG"
+        ],
+        "allowed_file_upload_methods": [
+          "local_file",
+          "remote_url"
+        ],
+        "number_limits": 3,
+        "fileUploadConfig": {
+          "file_size_limit": 15,
+          "batch_count_limit": 5,
+          "image_file_size_limit": 10,
+          "video_file_size_limit": 100,
+          "audio_file_size_limit": 50,
+          "workflow_file_upload_limit": 10
+        }
+      },
+      "system_parameters": {
+        "image_file_size_limit": 10,
+        "video_file_size_limit": 100,
+        "audio_file_size_limit": 50,
+        "file_size_limit": 15,
+        "workflow_file_upload_limit": 10
+      }
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/meta",
+    "method": "GET",
+    "data_keys": [
+      "tool_icons"
+    ],
+    "data": {
+      "tool_icons": {}
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/conversations?limit=100&pinned=true",
+    "method": "GET",
+    "data_keys": [
+      "limit",
+      "has_more",
+      "data"
+    ],
+    "data": {
+      "limit": 100,
+      "has_more": false,
+      "data": []
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/conversations?limit=100&pinned=false",
+    "method": "GET",
+    "data_keys": [
+      "limit",
+      "has_more",
+      "data"
+    ],
+    "data": {
+      "limit": 100,
+      "has_more": false,
+      "data": []
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/parameters",
+    "method": "GET",
+    "data_keys": [
+      "opening_statement",
+      "suggested_questions",
+      "suggested_questions_after_answer",
+      "speech_to_text",
+      "text_to_speech",
+      "retriever_resource",
+      "annotation_reply",
+      "more_like_this",
+      "user_input_form",
+      "sensitive_word_avoidance",
+      "file_upload",
+      "system_parameters"
+    ],
+    "data": {
+      "opening_statement": "您好，亲爱的用户，我是加国无忧的AI智能客服，有关加国无忧产品的任何问题，您都可以向我提问，我会尽力为您解答~",
+      "suggested_questions": [],
+      "suggested_questions_after_answer": {
+        "enabled": false
+      },
+      "speech_to_text": {
+        "enabled": false
+      },
+      "text_to_speech": {
+        "autoPlay": "disabled",
+        "enabled": false,
+        "language": "",
+        "voice": ""
+      },
+      "retriever_resource": {
+        "enabled": false
+      },
+      "annotation_reply": {
+        "enabled": false
+      },
+      "more_like_this": {
+        "enabled": false
+      },
+      "user_input_form": [],
+      "sensitive_word_avoidance": {
+        "enabled": false
+      },
+      "file_upload": {
+        "image": {
+          "enabled": false,
+          "number_limits": 3,
+          "transfer_methods": [
+            "local_file",
+            "remote_url"
+          ]
+        },
+        "enabled": false,
+        "allowed_file_types": [
+          "image"
+        ],
+        "allowed_file_extensions": [
+          ".JPG",
+          ".JPEG",
+          ".PNG",
+          ".GIF",
+          ".WEBP",
+          ".SVG"
+        ],
+        "allowed_file_upload_methods": [
+          "local_file",
+          "remote_url"
+        ],
+        "number_limits": 3,
+        "fileUploadConfig": {
+          "file_size_limit": 15,
+          "batch_count_limit": 5,
+          "image_file_size_limit": 10,
+          "video_file_size_limit": 100,
+          "audio_file_size_limit": 50,
+          "workflow_file_upload_limit": 10
+        }
+      },
+      "system_parameters": {
+        "image_file_size_limit": 10,
+        "video_file_size_limit": 100,
+        "audio_file_size_limit": 50,
+        "file_size_limit": 15,
+        "workflow_file_upload_limit": 10
+      }
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/meta",
+    "method": "GET",
+    "data_keys": [
+      "tool_icons"
+    ],
+    "data": {
+      "tool_icons": {}
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/conversations?limit=100&pinned=true",
+    "method": "GET",
+    "data_keys": [
+      "limit",
+      "has_more",
+      "data"
+    ],
+    "data": {
+      "limit": 100,
+      "has_more": false,
+      "data": []
+    }
+  },
+  {
+    "url": "https://ai.51.ca/api/conversations?limit=100&pinned=false",
+    "method": "GET",
+    "data_keys": [
+      "limit",
+      "has_more",
+      "data"
+    ],
+    "data": {
+      "limit": 100,
+      "has_more": false,
+      "data": []
+    }
+  }
+]
