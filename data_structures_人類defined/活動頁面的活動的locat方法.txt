@@ -1,0 +1,110 @@
+🔎 你要抽嘅資料
+
+每個活動 li：
+
+ID → data-id
+
+標題 → <h3><a>…</a></h3>
+
+連結 → <a href>
+
+圖片 → <img src>
+
+時間 → <span class="time">
+
+地點 → <span class="location">
+
+類型 → event / promotion
+
+✅ CSS Selector（建議用）
+
+活動 item
+
+li.wg51__feeds-item.event
+
+
+推廣（廣告）
+
+li.wg51__feeds-item.stream-mixed-large
+
+👉 抽字段 selector
+
+ID
+
+li.wg51__feeds-item.event a[data-id]
+
+
+標題文字
+
+li.wg51__feeds-item.event h3 a
+
+
+活動連結
+
+li.wg51__feeds-item.event h3 a
+
+
+封面圖
+
+li.wg51__feeds-item.event img.cover-img
+
+
+時間
+
+li.wg51__feeds-item.event span.time
+
+
+地點
+
+li.wg51__feeds-item.event span.location
+
+🐍 Python 直接爬（BeautifulSoup）
+
+（你話要 code 我就俾，少解釋）
+
+from bs4 import BeautifulSoup
+
+soup = BeautifulSoup(html, "html.parser")
+
+events = []
+
+for li in soup.select("li.wg51__feeds-item.event"):
+    a = li.select_one("h3 a")
+
+    events.append({
+        "id": a["data-id"],
+        "title": a.get_text(strip=True),
+        "url": a["href"],
+        "image_url": li.select_one("img.cover-img")["src"],
+        "time": li.select_one("span.time").get_text(strip=True),
+        "location": li.select_one("span.location").get_text(strip=True),
+        "type": "event"
+    })
+
+🧭 你仲可以用 XPath（如果用 scrapy / lxml）
+//li[contains(@class,"wg51__feeds-item") and contains(@class,"event")]
+
+
+標題
+
+.//h3/a/text()
+
+
+時間
+
+.//span[@class="time"]/text()
+
+
+地點
+
+.//span[@class="location"]/text()
+
+⚠️ 小心位
+
+入面夾住 swiper 推廣卡，要 filter
+
+有啲 content 空嘅（<div class="content">）
+
+lazyload 圖可能用 data-src（留意）
+
+URL 有 tracking parameter，要唔要清理你自己決定

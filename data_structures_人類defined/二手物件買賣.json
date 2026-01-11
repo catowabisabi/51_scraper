@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "props": {
+      "type": "object",
+      "properties": {
+        "pageProps": {
+          "type": "object",
+          "properties": {
+            "user": { "type": ["object", "null"] },
+            "data": {
+              "type": "object",
+              "properties": {
+                "id": { "type": "integer" },
+                "title": { "type": "string" },
+                "description": { "type": "string" },
+                "formatPrice": { "type": "string" },
+                "negotiable": { "type": "boolean" },
+                "condition": { "type": "integer" },
+                "pickupMethods": {
+                  "type": "array",
+                  "items": { "type": "integer" }
+                },
+                "locationInfo": {
+                  "type": "object",
+                  "properties": {
+                    "id": { "type": "integer" },
+                    "titleZh": { "type": "string" },
+                    "titleEn": { "type": "string" }
+                  },
+                  "required": ["id", "titleZh", "titleEn"]
+                },
+                "categoryInfo": {
+                  "type": "object",
+                  "properties": {
+                    "id": { "type": "integer" },
+                    "titleCn": { "type": "string" },
+                    "titleEn": { "type": "string" },
+                    "slug": { "type": "string" },
+                    "icon": { "type": "string" }
+                  },
+                  "required": ["id", "titleCn", "slug"]
+                },
+                "encryptPhone": { "type": "string" },
+                "email": { "type": "string" },
+                "wechatNo": { "type": ["string", "null"] },
+                "wechatQrcode": { "type": ["string", "null"] },
+                "photos": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "publishedAt": { "type": "string" },
+                "favorite": { "type": "boolean" },
+                "user": {
+                  "type": "object",
+                  "properties": {
+                    "uid": { "type": "integer" },
+                    "name": { "type": "string" },
+                    "avatar": { "type": "string" },
+                    "merchant": { "type": ["object", "null"] }
+                  },
+                  "required": ["uid", "name"]
+                },
+                "videoHub": { "type": ["object", "null"] },
+                "favoriteCount": { "type": "integer" },
+                "discountPrice": { "type": "string" },
+                "discountBuyUrl": { "type": ["string", "null"] },
+                "source": { "type": "string" }
+              },
+              "required": ["id", "title", "description"]
+            }
+          },
+          "required": ["data"]
+        }
+      },
+      "required": ["pageProps"]
+    }
+  },
+  "required": ["props"]
+}

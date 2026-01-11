@@ -1,0 +1,109 @@
+🎯 要抽乜數據（呢頁實際有）
+
+標題
+
+發佈時間
+
+來源
+
+活動開始/結束時間
+
+地區
+
+聯絡人
+
+電話
+
+電郵
+
+地址
+
+內容 HTML
+
+內容圖片（lazyload）
+
+✅ CSS Selector（最直接）
+標題
+#article-main h1
+
+發佈時間
+#article-main .article-meta .source span:nth-of-type(1)
+
+來源
+#article-main .article-meta .source span:nth-of-type(2)
+
+活動時間（桌面版）
+.events-card dl:nth-of-type(1) dd
+
+開始時間（手機版）
+.events-card dt:contains("开始时间：") + dd
+
+結束時間（手機版）
+.events-card dt:contains("结束时间：") + dd
+
+地區
+.events-card dt:contains("所在地区：") + dd
+
+聯絡人
+.events-card dt:contains("联系人：") + dd
+
+電話
+.events-card a.phone
+
+電郵（cloudflare 受保護）
+.events-card a.email span.__cf_email__
+
+
+👉 要 decode（我可以幫你寫 decode function）
+
+地址
+.events-card dt:contains("相关地址：") + dd
+
+正文 HTML
+#arcbody
+
+正文圖片（真正圖片在 data-src）
+#arcbody img.detail-lazy-image
+
+
+取：
+
+data-src
+
+或 data-srcset
+
+🧭 XPath（如果你用 scrapy）
+標題
+//div[@id="article-main"]//h1/text()
+
+發佈時間
+//div[@class="article-meta"]//span[1]/text()
+
+來源
+//div[@class="article-meta"]//span[2]/text()
+
+地址例子（dt+dd pair）
+//dt[contains(.,"相关地址")]/following-sibling::dd[1]/text()
+
+
+👉 用同一招可以取所有 dt + dd
+
+🐍 Python BeautifulSoup（可直接用）
+from bs4 import BeautifulSoup
+
+soup = BeautifulSoup(html, "html.parser")
+card = soup.select_one(".events-card")
+
+data = {
+    "title": soup.select_one("#article-main h1").get_text(strip=True),
+    "published_at": soup.select_one(".article-meta .source span:nth-of-type(1)").get_text(strip=True),
+    "source": soup.select_one(".article-meta .source span:nth-of-type(2)").get_text(strip=True),
+    "time": card.select_one("dt:contains('活動時間') + dd").get_text(strip=True) if card else None,
+    "region": card.select_one("dt:contains('所在地区') + dd").get_text(strip=True),
+    "contact": card.select_one("dt:contains('联系人') + dd").get_text(strip=True),
+    "phone": card.select_one("a.phone").get_text(strip=True),
+    "email_cf": card.select_one("span.__cf_email__")["data-cfemail"],
+    "address": card.select_one("dt:contains('相关地址') + dd").get_text(strip=True),
+    "content_html": str(soup.select_one("#arcbody")),
+    "images": [img["data-src"] for img in soup.select("#arcbody img.detail-lazy-image")]
+}
