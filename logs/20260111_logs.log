@@ -1081,3 +1081,131 @@
 2026-01-11 03:40:24 - market_playwright - INFO - 滾動 #17: 已收集 320 項
 2026-01-11 03:40:24 - market_playwright - INFO - 共收集 320 個商品
 2026-01-11 03:40:27 - market_playwright - INFO - 爬取完成: 保存 320, 錯誤 0
+2026-01-11 03:40:34 - market_playwright - INFO - 開始爬取分類: all, 最大數量: 1000
+2026-01-11 03:40:35 - market_playwright - INFO - 訪問頁面: https://www.51.ca/market/all
+2026-01-11 03:40:41 - market_playwright - INFO - 初始頁面: 34 個商品
+2026-01-11 03:40:43 - market_playwright - INFO - 滾動 #1: 已收集 34 項
+2026-01-11 03:40:45 - market_playwright - DEBUG - 攔截到 14 個新商品 (總計: 48)
+2026-01-11 03:40:45 - market_playwright - DEBUG - 攔截到 13 個新商品 (總計: 61)
+2026-01-11 03:40:46 - market_playwright - INFO - 滾動 #2: 已收集 61 項
+2026-01-11 03:40:48 - market_playwright - INFO - 滾動 #3: 已收集 61 項
+2026-01-11 03:40:50 - market_playwright - DEBUG - 攔截到 15 個新商品 (總計: 76)
+2026-01-11 03:40:50 - market_playwright - DEBUG - 攔截到 16 個新商品 (總計: 92)
+2026-01-11 03:40:51 - market_playwright - INFO - 滾動 #4: 已收集 92 項
+2026-01-11 03:40:53 - market_playwright - INFO - 滾動 #5: 已收集 92 項
+2026-01-11 03:40:55 - market_playwright - DEBUG - 攔截到 11 個新商品 (總計: 103)
+2026-01-11 03:40:55 - market_playwright - DEBUG - 攔截到 20 個新商品 (總計: 123)
+2026-01-11 03:40:55 - market_playwright - INFO - 滾動 #6: 已收集 123 項
+2026-01-11 03:40:57 - market_playwright - INFO - 滾動 #7: 已收集 123 項
+2026-01-11 03:41:00 - market_playwright - DEBUG - 攔截到 19 個新商品 (總計: 142)
+2026-01-11 03:41:00 - market_playwright - DEBUG - 攔截到 14 個新商品 (總計: 156)
+2026-01-11 03:41:00 - market_playwright - INFO - 滾動 #8: 已收集 156 項
+2026-01-11 03:41:02 - market_playwright - INFO - 滾動 #9: 已收集 156 項
+2026-01-11 03:41:04 - market_playwright - DEBUG - 攔截到 20 個新商品 (總計: 176)
+2026-01-11 03:41:04 - market_playwright - DEBUG - 攔截到 20 個新商品 (總計: 196)
+2026-01-11 03:41:05 - market_playwright - INFO - 滾動 #10: 已收集 196 項
+2026-01-11 03:41:07 - market_playwright - INFO - 滾動 #11: 已收集 196 項
+2026-01-11 03:41:09 - market_playwright - DEBUG - 攔截到 12 個新商品 (總計: 208)
+2026-01-11 03:41:09 - market_playwright - DEBUG - 攔截到 24 個新商品 (總計: 232)
+2026-01-11 03:41:09 - market_playwright - DEBUG - 攔截到 23 個新商品 (總計: 255)
+2026-01-11 03:41:10 - market_playwright - INFO - 滾動 #12: 已收集 255 項
+2026-01-11 03:41:12 - market_playwright - INFO - 滾動 #13: 已收集 255 項
+2026-01-11 03:41:14 - market_playwright - DEBUG - 攔截到 18 個新商品 (總計: 273)
+2026-01-11 03:41:14 - market_playwright - DEBUG - 攔截到 18 個新商品 (總計: 291)
+2026-01-11 03:41:15 - market_playwright - INFO - 滾動 #14: 已收集 291 項
+2026-01-11 03:41:17 - market_playwright - INFO - 滾動 #15: 已收集 291 項
+2026-01-11 03:41:19 - market_playwright - DEBUG - 攔截到 13 個新商品 (總計: 304)
+2026-01-11 03:41:19 - market_playwright - DEBUG - 攔截到 16 個新商品 (總計: 320)
+2026-01-11 03:41:20 - market_playwright - INFO - 滾動 #16: 已收集 320 項
+2026-01-11 03:41:22 - market_playwright - INFO - 滾動 #17: 已收集 320 項
+2026-01-11 03:41:24 - market_playwright - DEBUG - 攔截到 22 個新商品 (總計: 342)
+2026-01-11 03:41:24 - market_playwright - DEBUG - 攔截到 15 個新商品 (總計: 357)
+2026-01-11 03:41:24 - market_playwright - INFO - 滾動 #18: 已收集 357 項
+2026-01-11 03:41:27 - market_playwright - INFO - 滾動 #19: 已收集 357 項
+2026-01-11 03:41:29 - market_playwright - DEBUG - 攔截到 19 個新商品 (總計: 376)
+2026-01-11 03:41:29 - market_playwright - DEBUG - 攔截到 20 個新商品 (總計: 396)
+2026-01-11 03:41:30 - market_playwright - INFO - 滾動 #20: 已收集 396 項
+2026-01-11 03:41:32 - market_playwright - INFO - 滾動 #21: 已收集 396 項
+2026-01-11 03:41:34 - market_playwright - DEBUG - 攔截到 16 個新商品 (總計: 412)
+2026-01-11 03:41:34 - market_playwright - DEBUG - 攔截到 15 個新商品 (總計: 427)
+2026-01-11 03:41:34 - market_playwright - INFO - 滾動 #22: 已收集 427 項
+2026-01-11 03:41:36 - market_playwright - INFO - 滾動 #23: 已收集 427 項
+2026-01-11 03:41:39 - market_playwright - DEBUG - 攔截到 15 個新商品 (總計: 442)
+2026-01-11 03:41:39 - market_playwright - DEBUG - 攔截到 24 個新商品 (總計: 466)
+2026-01-11 03:41:41 - market_playwright - INFO - 滾動 #24: 已收集 466 項
+2026-01-11 03:41:43 - market_playwright - INFO - 滾動 #25: 已收集 466 項
+2026-01-11 03:41:45 - market_playwright - DEBUG - 攔截到 20 個新商品 (總計: 486)
+2026-01-11 03:41:45 - market_playwright - DEBUG - 攔截到 13 個新商品 (總計: 499)
+2026-01-11 03:41:46 - market_playwright - INFO - 滾動 #26: 已收集 499 項
+2026-01-11 03:41:48 - market_playwright - INFO - 滾動 #27: 已收集 499 項
+2026-01-11 03:41:50 - market_playwright - DEBUG - 攔截到 15 個新商品 (總計: 514)
+2026-01-11 03:41:50 - market_playwright - DEBUG - 攔截到 9 個新商品 (總計: 523)
+2026-01-11 03:41:51 - market_playwright - INFO - 滾動 #28: 已收集 523 項
+2026-01-11 03:41:53 - market_playwright - INFO - 滾動 #29: 已收集 523 項
+2026-01-11 03:41:55 - market_playwright - DEBUG - 攔截到 15 個新商品 (總計: 538)
+2026-01-11 03:41:55 - market_playwright - DEBUG - 攔截到 10 個新商品 (總計: 548)
+2026-01-11 03:41:55 - market_playwright - INFO - 滾動 #30: 已收集 548 項
+2026-01-11 03:41:57 - market_playwright - INFO - 滾動 #31: 已收集 548 項
+2026-01-11 03:41:59 - market_playwright - DEBUG - 攔截到 14 個新商品 (總計: 562)
+2026-01-11 03:42:00 - market_playwright - DEBUG - 攔截到 18 個新商品 (總計: 580)
+2026-01-11 03:42:00 - market_playwright - INFO - 滾動 #32: 已收集 580 項
+2026-01-11 03:42:02 - market_playwright - INFO - 滾動 #33: 已收集 580 項
+2026-01-11 03:42:04 - market_playwright - DEBUG - 攔截到 18 個新商品 (總計: 598)
+2026-01-11 03:42:05 - market_playwright - DEBUG - 攔截到 12 個新商品 (總計: 610)
+2026-01-11 03:42:06 - market_playwright - INFO - 滾動 #34: 已收集 610 項
+2026-01-11 03:42:08 - market_playwright - INFO - 滾動 #35: 已收集 610 項
+2026-01-11 03:42:10 - market_playwright - INFO - 滾動 #36: 已收集 610 項
+2026-01-11 03:42:10 - market_playwright - DEBUG - 攔截到 18 個新商品 (總計: 628)
+2026-01-11 03:42:12 - market_playwright - DEBUG - 攔截到 8 個新商品 (總計: 636)
+2026-01-11 03:42:12 - market_playwright - DEBUG - 攔截到 21 個新商品 (總計: 657)
+2026-01-11 03:42:14 - market_playwright - INFO - 滾動 #37: 已收集 657 項
+2026-01-11 03:42:16 - market_playwright - INFO - 滾動 #38: 已收集 657 項
+2026-01-11 03:42:18 - market_playwright - DEBUG - 攔截到 21 個新商品 (總計: 678)
+2026-01-11 03:42:18 - market_playwright - DEBUG - 攔截到 22 個新商品 (總計: 700)
+2026-01-11 03:42:19 - market_playwright - INFO - 滾動 #39: 已收集 700 項
+2026-01-11 03:42:21 - market_playwright - INFO - 滾動 #40: 已收集 700 項
+2026-01-11 03:42:24 - market_playwright - DEBUG - 攔截到 18 個新商品 (總計: 718)
+2026-01-11 03:42:24 - market_playwright - DEBUG - 攔截到 18 個新商品 (總計: 736)
+2026-01-11 03:42:25 - market_playwright - INFO - 滾動 #41: 已收集 736 項
+2026-01-11 03:42:27 - market_playwright - INFO - 滾動 #42: 已收集 736 項
+2026-01-11 03:42:30 - market_playwright - INFO - 滾動 #43: 已收集 736 項
+2026-01-11 03:42:30 - market_playwright - DEBUG - 攔截到 17 個新商品 (總計: 753)
+2026-01-11 03:42:32 - market_playwright - DEBUG - 攔截到 19 個新商品 (總計: 772)
+2026-01-11 03:42:32 - market_playwright - INFO - 滾動 #44: 已收集 772 項
+2026-01-11 03:42:34 - market_playwright - DEBUG - 攔截到 12 個新商品 (總計: 784)
+2026-01-11 03:42:35 - market_playwright - INFO - 滾動 #45: 已收集 784 項
+2026-01-11 03:42:37 - market_playwright - INFO - 滾動 #46: 已收集 784 項
+2026-01-11 03:42:39 - market_playwright - INFO - 滾動 #47: 已收集 784 項
+2026-01-11 03:42:39 - market_playwright - DEBUG - 攔截到 10 個新商品 (總計: 794)
+2026-01-11 03:42:41 - market_playwright - INFO - 滾動 #48: 已收集 794 項
+2026-01-11 03:42:41 - market_playwright - DEBUG - 攔截到 21 個新商品 (總計: 815)
+2026-01-11 03:42:44 - market_playwright - INFO - 滾動 #49: 已收集 815 項
+2026-01-11 03:42:44 - market_playwright - DEBUG - 攔截到 20 個新商品 (總計: 835)
+2026-01-11 03:42:46 - market_playwright - INFO - 滾動 #50: 已收集 835 項
+2026-01-11 03:42:46 - market_playwright - INFO - 達到最大滾動次數
+2026-01-11 03:42:46 - market_playwright - INFO - 共收集 835 個商品
+2026-01-11 03:42:46 - market_playwright - DEBUG - 攔截到 22 個新商品 (總計: 857)
+2026-01-11 03:45:36 - market_playwright - INFO - 開始爬取分類: all, 最大數量: 2000
+2026-01-11 03:45:38 - market_playwright - INFO - 訪問頁面: https://www.51.ca/market/all
+2026-01-11 03:45:43 - market_playwright - INFO - 初始頁面: 34 個商品
+2026-01-11 03:45:45 - market_playwright - INFO - 滾動 #1: 已收集 34 項
+2026-01-11 03:45:47 - market_playwright - DEBUG - 攔截到 14 個新商品 (總計: 48)
+2026-01-11 03:45:48 - market_playwright - DEBUG - 攔截到 13 個新商品 (總計: 61)
+2026-01-11 03:45:48 - market_playwright - INFO - 滾動 #2: 已收集 61 項
+2026-01-11 03:45:50 - market_playwright - INFO - 滾動 #3: 已收集 61 項
+2026-01-11 03:45:52 - market_playwright - DEBUG - 攔截到 15 個新商品 (總計: 76)
+2026-01-11 03:45:52 - market_playwright - DEBUG - 攔截到 16 個新商品 (總計: 92)
+2026-01-11 03:45:53 - market_playwright - INFO - 滾動 #4: 已收集 92 項
+2026-01-11 03:45:55 - market_playwright - INFO - 滾動 #5: 已收集 92 項
+2026-01-11 03:45:57 - market_playwright - DEBUG - 攔截到 11 個新商品 (總計: 103)
+2026-01-11 03:45:57 - market_playwright - DEBUG - 攔截到 20 個新商品 (總計: 123)
+2026-01-11 03:45:58 - market_playwright - INFO - 滾動 #6: 已收集 123 項
+2026-01-11 03:46:00 - market_playwright - INFO - 滾動 #7: 已收集 123 項
+2026-01-11 03:46:02 - market_playwright - DEBUG - 攔截到 19 個新商品 (總計: 142)
+2026-01-11 03:46:02 - market_playwright - DEBUG - 攔截到 14 個新商品 (總計: 156)
+2026-01-11 03:46:03 - market_playwright - INFO - 滾動 #8: 已收集 156 項
+2026-01-11 03:53:30 - market_playwright - INFO - 開始爬取分類: all, 最大數量: 10
+2026-01-11 03:53:41 - market_playwright - INFO - 開始爬取分類: all, 最大數量: 10
+2026-01-11 03:53:43 - market_playwright - INFO - 訪問頁面: https://www.51.ca/market/all
+2026-01-11 03:55:24 - market_playwright - INFO - 開始爬取分類: all, 最大數量: 10
+2026-01-11 03:55:26 - market_playwright - INFO - 訪問頁面: https://www.51.ca/market/all

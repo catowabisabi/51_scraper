@@ -92,10 +92,17 @@ class MarketScraperPlaywright(BaseScraper):
     
     def _close_browser(self):
         """關閉瀏覽器"""
-        if self._browser:
-            self._browser.close()
-        if self._playwright:
-            self._playwright.stop()
+        try:
+            if self._browser:
+                self._browser.close()
+        except Exception as e:
+            self.logger.debug(f"關閉瀏覽器時發生錯誤 (可忽略): {e}")
+        
+        try:
+            if self._playwright:
+                self._playwright.stop()
+        except Exception as e:
+            self.logger.debug(f"停止 Playwright 時發生錯誤 (可忽略): {e}")
     
     def _extract_items_from_page(self) -> List[Dict]:
         """從當前頁面提取 __NEXT_DATA__ 中的商品數據"""
@@ -161,15 +168,15 @@ class MarketScraperPlaywright(BaseScraper):
                 no_new_items_count = 0
                 last_count = len(self._all_items)
             
-            # 額外安全檢查 - 最多滾動50次
-            if scroll_count >= 50:
+            # 額外安全檢查 - 最多滾動200次 (約 200*24 = 4800 個商品)
+            if scroll_count >= 200:
                 self.logger.info("達到最大滾動次數")
                 break
         
         return self._all_items
     
     def _fetch_detail(self, category_slug: str, item_id: int) -> Optional[Dict]:
-        """獲取商品詳情"""
+        """獲取商品詳情（包含解密電話）"""
         try:
             build_id = self._build_id
             if not build_id:
@@ -185,14 +192,59 @@ class MarketScraperPlaywright(BaseScraper):
             if not build_id:
                 return None
             
+            # 先通過 API 獲取基本詳情
             url = f"{self.BASE_URL}/_next/data/{build_id}/{category_slug}/{item_id}.json"
             response = self._page.request.get(url)
             
-            if response.status == 200:
-                data = response.json()
-                return data.get('pageProps', {}).get('data', {})
+            if response.status != 200:
+                return None
+            
+            data = response.json()
+            detail = data.get('pageProps', {}).get('data', {})
+            
+            if not detail:
+                return None
+            
+            # 嘗試獲取解密電話
+            decrypted_phone = self._get_decrypted_phone(category_slug, item_id)
+            if decrypted_phone:
+                detail['decrypted_phone'] = decrypted_phone
+            
+            return detail
         except Exception as e:
             self.logger.error(f"獲取詳情失敗 {item_id}: {e}")
+        return None
+    
+    def _get_decrypted_phone(self, category_slug: str, item_id: int) -> Optional[str]:
+        """訪問詳情頁並點擊獲取解密電話"""
+        try:
+            detail_url = f"{self.BASE_URL}/{category_slug}/{item_id}"
+            self._page.goto(detail_url, wait_until='networkidle', timeout=15000)
+            time.sleep(1)
+            
+            # 找到"查看电话"按钮并点击
+            phone_btn = self._page.locator('button:has-text("查看电话")')
+            if phone_btn.count() > 0:
+                phone_btn.click()
+                time.sleep(0.5)
+                
+                # 点击"知道了"确认弹窗
+                confirm_btn = self._page.locator('button:has-text("知道了")')
+                if confirm_btn.count() > 0:
+                    confirm_btn.click()
+                    time.sleep(0.5)
+                
+                # 從按鈕文本提取電話號碼
+                phone_btn = self._page.locator('button.telPopover')
+                if phone_btn.count() > 0:
+                    btn_text = phone_btn.inner_text()
+                    # 匹配北美電話格式
+                    import re
+                    phone_match = re.search(r'\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}', btn_text)
+                    if phone_match:
+                        return phone_match.group().strip()
+        except Exception as e:
+            self.logger.debug(f"獲取解密電話失敗 {item_id}: {e}")
         return None
     
     def run(self, category: str = 'all', max_items: int = 500, 
@@ -326,7 +378,8 @@ class MarketScraperPlaywright(BaseScraper):
             'location_zh': location_zh,
             'location_en': location_en,
             'pickup_methods': json.dumps(pickup_methods) if pickup_methods else None,
-            'contact_phone': product.get('encryptPhone', ''),
+            # 優先使用解密的電話，否則使用加密的
+            'contact_phone': product.get('decrypted_phone') or product.get('encryptPhone', ''),
             'email': product.get('email', ''),
             'wechat_no': product.get('wechatNo', ''),
             'wechat_qrcode': product.get('wechatQrcode', ''),
