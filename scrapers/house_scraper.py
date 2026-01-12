@@ -16,8 +16,17 @@ from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 
-from .base import BaseScraper
-from .models import get_connection
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+# Handle both direct execution and package import
+try:
+    from .base import BaseScraper
+    from .models import get_connection
+except ImportError:
+    from base import BaseScraper
+    from models import get_connection
 
 
 class HouseScraper(BaseScraper):
@@ -100,7 +109,10 @@ class HouseScraper(BaseScraper):
         self.logger.info("=" * 60)
         
         # 初始化數據庫
-        from .models import init_database
+        try:
+            from .models import init_database
+        except ImportError:
+            from models import init_database
         init_database()
         
         start_time = datetime.now()
@@ -443,16 +455,229 @@ class HouseScraper(BaseScraper):
         }
     
     def is_list_page(self, url: str) -> bool:
-        """判斷是否為列表頁面 - 保留備用"""
-        return True
+        """判斷是否為列表頁面"""
+        # 列表頁面通常不包含數字ID
+        parts = url.rstrip('/').split('/')
+        last_part = parts[-1].split('?')[0]
+        return not last_part.isdigit()
     
     def parse_list_page(self, html: str, url: str) -> List[Dict]:
-        """解析房屋列表頁面 - 不再使用，改用 API"""
-        return []
+        """解析房屋列表頁面，提取詳情頁面URL"""
+        soup = BeautifulSoup(html, 'lxml')
+        items = []
+        
+        # 查找租房鏈接
+        for a in soup.find_all('a', href=True):
+            href = a['href']
+            if '/rental/ontario/' in href:
+                parts = href.split('/')
+                if parts and parts[-1].split('?')[0].isdigit():
+                    clean_url = href.split('?')[0]
+                    if not clean_url.startswith('http'):
+                        clean_url = f"https://house.51.ca{clean_url}"
+                    items.append({'url': clean_url})
+        
+        return items
     
     def parse_detail_page(self, html: str, url: str) -> Optional[Dict]:
-        """解析房屋詳情頁面 - 保留備用"""
-        return None
+        """解析租房詳情頁面 (用戶發布的房源)"""
+        soup = BeautifulSoup(html, 'lxml')
+        data = {'url': url}
+        
+        # 從 URL 提取 ID
+        parts = url.rstrip('/').split('/')
+        listing_id = parts[-1].split('?')[0] if parts else None
+        if listing_id:
+            data['listing_id'] = listing_id
+        
+        # 從 meta 標籤提取價格
+        price_meta = soup.find('meta', {'name': 'price'})
+        if price_meta and price_meta.get('content'):
+            price_text = price_meta['content']
+            price_match = re.search(r'\$?([\d,]+)', price_text)
+            if price_match:
+                data['price'] = float(price_match.group(1).replace(',', ''))
+            data['price_unit'] = '月' if '/月' in price_text else '總價'
+        
+        # 標題
+        title_elem = soup.find('h2', class_='rental-title')
+        if title_elem:
+            data['title'] = title_elem.get_text(strip=True)
+        else:
+            title_meta = soup.find('meta', {'name': 'title'})
+            if title_meta:
+                data['title'] = title_meta.get('content', '')
+        
+        # 地址/位置
+        address_elem = soup.find('address')
+        if address_elem:
+            data['address'] = address_elem.get_text(strip=True).replace('查看地图', '').strip()
+        
+        # 從 URL 提取城市
+        if '/toronto/' in url:
+            data['city'] = 'Toronto'
+        elif '/mississauga/' in url:
+            data['city'] = 'Mississauga'
+        elif '/markham/' in url:
+            data['city'] = 'Markham'
+        elif '/vaughan/' in url:
+            data['city'] = 'Vaughan'
+        elif '/richmond-hill/' in url:
+            data['city'] = 'Richmond Hill'
+        elif '/brampton/' in url:
+            data['city'] = 'Brampton'
+        else:
+            # 從 URL 提取
+            url_parts = url.split('/ontario/')
+            if len(url_parts) > 1:
+                city_part = url_parts[1].split('/')[0]
+                data['city'] = city_part.replace('-', ' ').title()
+        
+        data['province'] = 'Ontario'
+        data['listing_type'] = '出租'
+        
+        # 基本信息
+        basic_info = soup.find('div', class_='basic-information')
+        if basic_info:
+            for li in basic_info.find_all('li'):
+                text = li.get_text(strip=True)
+                if '物业类型' in text or '物業類型' in text:
+                    data['property_type'] = text.split('：')[-1].strip()
+                elif '房间情况' in text or '房間情況' in text:
+                    rooms = text.split('：')[-1].strip()
+                    data['bedrooms'] = rooms
+                elif '车位' in text or '車位' in text:
+                    data['parking'] = text.split('：')[-1].strip()
+                elif '使用面积' in text or '使用面積' in text:
+                    sqft = text.split('：')[-1].strip()
+                    if sqft != '未提供':
+                        data['sqft'] = sqft
+        
+        # 房源特色
+        features = []
+        facilities = soup.find('div', class_='facilities-information')
+        if facilities:
+            for li in facilities.find_all('li'):
+                feature = li.get_text(strip=True)
+                if feature:
+                    features.append(feature)
+        if features:
+            data['features'] = json.dumps(features, ensure_ascii=False)
+        
+        # 詳細介紹
+        intro = soup.find('div', class_='rental-introduction')
+        if intro:
+            data['description'] = intro.get_text(strip=True)
+        
+        # 聯繫人信息
+        contact_dl = soup.find('dl', class_='statement-contact')
+        if contact_dl:
+            dts = contact_dl.find_all('dt')
+            dds = contact_dl.find_all('dd')
+            for dt, dd in zip(dts, dds):
+                label = dt.get_text(strip=True)
+                value = dd.get_text(strip=True)
+                if '联系人' in label or '聯繫人' in label:
+                    data['agent_name'] = value
+                elif '电子邮件' in label or '電子郵件' in label:
+                    if value != '未提供':
+                        data['agent_phone'] = value  # 這裡用 agent_phone 存 email
+        
+        # 圖片
+        images = []
+        for img in soup.find_all('img'):
+            src = img.get('src') or img.get('data-src', '')
+            if 'rental-photos' in src or 's3.51img.ca' in src:
+                if not src.startswith('http'):
+                    src = f"https:{src}" if src.startswith('//') else src
+                images.append(src)
+        if images:
+            data['image_urls'] = json.dumps(list(set(images)), ensure_ascii=False)
+        
+        return data if data.get('listing_id') else None
+    
+    def run_html(self, max_pages: int = 100):
+        """
+        運行 HTML 爬蟲模式 - 處理 URL 隊列中的房源
+        """
+        from datetime import datetime
+        import time
+        
+        self.logger.info("=" * 60)
+        self.logger.info(f"開始運行 {self.SCRAPER_NAME} 爬蟲 (HTML 模式)")
+        self.logger.info("=" * 60)
+        
+        # 初始化數據庫
+        try:
+            from .models import init_database, get_unvisited_urls, mark_url_visited, add_url_to_queue
+        except ImportError:
+            from models import init_database, get_unvisited_urls, mark_url_visited, add_url_to_queue
+        init_database()
+        
+        start_time = datetime.now()
+        saved = 0
+        errors = 0
+        processed = 0
+        
+        while processed < max_pages:
+            # 獲取未訪問的 URL
+            unvisited = get_unvisited_urls(self.URL_TYPE, limit=10)
+            if not unvisited:
+                self.logger.info("沒有更多未訪問的 URL")
+                break
+            
+            for url in unvisited:
+                if processed >= max_pages:
+                    break
+                
+                self.logger.info(f"處理: {url}")
+                html = self.fetch_page(url)
+                
+                if not html:
+                    mark_url_visited(url, error="Failed to fetch")
+                    errors += 1
+                    processed += 1
+                    continue
+                
+                try:
+                    if self.is_list_page(url):
+                        # 列表頁面 - 提取更多 URL
+                        items = self.parse_list_page(html, url)
+                        for item in items:
+                            if 'url' in item:
+                                add_url_to_queue(item['url'], self.URL_TYPE, source_url=url, priority=5)
+                        self.logger.info(f"  發現 {len(items)} 個房源 URL")
+                    else:
+                        # 詳情頁面 - 解析並保存
+                        data = self.parse_detail_page(html, url)
+                        if data:
+                            if self.save_item(data):
+                                saved += 1
+                                self.logger.info(f"  保存: {data.get('title', 'N/A')[:30]}")
+                            else:
+                                errors += 1
+                        else:
+                            self.logger.warning(f"  無法解析頁面")
+                    
+                    mark_url_visited(url)
+                    
+                except Exception as e:
+                    self.logger.error(f"  錯誤: {e}")
+                    mark_url_visited(url, error=str(e))
+                    errors += 1
+                
+                processed += 1
+                time.sleep(0.5)  # 避免請求過快
+        
+        elapsed = (datetime.now() - start_time).total_seconds()
+        
+        self.logger.info("=" * 60)
+        self.logger.info("爬蟲運行統計:")
+        self.logger.info(f"  - 頁面處理: {processed}")
+        self.logger.info(f"  - 項目保存: {saved}")
+        self.logger.info(f"  - 錯誤數量: {errors}")
+        self.logger.info(f"  - 運行時間: {elapsed:.2f} 秒")
+        self.logger.info("=" * 60)
     
     def save_item(self, data: Dict) -> bool:
         """保存房屋到資料庫"""
@@ -522,7 +747,10 @@ class HouseScraper(BaseScraper):
         self.logger.info(f"開始更新房屋詳情 (最多 {limit} 條)")
         self.logger.info("=" * 60)
         
-        from .models import init_database
+        try:
+            from .models import init_database
+        except ImportError:
+            from models import init_database
         init_database()
         
         conn = get_connection()
@@ -589,14 +817,29 @@ if __name__ == "__main__":
     # 檢查命令行參數
     if len(sys.argv) > 1:
         if sys.argv[1] == '--details':
-            # 獲取詳情模式
+            # 獲取詳情模式 (API)
             scraper.run(max_pages=10, fetch_details=True)
         elif sys.argv[1] == '--update-details':
             # 更新現有記錄的詳情
             scraper.update_missing_details(limit=int(sys.argv[2]) if len(sys.argv) > 2 else 100)
+        elif sys.argv[1] == '--html':
+            # HTML 爬蟲模式 - 處理 URL 隊列中的租房頁面
+            max_pages = int(sys.argv[2]) if len(sys.argv) > 2 else 100
+            scraper.run_html(max_pages=max_pages)
+        elif sys.argv[1] == '--api':
+            # API 模式
+            max_pages = int(sys.argv[2]) if len(sys.argv) > 2 else 50
+            scraper.run(max_pages=max_pages)
         else:
-            # 普通模式
+            # 數字參數 - 使用 API 模式
             scraper.run(max_pages=int(sys.argv[1]))
     else:
-        # 默認：快速獲取列表
-        scraper.run(max_pages=10)
+        # 默認：HTML 模式處理隊列
+        print("用法:")
+        print("  --html [max_pages]    : HTML 爬蟲模式，處理 URL 隊列")
+        print("  --api [max_pages]     : API 模式，獲取 MLS 房源")
+        print("  --details             : API 模式，獲取詳細資訊")
+        print("  --update-details [n]  : 更新現有記錄的詳情")
+        print("  [number]              : API 模式，指定頁數")
+        print("\n運行 HTML 模式...")
+        scraper.run_html(max_pages=100)

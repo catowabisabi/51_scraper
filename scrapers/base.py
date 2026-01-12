@@ -17,13 +17,20 @@ import requests
 from bs4 import BeautifulSoup
 from opencc import OpenCC
 
-# Add the parent directory to sys.path for absolute imports
+# Handle both direct execution and package import
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from models import (
-    init_database, add_url_to_queue, mark_url_visited, 
-    get_unvisited_urls, log_scrape, to_json
-)
+
+try:
+    from .models import (
+        init_database, add_url_to_queue, mark_url_visited, 
+        get_unvisited_urls, log_scrape, to_json
+    )
+except ImportError:
+    from models import (
+        init_database, add_url_to_queue, mark_url_visited, 
+        get_unvisited_urls, log_scrape, to_json
+    )
 
 
 # ============== 日誌設置 ==============

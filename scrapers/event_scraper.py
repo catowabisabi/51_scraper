@@ -13,8 +13,18 @@ from datetime import datetime
 
 from bs4 import BeautifulSoup
 
-from .base import BaseScraper
-from .models import get_connection
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+# Handle both direct execution and package import
+try:
+    from .base import BaseScraper
+    from .models import get_connection
+except ImportError:
+    # Direct execution - use absolute imports
+    from base import BaseScraper
+    from models import get_connection
 
 
 class EventScraper(BaseScraper):
