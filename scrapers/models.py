@@ -286,7 +286,7 @@ def init_database():
     
     conn.commit()
     conn.close()
-    print("✅ 資料庫初始化完成")
+    print("資料庫初始化完成")
 
 
 def add_url_to_queue(url: str, url_type: str, source_url: str = None, priority: int = 0):

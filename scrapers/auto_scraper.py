@@ -10,11 +10,15 @@ import re
 import json
 from typing import List, Dict, Optional
 from datetime import datetime, timedelta
+import sys
+import os
 
 from bs4 import BeautifulSoup
 
-from .base import BaseScraper
-from .models import get_connection
+# Add the parent directory of 'scrapers' to sys.path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from base import BaseScraper
+from models import get_connection
 
 
 class AutoScraper(BaseScraper):
@@ -730,4 +734,4 @@ class AutoScraper(BaseScraper):
 
 if __name__ == "__main__":
     scraper = AutoScraper()
-    scraper.run(max_pages=30)
+    scraper.run(max_pages=1000)  # 增加頁數以處理詳情頁

@@ -17,7 +17,10 @@ import requests
 from bs4 import BeautifulSoup
 from opencc import OpenCC
 
-from .models import (
+# Add the parent directory to sys.path for absolute imports
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from models import (
     init_database, add_url_to_queue, mark_url_visited, 
     get_unvisited_urls, log_scrape, to_json
 )
@@ -242,10 +245,10 @@ class BaseScraper(ABC):
             self.start_browser()
         
         try:
-            # 添加起始URL到隊列
+            # 添加起始URL到隊列 (列表頁面優先級較低，讓詳情頁面先處理)
             urls = start_urls or self.get_start_urls()
             for url in urls:
-                add_url_to_queue(url, self.URL_TYPE, priority=10)
+                add_url_to_queue(url, self.URL_TYPE, priority=1)
             
             # 處理URL隊列
             while self.stats['pages_scraped'] < max_pages:
@@ -287,7 +290,8 @@ class BaseScraper(ABC):
                 items = self.parse_list_page(html, url)
                 for item in items:
                     if 'url' in item:
-                        add_url_to_queue(item['url'], self.URL_TYPE, source_url=url)
+                        # 詳情頁面設置較高優先級，確保優先處理
+                        add_url_to_queue(item['url'], self.URL_TYPE, source_url=url, priority=5)
             else:
                 data = self.parse_detail_page(html, url)
                 if data:
